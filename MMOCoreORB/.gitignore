@@ -49,3 +49,5 @@ build.out
 build.out.prev
 bin/screenlog*
 compile_commands.json
+bin/conf/config.lua
+bin/scripts/managers/resource_manager_spawns.lua
