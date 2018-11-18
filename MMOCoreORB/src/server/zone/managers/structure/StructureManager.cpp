@@ -208,12 +208,13 @@ int StructureManager::placeStructureFromDeed(CreatureObject* creature, Structure
 		creature->sendSystemMessage("@player_structure:wrong_planet"); //That deed cannot be used on this planet.
 		return 1;
 	}
-
-	if (!planetManager->isBuildingPermittedAt(x, y, creature)) {
+	
+	// Tarkin: Disable another check that prevents player structures inside NPC cities
+/*	if (!planetManager->isBuildingPermittedAt(x, y, creature)) {
 		creature->sendSystemMessage("@player_structure:not_permitted"); //Building is not permitted here.
 		return 1;
 	}
-
+*/
 	SortedVector<ManagedReference<ActiveArea*> > objects;
 	zone->getInRangeActiveAreas(x, y, &objects, true);
 
