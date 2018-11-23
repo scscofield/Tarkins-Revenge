@@ -368,3 +368,7 @@ includeFile("groups/wearables/wearables_common.lua")
 includeFile("groups/wearables/wearables_rare.lua")
 includeFile("groups/wearables/wearables_scarce.lua")
 includeFile("groups/wearables/wearables_uncommon.lua")
+
+-- Tarkin Custom
+includeFile("groups/tarkin_custom/mandalorian_schemes.lua")
+includeFile("groups/tarkin_custom/bounty_hunter_schemes.lua")

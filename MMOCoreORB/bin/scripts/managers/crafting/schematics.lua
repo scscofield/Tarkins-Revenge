@@ -1809,8 +1809,34 @@ schematics = {
 	{path="object/draft_schematic/furniture/bestine/painting_bestine_raventhorn.iff"},
 	{path="object/draft_schematic/furniture/bestine/painting_bestine_ronka.iff"},
 	{path="object/draft_schematic/item/theme_park/alderaan/act2/dead_eye_decoder.iff"},
-	{path="object/draft_schematic/item/quest_item/fs_medic_puzzle_heal_pack.iff"}
+	{path="object/draft_schematic/item/quest_item/fs_medic_puzzle_heal_pack.iff"},
 
---Tarkin
+--Tarkin Custom
 
+	--BH Armor
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_belt.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_bracer_l.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_bracer_r.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_bicep_l.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_bicep_r.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_boots.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_chest_plate.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_leggings.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_gloves.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_bounty_hunter_helmet.iff"},
+
+	--Mando Armor
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_belt.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_bracer_l.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_bracer_r.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_bicep_l.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_bicep_r.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_boots.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_chest_plate.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_leggings.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_gloves.iff"},
+	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_helmet.iff"},
+
+	--Jetpack
+	{path="object/draft_schematic/vehicle/civilian/jetpack.iff"}
 };

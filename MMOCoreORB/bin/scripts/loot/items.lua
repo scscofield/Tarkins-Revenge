@@ -1200,3 +1200,30 @@ includeFile("items/wearables/wookiee/wke_skirt_s01.lua")
 includeFile("items/wearables/wookiee/wke_skirt_s02.lua")
 includeFile("items/wearables/wookiee/wke_skirt_s03.lua")
 includeFile("items/wearables/wookiee/wke_skirt_s04.lua")
+
+--Tarkin Custom
+
+--Mandalorian Armor
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_belt_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_bicep_l_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_bicep_r_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_boots_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_bracer_l_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_bracer_r_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_chest_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_gloves_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_helmet_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_jetpack_scheme.lua")
+includeFile("items/tarkin_custom/mandalorian_schemes/mandalorian_leggings_scheme.lua")
+
+--BH armor
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_belt_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_bicep_l_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_bicep_r_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_boots_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_bracer_l_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_bracer_r_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_chest_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_gloves_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_helmet_scheme.lua")
+includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_leggings_scheme.lua")
