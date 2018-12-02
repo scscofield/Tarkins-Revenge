@@ -1227,3 +1227,11 @@ includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_chest_schem
 includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_gloves_scheme.lua")
 includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_helmet_scheme.lua")
 includeFile("items/tarkin_custom/bounty_hunter_schemes/bounty_hunter_leggings_scheme.lua")
+
+--Goggles
+includeFile("items/tarkin_custom/goggles_s01.lua")
+includeFile("items/tarkin_custom/goggles_s02.lua")
+includeFile("items/tarkin_custom/goggles_s03.lua")
+includeFile("items/tarkin_custom/goggles_s04.lua")
+includeFile("items/tarkin_custom/goggles_s05.lua")
+includeFile("items/tarkin_custom/goggles_s06.lua")
