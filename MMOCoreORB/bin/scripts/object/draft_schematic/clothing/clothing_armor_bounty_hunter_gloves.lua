@@ -57,7 +57,7 @@ object_draft_schematic_clothing_clothing_armor_bounty_hunter_gloves = object_dra
    assemblySkill = "armor_assembly", 
    experimentingSkill = "armor_experimentation", 
    customizationSkill = "armor_customization", 
-   disableFactoryRun = true,
+   factoryCrateSize = 0,
 
    customizationOptions = {2},
    customizationStringNames = {"/private/index_color_1"},

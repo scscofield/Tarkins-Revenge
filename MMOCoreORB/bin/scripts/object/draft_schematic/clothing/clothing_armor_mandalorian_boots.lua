@@ -57,7 +57,7 @@ object_draft_schematic_clothing_clothing_armor_mandalorian_boots = object_draft_
    assemblySkill = "armor_assembly", 
    experimentingSkill = "armor_experimentation", 
    customizationSkill = "armor_customization", 
-   disableFactoryRun = true,
+   factoryCrateSize = 0,
 
    customizationOptions = {},
    customizationStringNames = {},

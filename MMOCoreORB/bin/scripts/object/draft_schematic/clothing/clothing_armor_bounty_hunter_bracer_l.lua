@@ -57,7 +57,7 @@ object_draft_schematic_clothing_clothing_armor_bounty_hunter_bracer_l = object_d
    assemblySkill = "armor_assembly", 
    experimentingSkill = "armor_experimentation", 
    customizationSkill = "armor_customization",
-   disableFactoryRun = true, 
+   factoryCrateSize = 0,
 
    customizationOptions = {},
    customizationStringNames = {},
