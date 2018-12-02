@@ -96,13 +96,18 @@ public:
 			removeFromRecycler();
 			return;
 		}
-
+			//Debug Message, leave in for posterity
+/*			StringBuffer resType;
+			resType << manager->getResourceRecycleType(resource) << " is the resource recycle type, and the recycler selected type is " << recycler->getSelectedResource() << ".  The resource type of the resource type of the resource you're trying to use is " << resource->getType();
+			String stringresType = resType.toString();
+			player->sendSystemMessage(stringresType); // Debug message
+*/
 		if(resourceRecycleType != recyclerSelectedType) {
 			removeFromRecycler();
 			String stub = "@recycler_messages:only_";
 			if (recycler->getToolType() == RecycleTool::METAL) {
 				stub = stub + "metal_";
-			} else if (recycler->getToolType() == RecycleTool::ORE && selectedTypeName != "gemstone") {
+			} else if (recycler->getToolType() == RecycleTool::ORE && selectedTypeName != "gemstone" && selectedTypeName != "gas") {
 				stub = stub + "ore_";
 			}
 			player->sendSystemMessage(stub + selectedTypeName); // This processor is set to recycle [resourceType] resources. You may need another type of processor for the resource you're trying to use, or you may try a different setting.

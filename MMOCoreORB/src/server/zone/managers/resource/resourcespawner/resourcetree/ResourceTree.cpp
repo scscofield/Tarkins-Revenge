@@ -207,6 +207,8 @@ void ResourceTree::setRecycleToolType(ResourceTreeEntry* entry) {
 		entry->setRecycleToolType(RecycleTool::CHEMICALS);
 	} else if(entry->isType("water")) {
 		entry->setRecycleToolType(RecycleTool::WATER);
+	} else if(entry->isType("gas")) { 
+		entry->setRecycleToolType(RecycleTool::GAS);
 	} else if(entry->isType("radioactive")) {
 		entry->setRecycleToolType(RecycleTool::RADIOACTIVE);
 	} else if(entry->isType("fuel_petrochem_solid")) {

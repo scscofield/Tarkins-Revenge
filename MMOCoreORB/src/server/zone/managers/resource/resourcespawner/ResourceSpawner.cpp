@@ -674,7 +674,12 @@ ResourceSpawn* ResourceSpawner::getRecycledVersion(ResourceSpawn* resource) {
 		return NULL;
 		break;
 	case RecycleTool::CHEMICALS:
-		recycledEntry = resourceTree->getEntry("chemical_compound");
+		if (resource->isType("fuel_petrochem_liquid")) 
+			recycledEntry = resourceTree->getEntry("chemical_compound"); 
+		else if (resource->isType("fiberplast")) 
+			recycledEntry = resourceTree->getEntry("fiberplast_compound"); 
+		else 
+			recycledEntry = resourceTree->getEntry("petrochem_compound"); 
 		break;
 	case RecycleTool::WATER:
 		recycledEntry = resourceTree->getEntry("water_solution");
@@ -732,13 +737,29 @@ ResourceSpawn* ResourceSpawner::getRecycledVersion(ResourceSpawn* resource) {
 			recycledEntry = resourceTree->getEntry("copper_smelted");
 		break;
 	case RecycleTool::IGNEOUS:
-		recycledEntry = resourceTree->getEntry("ore_extrusive_low_grade");
+		recycledEntry = resourceTree->getEntry("ore_low_grade");
 		break;
 	case RecycleTool::SEDIMENTARY:
-		recycledEntry = resourceTree->getEntry("ore_carbonate_low_grade");
+		if (resource->isType("ore_siliclastic"))
+			recycledEntry = resourceTree->getEntry("ore_low_grade");
+		else if (resource->isType("ore_carbonate"))
+			recycledEntry = resourceTree->getEntry("ore_carb_low_grade");
+		else if (resource->isUnknownType())
+			recycledEntry = resourceTree->getEntry("ore_low_grade");	
 		break;
 	case RecycleTool::GEMSTONE:
-		recycledEntry = resourceTree->getEntry("gemstone_mixed_low_quality");
+		if (resource->isUnknownType()) 
+			recycledEntry = resourceTree->getEntry("gemstone_mixed_low_quality");
+		else if (resource->isType("gemstone_armophous")) 
+			recycledEntry = resourceTree->getEntry("armophous_degraded"); 
+		else if (resource->isType("gemstone_crystalline")) 
+			recycledEntry = resourceTree->getEntry("crystalline_degraded"); 
+		break;
+	case RecycleTool::GAS: 
+		if (resource->isType("gas_inert")) 
+			recycledEntry = resourceTree->getEntry("gas_inert_mixed"); 
+		else if (resource->isType("gas_reactive"))
+			recycledEntry = resourceTree->getEntry("gas_reactive_mixed"); 
 		break;
 	}
 
