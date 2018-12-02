@@ -4937,3 +4937,136 @@ object_tangible_loot_loot_schematic_shared_utensils_schematic = SharedTangibleOb
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_utensils_schematic, "object/tangible/loot/loot_schematic/shared_utensils_schematic.iff")
+
+--Rebel Marine Armor Left Bicep
+object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_l_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_l_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_l_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_l_schematic.iff")
+
+--Rebel Marine Armor Right Bicep
+object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_r_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_r_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bicep_r_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bicep_r_schematic.iff")
+
+--Rebel Marine Armor Boots
+object_tangible_loot_loot_schematic_shared_rebel_marine_boots_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_boots_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_boots_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_boots_schematic.iff")
+
+--Rebel Marine Armor Left Bracer
+object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_l_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_l_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_l_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_l_schematic.iff")
+
+--Rebel Marine Armor Right Bracer
+object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_r_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_r_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_bracer_r_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_bracer_r_schematic.iff")
+
+--Rebel Marine Armor Chest Plate
+object_tangible_loot_loot_schematic_shared_rebel_marine_chest_plate_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_chest_plate_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_chest_plate_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_chest_plate_schematic.iff")
+
+--Rebel Marine Armor Gloves
+object_tangible_loot_loot_schematic_shared_rebel_marine_gloves_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_gloves_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_gloves_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_gloves_schematic.iff")
+
+--Rebel Marine Armor Helmet
+object_tangible_loot_loot_schematic_shared_rebel_marine_helmet_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_helmet_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_helmet_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_helmet_schematic.iff")
+
+--Rebel Marine Armor Leggings
+object_tangible_loot_loot_schematic_shared_rebel_marine_leggings_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_rebel_marine_leggings_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_rebel_marine_leggings_schematic, "object/tangible/loot/loot_schematic/shared_rebel_marine_leggings_schematic.iff")
+
+--Stormtrooper Armor Left Bicep
+object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_l_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_l_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_l_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_l_schematic.iff")
+
+--Stormtrooper Armor Right Bicep
+object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_r_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_r_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bicep_r_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bicep_r_schematic.iff")
+
+--Stormtrooper Armor Boots
+object_tangible_loot_loot_schematic_shared_stormtrooper_boots_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_boots_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_boots_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_boots_schematic.iff")
+
+--Stormtrooper Armor Left Bracer
+object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_l_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_l_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_l_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_l_schematic.iff")
+
+--Stormtrooper Armor Right Bracer
+object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_r_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_r_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_bracer_r_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_bracer_r_schematic.iff")
+
+--Stormtrooper Armor Chest Plate
+object_tangible_loot_loot_schematic_shared_stormtrooper_chest_plate_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_chest_plate_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_chest_plate_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_chest_plate_schematic.iff")
+
+--Stormtrooper Armor Gloves
+object_tangible_loot_loot_schematic_shared_stormtrooper_gloves_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_gloves_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_gloves_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_gloves_schematic.iff")
+
+--Stormtrooper Armor Helmet
+object_tangible_loot_loot_schematic_shared_stormtrooper_helmet_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_helmet_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_helmet_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_helmet_schematic.iff")
+
+--Stormtrooper Armor Leggings
+object_tangible_loot_loot_schematic_shared_stormtrooper_leggings_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_leggings_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_leggings_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_leggings_schematic.iff")
+
+--Stormtrooper Armor Utility Belt
+object_tangible_loot_loot_schematic_shared_stormtrooper_utility_belt_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_stormtrooper_utility_belt_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_stormtrooper_utility_belt_schematic, "object/tangible/loot/loot_schematic/shared_stormtrooper_utility_belt_schematic.iff")

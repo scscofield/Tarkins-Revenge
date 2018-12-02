@@ -1838,5 +1838,28 @@ schematics = {
 	{path="object/draft_schematic/clothing/clothing_armor_mandalorian_helmet.iff"},
 
 	--Jetpack
-	{path="object/draft_schematic/vehicle/civilian/jetpack.iff"}
+	{path="object/draft_schematic/vehicle/civilian/jetpack.iff"},
+
+	--Rebel Marine Armor
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_boots.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_chest.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_leggings.iff"},
+
+	--Stormtrooper Armor
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_utility_belt.iff"}
 };
