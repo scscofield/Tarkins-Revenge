@@ -1692,3 +1692,17 @@ object_tangible_deed_player_house_deed_shared_tatooine_house_small_style_02_deed
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_deed_player_house_deed_shared_tatooine_house_small_style_02_deed, "object/tangible/deed/player_house_deed/shared_tatooine_house_small_style_02_deed.iff")
+
+--Nightsister Hut Player House Deed
+object_tangible_deed_player_house_deed_shared_ns_hut_house_deed = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/deed/player_house_deed/shared_ns_hut_deed.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_deed_player_house_deed_shared_ns_hut_house_deed, "object/tangible/deed/player_house_deed/shared_ns_hut_deed.iff")
+
+--Singing Mountain Clan Hut Player House Deed
+object_tangible_deed_player_house_deed_shared_sm_hut_house_deed = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/deed/player_house_deed/shared_sm_hut_deed.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_deed_player_house_deed_shared_sm_hut_house_deed, "object/tangible/deed/player_house_deed/shared_sm_hut_deed.iff")
+
+

@@ -31,23 +31,20 @@ nightsister_protector = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "nightsister_common", chance = 2300000},
-				{group = "armor_attachments", chance = 350000},
-				{group = "clothing_attachments", chance = 350000},
-				{group = "melee_weapons", chance = 2000000},
-				{group = "rifles", chance = 1000000},
-				{group = "pistols", chance = 1000000},
-				{group = "carbines", chance = 1000000},
-				{group = "wearables_common", chance = 500000},
-				{group = "tailor_components", chance = 500000}
-			}
+				{group = "nightsister_rare", chance = 1000000},
+				{group = "power_crystals", chance = 750000},
+				{group = "color_crystals", chance = 1500000},
+				{group = "nightsister_common", chance = 3250000},
+				{group = "armor_attachments", chance = 1250000},
+				{group = "clothing_attachments", chance = 1250000},
+				{group = "deed_voucher", chance = 1000000}
+			},
+			lootChance = 7000000
 		}
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",
-	attacks = merge(fencermaster,swordsmanmaster,tkamid,brawlermaster,pikemanmaster,forcewielder)
+	attacks = merge(brawlermaster,pikemanmaster,forcewielder)
 }
 
 CreatureTemplates:addCreatureTemplate(nightsister_protector, "nightsister_protector")

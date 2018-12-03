@@ -2260,3 +2260,16 @@ object_building_player_shared_player_merchant_tent_style_03 = SharedBuildingObje
 }
 
 ObjectTemplates:addClientTemplate(object_building_player_shared_player_merchant_tent_style_03, "object/building/player/shared_player_merchant_tent_style_03.iff")
+
+--Nightsister Hut Player House
+object_building_player_shared_ns_hut = SharedBuildingObjectTemplate:new {
+	clientTemplateFileName = "object/building/player/shared_ns_hut.iff"
+}
+ObjectTemplates:addClientTemplate(object_building_player_shared_ns_hut, "object/building/player/shared_ns_hut.iff")
+
+--Singing Mountain Clan Player House
+object_building_player_shared_sm_hut = SharedBuildingObjectTemplate:new {
+	clientTemplateFileName = "object/building/player/shared_sm_hut.iff"
+}
+ObjectTemplates:addClientTemplate(object_building_player_shared_sm_hut, "object/building/player/shared_sm_hut.iff")
+

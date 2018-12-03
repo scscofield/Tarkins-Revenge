@@ -73,3 +73,6 @@ includeFile("tangible/deed/player_house_deed/tatooine_house_large_deed.lua")
 includeFile("tangible/deed/player_house_deed/tatooine_house_medium_deed.lua")
 includeFile("tangible/deed/player_house_deed/tatooine_house_small_deed.lua")
 includeFile("tangible/deed/player_house_deed/tatooine_house_small_style_02_deed.lua")
+
+includeFile("tangible/deed/player_house_deed/ns_hut_deed.lua")
+includeFile("tangible/deed/player_house_deed/sm_hut_deed.lua")
