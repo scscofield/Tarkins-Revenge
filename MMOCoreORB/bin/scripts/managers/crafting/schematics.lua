@@ -1861,5 +1861,8 @@ schematics = {
 	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_gloves.iff"},
 	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_helmet.iff"},
 	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_leggings.iff"},
-	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_utility_belt.iff"}
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_utility_belt.iff"},
+
+	--BARC Speeder
+	{path="object/draft_schematic/vehicle/civilian/barc_speeder.iff"}
 };

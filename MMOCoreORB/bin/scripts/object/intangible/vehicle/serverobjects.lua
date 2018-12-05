@@ -53,3 +53,6 @@ includeFile("intangible/vehicle/speederbike_flash_pcd.lua")
 includeFile("intangible/vehicle/speederbike_pcd.lua")
 includeFile("intangible/vehicle/speederbike_swoop_pcd.lua")
 includeFile("intangible/vehicle/vehicle_pcd_base.lua")
+
+--NGE Vehicles
+includeFile("intangible/vehicle/barc_speeder_pcd.lua")

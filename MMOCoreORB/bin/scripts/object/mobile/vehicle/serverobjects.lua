@@ -56,3 +56,6 @@ includeFile("mobile/vehicle/speederbike_base.lua")
 includeFile("mobile/vehicle/speederbike_flash.lua")
 includeFile("mobile/vehicle/speederbike_swoop.lua")
 includeFile("mobile/vehicle/vehicle_base.lua")
+
+--NGE Vehicles
+includeFile("mobile/vehicle/barc_speeder.lua")
