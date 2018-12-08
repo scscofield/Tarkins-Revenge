@@ -63,6 +63,7 @@ namespace creature {
 		int getPosture(lua_State* L);
 		int hasSkill(lua_State* L);
 		int removeSkill(lua_State* L);
+		int addSkill(lua_State* L);
 		int surrenderSkill(lua_State* L);
 		int getConversationSession(lua_State* L);
 		int doAnimation(lua_State* L);

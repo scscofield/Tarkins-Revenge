@@ -1,4 +1,5 @@
 janta_horned_kath_hound_stronghold = Creature:new {
+--	objectName = "@mob/creature_names:baby_bol",
 	customName = "Janta Horned Kath Hound",
 	socialGroup = "janta_tribe",
 	faction = "janta_tribe",
@@ -23,12 +24,13 @@ janta_horned_kath_hound_stronghold = Creature:new {
 	pvpBitmask = AGGRESSIVE + ENEMY + ATTACKABLE,
 	creatureBitmask = PACK + HERD + KILLER + STALKER,
 	optionsBitmask = AIENABLED,
-	diet = HERBIVORE,
-	scale = 0.3,
+	diet = CARNIVORE,
 
 	templates = {"object/mobile/baby_bol.iff"},
+	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },
+	scale = 0.3,
 	lootGroups = {},
-	weapons = {"primitive_weapons"},
+	weapons = {},
 	conversationTemplate = "",
 	attacks = {
 		{"creatureareableeding",""},
@@ -36,3 +38,5 @@ janta_horned_kath_hound_stronghold = Creature:new {
 		{"creatureareacombo",""}
 	}
 }
+
+CreatureTemplates:addCreatureTemplate(janta_horned_kath_hound_stronghold, "janta_horned_kath_hound_stronghold")

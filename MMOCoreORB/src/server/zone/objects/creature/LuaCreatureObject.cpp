@@ -70,6 +70,7 @@ Luna<LuaCreatureObject>::RegType LuaCreatureObject::Register[] = {
 		{ "setMoodString", &LuaCreatureObject::setMoodString},
 		{ "hasSkill", &LuaCreatureObject::hasSkill},
 		{ "removeSkill", &LuaCreatureObject::removeSkill},
+		{ "addSkill", &LuaCreatureObject::addSkill},
 		{ "surrenderSkill", &LuaCreatureObject::surrenderSkill},
 		{ "getConversationSession", &LuaCreatureObject::getConversationSession},
 		{ "doAnimation", &LuaCreatureObject::doAnimation},
@@ -418,6 +419,15 @@ int LuaCreatureObject::removeSkill(lua_State* L) {
 	Locker locker(realObject);
 
 	realObject->removeSkill(value, true);
+	return 0;
+}
+
+int LuaCreatureObject::addSkill(lua_State* L) {
+	String value = lua_tostring(L, -1);
+ 	Locker locker(realObject);
+	
+	SkillManager* skillManager = SkillManager::instance();
+	skillManager->awardSkill(value, realObject, true, true, true);
 	return 0;
 }
 

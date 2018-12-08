@@ -20,7 +20,7 @@ JantaCaveScreenPlay = ScreenPlay:new {
 				{group = "deed_voucher", chance = 1000000},
 				{group = "forage_medical_component", chance = 1500000},
 				{group = "clothing_attachments", chance = 2000000},
-				{group = "nge_yoda_hut", chance = 1000000},
+				{group = "nge_yoda_house", chance = 1000000},
 				{group = "armor_attachments", chance = 2000000}
 			},
 			lootChance = 8000000
