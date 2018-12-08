@@ -671,3 +671,4 @@ includeFile("tests/tests.lua")
 
 --Tarkin Custom
 includeFile("tools/crafting_training_handler.lua")
+includeFile("tools/TarkinBuffTerminal.lua")
