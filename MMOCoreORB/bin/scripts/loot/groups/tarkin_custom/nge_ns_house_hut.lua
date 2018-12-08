@@ -3,7 +3,7 @@ nge_ns_house_hut = {
 	minimumLevel = 0,
 	maximumLevel = 0,	
 	lootItems = {
-		{itemTemplate = "nge_ns_hut_house_deed", weight = 10000000},	
+		{itemTemplate = "nge_ns_hut_house_scheme", weight = 10000000},	
 	}
 }
 

@@ -43,7 +43,7 @@
 
 object_building_player_sm_hut = object_building_player_shared_sm_hut:new {
 	lotSize = 2,
-	baseMaintenanceRate = 34,
+	baseMaintenanceRate = 16,
 	allowedZones = {"corellia", "dantooine", "lok", "naboo", "rori", "talus", "tatooine"},
 	constructionMarker = "object/building/player/construction/construction_player_house_corellia_small_style_01.iff",
 	length = 1,
