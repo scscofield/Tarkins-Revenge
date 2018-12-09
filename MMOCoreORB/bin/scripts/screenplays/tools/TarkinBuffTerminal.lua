@@ -64,6 +64,7 @@ TarkinBuffTerminal = ScreenPlay:new {
 		{planetName = "tatooine", x = 1330.80, z = 7, y = 3465.63, ow = -0.707107, oy = 0.707107}, -- Mos Entha cloning facility
 		{planetName = "tatooine", x = 1716.57, z = 7, y = 3187.24, ow = 0.0436194, oy = 0.999048}, -- Mos Entha eastern shuttleport
 		{planetName = "tatooine", x = 1538.29, z = 7, y = 3460.2, ow = 0.0436194, oy = 0.999048}, -- Mos Entha northern hill
+		{planetName = "tatooine", x = 1280.18, z = 7, y = 3135.36, ow = 0.953717, oy = 0.300706}, -- Mos Entha near starport
 		{planetName = "tatooine", x = 3533.45, z = 5, y = -4792.05, ow = -0.67559, oy = 0.737277}, -- Mos Eisley near starport
 		{planetName = "tatooine", x = 43.8562, z = 52, y = -5352.49, ow = 0.999048, oy = -0.0436194}, -- Anchorhead near shuttleport	
 		{planetName = "tatooine", x = -5222.83, z = 75, y = -6585.29, ow = -0.67559, oy = 0.737277}, -- Wayfar near Cantina

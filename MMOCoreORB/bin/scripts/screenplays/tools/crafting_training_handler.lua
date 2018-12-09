@@ -344,7 +344,7 @@ function CraftingSkillTrainer:start()
 		local pNpc = spawnMobile(self.npcTrainers[i].planetName, self.npcTrainers[i].mobileTemplate, self.npcTrainers[i].respawn, self.npcTrainers[i].x, self.npcTrainers[i].z, self.npcTrainers[i].y, self.npcTrainers[i].angle, self.npcTrainers[i].cell)
 		if (pNpc ~= nil) then
 			CreatureObject(pNpc):setOptionsBitmask(AIENABLED + CONVERSABLE)
-			SceneObject(pNpc):setCustomObjectName("Tarkin II Skill Trainer")
+			SceneObject(pNpc):setCustomObjectName("Skill Trainer")
 			AiAgent(pNpc):setConvoTemplate("tarkinCraftingTrainerConvoTemplate")
 		end
 	end
@@ -367,7 +367,7 @@ function CraftingSkillTrainer:openWindow(pCreatureObject, pUsingObject)
 
 	sui.setTitle("Skill Trainer")
 	
-	local message = "This trainer will teach you skills at no cost and without the need for XP. You can master any elite crafting profession right away, however to learn any of the Doctor, Combat Medic, and Bio-Engineer crafting skills you must first meet requirements for the novice box.\n\n Note: Entertainer, Dancer, Image Designer, and Musician do not consume Skill Points, so you can learn all of those skills along with your normal build if you would like."
+	local message = "This trainer will teach you skills at no cost. You can master any elite crafting profession right away, however to learn any of the Doctor, Combat Medic, and Bio-Engineer crafting skills you must first meet requirements for the novice box.\n\n Note: Entertainer, Dancer, Image Designer, and Musician do not consume Skill Points, so you can learn all of those skills along with your normal build if you would like."
 	sui.setPrompt(message)
 	
 	for i = 1, #self.professions, 1 do
