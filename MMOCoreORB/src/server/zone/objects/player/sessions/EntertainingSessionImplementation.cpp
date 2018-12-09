@@ -633,7 +633,11 @@ void EntertainingSessionImplementation::addEntertainerBuffDuration(CreatureObjec
 	buffDuration += duration;
 
 	if (buffDuration > (120.0f + (10.0f / 60.0f)) ) // 2 hrs 10 seconds
-		buffDuration = (120.0f + (10.0f / 60.0f)); // 2hrs 10 seconds
+//		buffDuration = (120.0f + (10.0f / 60.0f)); // 2hrs 10 seconds
+		buffDuration = 300.0f; // 5 hours - custom Tarkin Value
+// More Tarkin Custom values
+	if (buffDuration > 3600.0f) // 1 hr 
+		buffDuration = 240.0f; // 4 hours - custom Tarkin Value
 
 	setEntertainerBuffDuration(creature, performanceType, buffDuration);
 }
@@ -893,10 +897,10 @@ void EntertainingSessionImplementation::activateEntertainerBuff(CreatureObject* 
 			return;
 		}
 
-		//1 minute minimum listen/watch time
+		//30 second minimum listen/watch time
 		int timeElapsed = time(0) - getEntertainerBuffStartTime(creature, performanceType);
-		if(timeElapsed < 60) {
-			creature->sendSystemMessage("You must listen or watch a performer for at least 1 minute in order to gain the entertainer buffs.");
+		if(timeElapsed < 30) {
+			creature->sendSystemMessage("You must listen or watch a performer for at least 30 seconds in order to gain the entertainer buffs.");
 			return;
 		}
 
@@ -1022,7 +1026,7 @@ void EntertainingSessionImplementation::increaseEntertainerBuff(CreatureObject* 
 
 	float buffAcceleration = 1 + ((float)entertainer->getSkillMod("accelerate_entertainer_buff") / 100.f);
 
-	addEntertainerBuffDuration(patron, performance->getType(), 2.0f * buffAcceleration);
+	addEntertainerBuffDuration(patron, performance->getType(), 6.0f * buffAcceleration);
 	addEntertainerBuffStrength(patron, performance->getType(), performance->getHealShockWound());
 
 }

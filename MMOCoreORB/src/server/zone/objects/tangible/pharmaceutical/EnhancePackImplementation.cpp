@@ -11,9 +11,11 @@ uint32 EnhancePackImplementation::calculatePower(CreatureObject* healer, Creatur
 			power *= patient->calculateBFRatio();
 
 		int droidBuff = healer->getSkillModOfType("private_medical_rating",SkillModManager::DROID);
+		int wearBuff = healer->getSkillModOfType("private_medical_rating",SkillModManager::WEARABLE);
 		int bldBuff = healer->getSkillModOfType("private_medical_rating", SkillModManager::STRUCTURE);
 		int mod = healer->getSkillModOfType("private_medical_rating", SkillModManager::CITY);
-		mod +=  droidBuff > bldBuff ? droidBuff : bldBuff;
+		int largeBuff = Math::max(droidBuff, wearBuff);
+		mod +=  largeBuff > bldBuff ? largeBuff : bldBuff;
 
 		int factionPerk = healer->getSkillMod("private_faction_medical_rating");
 
