@@ -53,3 +53,5 @@ includeFile("tangible/furniture/technical/chest_s01.lua")
 includeFile("tangible/furniture/technical/coffee_table_s01.lua")
 includeFile("tangible/furniture/technical/couch_s01.lua")
 includeFile("tangible/furniture/technical/end_table_s01.lua")
+
+includeFile("tangible/furniture/technical/guild_registry_initial.lua")

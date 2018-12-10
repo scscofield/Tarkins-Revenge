@@ -1,0 +1,29 @@
+object_tangible_collection_reward_shared_col_reward_tatooine_vistas_painting = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_reward_tatooine_vistas_painting.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_reward_tatooine_vistas_painting, "object/tangible/collection/reward/shared_col_reward_tatooine_vistas_painting.iff")
+
+object_tangible_collection_reward_shared_com_link_painting_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_com_link_painting_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_com_link_painting_reward, "object/tangible/collection/reward/shared_com_link_painting_reward.iff")
+
+object_tangible_collection_reward_shared_datapad_painting_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_datapad_painting_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_datapad_painting_reward, "object/tangible/collection/reward/shared_datapad_painting_reward.iff")
+
+object_tangible_collection_reward_shared_space_taxi_sd_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_space_taxi_sd_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_space_taxi_sd_reward, "object/tangible/collection/reward/shared_space_taxi_sd_reward.iff")
+
+object_tangible_collection_reward_shared_square_tile_collection_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_square_tile_collection_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_square_tile_collection_reward, "object/tangible/collection/reward/shared_square_tile_collection_reward.iff")

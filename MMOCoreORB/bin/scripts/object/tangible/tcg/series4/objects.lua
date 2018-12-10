@@ -1,0 +1,9 @@
+object_tangible_tcg_series4_shared_decorative_kashyyyk_travel_advertisement = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_kashyyyk_travel_advertisement.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_kashyyyk_travel_advertisement, "object/tangible/tcg/series4/shared_decorative_kashyyyk_travel_advertisement.iff")
+
+object_tangible_tcg_series4_shared_decorative_tatooine_travel_advertisement = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_tatooine_travel_advertisement.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_tatooine_travel_advertisement, "object/tangible/tcg/series4/shared_decorative_tatooine_travel_advertisement.iff")

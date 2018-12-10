@@ -1,0 +1,5 @@
+includeFile("tangible/tcg/series5/combine_object_at_at_blueprint.lua")
+includeFile("tangible/tcg/series5/decorative_galactic_hunters_poster.lua")
+includeFile("tangible/tcg/series5/decorative_jedi_forms_painting.lua")
+includeFile("tangible/tcg/series5/decorative_theater_poster.lua")
+includeFile("tangible/tcg/series5/title_grant.lua")

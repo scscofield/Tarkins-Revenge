@@ -132,3 +132,5 @@ includeFile("tangible/event_perk/wedding_garden_rebel_large_theater.lua")
 includeFile("tangible/event_perk/wrecked_sandcrawler.lua")
 includeFile("tangible/event_perk/xwing.lua")
 includeFile("tangible/event_perk/yavn_imprv_flagpole_s01.lua")
+
+includeFile("tangible/event_perk/halloween_painting.lua")

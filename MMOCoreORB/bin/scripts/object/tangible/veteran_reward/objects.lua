@@ -1279,3 +1279,13 @@ object_tangible_veteran_reward_shared_resource = SharedTangibleObjectTemplate:ne
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_resource, "object/tangible/veteran_reward/shared_resource.iff")
+
+object_tangible_veteran_reward_shared_frn_vet_painting_april_07 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_painting_april_07.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_painting_april_07, "object/tangible/veteran_reward/shared_frn_vet_painting_april_07.iff")
+
+object_tangible_veteran_reward_shared_frn_vet_painting_community_summit_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_painting_community_summit_s02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_painting_community_summit_s02, "object/tangible/veteran_reward/shared_frn_vet_painting_community_summit_s02.iff")

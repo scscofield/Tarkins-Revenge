@@ -56,6 +56,9 @@ includeFile("tangible/furniture/plain/serverobjects.lua")
 includeFile("tangible/furniture/space/serverobjects.lua")
 includeFile("tangible/furniture/tatooine/serverobjects.lua")
 includeFile("tangible/furniture/technical/serverobjects.lua")
+includeFile("tangible/furniture/gcw/serverobjects.lua")
+includeFile("tangible/furniture/lifeday/serverobjects.lua")
+includeFile("tangible/furniture/nym_themepark/serverobjects.lua")
 
 -- Server Objects
 includeFile("tangible/furniture/furniture_base.lua")

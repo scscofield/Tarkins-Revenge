@@ -1,0 +1,19 @@
+object_tangible_tcg_series3_shared_decorative_hoth_travel_advertisement = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_hoth_travel_advertisement.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_hoth_travel_advertisement, "object/tangible/tcg/series3/shared_decorative_hoth_travel_advertisement.iff")
+
+object_tangible_tcg_series3_shared_decorative_merr_sonn_jt12_jetpack_blueprints = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_merr_sonn_jt12_jetpack_blueprints.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_merr_sonn_jt12_jetpack_blueprints, "object/tangible/tcg/series3/shared_decorative_merr_sonn_jt12_jetpack_blueprints.iff")
+
+object_tangible_tcg_series3_shared_decorative_mustafar_travel_advertisement = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_mustafar_travel_advertisement.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_mustafar_travel_advertisement, "object/tangible/tcg/series3/shared_decorative_mustafar_travel_advertisement.iff")
+
+object_tangible_tcg_series3_shared_decorative_swg_tcg_painting = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_swg_tcg_painting.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_swg_tcg_painting, "object/tangible/tcg/series3/shared_decorative_swg_tcg_painting.iff")
