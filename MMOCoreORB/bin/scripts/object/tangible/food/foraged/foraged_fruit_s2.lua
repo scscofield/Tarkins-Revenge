@@ -60,7 +60,7 @@ object_tangible_food_foraged_foraged_fruit_s2 = object_tangible_food_foraged_sha
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "health", 50, "action", 50, "mind", 50 },
+	modifiers = { "health", 100, "action", 100, "mind", 100 },
 
 	buffName = "wild_snaff",
 	buffCRC = 0,

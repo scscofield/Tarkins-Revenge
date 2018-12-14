@@ -44,7 +44,7 @@
 object_tangible_food_foraged_foraged_fruit_s5 = object_tangible_food_foraged_shared_foraged_fruit_s5:new {
 	templateType = CONSUMABLE,
 	
-	duration = 200,
+	duration = 60,
 	filling = 0,
 	nutrition = 0,
 
@@ -60,7 +60,7 @@ object_tangible_food_foraged_foraged_fruit_s5 = object_tangible_food_foraged_sha
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "action", 100 },
+	modifiers = { "action", 1000 },
 
 	buffName = "sijjo_sewi",
 	buffCRC = 0,
