@@ -82,3 +82,12 @@ includeFile("weapon/groups/tusken_weapons.lua")
 
 -- tutorial
 includeFile("weapon/groups/tutorial_bandit.lua")
+
+
+--Tarkin Custom
+includeFile("weapon/groups/aakuan_2h_weapons.lua")
+includeFile("weapon/groups/aakuan_assassin_weapons.lua")
+includeFile("weapon/groups/aakuan_pistol_weapons.lua")
+includeFile("weapon/groups/aakuan_polearm_weapons.lua")
+includeFile("weapon/groups/aakuan_rifle_weapons.lua")
+includeFile("weapon/groups/nyax_fanatic_weapons.lua")

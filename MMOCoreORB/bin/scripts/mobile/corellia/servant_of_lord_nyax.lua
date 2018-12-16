@@ -4,15 +4,15 @@ servant_of_lord_nyax = Creature:new {
 	randomNameTag = true,
 	socialGroup = "followers_of_lord_nyax",
 	faction = "followers_of_lord_nyax",
-	level = 8,
-	chanceHit = 0.27,
-	damageMin = 70,
-	damageMax = 75,
-	baseXp = 235,
-	baseHAM = 405,
-	baseHAMmax = 495,
-	armor = 0,
-	resists = {0,0,0,0,0,0,0,-1,-1},
+	level = 60,
+	chanceHit = 0.6,
+	damageMin = 250,
+	damageMax = 265,
+	baseXp = 7235,
+	baseHAM = 30405,
+	baseHAMmax = 31495,
+	armor = 1,
+	resists = {40,20,40,20,50,10,-1,-1,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,16 +33,38 @@ servant_of_lord_nyax = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "nyax", chance = 2000000},
-				{group = "pistols", chance = 4000000},
-				{group = "rifles", chance = 4000000},
-			}
-		}
+				{group = "junk", chance = 5000000},
+				{group = "melee_two_handed", chance = 1500000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "printer_parts", chance = 1500000}
+			},
+			lootChance = 10000000
+		},
+		{
+			groups = {
+				{group = "armor_attachments", chance = 5000000},
+   		            	{group = "clothing_attachments", chance = 5000000}
+			},
+			lootChance = 4000000
+		},
+		{
+			groups = {
+				{group = "power_crystals", chance = 5000000},
+				{group = "nge_house_bespin", chance = 4000000},
+				{group = "holocron_splinters", chance = 1000000}
+			},
+			lootChance = 300000
+		},
 	},
-	weapons = {"pirate_weapons_medium"},
+	weapons = {"aakuan_polearm_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = merge(marksmannovice,brawlernovice)
+	attacks = {
+		{"creatureareaknockdown","knockdownChance=20"},
+		{"creatureareacombo",""},
+		{"blindattack","blindChance=20"},
+
+	}
 }
 
 CreatureTemplates:addCreatureTemplate(servant_of_lord_nyax, "servant_of_lord_nyax")
