@@ -105,3 +105,7 @@ includeFile("tangible/terminal/terminal_travel.lua")
 includeFile("tangible/terminal/terminal_travel_tutorial.lua")
 includeFile("tangible/terminal/terminal_water_pressure.lua")
 includeFile("tangible/terminal/test.lua")
+
+--Tarkin Custom
+includeFile("tangible/terminal/imp_travel_term.lua")
+includeFile("tangible/terminal/reb_travel_term.lua")

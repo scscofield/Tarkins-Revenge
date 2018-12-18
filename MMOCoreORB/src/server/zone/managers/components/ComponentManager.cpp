@@ -150,6 +150,8 @@
 #include "server/zone/objects/tangible/components/droid/DroidTrapModuleDataComponent.h"
 #include "server/zone/objects/tangible/components/droid/DroidHarvestModuleDataComponent.h"
 #include "server/zone/objects/tangible/components/droid/DroidPersonalityModuleDataComponent.h"
+#include "server/zone/objects/tangible/components/impTravelTerminalMenuComponent.h"
+#include "server/zone/objects/tangible/components/rebTravelTerminalMenuComponent.h"
 
 ComponentManager::ComponentManager() {
 	components.put("ContainerComponent", new ContainerComponent());
@@ -184,6 +186,9 @@ ComponentManager::ComponentManager() {
 	components.put("InsuranceTerminalMenuComponent", new InsuranceTerminalMenuComponent());
 	components.put("BankTerminalMenuComponent", new BankTerminalMenuComponent());
 	components.put("CloningTerminalMenuComponent", new CloningTerminalMenuComponent());
+
+	components.put("impTravelTerminalMenuComponent", new impTravelTerminalMenuComponent());
+	components.put("rebTravelTerminalMenuComponent", new rebTravelTerminalMenuComponent());
 
 	components.put("ArtCrateMenuComponent", new ArtCrateMenuComponent());
 
