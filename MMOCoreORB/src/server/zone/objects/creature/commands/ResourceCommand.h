@@ -99,9 +99,15 @@ public:
 		if(creature->getZoneServer() == NULL)
 			return;
 
-		ResourceManager* resMan = creature->getZoneServer()->getResourceManager();
+		String planet = "";
+		if(args->hasMoreTokens())
+			args->getStringToken(planet);
 
-		creature->sendSystemMessage(resMan->dumpResources());
+		if(planet.isEmpty())
+			throw Exception();
+
+		ResourceManager* resMan = creature->getZoneServer()->getResourceManager();
+		resMan->dumpResources(creature, planet);
 	}
 
 	void despawnResource(CreatureObject* creature, StringTokenizer* args) const {
