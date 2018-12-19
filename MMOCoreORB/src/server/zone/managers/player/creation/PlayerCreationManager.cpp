@@ -470,7 +470,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 				int accountPermissionLevel = playerAccount->getAdminLevel();
 				String accountName = playerAccount->getUsername();
 
-				if(accountPermissionLevel > 0 && (accountPermissionLevel == 9 || accountPermissionLevel == 10 || accountPermissionLevel == 12 || accountPermissionLevel == 15)) {
+				if(accountPermissionLevel > 0 && (accountPermissionLevel == 1 || accountPermissionLevel == 7 || accountPermissionLevel == 10 || accountPermissionLevel == 13 || accountPermissionLevel == 15)) {
 					playerManager->updatePermissionLevel(playerCreature, accountPermissionLevel);
 
 					/*
@@ -496,7 +496,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 					*/
 				}
 
-				if (accountPermissionLevel < 9) {
+				if (accountPermissionLevel < 7) {
 					try {
 						StringBuffer query;
 						//query << "SELECT UNIX_TIMESTAMP(creation_date) FROM characters c WHERE galaxy_id = " << zoneServer.get()->getGalaxyID() << " AND account_id = " << client->getAccountID() << " ORDER BY creation_date desc;";
