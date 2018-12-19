@@ -1325,15 +1325,16 @@ void PlayerManagerImplementation::disseminateExperience(TangibleObject* destruct
 
 			float xpAmount = levelRatio * 500.f;
 
-			if (levelRatio <= 0.5) {
-				xpAmount = 1;
-			} else {
+// Commenting out the part of the formula that kills grinding on low level mobiles
+//			if (levelRatio <= 0.5) {
+//				xpAmount = 1;
+//			} else {
 				xpAmount = Math::min(xpAmount, (float)attacker->getLevel() * 50.f);
 				xpAmount /= totalPets;
 
 				if (winningFaction == attacker->getFaction())
 					xpAmount *= gcwBonus;
-			}
+//			}
 
 			awardExperience(owner, "creaturehandler", xpAmount);
 
