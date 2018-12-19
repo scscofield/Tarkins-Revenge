@@ -214,6 +214,8 @@ public:
 	}
 	void award(int cl, float rollMod, int skillMod) {
 		int xp = DnaManager::instance()->generateXp(cl);
+		//DNA sampling to be 5x normal rate
+		xp = xp*5;
 		ManagedReference<PlayerManager*> playerManager = player->getZoneServer()->getPlayerManager();
 		if(playerManager != NULL)
 			playerManager->awardExperience(player, "bio_engineer_dna_harvesting", xp, true);
