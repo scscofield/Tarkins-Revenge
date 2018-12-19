@@ -344,7 +344,7 @@ bool ForageManagerImplementation::forageGiveItems(CreatureObject* player, int fo
 		if (dice >= 0 && dice < 40) { // Live Creatures
 			lootGroup = "forage_live_creatures";
 		}
-		else if (dice > 39 && dice < 110) { // Eggs
+		else if (dice > 39 && dice) { // Eggs
 			resName = "meat_egg";
 			if(forageGiveResource(player, forageX, forageY, planet, resName)) {
 				player->sendSystemMessage("@lair_n:found_eggs");
