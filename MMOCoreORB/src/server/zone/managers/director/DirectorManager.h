@@ -203,6 +203,8 @@ namespace server {
 		static int getSchematicItemName(lua_State* L);
 		static int getBadgeListByType(lua_State* L);
 
+		static int adminPlaceStructure(lua_State* L);
+
 	private:
 		void setupLuaPackagePath(Lua* luaEngine);
 		static void printTraceError(lua_State* L, const String& error);

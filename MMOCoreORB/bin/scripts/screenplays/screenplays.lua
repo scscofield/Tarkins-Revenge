@@ -672,6 +672,7 @@ includeFile("tests/tests.lua")
 --Tarkin Custom
 includeFile("tools/crafting_training_handler.lua")
 includeFile("tools/TarkinBuffTerminal.lua")
+includeFile("tools/house_plop.lua")
 
 --Tarkin Custom City
 includeFile("cities/tarkin_custom/tarkin_tatooine_mos_entha.lua")
