@@ -102,7 +102,11 @@
 #include "server/zone/objects/tangible/components/droid/DroidPlaybackModuleDataComponent.h"
 #include "server/zone/objects/player/badges/Badge.h"
 #include "server/zone/objects/building/TutorialBuildingObject.h"
+
+#include "server/zone/managers/visibility/VisibilityManager.h"
+#include "server/zone/managers/mission/MissionManager.h"
 #include "server/zone/managers/frs/FrsManager.h"
+
 
 PlayerManagerImplementation::PlayerManagerImplementation(ZoneServer* zoneServer, ZoneProcessServer* impl) :
 										Logger("PlayerManager") {
@@ -827,6 +831,16 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 
 	ThreatMap* threatMap = player->getThreatMap();
 
+	if (attacker->isPlayerCreature() || attacker->isPet()){
+		CreatureObject* attackerCreature = attacker->asCreatureObject();
+		if (attackerCreature->isPet()) {
+				CreatureObject* owner = attackerCreature->getLinkedCreature().get();
+
+				if (owner != NULL && owner->isPlayerCreature()) {
+					attackerCreature = owner;
+				}
+		}
+
 	if (attacker->getFaction() != 0) {
 		if (attacker->isPlayerCreature() || attacker->isPet()) {
 			CreatureObject* attackerCreature = attacker->asCreatureObject();
@@ -896,6 +910,58 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 	player->setTargetID(0, true);
 
 	player->notifyObjectKillObservers(attacker);
+
+
+	if (attackerCreature->isPlayerCreature()) {
+		String playerName = player->getFirstName();
+		String killerName = attackerCreature->getFirstName();
+		StringBuffer zBroadcast;
+		String killerFaction, playerFaction, killerAllegience, playerAllegience;
+		if (attacker->isRebel()) {
+			killerFaction = "Rebel";
+			killerAllegience = "the Rebel Alliance";
+		}
+		else if (attacker->isImperial()) {
+			killerFaction = "Imperial";
+			killerAllegience = "the Empire";
+		}
+		else {
+			killerFaction = "Civilian";
+			killerAllegience = "an unknown faction";
+		}
+
+		if (player->isRebel()) {
+			playerFaction = "Rebel";
+			playerAllegience = "the Rebel Alliance";
+		}
+		else if (player->isImperial()) {
+			playerFaction = "Imperial";
+			playerAllegience = "the Empire";
+				}
+		else {
+			playerFaction = "Civilian";
+			playerAllegience = "an unknown faction";
+				}
+		if (CombatManager::instance()->areInDuel(attackerCreature, player)) {
+			zBroadcast <<"\\#ffa100 Murder in the galaxy!  It has been reported that " << playerName << " was killed in a duel by " << killerName << ".";
+		}
+		else if (attackerCreature->hasSkill("force_title_jedi_rank_01") && player->hasSkill("combat_bountyhunter_investigation_03")) {
+			zBroadcast <<"\\#ffe100 " << playerName << ", a bounty hunter, has been slain by -REDACTED-, a Jedi";
+		}
+		else if (attackerCreature->hasSkill("combat_bountyhunter_investigation_03") && player->hasSkill("force_title_jedi_rank_01")) {
+			return;
+		}
+		//Only spout the GCW message if the players involved are not in a duel, and are not BH/Jedi
+		else
+			zBroadcast <<"\\#e28eff A win for " << killerAllegience << "!  In this latest report from the Galactic Civil War, " << killerName << " (" << killerFaction << ") has killed the " << playerFaction << " known as " << playerName << ".";
+
+		ghost->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, zBroadcast.toString());
+		}
+
+	}
+
+
+
 }
 
 void PlayerManagerImplementation::sendActivateCloneRequest(CreatureObject* player, int typeofdeath) {

@@ -44,6 +44,7 @@
 #include "server/zone/managers/collision/CollisionManager.h"
 #include "server/zone/packets/scene/PlayClientEffectLocMessage.h"
 #include "server/zone/managers/gcw/sessions/ContrabandScanSession.h"
+#include "server/chat/ChatManager.h"
 
 void GCWManagerImplementation::initialize() {
 	loadLuaConfig();
@@ -1563,6 +1564,16 @@ void GCWManagerImplementation::scheduleBaseDestruction(BuildingObject* building,
 		int minutesRemaining = (int) ceil((double)destructionTimer / (double)60);
 		destroyMessage.setDI(minutesRemaining);
 		broadcastBuilding(building, destroyMessage);
+		StringBuffer zBroadcast;
+		zBroadcast << "Countdown: Estimated time to detonation: " << minutesRemaining << " minutes";
+		if (building->getFaction() == Factions::FACTIONREBEL){
+			building->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, "\\#88ff32 ATTENTION REBELS, YOUR BASE IS UNDER ATTACK");
+			building->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, zBroadcast.toString());
+		} else if (building->getFaction() == Factions::FACTIONIMPERIAL){
+			building->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, "\\#ff31c8 ATTENTION IMPERIALS, YOUR BASE IS UNDER ATTACK");
+			building->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, zBroadcast.toString());
+		}
+	
 		baseData->setState(DestructibleBuildingDataComponent::SHUTDOWNSEQUENCE);
 		block.release();
 
