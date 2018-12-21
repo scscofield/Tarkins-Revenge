@@ -83,7 +83,8 @@ tarkin_admin_01 = {
 		"destroy",
 		"lag",
 		"script",
-		"setPlanetLimit"
+		"setPlanetLimit",
+		"admin"
 	},
 	skillModifiers = {},
 	schematicsGranted = {},

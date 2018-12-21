@@ -32,7 +32,7 @@ public:
 
 		int ghostPermissionLevel = ghost->getAdminLevel();
 
-		if (!creature->hasSkill("admin_base")) {
+		if (!creature->hasSkill("tarkin_admin_01")) {
 			return INSUFFICIENTPERMISSION;
 		}
 
