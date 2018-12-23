@@ -4,15 +4,15 @@ aakuan_keeper = Creature:new {
 	randomNameTag = true,
 	socialGroup = "aakuans",
 	faction = "aakuans",
-	level = 13,
-	chanceHit = 0.3,
+	level = 40,
+	chanceHit = 0.4,
 	damageMin = 140,
 	damageMax = 150,
-	baseXp = 714,
-	baseHAM = 2000,
-	baseHAMmax = 2400,
-	armor = 0,
-	resists = {0,0,0,0,0,0,0,-1,-1},
+	baseXp = 5714,
+	baseHAM = 23000,
+	baseHAMmax = 30000,
+	armor = 1,
+	resists = {40,40,30,20,40,40,40,30,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,19 +33,21 @@ aakuan_keeper = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 4000000},
-				{group = "wearables_all", chance = 1000000},
-				{group = "data_storage_unit_parts", chance = 1600000},
+				{group = "junk", chance = 3600000},
 				{group = "aakuan_common", chance = 2300000},
-				{group = "armor_attachments", chance = 500000},
-				{group = "clothing_attachments", chance = 600000}
-			}
+				{group = "armor_attachments", chance = 800000},
+				{group = "clothing_attachments", chance = 800000},
+				{group = "rifles", chance = 900000},
+				{group = "carbines", chance = 900000},
+				{group = "pistols", chance = 900000}				
+			},
+		    lootChance = 3000000
 		}
 	},
-	weapons = {"melee_weapons"},
+	weapons = {"aakuan_rifle_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = brawlermid
+	attacks = riflemanmaster
 }
 
 CreatureTemplates:addCreatureTemplate(aakuan_keeper, "aakuan_keeper")
