@@ -100,7 +100,7 @@ object_tangible_loot_simple_kit_picture_printer = object_tangible_loot_simple_ki
 		"object/tangible/collection/reward/datapad_painting_reward.iff",
 		"object/tangible/collection/reward/square_tile_collection_reward.iff",
 		"object/tangible/furniture/decorative/community_painting_2009_imp.iff",
-		"object/tangible/furniture/decorative/community_tcg_gcw_photo_contest_painting_2010_01.iff",
+		--"object/tangible/furniture/decorative/community_tcg_gcw_photo_contest_painting_2010_01.iff",
 		"object/tangible/furniture/decorative/heroic_axkva_min_painting.iff",
 		"object/tangible/furniture/decorative/heroic_hoth_painting.iff",
 		"object/tangible/furniture/decorative/heroic_marauder_king_painting.iff",
