@@ -630,3 +630,10 @@ object_tangible_deed_vehicle_deed_shared_vehicular_prototype_deed = SharedTangib
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_deed_vehicle_deed_shared_vehicular_prototype_deed, "object/tangible/deed/vehicle_deed/shared_vehicular_prototype_deed.iff")
+
+--BARC Speeder Deed
+object_tangible_deed_vehicle_deed_shared_barc_speeder_deed = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/deed/vehicle_deed/shared_barc_speeder_deed.iff"
+
+}
+ ObjectTemplates:addClientTemplate(object_tangible_deed_vehicle_deed_shared_barc_speeder_deed, "object/tangible/deed/vehicle_deed/shared_barc_speeder_deed.iff")

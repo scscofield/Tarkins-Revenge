@@ -70,6 +70,7 @@ Luna<LuaCreatureObject>::RegType LuaCreatureObject::Register[] = {
 		{ "setMoodString", &LuaCreatureObject::setMoodString},
 		{ "hasSkill", &LuaCreatureObject::hasSkill},
 		{ "removeSkill", &LuaCreatureObject::removeSkill},
+		{ "addSkill", &LuaCreatureObject::addSkill},
 		{ "surrenderSkill", &LuaCreatureObject::surrenderSkill},
 		{ "getConversationSession", &LuaCreatureObject::getConversationSession},
 		{ "doAnimation", &LuaCreatureObject::doAnimation},
@@ -137,6 +138,11 @@ Luna<LuaCreatureObject>::RegType LuaCreatureObject::Register[] = {
 		{ "getHealingThreatList", &LuaCreatureObject::getHealingThreatList },
 		{ "getSkillMod", &LuaCreatureObject::getSkillMod },
 		{ "getGender", &LuaCreatureObject::getGender },
+		{ "buffSingleStat", &LuaCreatureObject::buffSingleStat },
+		{ "removeBuffs", &LuaCreatureObject::removeBuffs },
+		{ "emptyStomach", &LuaCreatureObject::emptyStomach },
+		{ "getActivePetsSize", &LuaCreatureObject::getActivePetsSize },
+		{ "getActivePet", &LuaCreatureObject::getActivePet },
 		{ 0, 0 }
 };
 
@@ -418,6 +424,15 @@ int LuaCreatureObject::removeSkill(lua_State* L) {
 	Locker locker(realObject);
 
 	realObject->removeSkill(value, true);
+	return 0;
+}
+
+int LuaCreatureObject::addSkill(lua_State* L) {
+	String value = lua_tostring(L, -1);
+ 	Locker locker(realObject);
+	
+	SkillManager* skillManager = SkillManager::instance();
+	skillManager->awardSkill(value, realObject, true, true, true);
 	return 0;
 }
 
@@ -1053,4 +1068,87 @@ int LuaCreatureObject::getGender(lua_State* L) {
 	lua_pushnumber(L, realObject->getGender());
 
 	return 1;
+}
+
+// Apply custom buff for a single stat
+// buffSingleStat(String stat, int buffPower, int buffDuration)
+int LuaCreatureObject::buffSingleStat(lua_State* L) {
+	String stat = lua_tostring(L, -3);
+	int buffPower = lua_tointeger(L, -2);
+	int buffDuration = lua_tointeger(L, -1);
+	
+	PlayerManager* playerManager = realObject->getZoneServer()->getPlayerManager();
+	
+	bool appliedBuff = true; // Because doEnhanceCharacter() is a bool function...
+	
+	if (stat == "health"){
+		appliedBuff = playerManager->doEnhanceCharacter(0x98321369, realObject, buffPower, buffDuration, BuffType::MEDICAL, 0); // medical_enhance_health
+	} else if (stat == "strength") {
+		appliedBuff = playerManager->doEnhanceCharacter(0x815D85C5, realObject, buffPower, buffDuration, BuffType::MEDICAL, 1); // medical_enhance_strength
+	} else if (stat == "constitution") {
+		appliedBuff = playerManager->doEnhanceCharacter(0x7F86D2C6, realObject, buffPower, buffDuration, BuffType::MEDICAL, 2); // medical_enhance_constitution
+	} else if (stat == "action") {
+		appliedBuff = playerManager->doEnhanceCharacter(0x4BF616E2, realObject, buffPower, buffDuration, BuffType::MEDICAL, 3); // medical_enhance_action
+	} else if (stat == "quickness") {
+		appliedBuff = playerManager->doEnhanceCharacter(0x71B5C842, realObject, buffPower, buffDuration, BuffType::MEDICAL, 4); // medical_enhance_quickness
+	} else if (stat == "stamina") {
+		appliedBuff = playerManager->doEnhanceCharacter(0xED0040D9, realObject, buffPower, buffDuration, BuffType::MEDICAL, 5); // medical_enhance_stamina
+	} else if (stat == "mind") {
+		appliedBuff = playerManager->doEnhanceCharacter(0x11C1772E, realObject, buffPower, buffDuration, BuffType::PERFORMANCE, 6); // performance_enhance_dance_mind
+	} else if (stat == "focus") {
+		appliedBuff = playerManager->doEnhanceCharacter(0x2E77F586, realObject, buffPower, buffDuration, BuffType::PERFORMANCE, 7); // performance_enhance_music_focus
+	} else if (stat == "willpower") {
+		appliedBuff = playerManager->doEnhanceCharacter(0x3EC6FCB6, realObject, buffPower, buffDuration, BuffType::PERFORMANCE, 8); // performance_enhance_music_willpower
+	} else {
+		appliedBuff = false;
+	}
+	
+	return 0;
+}
+ int LuaCreatureObject::removeBuffs(lua_State* L) {
+	Reference<PlayerObject*> player = realObject->getPlayerObject();
+	
+	realObject->clearBuffs(true, true);
+	
+	return 0;
+}
+ int LuaCreatureObject::emptyStomach(lua_State* L) {
+	
+	if (!realObject->isPlayerCreature())
+		return 0;
+	
+	Reference<PlayerObject*> player = realObject->getPlayerObject();
+	
+	player->setFoodFilling(0);
+	player->setDrinkFilling(0);
+	
+	return 0;
+}
+ // Return the number of pets a player has out
+int LuaCreatureObject::getActivePetsSize(lua_State* L) {
+	ManagedReference<PlayerObject*> player = realObject->getPlayerObject();
+	
+	lua_pushinteger(L, player->getActivePetsSize());
+	
+	return 1;	
+}
+ // Return a pointer to the specified pet
+// local pBob = CreatureObject(pPlayer):getActivePet(0)
+int LuaCreatureObject::getActivePet(lua_State* L) {
+	int petNumber = lua_tointeger(L, -1);
+	
+	petNumber = Math::max(0, petNumber);
+	
+	Logger::console.info("petNumber: " + String::valueOf(petNumber), true);
+	
+	ManagedReference<PlayerObject*> player = realObject->getPlayerObject();
+	ManagedReference<CreatureObject*> pet = player->getActivePet(petNumber);
+	
+	if (pet != NULL) {
+		String petName = pet->getFirstName();
+		Logger::console.info("Pet Name: " + petName, true);
+	}
+		
+	lua_pushlightuserdata(L, pet);
+ 	return 1;	
 }

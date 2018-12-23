@@ -44,7 +44,7 @@
 object_tangible_food_foraged_foraged_vegetable_s2 = object_tangible_food_foraged_shared_foraged_vegetable_s2:new {
 	templateType = CONSUMABLE,
 	
-	duration = 400,
+	duration = 60,
 	filling = 0,
 	nutrition = 0,
 
@@ -60,7 +60,7 @@ object_tangible_food_foraged_foraged_vegetable_s2 = object_tangible_food_foraged
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "mind", 50 },
+	modifiers = { "health", 1000 },
 
 	buffName = "schule_nef",
 	buffCRC = 0,

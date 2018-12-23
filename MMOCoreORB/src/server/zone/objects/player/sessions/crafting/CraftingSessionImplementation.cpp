@@ -1037,8 +1037,8 @@ void CraftingSessionImplementation::customization(const String& name, byte templ
 		}
 	}
 
-	if (schematicCount < 0 || schematicCount > 1000)
-		schematicCount = 1000;
+	if(schematicCount == 1000)
+		schematicCount = 10000;
 
 	manufactureSchematic->setManufactureLimit(schematicCount);
 
@@ -1048,8 +1048,10 @@ void CraftingSessionImplementation::customization(const String& name, byte templ
 
 	//Database::escapeString(name);
 
+	UnicodeString customName(name);
+
 	//Remove color codes
-	String newName = name;
+/*	String newName = name;
 	while (newName.contains("\\#")) {
 		int index = newName.indexOf("\\#");
 		String sub = "\\" + newName.subString(index, index + 2);
@@ -1057,6 +1059,7 @@ void CraftingSessionImplementation::customization(const String& name, byte templ
 	}
 
 	UnicodeString customName(newName);
+*/
 	prototype->setCustomObjectName(customName, false);
 
 	/// Set Name
@@ -1065,7 +1068,7 @@ void CraftingSessionImplementation::customization(const String& name, byte templ
 			prototype->getObjectNameStringIdName());
 
 	/// Set Manufacture Schematic Custom name
-	if (!newName.isEmpty())
+	if (!name.isEmpty())
 		manufactureSchematic->setCustomObjectName(customName, false);
 
 	while (tokenizer.hasMoreTokens()) {
@@ -1082,7 +1085,7 @@ void CraftingSessionImplementation::customization(const String& name, byte templ
 
 	TangibleObjectDeltaMessage3* dtano3 =
 			new TangibleObjectDeltaMessage3(prototype);
-	dtano3->updateCustomName(newName);
+	dtano3->updateCustomName(name);
 	dtano3->updateCustomizationString();
 	dtano3->close();
 
@@ -1091,8 +1094,8 @@ void CraftingSessionImplementation::customization(const String& name, byte templ
 	ManufactureSchematicObjectDeltaMessage3 * dMsco3 =
 			new ManufactureSchematicObjectDeltaMessage3(
 					manufactureSchematic);
-	dMsco3->updateName(newName);
-	dMsco3->updateCondition(schematicCount);
+	dMsco3->updateName(name);
+	//dMsco3->updateCondition(schematicCount);
 	dMsco3->close();
 
 	crafter->sendMessage(dMsco3);
@@ -1179,12 +1182,12 @@ void CraftingSessionImplementation::createPrototype(int clientCounter, bool crea
 
 		if (createItem) {
 
-			startCreationTasks(manufactureSchematic->getComplexity() * 2, false);
+			startCreationTasks(1, false);
 
 		} else {
 
 			// This is for practicing
-			startCreationTasks(manufactureSchematic->getComplexity() * 2, true);
+			startCreationTasks(1, true);
 			xp = round(xp * 1.05f);
 		}
 

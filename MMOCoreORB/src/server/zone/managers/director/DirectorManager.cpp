@@ -420,6 +420,8 @@ void DirectorManager::initializeLuaEngine(Lua* luaEngine) {
 	lua_register(luaEngine->getLuaState(), "getSchematicItemName", getSchematicItemName);
 	lua_register(luaEngine->getLuaState(), "getBadgeListByType", getBadgeListByType);
 
+	lua_register(luaEngine->getLuaState(), "adminPlaceStructure", adminPlaceStructure);
+
 	//Navigation Mesh Management
 	lua_register(luaEngine->getLuaState(), "createNavMesh", createNavMesh);
 
@@ -3401,6 +3403,46 @@ void DirectorManager::removeQuestVectorMap(const String& keyString) {
 	if (questMap != NULL)
 		ObjectManager::instance()->destroyObjectFromDatabase(questMap->_getObjectID());
 }
+
+
+
+/*
+* Legend of Hondo
+* Place a structure as a "player structure" based where the character is standing.
+* lua: adminPlaceStructure(pPlayer, templateString)
+*/
+int DirectorManager::adminPlaceStructure(lua_State* L) {
+	Reference<CreatureObject*> creature = (CreatureObject*)lua_touserdata(L, -2);
+	String templateString = lua_tostring(L, -1);
+
+	ManagedReference<Zone*> zone = creature->getZone();
+
+	if (zone == NULL)
+		return 0;
+
+	if (creature->getParent() != NULL) {
+			DirectorManager::instance()->error("adminPlaceStructure - You were not outside.");
+			return 0;
+	}
+
+	int angle = creature->getDirectionAngle();
+
+	if (templateString.contains("housing_tatt_style02_med") || templateString.contains("player/city/cloning") || templateString.contains("player/city/hospital"))
+		angle -= 90; // Correct unusual default POB rotation
+
+	if (templateString.contains("guild_theater"))
+		angle -= 180; // Correct unusual default POB rotation
+
+	float x = creature->getPositionX();
+	float y = creature->getPositionY();
+	int persistenceLevel = 1;
+
+	// Create Structure
+	StructureObject* structureObject = StructureManager::instance()->placeStructure(creature, templateString, x, y, angle, persistenceLevel);
+
+	return 0;
+}
+
 
 int DirectorManager::createNavMesh(lua_State *L) {
 

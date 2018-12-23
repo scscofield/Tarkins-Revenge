@@ -83,13 +83,15 @@ public:
 
 		ManagedReference<PlanetManager*> planetManager = zone->getPlanetManager();
 		// We don't want players to exploit-block entrances or exits to POI areas & buildings
+		// fuck you..we dont care... disabling yet another check preventing player house placement in NPC cities
+/*
 		if (!planetManager->isBuildingPermittedAt(mayor->getWorldPositionX(), mayor->getWorldPositionY(), mayor, 0, false)) {
 			StringIdChatParameter msg;
 			msg.setStringId("@player_structure:not_permitted"); //"Building is not permitted here."
 			mayor->sendSystemMessage(msg);
 			return;
 		}
-
+*/
 		Reference<SceneObject*> objTooClose = zone->getPlanetManager()->findObjectTooCloseToDecoration(mayor->getPositionX(), mayor->getPositionY(), obj->getObjectTemplate()->getNoBuildRadius());
 
 		if (objTooClose != NULL && !obj->isCityStreetLamp()) {

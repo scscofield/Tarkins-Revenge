@@ -1,0 +1,6 @@
+includeFile("tangible/tcg/series1/consumable_nuna_ball_advertisement.lua")
+includeFile("tangible/tcg/series1/decorative_painting_alliance_propaganda.lua")
+includeFile("tangible/tcg/series1/decorative_painting_darth_vader.lua")
+includeFile("tangible/tcg/series1/decorative_painting_imperial_propaganda.lua")
+includeFile("tangible/tcg/series1/decorative_painting_jedi_crest.lua")
+includeFile("tangible/tcg/series1/decorative_painting_trooper.lua")

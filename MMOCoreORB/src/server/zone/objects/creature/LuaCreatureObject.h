@@ -63,6 +63,7 @@ namespace creature {
 		int getPosture(lua_State* L);
 		int hasSkill(lua_State* L);
 		int removeSkill(lua_State* L);
+		int addSkill(lua_State* L);
 		int surrenderSkill(lua_State* L);
 		int getConversationSession(lua_State* L);
 		int doAnimation(lua_State* L);
@@ -118,6 +119,11 @@ namespace creature {
 		int getHealingThreatList(lua_State* L);
 		int getSkillMod(lua_State* L);
 		int getGender(lua_State* L);
+		int buffSingleStat(lua_State* L);
+		int removeBuffs(lua_State* L);
+		int emptyStomach(lua_State* L);
+		int getActivePetsSize(lua_State* L);
+		int getActivePet(lua_State* L);
 	private:
 		// The pointer to the 'real object' defined in object.cc
 		CreatureObject* realObject;

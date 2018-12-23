@@ -12,6 +12,7 @@
 #include "server/zone/objects/area/ForageAreaCollection.h"
 #include "templates/params/creature/CreatureAttribute.h"
 #include "server/zone/Zone.h"
+#include "server/zone/managers/player/PlayerManager.h"
 
 void ForageManagerImplementation::startForaging(CreatureObject* player, int forageType) {
 	if (player == NULL)
@@ -199,6 +200,22 @@ void ForageManagerImplementation::finishForaging(CreatureObject* player, int for
 
 		forageGiveItems(player, forageType, forageX, forageY, zoneName);
 
+		// Grant Wilderness Survival XP
+		ZoneServer* zoneServer = player->getZoneServer();
+		PlayerManager* playerManager = zoneServer->getPlayerManager();
+		
+		int xp = System::random(player->getSkillMod("foraging") + 50) + 50;
+		
+		if (forageType == ForageManager::SCOUT || forageType == ForageManager::SHELLFISH){
+			playerManager->awardExperience(player, "camp", xp);
+		}
+		else if (forageType == ForageManager::LAIR){
+			playerManager->awardExperience(player, "camp", (xp * 1.5));
+		}
+		else if (forageType == ForageManager::MEDICAL){
+			playerManager->awardExperience(player, "medical", xp);
+			playerManager->awardExperience(player, "camp", (xp / 2));
+		}
 	}
 
 	return;
@@ -320,10 +337,14 @@ bool ForageManagerImplementation::forageGiveItems(CreatureObject* player, int fo
 		dice = System::random(109);
 		level = 1;
 
+		float creatureHarvestingSkill = player->getSkillMod("creature_harvesting") + 1; // Makes it 1 even if it's NULL
+		
+		dice *= creatureHarvestingSkill / 450 + 1;
+
 		if (dice >= 0 && dice < 40) { // Live Creatures
 			lootGroup = "forage_live_creatures";
 		}
-		else if (dice > 39 && dice < 110) { // Eggs
+		else if (dice > 39 && dice) { // Eggs
 			resName = "meat_egg";
 			if(forageGiveResource(player, forageX, forageY, planet, resName)) {
 				player->sendSystemMessage("@lair_n:found_eggs");

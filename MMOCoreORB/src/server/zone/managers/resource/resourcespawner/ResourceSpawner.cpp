@@ -674,7 +674,12 @@ ResourceSpawn* ResourceSpawner::getRecycledVersion(ResourceSpawn* resource) {
 		return NULL;
 		break;
 	case RecycleTool::CHEMICALS:
-		recycledEntry = resourceTree->getEntry("chemical_compound");
+		if (resource->isType("fuel_petrochem_liquid")) 
+			recycledEntry = resourceTree->getEntry("chemical_compound"); 
+		else if (resource->isType("fiberplast")) 
+			recycledEntry = resourceTree->getEntry("fiberplast_compound"); 
+		else 
+			recycledEntry = resourceTree->getEntry("petrochem_compound"); 
 		break;
 	case RecycleTool::WATER:
 		recycledEntry = resourceTree->getEntry("water_solution");
@@ -732,13 +737,29 @@ ResourceSpawn* ResourceSpawner::getRecycledVersion(ResourceSpawn* resource) {
 			recycledEntry = resourceTree->getEntry("copper_smelted");
 		break;
 	case RecycleTool::IGNEOUS:
-		recycledEntry = resourceTree->getEntry("ore_extrusive_low_grade");
+		recycledEntry = resourceTree->getEntry("ore_low_grade");
 		break;
 	case RecycleTool::SEDIMENTARY:
-		recycledEntry = resourceTree->getEntry("ore_carbonate_low_grade");
+		if (resource->isType("ore_siliclastic"))
+			recycledEntry = resourceTree->getEntry("ore_low_grade");
+		else if (resource->isType("ore_carbonate"))
+			recycledEntry = resourceTree->getEntry("ore_carb_low_grade");
+		else if (resource->isUnknownType())
+			recycledEntry = resourceTree->getEntry("ore_low_grade");	
 		break;
 	case RecycleTool::GEMSTONE:
-		recycledEntry = resourceTree->getEntry("gemstone_mixed_low_quality");
+		if (resource->isUnknownType()) 
+			recycledEntry = resourceTree->getEntry("gemstone_mixed_low_quality");
+		else if (resource->isType("gemstone_armophous")) 
+			recycledEntry = resourceTree->getEntry("armophous_degraded"); 
+		else if (resource->isType("gemstone_crystalline")) 
+			recycledEntry = resourceTree->getEntry("crystalline_degraded"); 
+		break;
+	case RecycleTool::GAS: 
+		if (resource->isType("gas_inert")) 
+			recycledEntry = resourceTree->getEntry("gas_inert_mixed"); 
+		else if (resource->isType("gas_reactive"))
+			recycledEntry = resourceTree->getEntry("gas_reactive_mixed"); 
 		break;
 	}
 
@@ -1275,6 +1296,90 @@ void ResourceSpawner::listResourcesForPlanetOnScreen(CreatureObject* creature, c
 
 		creature->sendSystemMessage(info.toString());
 	}
+}
+
+void ResourceSpawner::dumpResources(CreatureObject* creature, const String& planet) {
+	ZoneResourceMap* zoneMap = resourceMap->getZoneResourceList(planet);
+
+	if (zoneMap == NULL) {
+		creature->sendSystemMessage("Invalid planet specified");
+		return;
+	}
+
+	creature->sendSystemMessage("-------- RESOURCE SPAWNS FOR " + planet + " --------");
+	creature->sendSystemMessage("swgcraft_start");
+	ManagedReference<ResourceSpawn*> resourceSpawn;
+
+	for (int i = 0; i < zoneMap->size(); ++i) {
+		resourceSpawn = zoneMap->get(i);
+
+		if(resourceSpawn == NULL)
+			continue;
+
+		StringBuffer info;
+		int hours = (((resourceSpawn->getDespawned() - System::getTime()) / 60) / 60);
+		int minutes = (((resourceSpawn->getDespawned() - System::getTime()) / 60) % 60);
+
+		//Prepare the output
+		info << resourceSpawn->getName() << "," << resourceSpawn->getFinalClass();
+
+		//Check and see if the value exists for the resource, output it if true
+
+		//First, we will check for ER since it is handled very differently. Thanks SWGEMU devs!
+		for(int i = 0; i < 12; ++i) {
+			String attribute = "";
+			int value = resourceSpawn->getAttributeAndValue(attribute, i);
+			if(attribute == "entangle_resistance") {
+				info << "," << String::valueOf(value);
+			}
+		}
+		//Now we will check and add the rest.
+		if (resourceSpawn->getValueOf(CraftingManager::CR) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::CR);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::CD) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::CD);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::DR) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::DR);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::FL) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::FL);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::HR) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::HR);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::MA) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::MA);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::PE) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::PE);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::OQ) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::OQ);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::SR) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::SR);
+		}
+
+		if (resourceSpawn->getValueOf(CraftingManager::UT) != 0) {
+			info << "," << resourceSpawn->getValueOf(CraftingManager::UT);
+		}
+
+		creature->sendSystemMessage(info.toString());
+
+	}
+
+	//Send final message
+	creature->sendSystemMessage("swgcraft_end");
 }
 
 String ResourceSpawner::healthCheck() {

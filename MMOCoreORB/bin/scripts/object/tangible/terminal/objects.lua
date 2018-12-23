@@ -3344,3 +3344,15 @@ object_tangible_terminal_shared_test = SharedTangibleObjectTemplate:new {
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_test, "object/tangible/terminal/shared_test.iff")
+
+--Tarkin Custom
+
+object_tangible_terminal_shared_imp_travel_term = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_imp_travel_term.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_imp_travel_term, "object/tangible/terminal/shared_imp_travel_term.iff")
+
+object_tangible_terminal_shared_reb_travel_term = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_reb_travel_term.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_reb_travel_term, "object/tangible/terminal/shared_reb_travel_term.iff")

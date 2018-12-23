@@ -60,7 +60,7 @@ object_tangible_food_foraged_foraged_fruit_s1 = object_tangible_food_foraged_sha
 	quantityMin = 0,
 	quantityMax = 0,
 	
-	modifiers = { "health", 50, "mind", 50 },
+	modifiers = { "health", 100, "mind", 100 },
 
 	buffName = "maroj_melon",
 	buffCRC = 0,

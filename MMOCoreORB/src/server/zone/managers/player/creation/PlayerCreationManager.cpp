@@ -337,8 +337,8 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 
 	auto client = callback->getClient();
 
-	if (client->getCharacterCount(zoneServer.get()->getGalaxyID()) >= 10) {
-		ErrorMessage* errMsg = new ErrorMessage("Create Error", "You are limited to 10 characters per galaxy.", 0x0);
+	if (client->getCharacterCount(zoneServer.get()->getGalaxyID()) >= 4) {
+		ErrorMessage* errMsg = new ErrorMessage("Create Error", "You are limited to 4 characters per galaxy.", 0x0);
 		client->sendMessage(errMsg);
 
 		return false;
@@ -470,7 +470,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 				int accountPermissionLevel = playerAccount->getAdminLevel();
 				String accountName = playerAccount->getUsername();
 
-				if(accountPermissionLevel > 0 && (accountPermissionLevel == 9 || accountPermissionLevel == 10 || accountPermissionLevel == 12 || accountPermissionLevel == 15)) {
+				if(accountPermissionLevel > 0 && (accountPermissionLevel == 1 || accountPermissionLevel == 7 || accountPermissionLevel == 10 || accountPermissionLevel == 13 || accountPermissionLevel == 15)) {
 					playerManager->updatePermissionLevel(playerCreature, accountPermissionLevel);
 
 					/*
@@ -496,7 +496,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 					*/
 				}
 
-				if (accountPermissionLevel < 9) {
+				if (accountPermissionLevel < 7) {
 					try {
 						StringBuffer query;
 						//query << "SELECT UNIX_TIMESTAMP(creation_date) FROM characters c WHERE galaxy_id = " << zoneServer.get()->getGalaxyID() << " AND account_id = " << client->getAccountID() << " ORDER BY creation_date desc;";
@@ -606,6 +606,10 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 	ManagedReference<SuiMessageBox*> box = new SuiMessageBox(playerCreature, SuiWindowType::NONE);
 	box->setPromptTitle("PLEASE NOTE");
 	box->setPromptText("You are limited to creating one character per hour. Attempting to create another character or deleting your character before the 1 hour timer expires will reset the timer.");
+	String playerName = playerCreature->getFirstName();
+	StringBuffer zBroadcast;
+	zBroadcast << "\\#00e2e6" << playerName << " has joined Tarkin's Revenge!";
+	playerCreature->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, zBroadcast.toString());
 
 	ghost->addSuiBox(box);
 	playerCreature->sendMessage(box->generateMessage());

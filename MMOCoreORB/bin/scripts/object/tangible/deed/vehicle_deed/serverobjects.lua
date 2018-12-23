@@ -55,3 +55,6 @@ includeFile("tangible/deed/vehicle_deed/speederbike_swoop_deed.lua")
 includeFile("tangible/deed/vehicle_deed/vehicle_deed_base.lua")
 includeFile("tangible/deed/vehicle_deed/vehicular_prototype_bike_deed.lua")
 includeFile("tangible/deed/vehicle_deed/vehicular_prototype_deed.lua")
+
+--NGE Vehicles
+includeFile("tangible/deed/vehicle_deed/barc_speeder_deed.lua")

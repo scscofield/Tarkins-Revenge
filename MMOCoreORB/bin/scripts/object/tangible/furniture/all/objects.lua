@@ -7061,3 +7061,15 @@ object_tangible_furniture_all_shared_frn_bench_generic = SharedTangibleObjectTem
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_bench_generic, "object/tangible/furniture/all/shared_frn_bench_generic.iff")
+
+object_tangible_furniture_all_shared_frn_all_death_troopers_painting = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_death_troopers_painting.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_death_troopers_painting, "object/tangible/furniture/all/frn_all_death_troopers_painting.iff")
+
+object_tangible_furniture_all_shared_gmf_painting_2010 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/gmf_painting_2010.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_gmf_painting_2010, "object/tangible/furniture/all/gmf_painting_2010.iff")

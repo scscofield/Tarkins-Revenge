@@ -218,6 +218,30 @@ object_tangible_wearables_armor_marine_shared_armor_marine_bicep_r = SharedTangi
 
 ObjectTemplates:addClientTemplate(object_tangible_wearables_armor_marine_shared_armor_marine_bicep_r, "object/tangible/wearables/armor/marine/shared_armor_marine_bicep_r.iff")
 
+--Rebel Marine Bracer Left
+object_tangible_wearables_armor_marine_shared_armor_marine_bracer_l = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/armor/marine/shared_armor_marine_bracer_l.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_armor_marine_shared_armor_marine_bracer_l, "object/tangible/wearables/armor/marine/shared_armor_marine_bracer_l.iff")
+
+--Rebel Marine Bracer Right
+object_tangible_wearables_armor_marine_shared_armor_marine_bracer_r = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/armor/marine/shared_armor_marine_bracer_r.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_armor_marine_shared_armor_marine_bracer_r, "object/tangible/wearables/armor/marine/shared_armor_marine_bracer_r.iff")
+
+
+--Rebel Marine Gloves
+object_tangible_wearables_armor_marine_shared_armor_marine_gloves = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/armor/marine/shared_armor_marine_gloves.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_armor_marine_shared_armor_marine_gloves, "object/tangible/wearables/armor/marine/shared_armor_marine_gloves.iff")
+
 object_tangible_wearables_armor_marine_shared_armor_marine_boots = SharedTangibleObjectTemplate:new {
 	clientTemplateFileName = "object/tangible/wearables/armor/marine/shared_armor_marine_boots.iff"
 	--Data below here is deprecated and loaded from the tres, keeping for easy lookups
