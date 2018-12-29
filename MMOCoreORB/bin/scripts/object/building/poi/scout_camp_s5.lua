@@ -40,7 +40,6 @@
 --gives permission to release a modified version without this exception;
 --this exception also makes it possible to release a modified version
 
-
 object_building_poi_scout_camp_s5 = object_building_poi_shared_scout_camp_s5:new {
 	templateType = CAMPSTRUCTURE,
 	lotSize = 0,
@@ -147,6 +146,11 @@ object_building_poi_scout_camp_s5 = object_building_poi_shared_scout_camp_s5:new
 		{templateFile = "object/tangible/camp/camp_chair_s3.iff",
 			x = -7.7, z = 0, y = 3.8,
 			ox = 0, oy = 1, oz = 0, ow = 0,
+			cellid = -1,
+			containmentType = -1},
+		{templateFile = "object/tangible/travel/ticket_collector/star_tours.iff",
+			x = 4.68453, z = 0, y = 12.7435,
+			ox = 0, oy = 0.985105, oz = 0, ow = -0.171954,
 			cellid = -1,
 			containmentType = -1},
 	}
