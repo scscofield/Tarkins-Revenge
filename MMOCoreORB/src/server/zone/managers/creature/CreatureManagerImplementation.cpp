@@ -737,9 +737,9 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 
 	quantityExtracted = (int)(quantityExtracted * modifier);
 
-
-	if (creature->getParent().get() != NULL)
-		quantityExtracted = 1;
+// Removing the change that only allows 1 unit harvests inside buildings (caves).
+//	if (creature->getParent().get() != NULL)
+//		quantityExtracted = 1;
 
 	int droidBonus = DroidMechanics::determineDroidSkillBonus(ownerSkill,harvestBonus,quantityExtracted);
 
@@ -921,9 +921,9 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 	}
 	
 	quantityExtracted = (int)(quantityExtracted * modifier);
-
-	if (creature->getParent().get() != NULL)
-		quantityExtracted = 1;
+// Removing the change that only allows 1 unit harvests inside buildings (caves).
+//	if (creature->getParent().get() != NULL)
+//		quantityExtracted = 1;
 
 	resourceManager->harvestResourceToPlayer(player, resourceSpawn, quantityExtracted);
 
