@@ -51,7 +51,9 @@ object_building_poi_scout_camp_s5 = object_building_poi_shared_scout_camp_s5:new
 		{"private_med_wound_health", 100},
 		{"private_med_wound_action", 100},
 		{"private_aggro_mod", 100},
-		{"private_buff_mind", 100}
+		{"private_buff_mind", 100},
+		{"private_spec_samplesize", 20},
+		{"private_spec_samplerate", 10}
 	},
 	aggroMod = 100,
 	duration = 3600,

@@ -48,21 +48,29 @@ object_building_poi_scout_camp_s3 = object_building_poi_shared_scout_camp_s3:new
 	baseMaintenanceRate = 0,
 	basePowerRate = 0,
 
+	zoneComponent = "StructureZoneComponent",
+
 	skillMods = {
 		{"private_safe_logout", 1},
 		{"private_medical_rating", 80},
 		{"private_med_wound_health", 60},
 		{"private_med_wound_action", 60},
 		{"private_aggro_mod", 50},
-		{"private_buff_mind", 100}
+		{"private_buff_mind", 100},
+		{"private_spec_samplesize", 20},
+		{"private_spec_samplerate", 10},
+		{"private_spec_missions", 15}
 	},
 
+	
 	aggroMod = 50,
 
 	duration = 3600,
 	radius = 20,
 	experience = 1000,
 	skillRequired = 0,
+
+
 
 	childObjects = {
 		{templateFile = "object/tangible/camp/camp_control_panel.iff",
@@ -77,7 +85,7 @@ object_building_poi_scout_camp_s3 = object_building_poi_shared_scout_camp_s3:new
 			cellid = -1,
 			containmentType = -1},
 
-{templateFile = "object/tangible/camp/camp_chair_s2.iff",
+		{templateFile = "object/tangible/camp/camp_chair_s2.iff",
 			x = 2.2829, z = 0, y = -2.4205,
 			ox = 0, oy = -0.2722, oz = 0, ow = 0.9627,
 			cellid = -1,
@@ -107,12 +115,16 @@ object_building_poi_scout_camp_s3 = object_building_poi_shared_scout_camp_s3:new
 			cellid = -1,
 			containmentType = -1},
 
-		{templateFile = "object/tangible/terminal/terminal_insurance.iff", 
-			x = 7.5, z = 0, y = -5, 
-			ox = 0, oy = -.61, oz = 0, ow = .78, 
-			cellid = -1, 
+		{templateFile = "object/tangible/terminal/terminal_mission_bounty.iff",
+			x = -3.12765, z = 0, y = 2.24038,
+			ox = 0, oy = -0.701996, oz = 0, ow = -0.698715,
+			cellid = -1,
 			containmentType = -1},
-	}
+	},
+
+	childCreatureObjects = {
+		{mobile = "informant_npc_lvl_3", x = -1.83167, z = 0, y = 5.84309, cellid = -1, respawn = 1, containmentType = -1, heading = 3.14},
+	},
 }
 
 ObjectTemplates:addTemplate(object_building_poi_scout_camp_s3, "object/building/poi/scout_camp_s3.iff")

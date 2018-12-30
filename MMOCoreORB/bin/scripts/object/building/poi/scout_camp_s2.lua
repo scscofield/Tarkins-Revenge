@@ -54,7 +54,9 @@ object_building_poi_scout_camp_s2 = object_building_poi_shared_scout_camp_s2:new
 		{"private_med_wound_health", 40},
 		{"private_med_wound_action", 40},
 		{"private_aggro_mod", 20},
-		{"private_buff_mind", 100}
+		{"private_buff_mind", 100},
+		{"private_spec_samplesize", 20},
+		{"private_spec_samplerate", 10} 
 	},
 
 	aggroMod = 20,
@@ -89,11 +91,18 @@ object_building_poi_scout_camp_s2 = object_building_poi_shared_scout_camp_s2:new
 			containmentType = -1},
 
 		{templateFile = "object/tangible/terminal/terminal_bank.iff", 
-			x = .66, z = 0, y = -2.9, 
-			ox = 0, oy = -.13, oz = 0, ow = .99, 
+			x = -3.12704, z = 0, y = -3.50334, 
+			ox = 0, oy = 0.21644, oz = 0, ow = 0.974758, 
+			cellid = -1, 
+			containmentType = -1},
+
+		{templateFile = "object/tangible/terminal/terminal_insurance.iff", 
+			x = -1.15587, z = 0, y = -3.95594, 
+			ox = 0, oy = -0.0432211, oz = 0, ow = 0.997563, 
 			cellid = -1, 
 			containmentType = -1},
 	}
+	
 }
 
 ObjectTemplates:addTemplate(object_building_poi_scout_camp_s2, "object/building/poi/scout_camp_s2.iff")

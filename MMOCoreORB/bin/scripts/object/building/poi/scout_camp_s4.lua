@@ -54,7 +54,10 @@ object_building_poi_scout_camp_s4 = object_building_poi_shared_scout_camp_s4:new
 		{"private_med_wound_health", 80},
 		{"private_med_wound_action", 80},
 		{"private_aggro_mod", 75},
-		{"private_buff_mind", 100}
+		{"private_buff_mind", 100},
+		{"private_spec_samplesize", 20},
+		{"private_spec_samplerate", 10},
+		{"private_spec_missions", 15}
 	},
 
 	healthWoundRegenRate = 80,
@@ -130,8 +133,26 @@ object_building_poi_scout_camp_s4 = object_building_poi_shared_scout_camp_s4:new
 			containmentType = -1},
 
 		{templateFile = "object/tangible/terminal/terminal_mission.iff", 
-			x = 2.2, z = 0, y = -3.8, 
+			x = 7.06529, z = 0, y = -2.6472, 
 			ox = 0, oy = -.49, oz = 0, ow = .86, 
+			cellid = -1, 
+			containmentType = -1},
+
+		{templateFile = "object/tangible/terminal/terminal_mission_rebel.iff", 
+			x = -5.51063, z = 0, y = -7.9, 
+			ox = 0, oy = 0.134792, oz = 0, ow = 0.980577, 
+			cellid = -1, 
+			containmentType = -1},
+
+		{templateFile = "object/tangible/terminal/terminal_mission_imperial.iff", 
+			x = 5.81821, z = 0, y = -7.45806, 
+			ox = 0, oy = -.49, oz = 0, ow = .86, 
+			cellid = -1, 
+			containmentType = -1},
+
+		{templateFile = "object/tangible/terminal/terminal_mission_scout.iff", 
+			x = 8.14481, z = 0, y = 1.83383, 
+			ox = 0, oy = -0.754587, oz = 0, ow = 0.640546, 
 			cellid = -1, 
 			containmentType = -1},
 	}
