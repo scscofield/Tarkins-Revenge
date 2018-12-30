@@ -188,7 +188,7 @@ CitySpecializations = {
 		name = "@city/city:city_spec_sample_rich",
 		cost = 17500,
 		skillMods = {
-			{"private_spec_samplesize", 20},
+			{"private_spec_samplesize", 50},
 			{"private_spec_samplerate", 10},
 			{"private_spec_missions", 15}
 		}
@@ -232,7 +232,7 @@ CitySpecializations = {
 		cost = 20000,
 		skillMods = {
 			{"private_spec_missions", 15},
-			{"private_spec_samplesize", 20},
+			{"private_spec_samplesize", 50},
 			{"private_spec_samplerate", 10}
 		}
 	},
