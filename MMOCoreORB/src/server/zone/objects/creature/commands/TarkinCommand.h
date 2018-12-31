@@ -12,7 +12,8 @@
 #include "server/zone/managers/stringid/StringIdManager.h"
 #include "server/zone/managers/auction/AuctionManager.h"
 #include "server/zone/managers/auction/AuctionsMap.h"
-
+#include "server/zone/managers/statistics/StatisticsManager.h"
+#include "server/zone/objects/mission/MissionTypes.h"
 
 class TarkinCommand : public QueueCommand {
 public:
@@ -298,7 +299,10 @@ body << "Most Concurrent (since last reset): " << String::valueOf(creature->getZ
 			body << " - - - - - - - " << endl;
 			body << "Deleted Characters (since last reset): " << String::valueOf(creature->getZoneServer()->getDeletedPlayers()) << endl;
 			body << "Total Connections (since last reset): " << String::valueOf(creature->getZoneServer()->getTotalPlayers()) << endl;
-			body << endl;
+			body << endl;endl;
+
+			body << "Missions info (since last reset): " << endl;
+			body << StatisticsManager::instance()->getStatistics() << endl << endl;
 		}
 
 		// Wrap it up and send it off
