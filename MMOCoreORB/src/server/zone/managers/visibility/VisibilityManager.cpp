@@ -45,7 +45,7 @@ float VisibilityManager::calculateVisibilityIncrease(CreatureObject* creature) {
 		if (c == NULL || (!c->isNonPlayerCreatureObject() && !c->isPlayerCreature()))
 			continue;
 
-		if (c->isDead() || c->isIncapacitated() || (c->isPlayerCreature() && c->getPlayerObject()->hasGodMode()))
+		if ((c->isDead()) || (c->isIncapacitated()) || (c->isPlayerCreature() && c->getPlayerObject()->hasGodMode()) || (c->isPlayerCreature() && c->hasSkill("force_title_jedi_novice")))
 			continue;
 
 		if (!creature->isInRange(c, 32) || !CollisionManager::checkLineOfSight(creature, c))
@@ -53,20 +53,19 @@ float VisibilityManager::calculateVisibilityIncrease(CreatureObject* creature) {
 
 		if (creature->getFaction() == 0 || (c->getFaction() != factionImperial && c->getFaction() != factionRebel)) {
 			visibilityIncrease += 0.5;
-			//info(c->getCreatureName().toString() + " generating a 0.5 visibility modifier", true);
+//			info(c->getCreatureName().toString() + " generating a 0.5 visibility modifier", true);
 		} else {
 			if (creature->getFaction() == c->getFaction()) {
 				visibilityIncrease += 0.25;
-				//info(c->getCreatureName().toString() + " generating a 0.25 visibility modifier", true);
+//				info(c->getCreatureName().toString() + " generating a 0.25 visibility modifier", true);
 			} else {
 				visibilityIncrease += 1;
-				//info( c->getCreatureName().toString() + " generating a 1.0 visibility modifier", true);
+//				info( c->getCreatureName().toString() + " generating a 1.0 visibility modifier", true);
 			}
 		}
 
 	}
-
-	//info("Increasing visibility for player " + String::valueOf(creature->getObjectID()) + " with " + String::valueOf(visibilityIncrease), true);
+//	info("Increasing visibility for player " + String::valueOf(creature->getObjectID()) + " with " + String::valueOf(visibilityIncrease), true);
 	return visibilityIncrease;
 }
 
@@ -145,6 +144,9 @@ void VisibilityManager::increaseVisibility(CreatureObject* creature, int visibil
 		ghost->setVisibility(newVis);
 
 		//info("New visibility for " + creature->getFirstName() + " is " + String::valueOf(ghost->getVisibility()), true);
+
+	//DEBUG MESSAGE
+//		creature->sendSystemMessage("New visibility:" + String::valueOf(ghost->getVisibility()));
 		locker.release();
 
 		addToVisibilityList(creature);
