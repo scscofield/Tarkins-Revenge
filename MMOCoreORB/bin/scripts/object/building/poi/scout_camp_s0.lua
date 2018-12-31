@@ -53,7 +53,9 @@ object_building_poi_scout_camp_s0 = object_building_poi_shared_scout_camp_s0:new
 		{"private_medical_rating", 60},
 		{"private_med_wound_health", 20},
 		{"private_med_wound_action", 20},
-		{"private_buff_mind", 100}
+		{"private_buff_mind", 100},
+		{"private_spec_samplesize", 20},
+		{"private_spec_samplerate", 10} 
 	},
 
 	aggroMod = 0,

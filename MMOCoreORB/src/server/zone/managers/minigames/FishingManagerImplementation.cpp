@@ -430,21 +430,30 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 						quality += (int)ceil((float)pole->getQuality() / 25);
 				}
 				int factor = 1;
+				int harvest = 50;
 
-				if (player->hasSkill("outdoors_ranger_tracking_04"))
+				if (player->hasSkill("outdoors_ranger_tracking_04")) {
 					factor = 8;
-				else if (player->hasSkill("outdoors_ranger_tracking_03"))
+					harvest = 300;
+				} else if (player->hasSkill("outdoors_ranger_tracking_03")) {
 					factor = 7;
-				else if (player->hasSkill("outdoors_ranger_tracking_02"))
+					harvest = 200;
+				} else if (player->hasSkill("outdoors_ranger_tracking_02")) {
 					factor = 6;
-				else if (player->hasSkill("outdoors_ranger_tracking_01"))
+					harvest = 150;
+				} else if (player->hasSkill("outdoors_ranger_tracking_01")) {
 					factor = 5;
-				else if (player->hasSkill("outdoors_scout_camp_04"))
+					harvest = 100;
+				} else if (player->hasSkill("outdoors_scout_camp_04")) {
 					factor = 4;
-				else if (player->hasSkill("outdoors_scout_camp_03"))
+					harvest = 90;
+				} else if (player->hasSkill("outdoors_scout_camp_03")) {
 					factor = 3;
-				else if (player->hasSkill("outdoors_scout_camp_02"))
+					harvest = 80;
+				} else if (player->hasSkill("outdoors_scout_camp_02")) {
 					factor = 2;
+					harvest = 70;
+				}
 
 				float length = fishLength.get(fish)*factor;
 
@@ -484,7 +493,7 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 
 				String resourceString = zone->getZoneName();
 				resourceString = "seafood_fish_" + resourceString;
-				int amount = System::random(50)+factor;
+				int amount = System::random(50)+harvest;
 				ManagedReference<ResourceManager*> resourceManager = zone->getZoneServer()->getResourceManager();
 				ManagedReference<SceneObject*> resource = cast<SceneObject*>(resourceManager->harvestResource(player, resourceString, amount));
 

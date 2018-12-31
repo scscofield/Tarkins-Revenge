@@ -512,7 +512,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 							Time timeVal(sec);
 
 							if (timeVal.miliDifference() < 3600000) {
-								ErrorMessage* errMsg = new ErrorMessage("Create Error", "You are only permitted to create one character per hour. Repeat attempts prior to 1 hour elapsing will reset the timer.", 0x0);
+								ErrorMessage* errMsg = new ErrorMessage("Create Error", "You are only permitted to create one character per hour. Repeat attempts to create a character prior to 1 hour elapsing after the last attempt to create, or the last character deletion, will reset the timer.", 0x0);
 								client->sendMessage(errMsg);
 
 								playerCreature->destroyPlayerCreatureFromDatabase(true);
@@ -530,7 +530,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 						Time lastCreatedTime = lastCreatedCharacter.get(accID);
 
 						if (lastCreatedTime.miliDifference() < 3600000) {
-							ErrorMessage* errMsg = new ErrorMessage("Create Error", "You are only permitted to create one character per hour. Repeat attempts prior to 1 hour elapsing will reset the timer.", 0x0);
+							ErrorMessage* errMsg = new ErrorMessage("Create Error", "You are only permitted to create one character per hour. Repeat attempts to create a character prior to 1 hour elapsing after the last attempt to create, or the last character deletion, will reset the timer.", 0x0);
 							client->sendMessage(errMsg);
 
 							playerCreature->destroyPlayerCreatureFromDatabase(true);
@@ -603,16 +603,106 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 	//Join auction chat room
 	ghost->addChatRoom(chatManager->getAuctionRoom()->getRoomID());
 
+	//Send Sui to player with server information
 	ManagedReference<SuiMessageBox*> box = new SuiMessageBox(playerCreature, SuiWindowType::NONE);
-	box->setPromptTitle("PLEASE NOTE");
-	box->setPromptText("You are limited to creating one character per hour. Attempting to create another character or deleting your character before the 1 hour timer expires will reset the timer.");
-	String playerName = playerCreature->getFirstName();
-	StringBuffer zBroadcast;
-	zBroadcast << "\\#00e2e6" << playerName << " has joined Tarkin's Revenge!";
-	playerCreature->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, zBroadcast.toString());
-
+	int playercount = zoneServer->getConnectionCount();
+  	String playerName = playerCreature->getFirstName();
+	box->setPromptTitle("Welcome to Tarkin's Revenge");
+  	StringBuffer promptText;
+  	promptText << "\\#fff175-- Welcome to Tarkin's Revenge, " << playerName << ". --";
+   	promptText << endl;
+   	promptText << endl;
+  	promptText << "\\#f2f5f9There are currently \\#ffab4c(" << playercount << ")\\#f2f5f9 players logged in."; //Current number of players currently logged in
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+  	promptText << "You are limited to creating one character per hour. Attempting to create another character or deleting your character will reset the 1 hour timer.";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;  	
+  	promptText << "\\#5bff71Account Info:";
+  	promptText << endl;
+  	promptText << "\\#f2f5f9-- You are allowed one account per IP.  (Special requests can be made for multiple people in the same household, make your request in Discord or on our forums.)";
+   	promptText << endl;
+  	promptText << "-- 4 characters per account";
+   	promptText << endl;
+  	promptText << "-- 20 lots per character";
+   	promptText << endl;
+   	promptText << "-- 3 instances allowed online per account";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71Server XP Rates:";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9-- 1.5x XP Solo | 2x XP Grouped";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71Buff Information:";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9-- We have GREATLY decreased buffs, so you will need to stay on top of stat mitigation, use foods/drinks, and look for armor with low encumbrance and weapons with low HAM cost.";
+   	promptText << endl;
+   	promptText << "-- If your secondary stats are below the 'magic number' of 1500, you WILL do damage to yourself when using special attacks with your weapon.";
+   	promptText << endl;
+   	promptText << "-- Buffs are available via doctors (though 'C' and 'D' buffs have been disabled, and Janta bloods have been greatly reduced), and are also available from Medical Services terminals.  Doctor buffs last much longer, and can be crafted better than the terminals provide.";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71Profession Information:";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9-- Crafting professions are no-grind, and are available from a Skill Trainer NPC.  They DO require skill points.";
+   	promptText << endl;
+   	promptText << "-- Entertainer professions are no-grind, are available from a Skill Trainer NPC, and do NOT require skill points.  Everyone can pick up the Entertainer professions for free.";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71Jedi information:";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9-- Village Method";
+   	promptText << endl;
+   	promptText << "-- 4 Week Phases";
+   	promptText << endl;
+   	promptText << "-- Visibility required to get on the terminals has been greatly decreased.  Other Jedi do not generate visibility, but non-Jedi players and NPCs do.";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71A Few Other Notes:";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9-- Heavy harvesters are disabled, but Smalls and Mediums have greatly increased BER and hopper size.";
+   	promptText << endl;
+   	promptText << "-- You can put your house in NPC cities, if the mayor of the city has granted zoning/open zoning.  Currently, Mos Entha, Coronet, and Theed function as Player Cities.";
+   	promptText << endl;
+   	promptText << "-- To start a Player City, you must first master Politician by running for mayor of an NPC city.  Once mastered, you may request a City Hall on the forums.  Additional NPC cities can also be opened for settlement if a master Politician has five players willing to settle in their city.";
+   	promptText << endl;
+   	promptText << "-- Guild halls are not craftable, and are only available by request for players starting an active guild.  (They are not freely available as residences.)  See our forums for more information.";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71Community Forums:";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9www.tarkinswg.com";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71Tarkin's Revenge Discord Server:";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9https://discord.gg/3bGJvm4";
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << endl;
+   	promptText << "\\#5bff71Open Source Repository: ";
+   	promptText << endl;
+   	promptText << "\\#f2f5f9https://github.com/TarkinII/Tarkins-Revenge";
+  	box->setPromptText(promptText.toString());
+ 	box->setCancelButton(true, "@no");
+	box->setOkButton(true, "@yes");
+	box->setUsingObject(ghost);
 	ghost->addSuiBox(box);
-	playerCreature->sendMessage(box->generateMessage());
+	ghost->sendMessage(box->generateMessage());	
+
+	StringBuffer zBroadcast;
+	zBroadcast << "\\#ffab4c" << playerName << " has joined Tarkin's Revenge!";
+	playerCreature->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, zBroadcast.toString());
 
 	return true;
 }

@@ -676,6 +676,7 @@ includeFile("tools/house_plop.lua")
 includeFile("tools/tarkin_travel.lua")
 includeFile("tools/star_tours.lua")
 includeFile("tools/star_tours_table.lua")
+includeFile("tools/mission_level_choice.lua")
 
 --Tarkin Custom City
 includeFile("cities/tarkin_custom/tarkin_tatooine_mos_entha.lua")
