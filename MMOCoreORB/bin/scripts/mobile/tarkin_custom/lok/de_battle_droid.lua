@@ -47,10 +47,9 @@ de_battle_droid = Creature:new {
 		},
 		{
 			groups = {
-				{group = "nge_house_mustafar", chance = 750000},
-				{group = "nge_house_yt1300", chance = 750000}
+				{group = "droid_cave", chance = 10000000},
 			},
-			lootChance = 1500000
+			lootChance = 1000000
 		},
 },
 	weapons = {"battle_droid_weapons"},

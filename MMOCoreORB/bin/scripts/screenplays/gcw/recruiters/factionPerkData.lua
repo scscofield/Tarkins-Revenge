@@ -7,6 +7,7 @@ factionRewardType = {
 	terminal = 6,
 	installation = 7,
 	hireling = 8,
+	vehicle = 9,
 }
 
 rebelRewardData = {
@@ -101,6 +102,13 @@ rebelRewardData = {
 		specforce_technician = { type=factionRewardType.hireling, display="@mob/creature_names:specforce_technician", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="specforce_technician", cost=375},
 		specforce_wilderness_operative = { type=factionRewardType.hireling, display="@mob/creature_names:specforce_wilderness_operative", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="specforce_wilderness_operative", cost=375},
 		rebel_specforce_guerrilla = { type=factionRewardType.hireling, display="@mob/creature_names:rebel_specforce_guerrilla", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="rebel_specforce_urban_guerrilla", cost=375},
+	},
+	vehicleList = {
+		"barc_speeder_rebel"
+	},
+
+	vehicles= {
+		barc_speeder_rebel = { type=factionRewardType.vehicles, display="@pet_deed:barc_speeder_rebel", item="object/tangible/loot/loot_schematic/barc_speeder_rebel_schematic.iff", cost=3000},
 	}
 }
 
@@ -218,4 +226,13 @@ imperialRewardData = {
 		swamp_trooper = { type=factionRewardType.hireling, display="@mob/creature_names:swamp_trooper", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="swamp_trooper", cost=420},
 		at_st = { type=factionRewardType.hireling, display="@mob/creature_names:at_st", item="object/intangible/pet/pet_control.iff", controlledObjectTemplate="at_st", cost=9450},
 	},
+
+	vehicleList = {
+		"barc_speeder_imperial", "frn_cabinet"
+	},
+
+	vehicles= {
+		barc_speeder_imperial = { type=factionRewardType.vehicles, display="@pet_deed:barc_speeder_imperial", item="object/tangible/loot/loot_schematic/barc_speeder_imperial_schematic.iff", cost=3000},
+
+	}
 }

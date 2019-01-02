@@ -424,6 +424,7 @@ faction_purchase = ConvoScreen:new {
 		--{ "@conversation/faction_recruiter_rebel:s_492", "fp_schematics" }, -- I like to build. What schematics are available?
 		{ "@conversation/faction_recruiter_rebel:s_496", "fp_furniture"}, -- I would like to do some decorating. I need furniture.
 		{ "@conversation/faction_recruiter_rebel:s_500", "fp_hirelings" }, -- I need some back-up troops.
+		{ "I need a new ride.  What vehicles do you have available?", "fp_vehicles" }, -- I need some back-up troops.
 	},
 }
 
@@ -469,6 +470,15 @@ fp_hirelings = ConvoScreen:new {
 
 }
 rebelRecruiterConvoTemplate:addScreen(fp_hirelings);
+
+fp_vehicles = ConvoScreen:new {
+	id = "fp_vehicles",
+	leftDialog = "@conversation/faction_recruiter_rebel:s_498", 
+	stopConversation = "true",
+	options = {},
+
+}
+rebelRecruiterConvoTemplate:addScreen(fp_vehicles);
 
 show_gcw_score = ConvoScreen:new {
 	id = "show_gcw_score",

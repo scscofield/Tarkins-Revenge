@@ -50,7 +50,7 @@ visionary_of_lord_nyax = Creature:new {
 		{
 			groups = {
 				{group = "power_crystals", chance = 5000000},
-				{group = "nge_house_bespin", chance = 4000000},
+				{group = "nyax_minions", chance = 4000000},
 				{group = "holocron_splinters", chance = 1000000}
 			},
 			lootChance = 300000
