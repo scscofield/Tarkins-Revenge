@@ -5244,3 +5244,135 @@ object_tangible_loot_loot_schematic_shared_diner_house_loot_schem = SharedTangib
 	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_diner_house_loot_schem.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_diner_house_loot_schem, "object/tangible/loot/loot_schematic/shared_diner_house_loot_schem.iff")
+
+--A1 Deluxe Floater Schematic
+object_tangible_loot_loot_schematic_shared_a1_deluxe_floater_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_a1_deluxe_floater_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_a1_deluxe_floater_schematic, "object/tangible/loot/loot_schematic/shared_a1_deluxe_floater_schematic.iff")
+
+--Air-2 Racing Swoop Schematic
+object_tangible_loot_loot_schematic_shared_air2_swoop_speeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_air2_swoop_speeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_air2_swoop_speeder_schematic, "object/tangible/loot/loot_schematic/shared_air2_swoop_speeder_schematic.iff")
+
+--Imperial Command BARC Schematic
+object_tangible_loot_loot_schematic_shared_barc_speeder_imperial_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_barc_speeder_imperial_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_barc_speeder_imperial_schematic, "object/tangible/loot/loot_schematic/shared_barc_speeder_imperial_schematic.iff")
+
+--Rebel Command BARC Schematic
+object_tangible_loot_loot_schematic_shared_barc_speeder_rebel_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_barc_speeder_rebel_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_barc_speeder_rebel_schematic, "object/tangible/loot/loot_schematic/shared_barc_speeder_rebel_schematic.iff")
+
+--Flare S Swoop Schematic
+object_tangible_loot_loot_schematic_shared_flare_s_swoop_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_flare_s_swoop_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_flare_s_swoop_schematic, "object/tangible/loot/loot_schematic/shared_flare_s_swoop_schematic.iff")
+
+--Geonosian Speeder Schematic
+object_tangible_loot_loot_schematic_shared_geonosian_speeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_geonosian_speeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_geonosian_speeder_schematic, "object/tangible/loot/loot_schematic/shared_geonosian_speeder_schematic.iff")
+
+--Hover Lifter Speeder Schematic
+object_tangible_loot_loot_schematic_shared_hoverlifter_speeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_hoverlifter_speeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_hoverlifter_speeder_schematic, "object/tangible/loot/loot_schematic/shared_hoverlifter_speeder_schematic.iff")
+
+--Koro-2 Exodrive Airspeeder Schematic
+object_tangible_loot_loot_schematic_shared_koro2_exodrive_airspeeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_koro2_exodrive_airspeeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_koro2_exodrive_airspeeder_schematic, "object/tangible/loot/loot_schematic/shared_koro2_exodrive_airspeeder_schematic.iff")
+
+--AB-1 Landspeeder Schematic
+object_tangible_loot_loot_schematic_shared_landspeeder_ab1_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_landspeeder_ab1_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_landspeeder_ab1_schematic, "object/tangible/loot/loot_schematic/shared_landspeeder_ab1_schematic.iff")
+
+--Desert Skiff Schematic
+object_tangible_loot_loot_schematic_shared_speeder_desert_skiff_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_speeder_desert_skiff_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_speeder_desert_skiff_schematic, "object/tangible/loot/loot_schematic/shared_speeder_desert_skiff_schematic.iff")
+
+--Lava Skiff Schematic
+object_tangible_loot_loot_schematic_shared_speeder_lava_skiff_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_speeder_lava_skiff_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_speeder_lava_skiff_schematic, "object/tangible/loot/loot_schematic/shared_speeder_lava_skiff_schematic.iff")
+
+--XJ-2 Airspeeder Schematic
+object_tangible_loot_loot_schematic_shared_organa_speeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_organa_speeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_organa_speeder_schematic, "object/tangible/loot/loot_schematic/shared_organa_speeder_schematic.iff")
+
+--Tantive IV Landspeeder Schematic
+object_tangible_loot_loot_schematic_shared_landspeeder_tantive4_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_landspeeder_tantive4_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_landspeeder_tantive4_schematic, "object/tangible/loot/loot_schematic/shared_landspeeder_tantive4_schematic.iff")
+
+--USV-5 Landspeeder Schematic
+object_tangible_loot_loot_schematic_shared_speeder_usv5_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_speeder_usv5_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_speeder_usv5_schematic, "object/tangible/loot/loot_schematic/shared_speeder_usv5_schematic.iff")
+
+--V-35 Landspeeder Schematic
+object_tangible_loot_loot_schematic_shared_landspeeder_v35_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_landspeeder_v35_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_landspeeder_v35_schematic, "object/tangible/loot/loot_schematic/shared_landspeeder_v35_schematic.iff")
+
+--XP-38 Landspeeder Schematic
+object_tangible_loot_loot_schematic_shared_landspeeder_xp38_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_landspeeder_xp38_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_landspeeder_xp38_schematic, "object/tangible/loot/loot_schematic/shared_landspeeder_xp38_schematic.iff")
+
+--Mechno Chair Schematic
+object_tangible_loot_loot_schematic_shared_mechno_chair_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_mechno_chair_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_mechno_chair_schematic, "object/tangible/loot/loot_schematic/shared_mechno_chair_schematic.iff")
+
+--Sith Speeder Schematic
+object_tangible_loot_loot_schematic_shared_sith_speeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_sith_speeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_sith_speeder_schematic, "object/tangible/loot/loot_schematic/shared_sith_speeder_schematic.iff")
+
+--RIC-920 Rickshaw Schematic
+object_tangible_loot_loot_schematic_shared_speeder_ric_920_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_speeder_ric_920_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_speeder_ric_920_schematic, "object/tangible/loot/loot_schematic/shared_speeder_ric_920_schematic.iff")
+
+--Advanced STAP-1 Schematic
+object_tangible_loot_loot_schematic_shared_speeder_stap_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_speeder_stap_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_speeder_stap_schematic, "object/tangible/loot/loot_schematic/shared_speeder_stap_schematic.iff")
+
+--Swamp Speeder Schematic
+object_tangible_loot_loot_schematic_shared_swamp_speeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_swamp_speeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_swamp_speeder_schematic, "object/tangible/loot/loot_schematic/shared_swamp_speeder_schematic.iff")
+
+--XJ-6 Airspeeder Schematic
+object_tangible_loot_loot_schematic_shared_xj6_air_speeder_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_xj6_air_speeder_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_xj6_air_speeder_schematic, "object/tangible/loot/loot_schematic/shared_xj6_air_speeder_schematic.iff")
