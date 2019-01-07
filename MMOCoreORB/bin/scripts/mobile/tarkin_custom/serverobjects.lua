@@ -33,3 +33,10 @@ includeFile("tarkin_custom/faction/rebel/specforce_combat_medic_sentry.lua")
 includeFile("tarkin_custom/faction/rebel/specforce_sniper_sentry.lua")
 includeFile("tarkin_custom/faction/rebel/specforce_squad_leader_sentry.lua")
 includeFile("tarkin_custom/faction/rebel/gcw_rebel_defense_droid.lua")
+
+--Hutt Hideout
+includeFile("tarkin_custom/tatooine/jabba_assassin_hideout.lua")
+includeFile("tarkin_custom/tatooine/jabba_compound_guard_hideout.lua")
+includeFile("tarkin_custom/tatooine/jabba_enforcer_hideout.lua")
+includeFile("tarkin_custom/tatooine/jabba_henchman_hideout.lua")
+includeFile("tarkin_custom/tatooine/jabba_lieutenant_hideout.lua")

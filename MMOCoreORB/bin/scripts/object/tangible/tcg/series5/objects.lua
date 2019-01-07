@@ -34,3 +34,10 @@ object_tangible_tcg_series5_shared_vehicle_deed_xj6_air_speeder = SharedTangible
 	clientTemplateFileName = "object/tangible/tcg/series5/shared_vehicle_deed_xj6_air_speeder.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_vehicle_deed_xj6_air_speeder, "object/tangible/tcg/series5/shared_vehicle_deed_xj6_air_speeder.iff")
+
+--Jabba's Roasting Spit
+object_tangible_tcg_series5_shared_food_station_jabbas_roasting_spit
+= SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_food_station_jabbas_roasting_spit.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_food_station_jabbas_roasting_spit, "object/tangible/tcg/series5/shared_food_station_jabbas_roasting_spit.iff")

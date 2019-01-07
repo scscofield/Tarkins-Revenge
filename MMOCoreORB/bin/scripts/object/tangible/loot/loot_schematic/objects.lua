@@ -5376,3 +5376,21 @@ object_tangible_loot_loot_schematic_shared_xj6_air_speeder_schematic = SharedTan
 	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_xj6_air_speeder_schematic.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_xj6_air_speeder_schematic, "object/tangible/loot/loot_schematic/shared_xj6_air_speeder_schematic.iff")
+
+--Intimidator Pistol Schematic
+object_tangible_loot_loot_schematic_shared_intimidator_pistol_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_intimidator_pistol_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_intimidator_pistol_schematic, "object/tangible/loot/loot_schematic/shared_intimidator_pistol_schematic.iff")
+
+--Massassi Guardian Carbine Schematic
+object_tangible_loot_loot_schematic_shared_massassi_carbine_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_massassi_carbine_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_massassi_carbine_schematic, "object/tangible/loot/loot_schematic/shared_massassi_carbine_schematic.iff")
+
+--Massassi Ink Rifle Schematic
+object_tangible_loot_loot_schematic_shared_massassi_rifle_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_massassi_rifle_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_massassi_rifle_schematic, "object/tangible/loot/loot_schematic/shared_massassi_rifle_schematic.iff")

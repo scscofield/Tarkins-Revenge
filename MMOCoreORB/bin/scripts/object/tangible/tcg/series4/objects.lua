@@ -13,3 +13,9 @@ object_tangible_tcg_series4_shared_vehicle_deed_geonosian_speeder = SharedTangib
 	clientTemplateFileName = "object/tangible/tcg/series4/shared_vehicle_deed_geonosian_speeder.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_vehicle_deed_geonosian_speeder, "object/tangible/tcg/series4/shared_vehicle_deed_geonosian_speeder.iff")
+
+--Decorative Droid Oil Bath
+object_tangible_tcg_series4_shared_decorative_droid_oil_bath = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_droid_oil_bath.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_droid_oil_bath, "object/tangible/tcg/series4/shared_decorative_droid_oil_bath.iff")

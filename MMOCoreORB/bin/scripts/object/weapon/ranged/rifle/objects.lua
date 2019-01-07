@@ -1300,3 +1300,9 @@ object_weapon_ranged_rifle_shared_rifle_victor_tusken = SharedWeaponObjectTempla
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_victor_tusken, "object/weapon/ranged/rifle/shared_rifle_victor_tusken.iff")
+
+--Massassi Ink Rifle
+object_weapon_ranged_rifle_shared_rifle_massassi_ink = SharedWeaponObjectTemplate:new {
+	clientTemplateFileName = "object/weapon/ranged/rifle/shared_rifle_massassi_ink.iff"
+}
+ObjectTemplates:addClientTemplate(object_weapon_ranged_rifle_shared_rifle_massassi_ink, "object/weapon/ranged/rifle/shared_rifle_massassi_ink.iff")

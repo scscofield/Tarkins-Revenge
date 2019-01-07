@@ -859,3 +859,9 @@ object_weapon_ranged_carbine_shared_carbine_nym_slugthrower = SharedWeaponObject
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_nym_slugthrower, "object/weapon/ranged/carbine/shared_carbine_nym_slugthrower.iff")
+
+--Massassi Guardian Carbine
+object_weapon_ranged_carbine_shared_carbine_kun_massassi = SharedWeaponObjectTemplate:new {
+	clientTemplateFileName = "object/weapon/ranged/carbine/shared_carbine_kun_massassi.iff"
+}
+ObjectTemplates:addClientTemplate(object_weapon_ranged_carbine_shared_carbine_kun_massassi, "object/weapon/ranged/carbine/shared_carbine_kun_massassi.iff")

@@ -1,0 +1,5 @@
+object_tangible_storyteller_prop_hoth_shared_pr_hoth_terminal_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/hoth/shared_pr_hoth_terminal_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_hoth_shared_pr_hoth_terminal_01, "object/tangible/storyteller/prop/hoth/shared_pr_hoth_terminal_01.iff")

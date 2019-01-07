@@ -27,3 +27,10 @@ object_tangible_collection_reward_shared_square_tile_collection_reward = SharedT
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_square_tile_collection_reward, "object/tangible/collection/reward/shared_square_tile_collection_reward.iff")
+
+--Treasure Chest Reward
+object_tangible_collection_reward_shared_treasure_chest_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_treasure_chest_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_treasure_chest_reward, "object/tangible/collection/reward/shared_treasure_chest_reward.iff")

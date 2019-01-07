@@ -1552,3 +1552,11 @@ object_weapon_ranged_pistol_shared_pistol_tangle = SharedWeaponObjectTemplate:ne
 }
 
 ObjectTemplates:addClientTemplate(object_weapon_ranged_pistol_shared_pistol_tangle, "object/weapon/ranged/pistol/shared_pistol_tangle.iff")
+
+--HK-47 Intimidator Pistol
+object_weapon_ranged_pistol_shared_pistol_intimidator = SharedWeaponObjectTemplate:new {
+	clientTemplateFileName = "object/weapon/ranged/pistol/shared_pistol_intimidator.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_weapon_ranged_pistol_shared_pistol_intimidator, "object/weapon/ranged/pistol/shared_pistol_intimidator.iff")

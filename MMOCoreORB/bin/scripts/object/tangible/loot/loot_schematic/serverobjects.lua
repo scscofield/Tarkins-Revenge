@@ -202,3 +202,8 @@ includeFile("tangible/loot/loot_schematic/speeder_ric_920_schematic.lua")
 includeFile("tangible/loot/loot_schematic/speeder_stap_schematic.lua")
 includeFile("tangible/loot/loot_schematic/swamp_speeder_schematic.lua")
 includeFile("tangible/loot/loot_schematic/xj6_air_speeder_schematic.lua")
+
+--Post 14 Weapons
+includeFile("tangible/loot/loot_schematic/intimidator_pistol_schematic.lua")
+includeFile("tangible/loot/loot_schematic/massassi_carbine_schematic.lua")
+includeFile("tangible/loot/loot_schematic/massassi_rifle_schematic.lua")

@@ -28,3 +28,18 @@ object_tangible_tcg_series1_shared_decorative_painting_trooper = SharedTangibleO
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_painting_trooper, "object/tangible/tcg/series1/shared_decorative_painting_trooper.iff")
 
+
+object_tangible_tcg_series1_shared_house_capacity_organizational_datapad = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_house_capacity_organizational_datapad.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_house_capacity_organizational_datapad, "object/tangible/tcg/series1/shared_house_capacity_organizational_datapad.iff")
+
+object_tangible_tcg_series1_shared_decorative_computer_console_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_computer_console_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_computer_console_01, "object/tangible/tcg/series1/shared_decorative_computer_console_01.iff")
+
+object_tangible_tcg_series1_shared_decorative_computer_console_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_computer_console_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_computer_console_02, "object/tangible/tcg/series1/shared_decorative_computer_console_02.iff")

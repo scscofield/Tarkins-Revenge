@@ -1932,5 +1932,10 @@ schematics = {
 	{path="object/draft_schematic/furniture/furniture_microphone_s02.iff"}, 	
 	{path="object/draft_schematic/furniture/furniture_pitcher_full.iff"}, 	
 	{path="object/draft_schematic/furniture/furniture_plant_hanging.iff"}, 	
-	{path="object/draft_schematic/furniture/furniture_professors_desk.iff"}
+	{path="object/draft_schematic/furniture/furniture_professors_desk.iff"},
+
+	--Post 14 Weapons
+	{path="object/draft_schematic/weapon/pistol_intimidator.iff"},
+	{path="object/draft_schematic/weapon/carbine_kun_massassi.iff"},
+	{path="object/draft_schematic/weapon/rifle_massassi_ink.iff"},
 };

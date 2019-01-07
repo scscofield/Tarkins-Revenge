@@ -4107,3 +4107,21 @@ object_draft_schematic_weapon_shared_turbo_laser = SharedDraftSchematicObjectTem
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_turbo_laser, "object/draft_schematic/weapon/shared_turbo_laser.iff")
+
+--Intimidator Pistol
+object_draft_schematic_weapon_shared_pistol_intimidator = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/shared_pistol_intimidator.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_pistol_intimidator, "object/draft_schematic/weapon/shared_pistol_intimidator.iff")
+
+--Massassi Guardian Carbine
+object_draft_schematic_weapon_shared_carbine_kun_massassi = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/shared_carbine_kun_massassi.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_carbine_kun_massassi, "object/draft_schematic/weapon/shared_carbine_kun_massassi.iff")
+
+--Massassi Ink Rifle
+object_draft_schematic_weapon_shared_rifle_massassi_ink = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_massassi_ink.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_massassi_ink, "object/draft_schematic/weapon/shared_rifle_massassi_ink.iff")

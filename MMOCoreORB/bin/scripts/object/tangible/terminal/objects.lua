@@ -3345,6 +3345,17 @@ object_tangible_terminal_shared_test = SharedTangibleObjectTemplate:new {
 
 ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_test, "object/tangible/terminal/shared_test.iff")
 
+object_tangible_terminal_shared_npe_droid_production = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_npe_droid_production.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_npe_droid_production, "object/tangible/terminal/shared_npe_droid_production.iff")
+
+object_tangible_terminal_shared_crafting_assembly_terminal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_crafting_assembly_terminal.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_crafting_assembly_terminal, "object/tangible/terminal/shared_crafting_assembly_terminal.iff")
+
+
 --Tarkin Custom
 
 object_tangible_terminal_shared_imp_travel_term = SharedTangibleObjectTemplate:new {
@@ -3356,3 +3367,5 @@ object_tangible_terminal_shared_reb_travel_term = SharedTangibleObjectTemplate:n
 	clientTemplateFileName = "object/tangible/terminal/shared_reb_travel_term.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_reb_travel_term, "object/tangible/terminal/shared_reb_travel_term.iff")
+
+

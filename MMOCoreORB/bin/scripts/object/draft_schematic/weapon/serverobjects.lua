@@ -130,3 +130,8 @@ includeFile("draft_schematic/weapon/sword.lua")
 includeFile("draft_schematic/weapon/sword_curved.lua")
 includeFile("draft_schematic/weapon/sword_ryyk_blade.lua")
 includeFile("draft_schematic/weapon/turbo_laser.lua")
+
+--Post 14 Weapons
+includeFile("draft_schematic/weapon/pistol_intimidator.lua")
+includeFile("draft_schematic/weapon/carbine_kun_massassi.lua")
+includeFile("draft_schematic/weapon/rifle_massassi_ink.lua")

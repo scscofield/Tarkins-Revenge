@@ -70,3 +70,6 @@ includeFile("weapon/ranged/pistol/pistol_srcombat.lua")
 includeFile("weapon/ranged/pistol/pistol_striker.lua")
 includeFile("weapon/ranged/pistol/pistol_striker_noob.lua")
 includeFile("weapon/ranged/pistol/pistol_tangle.lua")
+
+--Post 14 Pistols
+includeFile("weapon/ranged/pistol/pistol_intimidator.lua")

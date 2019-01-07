@@ -518,3 +518,15 @@ object_tangible_furniture_technical_shared_guild_registry_initial = SharedTangib
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_technical_shared_guild_registry_initial, "object/tangible/furniture/technical/shared_guild_registry_initial.iff")
+
+object_tangible_furniture_technical_shared_sd_console_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/technical/shared_sd_console_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_technical_shared_sd_console_s01, "object/tangible/furniture/technical/shared_sd_console_s01.iff")
+
+object_tangible_furniture_technical_shared_sd_console_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/technical/shared_sd_console_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_technical_shared_sd_console_s02, "object/tangible/furniture/technical/shared_sd_console_s02.iff")

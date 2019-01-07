@@ -1161,3 +1161,10 @@ object_tangible_furniture_tatooine_shared_frn_tatt_table_cantina_table_3 = Share
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_frn_tatt_table_cantina_table_3, "object/tangible/furniture/tatooine/shared_frn_tatt_table_cantina_table_3.iff")
+
+--Energy Coil
+object_tangible_furniture_tatooine_shared_uber_energy_coil = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_energy_coil.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_energy_coil, "object/tangible/furniture/tatooine/shared_uber_energy_coil.iff")
