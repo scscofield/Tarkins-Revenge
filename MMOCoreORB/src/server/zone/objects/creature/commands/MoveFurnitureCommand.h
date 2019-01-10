@@ -46,6 +46,14 @@ public:
                 creature->sendSystemMessage("Ingoring Movement Check - God"); //What do you want to move?
             } else {
                 creature->sendSystemMessage("@player_structure:move_what"); //What do you want to move?
+			if (obj == NULL)
+				creature->sendSystemMessage("Please report this message to the administrator: obj appears to be null.");		
+			else if (!obj->isTangibleObject())
+				creature->sendSystemMessage("Please report this message to the administrator: obj does not appear to be a tangible object.");
+			else if (obj->isPlayerCreature())
+				creature->sendSystemMessage("Please report this message to the administrator: obj appears to be a player creature.");			
+			else
+				creature->sendSystemMessage("Please report this message to the administrator: obj appears to be a pet.");
                 return GENERALERROR;
             }
         }
@@ -61,8 +69,14 @@ public:
                 return GENERALERROR;
                 BuildingObject* buildingObject = cast<BuildingObject*>( creatureParent.get());
  
-                if (buildingObject == NULL || obj->getRootParent() != buildingObject || buildingObject->containsChildObject(obj)) {
+                if (buildingObject == NULL || rootParent != buildingObject || buildingObject->containsChildObject(obj)) {
                         creature->sendSystemMessage("@player_structure:move_what"); //What do you want to move?
+			if (buildingObject == NULL)
+				creature->sendSystemMessage("Please report this message to the administrator: buildingObject appears to be null.");	
+			else if (rootParent != buildingObject)
+				creature->sendSystemMessage("Please report this message to the administrator: rootParent does not equal buildingObject.");
+			else
+				creature->sendSystemMessage("Please report this message to the administrator: buildingObject contains child object (obj).");				
                         return GENERALERROR;
                 }
  
