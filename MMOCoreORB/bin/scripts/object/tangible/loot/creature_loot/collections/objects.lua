@@ -2,3 +2,205 @@ object_tangible_loot_creature_loot_collections_shared_base_collection = SharedTa
 	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_base_collection.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_base_collection, "object/tangible/loot/creature_loot/collections/shared_base_collection.iff")
+
+object_tangible_loot_creature_loot_collections_shared_bondar_crystal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_bondar_crystal.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_bondar_crystal, "object/tangible/loot/creature_loot/collections/shared_bondar_crystal.iff")
+
+object_tangible_loot_creature_loot_collections_shared_damind_crystal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_damind_crystal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_damind_crystal, "object/tangible/loot/creature_loot/collections/shared_damind_crystal.iff")
+
+object_tangible_loot_creature_loot_collections_shared_eralam_crystal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_eralam_crystal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_eralam_crystal, "object/tangible/loot/creature_loot/collections/shared_eralam_crystal.iff")
+
+object_tangible_loot_creature_loot_collections_shared_kasha_crystal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_kasha_crystal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_kasha_crystal, "object/tangible/loot/creature_loot/collections/shared_kasha_crystal.iff")
+
+object_tangible_loot_creature_loot_collections_shared_luxum_crystal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_luxum_crystal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_luxum_crystal, "object/tangible/loot/creature_loot/collections/shared_luxum_crystal.iff")
+
+object_tangible_loot_creature_loot_collections_shared_treasure_hunter_sith_mask = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_sith_mask.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_treasure_hunter_sith_mask, "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_sith_mask.iff")
+
+object_tangible_loot_creature_loot_collections_shared_unknown_shattered_shard_fragment = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_unknown_shattered_shard_fragment.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_unknown_shattered_shard_fragment, "object/tangible/loot/creature_loot/collections/shared_unknown_shattered_shard_fragment.iff")
+
+--Hilt 1
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_001 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_001.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_001, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_001.iff")
+
+--Hilt 2
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_002 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_002.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_002, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_002.iff")
+
+--Hilt 3
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_003 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_003.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_003, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_003.iff")
+
+--Hilt 4
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_004 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_004.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_004, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_004.iff")
+
+--Hilt 5
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_005 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_005.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_005, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_005.iff")
+
+--Hilt 6
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_006 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_006.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_006, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_006.iff")
+
+--Hilt 7
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_007 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_007.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_007, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_007.iff")
+
+--Hilt 8
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_008 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_008.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_008, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_008.iff")
+
+--Hilt 9
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_009 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_009.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_009, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_009.iff")
+
+--Hilt 10
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_010 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_010.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_010, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_010.iff")
+
+--Hilt 11
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_011 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_011.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_011, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_011.iff")
+
+--Hilt 12
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_012 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_012.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_012, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_012.iff")
+
+--Hilt 13
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_013 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_013.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_013, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_013.iff")
+
+--Hilt 14
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_014 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_014.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_014, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_014.iff")
+
+--Hilt 15
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_015 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_015.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_015, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_015.iff")
+
+--Hilt 16
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_016 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_016.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_016, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_016.iff")
+
+--Hilt 17
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_017 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_017.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_017, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_017.iff")
+
+--Hilt 18
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_018 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_018.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_018, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_018.iff")
+
+--Hilt 19
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_019 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_019.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_019, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_019.iff")
+
+--Hilt 20
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_020 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_020.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_020, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_020.iff")
+
+--Hilt 21
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_021 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_021.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_021, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_021.iff")
+
+--Hilt 22
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_022 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_022.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_022, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_022.iff")
+
+--Hilt 23
+object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_023 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_023.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_023, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_023.iff")

@@ -704,3 +704,6 @@ includeFile("military/rebel/tatooine_anchorhead_rebel_base.lua")
 includeFile("military/rebel/lok_rebel_safehouse.lua")
 includeFile("military/rebel/talus_rebel_installation.lua")
 includeFile("military/rebel/dantooine_abandoned_rebel_base.lua")
+
+--Tarkin Custom Dungeon
+includeFile("caves/yavin4_temple_exar_kun.lua")

@@ -4125,3 +4125,16 @@ object_draft_schematic_weapon_shared_rifle_massassi_ink = SharedDraftSchematicOb
 	clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_massassi_ink.iff"
 }
 ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_massassi_ink, "object/draft_schematic/weapon/shared_rifle_massassi_ink.iff")
+
+--Nak'tra Crystal Rifle
+object_draft_schematic_weapon_shared_rifle_naktra_crystal = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/shared_rifle_naktra_crystal.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_rifle_naktra_crystal, "object/draft_schematic/weapon/shared_rifle_naktra_crystal.iff")
+
+
+--Nak'tra Crystal Knife
+object_draft_schematic_weapon_shared_knife_naktra_crystal = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/shared_knife_naktra_crystal.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_knife_naktra_crystal, "object/draft_schematic/weapon/shared_knife_naktra_crystal.iff")

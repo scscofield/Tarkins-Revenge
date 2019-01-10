@@ -870,4 +870,6 @@ includeFile("tangible/tcg/series5/objects.lua")
 includeFile("tangible/tcg/series6/objects.lua")
 includeFile("tangible/tcg/series7/objects.lua")
 includeFile("tangible/tcg/series8/objects.lua")
+includeFile("weapon/ranged/rifle/ep3/objects.lua")
+includeFile("weapon/melee/knife/ep3/objects.lua")
 

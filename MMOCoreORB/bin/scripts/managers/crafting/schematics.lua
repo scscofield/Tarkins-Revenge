@@ -1938,4 +1938,6 @@ schematics = {
 	{path="object/draft_schematic/weapon/pistol_intimidator.iff"},
 	{path="object/draft_schematic/weapon/carbine_kun_massassi.iff"},
 	{path="object/draft_schematic/weapon/rifle_massassi_ink.iff"},
+	{path="object/draft_schematic/weapon/rifle_naktra_crystal.iff"},
+	{path="object/draft_schematic/weapon/knife_naktra_crystal.iff"}
 };

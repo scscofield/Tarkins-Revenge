@@ -34,3 +34,10 @@ object_tangible_collection_reward_shared_treasure_chest_reward = SharedTangibleO
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_treasure_chest_reward, "object/tangible/collection/reward/shared_treasure_chest_reward.iff")
+
+--Hoth Geode
+object_tangible_collection_reward_shared_col_reward_hoth_meteorite_geode = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_reward_hoth_meteorite_geode.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_reward_hoth_meteorite_geode, "object/tangible/collection/reward/shared_col_reward_hoth_meteorite_geode.iff")

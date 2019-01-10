@@ -15,3 +15,9 @@ object_tangible_loot_dungeon_tarkin_custom_shared_rifle_massassi_barrel = Shared
 	clientTemplateFileName = "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_massassi_barrel.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_dungeon_tarkin_custom_shared_rifle_massassi_barrel, "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_massassi_barrel.iff")
+
+--Nak'tra Crystal Rifle Barrel
+object_tangible_loot_dungeon_tarkin_custom_shared_rifle_naktra_barrel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_naktra_barrel.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_dungeon_tarkin_custom_shared_rifle_naktra_barrel, "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_naktra_barrel.iff")

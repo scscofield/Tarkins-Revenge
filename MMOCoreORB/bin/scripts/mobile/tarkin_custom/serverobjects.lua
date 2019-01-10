@@ -40,3 +40,9 @@ includeFile("tarkin_custom/tatooine/jabba_compound_guard_hideout.lua")
 includeFile("tarkin_custom/tatooine/jabba_enforcer_hideout.lua")
 includeFile("tarkin_custom/tatooine/jabba_henchman_hideout.lua")
 includeFile("tarkin_custom/tatooine/jabba_lieutenant_hideout.lua")
+
+--Force Crystal Hunter Cave
+includeFile("tarkin_custom/yavin4/force_crystal_hunter_cave.lua")
+includeFile("tarkin_custom/yavin4/force_sensitive_crypt_crawler_cave.lua")
+includeFile("tarkin_custom/yavin4/untrained_wielder_of_the_dark_side_cave.lua")
+includeFile("tarkin_custom/yavin4/force_crystal_protector_cave.lua")

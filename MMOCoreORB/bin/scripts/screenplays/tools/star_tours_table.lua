@@ -289,6 +289,7 @@ StarToursDestinationTable = {
 		destinations = {
 			"Woolamander Palace", "yavin4", 448.156, 81.0, -682.541, 0,
 			"The Temple of the Blueleaf", "yavin4", -958.796, 82.7754, -2011.85, 0,
+			"The Temple of Exar K'un", "yavin4", 5091.76, 73.5, 5543.97, 0,
 			"Geonosian Bio Lab", "yavin4", -6513.26, 85.5624, -430.12, 0,
 		}
 	},
@@ -381,7 +382,6 @@ StarToursDestinationTable = {
 	},
 	{subCatName = "sights_yavin",
 		destinations = {
-			"The Temple of Exar K'un", "yavin4", 5091.76, 73.5, 5543.97, 0,
 			"The Great Massassi Temple", "yavin4", -3157.02, 71.999, -3044.14, 0,
 			"Massassi Sacrificial Stone", "yavin4", -7551.23, 150.975, -445.594, 0,
 		}

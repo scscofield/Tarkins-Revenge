@@ -5394,3 +5394,15 @@ object_tangible_loot_loot_schematic_shared_massassi_rifle_schematic = SharedTang
 	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_massassi_rifle_schematic.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_massassi_rifle_schematic, "object/tangible/loot/loot_schematic/shared_massassi_rifle_schematic.iff")
+
+--Nak'tra Crystal Rifle Schematic
+object_tangible_loot_loot_schematic_shared_naktra_rifle_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_naktra_rifle_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_naktra_rifle_schematic, "object/tangible/loot/loot_schematic/shared_naktra_rifle_schematic.iff")
+
+--Nak'tra Crystal Knife Schematic
+object_tangible_loot_loot_schematic_shared_naktra_knife_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_naktra_knife_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_naktra_knife_schematic, "object/tangible/loot/loot_schematic/shared_naktra_knife_schematic.iff")
