@@ -49,6 +49,8 @@
 #include "server/chat/room/ChatRoomMap.h"
 #include "templates/string/StringFile.h"
 
+Reference<ChatRoom*> generalRoom;
+
 ChatManagerImplementation::ChatManagerImplementation(ZoneServer* serv, int initsize) : ManagedServiceImplementation() {
 	server = serv;
 	playerManager = NULL;
@@ -315,6 +317,11 @@ void ChatManagerImplementation::initiateRooms() {
 
 	guildRoom = createRoom("guild", systemRoom);
 	guildRoom->setPrivate();
+
+	generalRoom = createRoom("General", galaxyRoom);
+	generalRoom->setCanEnter(true);
+	generalRoom->setAllowSubrooms(true);
+	generalRoom->setTitle("public chat for Tarkin's Revenge, can create rooms here");
 
 	Reference<ChatRoom*> generalRoom = createRoom("Chat", galaxyRoom);
 	generalRoom->setCanEnter(true);
@@ -749,6 +756,8 @@ void ChatManagerImplementation::handleChatRoomMessage(CreatureObject* sender, co
 		channel->broadcastMessageCheckIgnore(msg, name);
 	} else if (planetRoom != NULL && planetRoom->getRoomID() == roomID) {
 		channel->broadcastMessageCheckIgnore(msg, name);
+	} else if (generalRoom != NULL && generalRoom->getRoomID() == roomID) {
+		channel->broadcastMessageCheckIgnore(msg, name); 
 	} else {
 		channel->broadcastMessage(msg);
 	}

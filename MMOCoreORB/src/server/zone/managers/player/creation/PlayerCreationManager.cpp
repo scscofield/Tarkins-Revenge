@@ -699,6 +699,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 	box->setUsingObject(ghost);
 	ghost->addSuiBox(box);
 	ghost->sendMessage(box->generateMessage());	
+        playerCreature->sendExecuteConsoleCommand("/chatRoom join SWG.Tarkin.General");
 
 	StringBuffer zBroadcast;
 	zBroadcast << "\\#ffab4c" << playerName << " has joined Tarkin's Revenge!";

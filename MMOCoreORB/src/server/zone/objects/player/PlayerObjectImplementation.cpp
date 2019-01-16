@@ -1319,6 +1319,7 @@ void PlayerObjectImplementation::notifyOnline() {
 		activateForcePowerRegen();
 
 	schedulePvpTefRemovalTask();
+	playerCreature->sendExecuteConsoleCommand("/chatRoom join SWG.Tarkin.General");
 
 	MissionManager* missionManager = zoneServer->getMissionManager();
 
