@@ -64,3 +64,7 @@ includeFile("tangible/furniture/tatooine/frn_tatt_chair_cantina_seat_3.lua")
 includeFile("tangible/furniture/tatooine/frn_tatt_table_cantina_table_1.lua")
 includeFile("tangible/furniture/tatooine/frn_tatt_table_cantina_table_2.lua")
 includeFile("tangible/furniture/tatooine/frn_tatt_table_cantina_table_3.lua")
+
+includeFile("tangible/furniture/tatooine/uber_energy_coil.lua")
+includeFile("tangible/furniture/tatooine/uber_aurila_crystal.lua")
+includeFile("tangible/furniture/tatooine/uber_aurilia_obelisk.lua")

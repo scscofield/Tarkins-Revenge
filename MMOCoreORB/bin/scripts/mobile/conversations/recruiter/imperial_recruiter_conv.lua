@@ -425,6 +425,7 @@ faction_purchase = ConvoScreen:new {
 		--{ "@conversation/faction_recruiter_imperial:s_340", "fp_schematics" }, -- I want to see what schematics you have.
 		{ "@conversation/faction_recruiter_imperial:s_344", "fp_furniture"}, -- Furniture. I am improving my quality of my life.
 		{ "@conversation/faction_recruiter_imperial:s_348", "fp_hirelings" }, -- I would like to requisition additional troops.
+		{ "I would like to get some transportation.", "fp_vehicles" },
 	},
 }
 
@@ -478,6 +479,15 @@ fp_hirelings = ConvoScreen:new {
 
 }
 imperialRecruiterConvoTemplate:addScreen(fp_hirelings);
+
+fp_vehicles = ConvoScreen:new {
+	id = "fp_vehicles",
+	leftDialog = "@conversation/faction_recruiter_imperial:s_346", 
+	stopConversation = "true",
+	options = {},
+
+}
+imperialRecruiterConvoTemplate:addScreen(fp_vehicles);
 
 show_gcw_score = ConvoScreen:new {
 	id = "show_gcw_score",

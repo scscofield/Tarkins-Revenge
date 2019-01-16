@@ -12,6 +12,8 @@
 #include "server/zone/managers/stringid/StringIdManager.h"
 #include "server/zone/managers/auction/AuctionManager.h"
 #include "server/zone/managers/auction/AuctionsMap.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
+#include "server/zone/objects/mission/MissionTypes.h"
 
 class TarkinCommand : public QueueCommand {
 public:
@@ -54,6 +56,8 @@ public:
 			
 			if(command == "aboutme"){
 				aboutMe(creature);
+			} else if (command == "status"){
+				status(creature);
 			} else if (command == "houseplop" && adminLevelCheck >= 7){
 				housePlop(creature, ghost);
 			} else if (command == "wbi"  && adminLevelCheck >= 7){
@@ -73,6 +77,8 @@ public:
 			text << "- - - - - - - - - - - - - - - - - - -" << endl;
 			text << "/tarkin aboutme"  << endl;
 			text << "- Provides a list of helpful information about lots, vendors, etc."  << endl;
+			text << "/tarkin status"  << endl;
+			text << "- Provides information about server uptime and connections online."  << endl;
 			//text << "/tarkin newCommand"  << endl;
 			//text << "- Description of new command"  << endl;
 			text << endl;
@@ -254,6 +260,54 @@ public:
 		// Wrap it up and send it off
 		ManagedReference<SuiMessageBox*> box = new SuiMessageBox(creature, 0);
 		box->setPromptTitle("About Me");
+		box->setPromptText(body.toString());
+		box->setUsingObject(ghost);
+		box->setForceCloseDisabled();
+
+		ghost->addSuiBox(box);
+		creature->sendMessage(box->generateMessage());
+	}
+
+	// Server status information
+	void status(CreatureObject* creature) const {
+		if(creature->getZoneServer() == NULL)
+			return;
+
+		ManagedReference<PlayerObject*> ghost = creature->getPlayerObject();
+
+		if (ghost == NULL)
+			return;
+
+		PlayerManager* playerManager = server->getZoneServer()->getPlayerManager();
+
+		if(playerManager == NULL)
+			return;
+			
+		int adminLevelCheck = ghost->getAdminLevel();
+		StringBuffer body;
+		Time timestamp;
+		timestamp.updateToCurrentTime();
+
+		body << "-- Tarkin's Revenge --" << endl << endl;
+		body << "Server Uptime: " << getTimeString(creature->getZoneServer()->getStartTimestamp()->miliDifference(timestamp)) << endl << endl;
+		body << "Connections Online: " << String::valueOf(creature->getZoneServer()->getConnectionCount()) << endl;
+body << "Most Concurrent (since last reset): " << String::valueOf(creature->getZoneServer()->getMaxPlayers()) << endl;
+		body << "Server Cap: " << String::valueOf(creature->getZoneServer()->getServerCap()) << endl << endl << endl;
+
+		if (adminLevelCheck >= 15){
+			body << "Admin Only:" << endl;	
+			body << " - - - - - - - " << endl;
+			body << "Deleted Characters (since last reset): " << String::valueOf(creature->getZoneServer()->getDeletedPlayers()) << endl;
+			body << "Total Connections (since last reset): " << String::valueOf(creature->getZoneServer()->getTotalPlayers()) << endl;
+			body << endl;endl;
+
+			body << "Missions info (since last reset): " << endl;
+			body << StatisticsManager::instance()->getStatistics() << endl << endl;
+		}
+
+		// Wrap it up and send it off
+		ManagedReference<SuiMessageBox*> box = new SuiMessageBox(creature, 0);
+		box->setPromptTitle("Tarkin's Revenge: Server Status");
 		box->setPromptText(body.toString());
 		box->setUsingObject(ghost);
 		box->setForceCloseDisabled();
@@ -443,6 +497,35 @@ public:
 
 		creature->sendSystemMessage("Data written to Core3/MMOCoreORB/bin/" + outputFile + ".");
 		
+	}
+
+	String getTimeString(uint64 timestamp) const {
+		int seconds = timestamp / 1000;
+
+		int days = seconds / 86400;
+		seconds -= days * 86400;
+
+		int hours = seconds / 3600;
+		seconds -= hours * 3600;
+
+		int minutes = seconds / 60;
+		seconds -= minutes * 60;
+
+		StringBuffer buffer;
+
+		if (days > 0)
+			buffer << hours << "d, ";
+
+		if (hours > 0)
+			buffer << hours << "h, ";
+
+		if (minutes > 0)
+			buffer << minutes << "m, ";
+
+		if (seconds > 0)
+			buffer << seconds << "s";
+
+		return buffer.toString();
 	}
 };
 

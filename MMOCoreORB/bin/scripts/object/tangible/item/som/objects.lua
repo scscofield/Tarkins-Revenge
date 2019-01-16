@@ -1,0 +1,4 @@
+object_tangible_item_som_shared_old_republic_tech_analyzer = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/item/som/shared_old_republic_tech_analyzer.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_item_som_shared_old_republic_tech_analyzer, "object/tangible/item/som/shared_old_republic_tech_analyzer.iff")

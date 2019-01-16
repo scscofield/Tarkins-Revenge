@@ -186,19 +186,19 @@ void MissionManagerImplementation::handleMissionListRequest(MissionTerminal* mis
 	if (missionBag == nullptr)
 		return;
 
-	int maximumNumberOfItemsInMissionBag = 12;
+	int maximumNumberOfItemsInMissionBag = 25;
 
 
 	if (enableFactionalCraftingMissions) {
-		maximumNumberOfItemsInMissionBag += 6;
+		maximumNumberOfItemsInMissionBag += 25;
 	}
 
 	if (enableFactionalReconMissions) {
-		maximumNumberOfItemsInMissionBag += 6;
+		maximumNumberOfItemsInMissionBag += 25;
 	}
 
 	if (enableFactionalEntertainerMissions) {
-		maximumNumberOfItemsInMissionBag += 12; //Both musician and dancer.
+		maximumNumberOfItemsInMissionBag += 25; //Both musician and dancer.
 	}
 
 	while (missionBag->getContainerObjectsSize() < maximumNumberOfItemsInMissionBag) {
@@ -247,8 +247,8 @@ void MissionManagerImplementation::handleMissionAccept(MissionTerminal* missionT
 		}
 	}
 
-	//Limit to two missions (only one of them can be a bounty mission)
-	if (missionCount >= 2 || (hasBountyMission && mission->getTypeCRC() == MissionTypes::BOUNTY)) {
+	//Limit to three missions (only one of them can be a bounty mission)
+	if (missionCount >= 3 || (hasBountyMission && mission->getTypeCRC() == MissionTypes::BOUNTY)) {
 		StringIdChatParameter stringId("mission/mission_generic", "too_many_missions");
 		player->sendSystemMessage(stringId);
 		return;
@@ -549,9 +549,9 @@ void MissionManagerImplementation::randomizeGeneralTerminalMissions(CreatureObje
 		//Clear mission type before calling mission generators.
 		mission->setTypeCRC(0);
 
-		if (i < 6) {
+		if (i < 25) {
 			randomizeGenericDestroyMission(player, mission, Factions::FACTIONNEUTRAL);
-		} else if (i < 12) {
+		} else if (i < 50) {
 			randomizeGenericDeliverMission(player, mission, Factions::FACTIONNEUTRAL);
 		}
 
@@ -578,9 +578,9 @@ void MissionManagerImplementation::randomizeArtisanTerminalMissions(CreatureObje
 		//Clear mission type before calling mission generators.
 		mission->setTypeCRC(0);
 
-		if (i < 6) {
+		if (i < 25) {
 			randomizeGenericSurveyMission(player, mission, Factions::FACTIONNEUTRAL);
-		} else if (i < 12) {
+		} else if (i < 50) {
 			randomizeGenericCraftingMission(player, mission, Factions::FACTIONNEUTRAL);
 		}
 
@@ -607,9 +607,9 @@ void MissionManagerImplementation::randomizeEntertainerTerminalMissions(Creature
 		//Clear mission type before calling mission generators.
 		mission->setTypeCRC(0);
 
-		if (i < 6) {
+		if (i < 25) {
 			randomizeGenericEntertainerMission(player, mission, Factions::FACTIONNEUTRAL, MissionTypes::DANCER);
-		} else if (i < 12) {
+		} else if (i < 50) {
 			randomizeGenericEntertainerMission(player, mission, Factions::FACTIONNEUTRAL, MissionTypes::MUSICIAN);
 		}
 
@@ -636,9 +636,9 @@ void MissionManagerImplementation::randomizeScoutTerminalMissions(CreatureObject
 		//Clear mission type before calling mission generators.
 		mission->setTypeCRC(0);
 
-		if (i < 6) {
+		if (i < 25) {
 			randomizeGenericReconMission(player, mission, Factions::FACTIONNEUTRAL);
-		} else if (i < 12) {
+		} else if (i < 50) {
 			randomizeGenericHuntingMission(player, mission, Factions::FACTIONNEUTRAL);
 		}
 
@@ -695,21 +695,21 @@ void MissionManagerImplementation::randomizeFactionTerminalMissions(CreatureObje
 		//Clear mission type before calling mission generators.
 		mission->setTypeCRC(0);
 
-		if (i < 6) {
+		if (i < 25) {
 			randomizeGenericDestroyMission(player, mission, faction);
-		} else if (i < 12) {
+		} else if (i < 50) {
 			randomizeGenericDeliverMission(player, mission, faction);
 		} else {
-			if (enableFactionalCraftingMissions && numberOfCraftingMissions < 6) {
+			if (enableFactionalCraftingMissions && numberOfCraftingMissions < 25) {
 				randomizeGenericCraftingMission(player, mission, faction);
 				numberOfCraftingMissions++;
-			} else if (enableFactionalReconMissions && numberOfReconMissions < 6) {
+			} else if (enableFactionalReconMissions && numberOfReconMissions < 25) {
 				randomizeGenericReconMission(player, mission, faction);
 				numberOfReconMissions++;
-			} else if (enableFactionalEntertainerMissions && numberOfDancerMissions < 6) {
+			} else if (enableFactionalEntertainerMissions && numberOfDancerMissions < 25) {
 				randomizeGenericEntertainerMission(player, mission, faction, MissionTypes::DANCER);
 				numberOfDancerMissions++;
-			} else if (enableFactionalEntertainerMissions && numberOfMusicianMissions < 6) {
+			} else if (enableFactionalEntertainerMissions && numberOfMusicianMissions < 25) {
 				randomizeGenericEntertainerMission(player, mission, faction, MissionTypes::MUSICIAN);
 				numberOfMusicianMissions++;
 			}
@@ -872,7 +872,7 @@ void MissionManagerImplementation::randomizeGenericDestroyMission(CreatureObject
 		mobileName = mobiles->elementAt(0).getKey();
 	}
 
-	mission->setMissionTitle("CL" + String::valueOf(diffDisplay), " Destroy the " + mobileName.replaceAll("_", " ") + groupSuffix);
+	mission->setMissionTitle("Destroy", " the " + mobileName.replaceAll("_", " ") + groupSuffix + " [CL" + String::valueOf(diffDisplay) + "]");
 	mission->setMissionDescription("mission/mission_destroy_neutral" +  messageDifficulty + missionType, "m" + String::valueOf(randTexts) + "d");
 
 	switch (faction) {
@@ -1540,11 +1540,11 @@ void MissionManagerImplementation::randomizeGenericHuntingMission(CreatureObject
 	float finalReward = initialReward + forageBonus + knowledgeBonus;
  	mission->setRewardCredits((int)finalReward);
 	mission->setMissionDifficulty(difficulty);
-	// Format short desc text so output looks like [CL12]: Kill 45 nuna
+	// Format short desc text so output looks like Kill 45 nuna:[CL12] 
 	UnicodeString mobName = StringIdManager::instance()->getStringId(String::hashCode(creatureTemplate->getObjectName()));
-	String details = " Kill " + String::valueOf(difficulty * 15) + " " + mobName.toString().replaceAll("a ", "");
+	String details = String::valueOf(difficulty * 15) + " " + mobName.toString().replaceAll("a ", "");
 	
-	mission->setHuntingMissionTitle("CL" + String::valueOf(randomLairSpawn->getMaxDifficulty()), details);
+	mission->setHuntingMissionTitle("Kill", " " + details + " [CL" + String::valueOf(randomLairSpawn->getMaxDifficulty()) + "]");
 	mission->setMissionDescription("mission/mission_npc_hunting_neutral_" + diffString, "m" + String::valueOf(randTexts) + "o");
 
 	mission->setTypeCRC(MissionTypes::HUNTING);

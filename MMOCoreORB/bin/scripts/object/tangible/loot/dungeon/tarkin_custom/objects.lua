@@ -1,0 +1,23 @@
+--Intimidator Pistol Barrel
+object_tangible_loot_dungeon_tarkin_custom_shared_pistol_intimidator_barrel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/dungeon/tarkin_custom/shared_pistol_intimidator_barrel.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_dungeon_tarkin_custom_shared_pistol_intimidator_barrel, "object/tangible/loot/dungeon/tarkin_custom/shared_pistol_intimidator_barrel.iff")
+
+--Massassi Carbine Barrel
+object_tangible_loot_dungeon_tarkin_custom_shared_carbine_massassi_barrel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/dungeon/tarkin_custom/shared_carbine_massassi_barrel.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_dungeon_tarkin_custom_shared_carbine_massassi_barrel, "object/tangible/loot/dungeon/tarkin_custom/shared_carbine_massassi_barrel.iff")
+
+--Massassi Rifle Barrel
+object_tangible_loot_dungeon_tarkin_custom_shared_rifle_massassi_barrel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_massassi_barrel.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_dungeon_tarkin_custom_shared_rifle_massassi_barrel, "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_massassi_barrel.iff")
+
+--Nak'tra Crystal Rifle Barrel
+object_tangible_loot_dungeon_tarkin_custom_shared_rifle_naktra_barrel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_naktra_barrel.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_dungeon_tarkin_custom_shared_rifle_naktra_barrel, "object/tangible/loot/dungeon/tarkin_custom/shared_rifle_naktra_barrel.iff")

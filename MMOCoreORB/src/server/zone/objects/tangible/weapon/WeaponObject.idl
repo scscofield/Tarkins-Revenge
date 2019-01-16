@@ -466,8 +466,48 @@ class WeaponObject extends TangibleObject {
 	}
 
 	@dirty
+	public boolean isCarboniteRifle() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/heavy_carbonite_rifle.iff");
+	}
+
+	@dirty
+	public boolean isLavaCannon() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/som_lava_cannon.iff");
+	}
+
+	@dirty
+	public boolean isReaperCannon() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/heavy_pvp.iff");
+	}
+
+	@dirty
+	public boolean isRepublicFlamer() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/som_republic_flamer.iff");
+	}
+
+	@dirty
 	public boolean isHeavyAcidRifle() {
 		return weaponTemplate.isDerivedFrom("object/weapon/ranged/rifle/rifle_acid_beam.iff");
+	}
+
+	@dirty
+	public boolean isBlastCannon() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/heavy_cr1_blast_cannon.iff");
+	}
+
+	@dirty
+	public boolean isCrusaderCannon() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/heavy_mandalorian.iff");
+	}
+
+	@dirty
+	public boolean isFragShotgun() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/heavy_rebel.iff");
+	}
+
+	@dirty
+	public boolean isPulseCannon() {
+		return weaponTemplate.isDerivedFrom("object/weapon/ranged/heavy/heavy_pulse_cannon.iff");
 	}
 
 	@dirty

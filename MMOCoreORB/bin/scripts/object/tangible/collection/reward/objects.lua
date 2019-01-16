@@ -27,3 +27,17 @@ object_tangible_collection_reward_shared_square_tile_collection_reward = SharedT
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_square_tile_collection_reward, "object/tangible/collection/reward/shared_square_tile_collection_reward.iff")
+
+--Treasure Chest Reward
+object_tangible_collection_reward_shared_treasure_chest_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_treasure_chest_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_treasure_chest_reward, "object/tangible/collection/reward/shared_treasure_chest_reward.iff")
+
+--Hoth Geode
+object_tangible_collection_reward_shared_col_reward_hoth_meteorite_geode = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_reward_hoth_meteorite_geode.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_reward_hoth_meteorite_geode, "object/tangible/collection/reward/shared_col_reward_hoth_meteorite_geode.iff")

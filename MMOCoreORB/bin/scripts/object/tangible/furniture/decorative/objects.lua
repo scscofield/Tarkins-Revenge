@@ -2008,4 +2008,8 @@ object_tangible_furniture_decorative_shared_event_lifeday07_painting_01 = Shared
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_event_lifeday07_painting_01, "object/tangible/furniture/decorative/shared_event_lifeday07_painting_01.iff")
 
+object_tangible_furniture_decorative_shared_wod_sm_wall = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_wod_sm_wall.iff"
+}
 
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_wod_sm_wall, "object/tangible/furniture/decorative/shared_wod_sm_wall.iff")

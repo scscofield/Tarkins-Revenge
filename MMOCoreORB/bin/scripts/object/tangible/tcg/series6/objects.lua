@@ -22,3 +22,9 @@ object_tangible_tcg_series6_shared_painting_travel_ad_ord_mantell = SharedTangib
 	clientTemplateFileName = "object/tangible/tcg/series6/shared_painting_travel_ad_ord_mantell.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_painting_travel_ad_ord_mantell, "object/tangible/tcg/series6/shared_painting_travel_ad_ord_mantell.iff")
+
+--Decorative Jabba Bed
+object_tangible_tcg_series6_shared_decorative_jabba_bed = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_decorative_jabba_bed.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_decorative_jabba_bed, "object/tangible/tcg/series6/shared_decorative_jabba_bed.iff")

@@ -48,7 +48,7 @@ fanatic_of_lord_nyax = Creature:new {
 		{
 			groups = {
 				{group = "power_crystals", chance = 5500000},
-				{group = "nge_house_bespin", chance = 4500000}
+				{group = "nyax_minions", chance = 4500000}
 			},
 			lootChance = 300000
 		},

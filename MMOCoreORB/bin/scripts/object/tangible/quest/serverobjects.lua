@@ -46,3 +46,7 @@
 includeFile("tangible/quest/quest_start/serverobjects.lua")
 
 -- Server Objects
+includeFile("tangible/quest/naktra_crystals.lua")
+includeFile("tangible/quest/prof_force_sensitive_crystal.lua")
+includeFile("tangible/quest/r_naktra_crystals.lua")
+includeFile("tangible/quest/som_kenobi_final_force_crystal.lua")

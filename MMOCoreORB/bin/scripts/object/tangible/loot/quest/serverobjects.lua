@@ -112,3 +112,5 @@ includeFile("tangible/loot/quest/victor_questp_jregistry.lua")
 includeFile("tangible/loot/quest/victor_questp_receipt.lua")
 includeFile("tangible/loot/quest/victor_questp_testimony.lua")
 includeFile("tangible/loot/quest/wind_crystal.lua")
+
+includeFile("tangible/loot/quest/naktra_crystal.lua")

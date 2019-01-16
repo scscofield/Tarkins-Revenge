@@ -7073,3 +7073,10 @@ object_tangible_furniture_all_shared_gmf_painting_2010 = SharedTangibleObjectTem
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_gmf_painting_2010, "object/tangible/furniture/all/gmf_painting_2010.iff")
+
+--Meatlump Pallet
+object_tangible_furniture_all_shared_frn_all_meatlump_palette_empty = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_meatlump_palette_empty.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_meatlump_palette_empty, "object/tangible/furniture/all/frn_all_meatlump_palette_empty.iff")

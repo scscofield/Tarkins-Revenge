@@ -1863,8 +1863,30 @@ schematics = {
 	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_leggings.iff"},
 	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_utility_belt.iff"},
 
-	--BARC Speeder
+	--NGE/CU Vehicles
 	{path="object/draft_schematic/vehicle/civilian/barc_speeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/barc_speeder_imperial.iff"},
+	{path="object/draft_schematic/vehicle/civilian/barc_speeder_rebel.iff"},
+	{path="object/draft_schematic/vehicle/civilian/a1_deluxe_floater.iff"},
+	{path="object/draft_schematic/vehicle/civilian/air2_swoop_speeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/flare_s_swoop.iff"},
+	{path="object/draft_schematic/vehicle/civilian/geonosian_speeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/hoverlifter_speeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/koro2_exodrive_airspeeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/landspeeder_ab1.iff"},
+	{path="object/draft_schematic/vehicle/civilian/speeder_desert_skiff.iff"},
+	{path="object/draft_schematic/vehicle/civilian/speeder_lava_skiff.iff"},
+	{path="object/draft_schematic/vehicle/civilian/organa_speeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/landspeeder_tantive4.iff"},
+	{path="object/draft_schematic/vehicle/civilian/speeder_usv5.iff"},
+	{path="object/draft_schematic/vehicle/civilian/landspeeder_v35.iff"},
+	{path="object/draft_schematic/vehicle/civilian/landspeeder_xp38.iff"},
+	{path="object/draft_schematic/vehicle/civilian/mechno_chair.iff"},
+	{path="object/draft_schematic/vehicle/civilian/sith_speeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/speeder_ric_920.iff"},
+	{path="object/draft_schematic/vehicle/civilian/speeder_stap.iff"},
+	{path="object/draft_schematic/vehicle/civilian/swamp_speeder.iff"},
+	{path="object/draft_schematic/vehicle/civilian/xj6_air_speeder.iff"},
 
 	--NGE Houses
 	{path="object/draft_schematic/structure/atat_house_schem.iff"},
@@ -1910,5 +1932,12 @@ schematics = {
 	{path="object/draft_schematic/furniture/furniture_microphone_s02.iff"}, 	
 	{path="object/draft_schematic/furniture/furniture_pitcher_full.iff"}, 	
 	{path="object/draft_schematic/furniture/furniture_plant_hanging.iff"}, 	
-	{path="object/draft_schematic/furniture/furniture_professors_desk.iff"}
+	{path="object/draft_schematic/furniture/furniture_professors_desk.iff"},
+
+	--Post 14 Weapons
+	{path="object/draft_schematic/weapon/pistol_intimidator.iff"},
+	{path="object/draft_schematic/weapon/carbine_kun_massassi.iff"},
+	{path="object/draft_schematic/weapon/rifle_massassi_ink.iff"},
+	{path="object/draft_schematic/weapon/rifle_naktra_crystal.iff"},
+	{path="object/draft_schematic/weapon/knife_naktra_crystal.iff"}
 };

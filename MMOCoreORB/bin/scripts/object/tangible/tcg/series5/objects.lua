@@ -22,3 +22,22 @@ object_tangible_tcg_series5_shared_title_grant = SharedTangibleObjectTemplate:ne
 	clientTemplateFileName = "object/tangible/tcg/series5/shared_title_grant.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_title_grant, "object/tangible/tcg/series5/shared_title_grant.iff")
+
+--Air-2 Racing Swoop Deed
+object_tangible_tcg_series5_shared_vehicle_deed_air2_swoop_speeder = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_vehicle_deed_air2_swoop_speeder.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_vehicle_deed_air2_swoop_speeder, "object/tangible/tcg/series5/shared_vehicle_deed_air2_swoop_speeder.iff")
+
+--XJ-6 Airspeeder Deed
+object_tangible_tcg_series5_shared_vehicle_deed_xj6_air_speeder = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_vehicle_deed_xj6_air_speeder.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_vehicle_deed_xj6_air_speeder, "object/tangible/tcg/series5/shared_vehicle_deed_xj6_air_speeder.iff")
+
+--Jabba's Roasting Spit
+object_tangible_tcg_series5_shared_food_station_jabbas_roasting_spit
+= SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_food_station_jabbas_roasting_spit.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_food_station_jabbas_roasting_spit, "object/tangible/tcg/series5/shared_food_station_jabbas_roasting_spit.iff")

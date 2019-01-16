@@ -167,3 +167,4 @@ includeFile("tangible/furniture/all/frn_bench_generic.lua")
 
 includeFile("tangible/furniture/all/frn_all_death_troopers_painting.lua")
 includeFile("tangible/furniture/all/gmf_painting_2010.lua")
+includeFile("tangible/furniture/all/frn_all_meatlump_palette_empty.lua")

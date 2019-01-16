@@ -1161,3 +1161,24 @@ object_tangible_furniture_tatooine_shared_frn_tatt_table_cantina_table_3 = Share
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_frn_tatt_table_cantina_table_3, "object/tangible/furniture/tatooine/shared_frn_tatt_table_cantina_table_3.iff")
+
+--Energy Coil
+object_tangible_furniture_tatooine_shared_uber_energy_coil = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_energy_coil.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_energy_coil, "object/tangible/furniture/tatooine/shared_uber_energy_coil.iff")
+
+--Crystal
+object_tangible_furniture_tatooine_shared_uber_aurila_crystal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_aurila_crystal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_aurila_crystal, "object/tangible/furniture/tatooine/shared_uber_aurila_crystal.iff")
+
+--Obelisk
+object_tangible_furniture_tatooine_shared_uber_aurilia_obelisk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_aurilia_obelisk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_aurilia_obelisk, "object/tangible/furniture/tatooine/shared_uber_aurilia_obelisk.iff")
