@@ -323,6 +323,8 @@ CraftingSkillTrainer = ScreenPlay:new {
 	npcTrainers = {
 		{planetName = "tatooine", mobileTemplate = "commoner", respawn = 1, x = 1257.01, z = 7, y = 3141.33, angle = 48, cell = 0}, -- Mos Entha starport 
 		{planetName = "tatooine", mobileTemplate = "commoner", respawn = 1, x = 1540.18, z = 7, y = 3460.87, angle = 142, cell = 0}, -- Mos Entha north
+		{planetName = "naboo", mobileTemplate = "commoner", respawn = 1, x = -4864.45, z = 6.4248, y = 4182.2, angle = 230.918, cell = 0}, -- Theed starport
+		{planetName = "corellia", mobileTemplate = "commoner", respawn = 1, x = -136.969, z = 28, y = -4734.04, angle = -86, cell = 0}, -- Theed starport
 	},
 }
 
