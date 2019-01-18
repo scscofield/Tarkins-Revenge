@@ -600,7 +600,113 @@ void BountyMissionObjectiveImplementation::handlePlayerKilled(ManagedObject* arg
 						xpLoss = maxXpLoss;
 
 					owner->getZoneServer()->getPlayerManager()->awardExperience(target, "jedi_general", xpLoss, true);
+
 					String victimName = target->getFirstName();
+					String victimLastName = target->getLastName();
+
+					StringBuffer saberTemplateBuffer;
+					StringBuffer trophyBuffer;
+					String saberTemplate;
+					
+					ManagedReference<SceneObject*> inventory = owner->getSlottedObject("inventory");
+					trophy = NULL;
+
+					//Generate a random broken lightsaber hilt
+					int saberStyle = System::random(22);
+
+					switch (saberStyle) {
+						case 0: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_001.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 1: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_002.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 2: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_003.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 3: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_004.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 4: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_005.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 5: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_006.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 6: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_007.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 7: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_008.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 8: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_009.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 9: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_010.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 10: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_011.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 11: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_012.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 12: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_013.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 13: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_014.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 14: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_015.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 15: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_016.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 16: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_017.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 17: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_018.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 18: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_019.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 19: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_020.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 20: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_021.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 21: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_022.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						} case 22: {
+					trophy = (owner->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/broken_lightsaber_hilt_023.iff"), 2)).castTo<TangibleObject*>();
+						break;
+						}
+					}
+	if (trophy != NULL) {
+		Locker locker(trophy);
+
+		// Rename the broken lightsaber after the defeated Jedi, and give it to the victorious bounty hunter
+		if (inventory->transferObject(trophy, -1, true)) {
+
+			if (victimLastName != "")		
+				trophyBuffer << victimName << " " << victimLastName << "'s Lightsaber";
+			else
+				trophyBuffer << victimName << "'s Lightsaber";
+
+			trophy->setCustomObjectName(trophyBuffer.toString(), false);
+
+			trophy->sendTo(owner, trophy);
+		} else {
+			trophy->destroyObjectFromDatabase(trophy);
+			abort();
+			return;
+		}
+	}
+
 					bBroadcast << "\\#ff2a00" << bhName << ", a bounty hunter, has collected the bounty on " << victimName << ", a Jedi.";
 					owner->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, bBroadcast.toString());
 					StringIdChatParameter message("base_player","prose_revoke_xp");

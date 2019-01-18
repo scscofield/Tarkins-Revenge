@@ -634,7 +634,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
    	promptText << endl;
    	promptText << "\\#5bff71Server XP Rates:";
    	promptText << endl;
-   	promptText << "\\#f2f5f9-- 1.5x XP Solo | 2x XP Grouped";
+   	promptText << "\\#f2f5f9-- 2x XP (grouped or solo is the same - we have removed the need for solo groups)";
    	promptText << endl;
    	promptText << endl;
    	promptText << endl;
@@ -699,6 +699,7 @@ bool PlayerCreationManager::createCharacter(ClientCreateCharacterCallback* callb
 	box->setUsingObject(ghost);
 	ghost->addSuiBox(box);
 	ghost->sendMessage(box->generateMessage());	
+        playerCreature->sendExecuteConsoleCommand("/chatRoom join SWG.Tarkin.General");
 
 	StringBuffer zBroadcast;
 	zBroadcast << "\\#ffab4c" << playerName << " has joined Tarkin's Revenge!";

@@ -57,8 +57,8 @@ object_tangible_food_foraged_edible_jar_funk = object_tangible_food_foraged_shar
 	flavorMax = 0,
 	nutritionMin = 0,
 	nutritionMax = 0,
-	quantityMin = 0,
-	quantityMax = 0,
+	quantityMin = 1,
+	quantityMax = 10,
 	
 	modifiers = { "mind", 200 },
 
