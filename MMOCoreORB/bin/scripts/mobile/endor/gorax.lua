@@ -10,7 +10,7 @@ gorax = Creature:new {
 	baseHAM = 385000,
 	baseHAMmax = 471000,
 	armor = 3,
-	resists = {165,145,35,35,35,35,35,35,-1},
+	resists = {165,145,55,55,55,55,55,55,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -29,11 +29,15 @@ gorax = Creature:new {
 	lootGroups = {
 	 {
 	        groups = {
-				{group = "gorax_common", chance = 6000000},
-				{group = "armor_attachments", chance = 2000000},
-				{group = "clothing_attachments", chance = 2000000}
+				{group = "gorax_common", chance = 10000000},
 			},
-			lootChance = 7000000
+			lootChance = 5000000
+		}
+	        groups = {
+				{group = "armor_attachments", chance = 5000000},
+				{group = "clothing_attachments", chance = 5000000}
+			},
+			lootChance = 10000000
 		}
 	},
 	weapons = {},
