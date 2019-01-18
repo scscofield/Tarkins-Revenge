@@ -63,4 +63,9 @@ function EndorStaticSpawnsScreenPlay:spawnMobiles()
 	spawnMobile("endor", "merek_harvester", 300, 3915, 202, 5793, getRandomNumber(360), 0)
 	spawnMobile("endor", "merek_harvester", 300, 3942, 199, 5754, getRandomNumber(360), 0)
 	spawnMobile("endor", "merek_harvester", 300, 3938, 199, 5734, getRandomNumber(360), 0)
+
+--Tarkin Specific
+	spawnMobile("endor", "gorax", 10800, getRandomNumber(1500) + 4900, 13.7, getRandomNumber(1500) + 4526, getRandomNumber(360), 0)
+	spawnMobile("endor", "gorax", 10800, getRandomNumber(1500) + 5223, 25, getRandomNumber(1500) + 4409,  getRandomNumber(360), 0)
+	spawnMobile("endor", "gorax", 10800, getRandomNumber(1500) + 5202, 64, getRandomNumber(1500) + 3985, getRandomNumber(360), 0)
 end
