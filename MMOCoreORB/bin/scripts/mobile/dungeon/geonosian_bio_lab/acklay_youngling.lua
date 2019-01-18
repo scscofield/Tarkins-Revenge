@@ -1,49 +1,49 @@
-acklay = Creature:new {
+acklay_youngling = Creature:new {
 	objectName = "@mob/creature_names:geonosian_acklay_bunker_boss",
-	customName = "Acklay",
-	socialGroup = "kliknik",
+	customName = "Acklay Youngling",
+	socialGroup = "geonosian_creature",
 	faction = "",
-	level = 157,
-	chanceHit = 92.5,
-	damageMin = 935,
-	damageMax = 1580,
-	baseXp = 14884,
-	baseHAM = 96000,
-	baseHAMmax = 118000,
+	level = 100,
+	chanceHit = 5,
+	damageMin = 450,
+	damageMax = 1100,
+	baseXp = 12884,
+	baseHAM = 75000,
+	baseHAMmax = 95000,
 	armor = 2,
-	resists = {130,145,155,155,145,30,30,30,-1},
+	resists = {35,40,50,50,40,40,35,35,-1},
 	meatType = "",
-	meatAmount = 100,
+	meatAmount = 0,
 	hideType = "",
 	hideAmount = 0,
 	boneType = "",
-	boneAmount = 100,
+	boneAmount = 0,
 	milk = 0,
 	tamingChance = 0,
-	ferocity = 25,
+	ferocity = 5,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
-	scale = 1.3,
+	scale = 0.3,
 
 	templates = {"object/mobile/acklay_hue.iff"},
 	lootGroups = {
 		{
 			groups = {
-				{group = "acklay", chance = 10000000}
+				{group = "deed_voucher", chance = 10000000}
 			},
-			lootChance = 8000000
+			lootChance = 750000
 		},
 		{
 			groups = {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 4000000
+			lootChance = 35000000
 		},
 	},
-	weapons = {"creature_spit_large_yellow"},
+	weapons = {},
 	conversationTemplate = "",
 	attacks = {
 		{"creatureareacombo",""},
@@ -51,4 +51,4 @@ acklay = Creature:new {
 	}
 }
 
-CreatureTemplates:addCreatureTemplate(acklay, "acklay")
+CreatureTemplates:addCreatureTemplate(acklay_youngling, "acklay_youngling")

@@ -1,16 +1,16 @@
-acklay = Creature:new {
+acklay_elder = Creature:new {
 	objectName = "@mob/creature_names:geonosian_acklay_bunker_boss",
-	customName = "Acklay",
-	socialGroup = "kliknik",
+	customName = "Elder Acklay",
+	socialGroup = "geonosian_creature",
 	faction = "",
-	level = 157,
+	level = 180,
 	chanceHit = 92.5,
-	damageMin = 935,
-	damageMax = 1580,
-	baseXp = 14884,
-	baseHAM = 96000,
-	baseHAMmax = 118000,
-	armor = 2,
+	damageMin = 1600,
+	damageMax = 2800,
+	baseXp = 24884,
+	baseHAM = 270000,
+	baseHAMmax = 398000,
+	armor = 3,
 	resists = {130,145,155,155,145,30,30,30,-1},
 	meatType = "",
 	meatAmount = 100,
@@ -20,7 +20,7 @@ acklay = Creature:new {
 	boneAmount = 100,
 	milk = 0,
 	tamingChance = 0,
-	ferocity = 25,
+	ferocity = 35,
 	pvpBitmask = AGGRESSIVE + ATTACKABLE + ENEMY,
 	creatureBitmask = PACK + KILLER,
 	optionsBitmask = AIENABLED,
@@ -33,22 +33,24 @@ acklay = Creature:new {
 			groups = {
 				{group = "acklay", chance = 10000000}
 			},
-			lootChance = 8000000
+			lootChance = 10000000
 		},
 		{
 			groups = {
-				{group = "clothing_attachments", chance = 5000000},
-				{group = "armor_attachments", chance = 5000000}
+				{group = "deed_voucher", chance = 1000000},
+				{group = "clothing_attachments", chance = 4500000},
+				{group = "armor_attachments", chance = 4500000}
 			},
-			lootChance = 4000000
+			lootChance = 5000000
 		},
 	},
 	weapons = {"creature_spit_large_yellow"},
 	conversationTemplate = "",
 	attacks = {
 		{"creatureareacombo",""},
-		{"posturedownattack","postureDownChance=50"}
+		{"creatureareaknockdown","knockdownChance=50"},
+		{"dizzyattack","dizzyChance=50"}
 	}
 }
 
-CreatureTemplates:addCreatureTemplate(acklay, "acklay")
+CreatureTemplates:addCreatureTemplate(acklay_elder, "acklay_elder")
