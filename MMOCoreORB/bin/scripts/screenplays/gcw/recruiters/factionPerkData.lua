@@ -13,7 +13,7 @@ factionRewardType = {
 rebelRewardData = {
 	weaponsArmorList = {
 		"armor_marine_backpack", "armor_marine_helmet", "armor_marine_chest_plate", "armor_marine_leggings", "armor_marine_boots", "armor_marine_bicep_l",
-		"armor_marine_bicep_r", "armor_marine_bracer_l", "armor_marine_bracer_r", "armor_marine_gloves","carbine_laser", "pistol_scout_blaster", "lance_staff_metal", "rocket_launcher", "mine_drx", "mine_xg",
+		"armor_marine_bicep_r", "armor_marine_bracer_l", "armor_marine_bracer_r", "armor_marine_gloves", "pistol_cm_deadbolt_schematic", "rifle_cm_reaper_schematic", "carbine_laser", "pistol_scout_blaster", "lance_staff_metal", "rocket_launcher", "mine_drx", "mine_xg",
 	},
 
 	weaponsArmor = {
@@ -27,6 +27,8 @@ rebelRewardData = {
 		armor_marine_bracer_l = { index=7, type=factionRewardType.armor, display="@craft_armor_ingredients_n:armor_marine_bracer_l", item="object/tangible/loot/loot_schematic/rebel_marine_bracer_l_schematic.iff",cost=2000},
 		armor_marine_bracer_r = { index=8, type=factionRewardType.armor, display="@craft_armor_ingredients_n:armor_marine_bracer_r", item="object/tangible/loot/loot_schematic/rebel_marine_bracer_r_schematic.iff",cost=2000},
 		armor_marine_gloves = { index=9, type=factionRewardType.armor, display="@craft_armor_ingredients_n:armor_marine_gloves", item="object/tangible/loot/loot_schematic/rebel_marine_gloves_schematic.iff",cost=2000},
+		pistol_cm_deadbolt_schematic = { type=factionRewardType.weapon, display="@craft_item_ingredients_n:pistol_cm_deadbolt_schematic", item="object/tangible/loot/loot_schematic/pistol_cm_deadbolt_schematic.iff", cost=4000},
+		rifle_cm_reaper_schematic = { type=factionRewardType.weapon, display="@craft_item_ingredients_n:rifle_cm_reaper_schematic", item="object/tangible/loot/loot_schematic/rifle_cm_reaper_schematic.iff", cost=4000},
 		carbine_laser = { index=10, type=factionRewardType.weapon, display="@weapon_name:carbine_laser", item="object/weapon/ranged/carbine/carbine_laser.iff", cost=1500},
 		pistol_scout_blaster = { index=11, type=factionRewardType.weapon, display="@weapon_name:pistol_scout_blaster", item="object/weapon/ranged/pistol/pistol_scout_blaster.iff", cost=1000},
 		metal_staff = { index=12, type=factionRewardType.weapon, display="@weapon_name:sword_02", item="object/weapon/ranged/melee/sword/sword_02.iff", cost=1000},
@@ -115,7 +117,7 @@ rebelRewardData = {
 imperialRewardData = {
 	weaponsArmorList = {
 		"armor_stormtrooper_helmet", "armor_stormtrooper_chest_plate", "armor_stormtrooper_leggings", "armor_stormtrooper_boots", "armor_appearance_stormtrooper_bicep_l", "armor_stormtrooper_bicep_r",
-		"armor_stormtrooper_bracer_l", "armor_stormtrooper_bracer_r", "armor_stormtrooper_gloves", "armor_stormtrooper_utility_belt", "carbine_e11", "pistol_power5", "sword_02",
+		"armor_stormtrooper_bracer_l", "armor_stormtrooper_bracer_r", "armor_stormtrooper_gloves", "armor_stormtrooper_utility_belt", "pistol_crimson_nova_schematic", "rifle_vortex_schematic", "carbine_e11", "pistol_power5", "sword_02",
 		"rocket_launcher", "mine_drx", "mine_xg",
 	},
 
@@ -131,6 +133,8 @@ imperialRewardData = {
 		armor_stormtrooper_bracer_r = { type=factionRewardType.armor, display="@craft_armor_ingredients_n:armor_appearance_stormtrooper_bracer_r", item="object/tangible/loot/loot_schematic/stormtrooper_bracer_r_schematic.iff",cost=1400},
 		armor_stormtrooper_gloves = { type=factionRewardType.armor, display="@craft_armor_ingredients_n:armor_appearance_stormtrooper_gloves", item="object/tangible/loot/loot_schematic/stormtrooper_gloves_schematic.iff",cost=1400},
 		armor_stormtrooper_utility_belt = { type=factionRewardType.armor, display="@craft_armor_ingredients_n:armor_appearance_stormtrooper_utility_belt", item="object/tangible/loot/loot_schematic/stormtrooper_utility_belt_schematic.iff",cost=1400},
+		pistol_crimson_nova_schematic = { type=factionRewardType.weapon, display="@craft_item_ingredients_n:pistol_crimson_nova_schematic", item="object/tangible/loot/loot_schematic/pistol_crimson_nova_schematic.iff", cost=4000},
+		rifle_vortex_schematic = { type=factionRewardType.weapon, display="@craft_item_ingredients_n:rifle_vortex_schematic", item="object/tangible/loot/loot_schematic/rifle_vortex_schematic.iff", cost=4000},
 		pistol_power5 = { type=factionRewardType.weapon, display="@weapon_name:pistol_power5", item="object/weapon/ranged/pistol/pistol_power5.iff", cost=700},
 		carbine_e11 = { type=factionRewardType.weapon, display="@weapon_name:carbine_e11", item="object/weapon/ranged/carbine/carbine_e11.iff", cost=1050},
 		sword_02 = { type=factionRewardType.weapon, display="@weapon_name:sword_02", item="object/weapon/melee/sword/sword_02.iff", cost=600},

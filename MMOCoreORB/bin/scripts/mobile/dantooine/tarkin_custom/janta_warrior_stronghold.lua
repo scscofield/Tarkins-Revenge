@@ -35,10 +35,11 @@ janta_warrior_stronghold = Creature:new {
 			groups = {
 				{group = "janta_common", chance = 3000000},
 				{group = "loot_kit_parts", chance = 1500000},
-				{group = "clothing_attachments", chance = 1150000},
-				{group = "armor_attachments", chance = 1150000},
+				{group = "clothing_attachments", chance = 1050000},
+				{group = "armor_attachments", chance = 1050000},
 				{group = "binayre_common", chance = 1500000},
 				{group = "forage_medical_component", chance = 1500000},
+				{group = "janta_rare", chance = 200000},
 				{group = "forage_rare", chance = 200000}
 			},
 			lootChance = 55000000
