@@ -1,0 +1,6 @@
+--Smuggled Bantha Ivory
+object_tangible_tarkin_custom_statted_shared_projectile_feed_mechanism_enhancement_bantha = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/statted/shared_projectile_feed_mechanism_enhancement_bantha.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_statted_shared_projectile_feed_mechanism_enhancement_bantha, "object/tangible/tarkin_custom/statted/shared_projectile_feed_mechanism_enhancement_bantha.iff")

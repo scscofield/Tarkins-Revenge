@@ -1,4 +1,4 @@
-cu_nge_polearm = {
+cu_nge_polearms = {
 	description = "",
 	minimumLevel = 0,
 	maximumLevel = 0,	
@@ -19,4 +19,4 @@ cu_nge_polearm = {
 	}
 }
 
-addLootGroupTemplate("cu_nge_polearm", cu_nge_polearm)
+addLootGroupTemplate("cu_nge_polearms", cu_nge_polearms)

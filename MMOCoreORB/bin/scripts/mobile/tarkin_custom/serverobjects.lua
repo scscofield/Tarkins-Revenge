@@ -46,3 +46,12 @@ includeFile("tarkin_custom/yavin4/force_crystal_hunter_cave.lua")
 includeFile("tarkin_custom/yavin4/force_sensitive_crypt_crawler_cave.lua")
 includeFile("tarkin_custom/yavin4/untrained_wielder_of_the_dark_side_cave.lua")
 includeFile("tarkin_custom/yavin4/force_crystal_protector_cave.lua")
+
+--Naboo Pirate Bunker
+includeFile("tarkin_custom/naboo/naboo_pirate_crewman_bunker.lua")
+includeFile("tarkin_custom/naboo/naboo_pirate_cutthroat_bunker.lua")
+includeFile("tarkin_custom/naboo/naboo_gunrunner_bunker.lua")
+includeFile("tarkin_custom/naboo/naboo_pirate_bunker.lua")
+includeFile("tarkin_custom/naboo/naboo_pirate_armsman_bunker.lua")
+includeFile("tarkin_custom/naboo/naboo_pirate_lieutenant_bunker.lua")
+includeFile("tarkin_custom/naboo/naboo_dread_pirate_bunker.lua")
