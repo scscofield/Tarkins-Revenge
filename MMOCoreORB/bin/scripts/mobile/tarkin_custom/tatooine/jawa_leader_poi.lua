@@ -35,7 +35,7 @@ jawa_leader_poi = Creature:new {
 				{group = "armor_all", chance = 800000},
 				{group = "tailor_components", chance = 1000000},
 				{group = "loot_kit_parts", chance = 1000000},
-				{group = "nge_house_jabba", chance = 1500000},
+				{group = "jawa_rare", chance = 1500000},
 				{group = "deed_voucher", chance = 1000000},
 				{group = "clothing_attachments", chance = 1250000},
 				{group = "clothing_attachments", chance = 1250000},

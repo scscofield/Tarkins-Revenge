@@ -51,3 +51,10 @@ object_tangible_loot_mustafar_shared_sith_relic_01 = SharedTangibleObjectTemplat
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_sith_relic_01, "object/tangible/loot/mustafar/shared_sith_relic_01.iff")
+
+--Mustafar Map
+object_tangible_loot_mustafar_shared_mustafar_map = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_mustafar_map.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_mustafar_map, "object/tangible/loot/mustafar/shared_mustafar_map.iff")

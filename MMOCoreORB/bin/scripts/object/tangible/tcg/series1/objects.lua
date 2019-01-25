@@ -43,3 +43,10 @@ object_tangible_tcg_series1_shared_decorative_computer_console_02 = SharedTangib
 	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_computer_console_02.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_computer_console_02, "object/tangible/tcg/series1/shared_decorative_computer_console_02.iff")
+
+--Video Game Table
+object_tangible_tcg_series1_shared_video_game_table = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_video_game_table.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_video_game_table, "object/tangible/tcg/series1/shared_video_game_table.iff")
+

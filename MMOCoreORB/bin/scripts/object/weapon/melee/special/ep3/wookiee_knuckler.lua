@@ -84,8 +84,8 @@ object_weapon_melee_special_ep3_wookiee_knuckler = object_weapon_melee_special_e
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "expDamage", "expDamage", "expDamage", "expDamage", "exp_durability", "expRange", "expRange", "null", "expRange", "null", "expEffeciency", "expEffeciency", "expEffeciency"},
 	experimentalSubGroupTitles = {"null", "null", "mindamage", "maxdamage", "attackspeed", "woundchance", "hitpoints", "zerorangemod", "maxrangemod", "midrange", "midrangemod", "maxrange", "attackhealthcost", "attackactioncost", "attackmindcost"},
-	experimentalMin = {0, 0, 9, 75, 3.6, 14, 750, 5, 5, 1, 5, 5, 36, 54, 36},
-	experimentalMax = {0, 0, 17, 139, 2.5, 26, 1500, 15, 15, 1, 15, 5, 18, 30, 18},
+	experimentalMin = {0, 0, 9, 50, 3.6, 14, 750, 5, 5, 1, 5, 5, 36, 54, 36},
+	experimentalMax = {0, 0, 17, 114, 2.5, 26, 1500, 15, 15, 1, 15, 5, 18, 30, 18},
 	experimentalPrecision = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 }

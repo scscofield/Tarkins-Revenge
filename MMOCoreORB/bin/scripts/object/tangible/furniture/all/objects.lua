@@ -7080,3 +7080,10 @@ object_tangible_furniture_all_shared_frn_all_meatlump_palette_empty = SharedTang
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_meatlump_palette_empty, "object/tangible/furniture/all/frn_all_meatlump_palette_empty.iff")
+
+--Control Chair
+object_tangible_furniture_all_shared_frn_chair_control = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_chair_control.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_chair_control, "object/tangible/furniture/all/frn_chair_control.iff")

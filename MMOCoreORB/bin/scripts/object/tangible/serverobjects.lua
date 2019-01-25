@@ -133,4 +133,5 @@ includeFile("tangible/tcg/series5/serverobjects.lua")
 includeFile("tangible/tcg/series6/serverobjects.lua")
 includeFile("tangible/tcg/series7/serverobjects.lua")
 includeFile("tangible/tcg/series8/serverobjects.lua")
+includeFile("tangible/tarkin_custom/serverobjects.lua")
 -- Server Objects

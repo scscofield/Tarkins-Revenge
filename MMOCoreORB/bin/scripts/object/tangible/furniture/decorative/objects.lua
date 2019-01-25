@@ -2013,3 +2013,17 @@ object_tangible_furniture_decorative_shared_wod_sm_wall = SharedTangibleObjectTe
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_wod_sm_wall, "object/tangible/furniture/decorative/shared_wod_sm_wall.iff")
+
+--Decorative Whip Belt
+object_tangible_furniture_decorative_shared_decorative_whip_belt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_decorative_whip_belt.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_decorative_whip_belt, "object/tangible/furniture/decorative/shared_decorative_whip_belt.iff")
+
+--Decorative Fedora Hat
+object_tangible_furniture_decorative_shared_decorative_fedora_hat = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_decorative_fedora_hat.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_decorative_fedora_hat, "object/tangible/furniture/decorative/shared_decorative_fedora_hat.iff")

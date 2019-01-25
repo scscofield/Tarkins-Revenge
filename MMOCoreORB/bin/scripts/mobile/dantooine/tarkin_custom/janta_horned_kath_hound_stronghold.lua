@@ -27,9 +27,17 @@ janta_horned_kath_hound_stronghold = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/baby_bol.iff"},
+
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },
 	scale = 0.3,
-	lootGroups = {},
+	lootGroups = {
+		{
+			groups = {
+				{group = "janta_kath_hound", chance = 10000000},
+			},
+			lootChance = 1666667
+		}
+	},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {

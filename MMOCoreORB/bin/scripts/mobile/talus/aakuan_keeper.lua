@@ -33,13 +33,14 @@ aakuan_keeper = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 3600000},
+				{group = "junk", chance = 3400000},
 				{group = "aakuan_common", chance = 2300000},
 				{group = "armor_attachments", chance = 800000},
 				{group = "clothing_attachments", chance = 800000},
 				{group = "rifles", chance = 900000},
 				{group = "carbines", chance = 900000},
-				{group = "pistols", chance = 900000}				
+				{group = "pistols", chance = 900000},
+				{group = "aakuan_rare", chance = 200000}
 			},
 		    lootChance = 3000000
 		}
