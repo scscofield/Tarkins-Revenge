@@ -130,3 +130,10 @@ object_tangible_tarkin_custom_decorative_shared_pot_sm = SharedTangibleObjectTem
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_pot_sm, "object/tangible/tarkin_custom/decorative/shared_pot_sm.iff")
+
+--Locked Briefcase
+object_tangible_tarkin_custom_decorative_shared_unlocked_briefcase = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_unlocked_briefcase.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_unlocked_briefcase, "object/tangible/tarkin_custom/decorative/shared_unlocked_briefcase.iff")
