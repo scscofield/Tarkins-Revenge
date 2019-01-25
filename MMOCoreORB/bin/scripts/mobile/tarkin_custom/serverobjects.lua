@@ -55,3 +55,18 @@ includeFile("tarkin_custom/naboo/naboo_pirate_bunker.lua")
 includeFile("tarkin_custom/naboo/naboo_pirate_armsman_bunker.lua")
 includeFile("tarkin_custom/naboo/naboo_pirate_lieutenant_bunker.lua")
 includeFile("tarkin_custom/naboo/naboo_dread_pirate_bunker.lua")
+
+--Kimogila Cave
+includeFile("tarkin_custom/lok/kimogila_hatchling_cave.lua")
+includeFile("tarkin_custom/lok/kimogila_cave.lua")
+includeFile("tarkin_custom/lok/dune_kimogila_cave.lua")
+includeFile("tarkin_custom/lok/enraged_kimogila_cave.lua")
+includeFile("tarkin_custom/lok/kimogila_dwarf_cave.lua")
+includeFile("tarkin_custom/lok/giant_kimogila_cave.lua")
+includeFile("tarkin_custom/lok/aged_kimogila_cave.lua")
+includeFile("tarkin_custom/lok/enraged_dune_kimogila_cave.lua")
+includeFile("tarkin_custom/lok/giant_dune_kimogila_cave.lua")
+includeFile("tarkin_custom/lok/giant_dune_kimogila_matriarch_cave.lua")
+includeFile("tarkin_custom/lok/young_spined_snake_cave.lua")
+includeFile("tarkin_custom/lok/giant_spined_snake_cave.lua")
+

@@ -216,7 +216,7 @@ StarToursDestinationTable = {
 			"Imperial Research Facility", "lok", 934.411, 18.246, -4130.83, 0,
 			"Reclusive Gurk King Platform", "lok", 747.993, 27.7812, -3304.31, 0,
 			"Reclusive Gurk King Camp", "lok", -3686.92, 63.1775, -3509.34, 0,
-			--"Kimogila Cave", "lok", 4770.95, 15.4173, 975.835, 0,
+			"Kimogila Cave", "lok", 4770.95, 15.4173, 975.835, 0,
 		}
 	},
 	{subCatName = "poi_naboo",
