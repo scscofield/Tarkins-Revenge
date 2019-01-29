@@ -538,7 +538,7 @@ includeFile("caves/tatooine_tusken_bunker.lua")
 -- Cities
 includeFile("cities/city.lua")
 includeFile("cities/corellia_bela_vistal.lua")
-includeFile("cities/corellia_coronet.lua")
+--includeFile("cities/corellia_coronet.lua")
 includeFile("cities/corellia_doaba_guerfel.lua")
 includeFile("cities/corellia_kor_vella.lua")
 includeFile("cities/corellia_tyrena.lua")
@@ -555,7 +555,7 @@ includeFile("cities/naboo_deeja_peak.lua")
 includeFile("cities/naboo_kaadara.lua")
 includeFile("cities/naboo_keren.lua")
 includeFile("cities/naboo_moenia.lua")
-includeFile("cities/naboo_theed.lua")
+--includeFile("cities/naboo_theed.lua")
 includeFile("cities/rori_narmle.lua")
 --includeFile("cities/rori_rebel_outpost.lua")
 includeFile("cities/rori_restuss.lua")
@@ -681,6 +681,8 @@ includeFile("caves/lok_kimogila_cave.lua")
 
 --Tarkin Custom City
 includeFile("cities/tarkin_custom/tarkin_tatooine_mos_entha.lua")
+includeFile("cities/tarkin_custom/tarkin_corellia_coronet.lua")
+includeFile("cities/tarkin_custom/tarkin_naboo_theed.lua")
 
 --Tarkin Custom Military POIs
 --Imperial

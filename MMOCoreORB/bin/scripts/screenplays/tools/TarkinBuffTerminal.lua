@@ -22,7 +22,7 @@ TarkinBuffTerminal = ScreenPlay:new {
 	termName = "Medical Services Terminal",
 	terminals = {
 		--Corellia
-		{planetName = "corellia", x = -133.192, z = 28, y = -4711.16, ow = 0.747476, oy = -0.664289}, --Coronet near starport
+		{planetName = "corellia", x = -180.496, z = 28, y = -4845.4, ow = 0.999597, oy = -0.0284066}, --Coronet near starport
 		{planetName = "corellia", x = -5049.64, z = 21, y = -2304.52, ow = 0.937972, oy = 0.346712},  --Tyrena near starport
 		{planetName = "corellia", x = 3330.38, z = 308, y = 5517.14, ow = 0.956783, oy = 0.290803}, --Doaba Guerfel near starport
 		{planetName = "corellia", x = -3128.1, z = 31, y = 2809.5, ow = -0.0561584, oy = 0.998422}, --Kor Vella near shuttleport
@@ -61,10 +61,10 @@ TarkinBuffTerminal = ScreenPlay:new {
 
 		--Tatooine
 		{planetName = "tatooine", x = 1271.4, z = 7.70605, y = 2960.54, ow = 0.0436194, oy = 0.999048}, -- Mos Entha bank near starport
-		{planetName = "tatooine", x = 1330.80, z = 7, y = 3465.63, ow = -0.707107, oy = 0.707107}, -- Mos Entha cloning facility
+		{planetName = "tatooine", x = 1326.88, z = 7, y = 3466.45, ow = 0.707107, oy = 0.707107}, -- Mos Entha cloning facility
 		{planetName = "tatooine", x = 1716.57, z = 7, y = 3187.24, ow = 0.0436194, oy = 0.999048}, -- Mos Entha eastern shuttleport
 		{planetName = "tatooine", x = 1538.29, z = 7, y = 3460.2, ow = 0.0436194, oy = 0.999048}, -- Mos Entha northern hill
-		{planetName = "tatooine", x = 1280.18, z = 7, y = 3135.36, ow = 0.953717, oy = 0.300706}, -- Mos Entha near starport
+		{planetName = "tatooine", x = 1139.77, z = 7, y = 3019.46, ow = 0.707107, oy = 0.707107}, -- Mos Entha near starport
 		{planetName = "tatooine", x = 3533.45, z = 5, y = -4792.05, ow = -0.67559, oy = 0.737277}, -- Mos Eisley near starport
 		{planetName = "tatooine", x = 43.8562, z = 52, y = -5352.49, ow = 0.999048, oy = -0.0436194}, -- Anchorhead near shuttleport	
 		{planetName = "tatooine", x = -5222.83, z = 75, y = -6585.29, ow = -0.67559, oy = 0.737277}, -- Wayfar near Cantina

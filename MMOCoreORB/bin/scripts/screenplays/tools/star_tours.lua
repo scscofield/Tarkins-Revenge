@@ -9,7 +9,7 @@ star_tours = ScreenPlay:new {
 	droidModel = "object/tangible/travel/ticket_collector/star_tours.iff",
 	droids = {
 		--Corellia
-		{planetName = "corellia", x = -36.7645, z = 28, y = -4723.91, ow = 0.74746, oy = -0.664289, cellID = 0}, --Coronet starport
+		{planetName = "corellia", x = -159.377, z = 28.0279, y = -4942.14, ow = 0.998257, oy = 0.0588108, cellID = 0}, --Coronet starport
 		{planetName = "corellia", x = 3372.79, z = 308, y = 5623.05, ow = 0.290803, oy = -0.956783, cellID = 0}, --Doaba Guerfel starport
 		{planetName = "corellia", x = -3147.2, z = 31, y = 2907.89, ow = -0.0561584, oy = 0.998422, cellID = 0}, --Kor Vella starport
 		{planetName = "corellia", x = -4974.41, z = 21, y = -2211.71, ow = 0.346712, oy = -0.937972, cellID = 0},  --Tyrena starport
@@ -29,7 +29,7 @@ star_tours = ScreenPlay:new {
 		{planetName = "talus", x = 4472.12, z = 2, y = 5381.11, ow = -0.146912, oy = 0.98915, cellID = 0}, --Nashal starport
 
 		--Tatooine
-		{planetName = "tatooine", x = 1240.07, z = 7, y = 3044.3, ow = 0.944972, oy = 0.327154, cellID = 0}, --Mos Entha
+		{planetName = "tatooine", x = 1042.07, z = 6.51263, y = 2991.87, ow = 0.654793, oy = 0.75581, cellID = 0}, --Mos Entha
 		{planetName = "tatooine", x = -2811.65, z = 5, y = 2082.73, ow = -0.852166, oy = 0.523273, cellID = 0}, --Mos Espa
 		{planetName = "tatooine", x = -1390.49, z = 12, y = -3586.34, ow = 0.725999, oy = 0.687696, cellID = 0}, --Bestine
 		{planetName = "tatooine", x = 3632.02, z = 5, y = -4788.63, ow = 0.695864, oy = -0.718174, cellID = 0}, --Mos Eisley

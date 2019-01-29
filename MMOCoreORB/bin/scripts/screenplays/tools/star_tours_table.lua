@@ -51,7 +51,7 @@ StarToursTable = {
 StarToursDestinationTable = {
 	{subCatName = "port_corellia", 
 		 destinations = {
-			"Coronet (Starport)", "corellia", -38.3575, 28.0, -4723.7, 0,
+			"Coronet (Starport)", "corellia", -157.288, 28.0006, -4938.26, 0,
 			"Coronet (Shuttleport A)", "corellia", -27.7774, 28.0, -4411.92, 0,
 			"Coronet (Shuttleport B)", "corellia", -325.767, 28.0, -4644.23, 0,
 			"Tyrena (Starport)", "corellia", -4976.86, 21.0, -2212.79, 0,
@@ -126,7 +126,7 @@ StarToursDestinationTable = {
 		 destinations = {
 			"Bestine (Starport)", "tatooine", -1389.22, 12.0, -3589.25, 0,
 			"Bestine (Shuttleport)", "tatooine", -1093.66, 12.6006, -3564.85, 0,
-			"Mos Entha (Starport)", "tatooine", 1242.85, 7.0, 3044.36, 0,
+			"Mos Entha (Starport)", "tatooine", 1050.18, 6.59466, 2986.16, 0,
 			"Mos Entha (Shuttleport A)", "tatooine", 1732.41, 7.0, 3187.19, 0,
 			"Mos Entha (Shuttleport B)", "tatooine", 1390.68, 7.0, 3468.53, 0,
 			"Mos Espa (Starport)", "tatooine", -2811.36, 5.0, 2085.76, 0,

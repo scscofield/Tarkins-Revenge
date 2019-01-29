@@ -359,7 +359,7 @@ bool CityManagerImplementation::validateCityInRange(CreatureObject* creature, Zo
 			try {
 				Vector3 position(city->getPositionX(), city->getPositionY(), 0);
 
-				if (position.squaredDistanceTo(testPosition) < 1024 * 1024) {
+				if (position.squaredDistanceTo(testPosition) < 500 * 500) {
 					StringIdChatParameter msg("player_structure", "city_too_close");
 					msg.setTO(city->getRegionName());
 
