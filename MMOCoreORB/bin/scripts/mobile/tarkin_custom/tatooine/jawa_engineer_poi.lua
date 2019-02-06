@@ -41,7 +41,7 @@ jawa_engineer_poi = Creature:new {
 				{group = "armor_attachments", chance = 1250000},
 				{group = "color_crystals", chance = 200000}
 			},
-			lootChance = 3000000
+			lootChance = 6000000
 		}						
 	},
 	weapons = {"jawa_warlord_weapons"},

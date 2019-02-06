@@ -40,7 +40,7 @@ jawa_healer_poi = Creature:new {
 				{group = "clothing_attachments", chance = 1250000},
 				{group = "color_crystals", chance = 200000}
 			},
-			lootChance = 4000000
+			lootChance = 7000000
 		}						
 	},
 	weapons = {"jawa_warlord_weapons"},

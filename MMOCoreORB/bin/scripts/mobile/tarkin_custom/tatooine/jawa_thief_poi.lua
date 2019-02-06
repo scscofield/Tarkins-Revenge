@@ -4,15 +4,15 @@ jawa_thief_poi = Creature:new {
 	randomNameTag = true,
 	socialGroup = "jawa",
 	faction = "jawa",
-	level = 9,
+	level = 40,
 	chanceHit = 0.27,
-	damageMin = 80,
-	damageMax = 90,
-	baseXp = 235,
-	baseHAM = 675,
-	baseHAMmax = 825,
+	damageMin = 150,
+	damageMax = 270,
+	baseXp = 9097,
+	baseHAM = 22000,
+	baseHAMmax = 29000,
 	armor = 1,
-	resists = {0,0,0,0,0,0,0,-1,-1},
+	resists = {15,15,15,15,15,15,15,-1,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -40,7 +40,7 @@ jawa_thief_poi = Creature:new {
 				{group = "clothing_attachments", chance = 1250000},
 				{group = "color_crystals", chance = 200000}
 			},
-			lootChance = 3500000
+			lootChance = 5000000
 		}					
 	},
 	weapons = {"jawa_warlord_weapons"},
