@@ -838,8 +838,9 @@ bool PlanetManagerImplementation::validateClientCityInRange(CreatureObject* crea
 			Region* activeRegion = region->getRegion(j);
 			float radius = activeRegion->getRadius();
 
-			if (radius < 512)
-				radius = 512;
+			//Tarkin removing minimum radius check so we can place city halls near NPC cities
+			/*if (radius < 512)
+				radius = 512;*/
 
 			float range = radius * 2;
 
@@ -871,7 +872,7 @@ bool PlanetManagerImplementation::validateRegionName(const String& name) {
 		if (regionName.beginsWith("@")) {
 			String fullName = StringIdManager::instance()->getStringId(regionName.hashCode()).toString().toLowerCase();
 
-			if ((!fullName.isEmpty()) && (lowerCase == fullName || fullName.contains(lowerCase) || lowerCase.contains(fullName)))
+			if ((!fullName.isEmpty()) && (lowerCase == fullName /*|| fullName.contains(lowerCase) || lowerCase.contains(fullName)*/)) //Tarkin -removing the check so we can name cities similar to NPC cities
 				return false;
 		}
 	}

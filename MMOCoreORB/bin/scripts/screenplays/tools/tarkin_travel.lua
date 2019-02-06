@@ -6,7 +6,7 @@ tarkin_travel = ScreenPlay:new {
 	termModel = "object/tangible/terminal/terminal_travel.iff",
 	terminals = {
 		--Corellia
-		{planetName = "corellia", x = -37.9535, z = 28, y = -4726.62, ow = 0.99984, oy = 0.0152222, cellID = 0}, --Coronet starport
+		{planetName = "corellia", x = -162.347, z = 28.0205, y = -4941.13, ow = -0.708866, oy = -0.705343, cellID = 0}, --Coronet starport
 		{planetName = "corellia", x = 3374.36, z = 308, y = 5620.35, ow = 0.882176, oy = -0.470919, cellID = 0}, --Doaba Guerfel starport
 		{planetName = "corellia", x = -3144.95, z = 31, y = 2906.44, ow = -0.745701, oy = 0.666281, cellID = 0}, --Kor Vella starport
 		{planetName = "corellia", x = -4973.41, z = 21, y = -2214.52, ow = 0.908409, oy = -0.418084, cellID = 0},  --Tyrena starport
@@ -26,7 +26,7 @@ tarkin_travel = ScreenPlay:new {
 		{planetName = "talus", x = 4474.16, z = 2, y = 5379.66, ow = -0.748354, oy = 0.6633, cellID = 0}, --Nashal starport
 
 		--Tatooine
-		{planetName = "tatooine", x = 1239.23, z = 7, y = 3046.58, ow = 0.475684, oy = 0.879617, cellID = 0}, --Mos Entha starport
+		{planetName = "tatooine", x = 1043.96, z = 6.72701, y = 2994.05, ow = -0.0278541, oy = 0.999613, cellID = 0}, --Mos Entha starport
 		{planetName = "tatooine", x = -2813.75, z = 5, y = 2081.38, ow = -0.961512, oy = -0.274765, cellID = 0}, --Mos Espa starport
 		{planetName = "tatooine", x = -1389.37, z = 12, y = -3583.92, ow = -0.0601424, oy = 0.99819, cellID = 0}, --Bestine starport
 		{planetName = "tatooine", x = 3630.8, z = 5, y = -4791.24, ow = 0.999876, oy = -0.0157754, cellID = 0}, --Mos Eisley starport
