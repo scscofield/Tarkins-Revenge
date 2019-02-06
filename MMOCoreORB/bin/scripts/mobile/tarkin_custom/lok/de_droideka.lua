@@ -36,24 +36,25 @@ de_droideka = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "nyms_common", chance = 7500000},
+				{group = "nyms_common", chance = 5000000},
 				{group = "pistols", chance = 1000000},
-				{group = "carbines", chance = 1000000}
+				{group = "carbines", chance = 1000000},
+				{group = "droid_cave_common", chance = 3000000}
 			},
 			lootChance = 10000000
 		},
 		{
 			groups = {
-				{group = "clothing_attachments", chance = 1500000},
-				{group = "armor_attachments", chance = 1500000}
+				{group = "clothing_attachments", chance = 5000000},
+				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 4000000
+			lootChance = 2000000
 		},
 		{
 			groups = {
 				{group = "droid_cave", chance = 10000000},
 			},
-			lootChance = 1000000
+			lootChance = 500000
 		},
 },
 	conversationTemplate = "",
