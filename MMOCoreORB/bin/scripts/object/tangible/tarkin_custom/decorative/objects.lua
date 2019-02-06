@@ -137,3 +137,1081 @@ object_tangible_tarkin_custom_decorative_shared_unlocked_briefcase = SharedTangi
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_unlocked_briefcase, "object/tangible/tarkin_custom/decorative/shared_unlocked_briefcase.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_filler_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_filler_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_filler_s01, "object/tangible/tarkin_custom/decorative/shared_door_tato_filler_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_filler_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_filler_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_filler_s02, "object/tangible/tarkin_custom/decorative/shared_door_tato_filler_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_filler_s03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_filler_s03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_filler_s03, "object/tangible/tarkin_custom/decorative/shared_door_tato_filler_s03.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_interior_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_interior_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_interior_s01, "object/tangible/tarkin_custom/decorative/shared_door_tato_interior_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_corl_cantina_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_corl_cantina_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_corl_cantina_s01, "object/tangible/tarkin_custom/decorative/shared_door_corl_cantina_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_corl_hist_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_corl_hist_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_corl_hist_01, "object/tangible/tarkin_custom/decorative/shared_door_corl_hist_01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_corl_metal_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_corl_metal_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_corl_metal_s01, "object/tangible/tarkin_custom/decorative/shared_door_corl_metal_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_corl_metal_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_corl_metal_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_corl_metal_s02, "object/tangible/tarkin_custom/decorative/shared_door_corl_metal_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_corl_metal_s03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_corl_metal_s03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_corl_metal_s03, "object/tangible/tarkin_custom/decorative/shared_door_corl_metal_s03.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_ply_house_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_ply_house_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_ply_house_s02, "object/tangible/tarkin_custom/decorative/shared_door_tato_ply_house_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_shuttleport = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_shuttleport.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_shuttleport, "object/tangible/tarkin_custom/decorative/shared_door_tato_shuttleport.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_house_med_s03_hue_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_house_med_s03_hue_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_house_med_s03_hue_door, "object/tangible/tarkin_custom/decorative/shared_ply_house_med_s03_hue_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_house_sm_s03_hue_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_house_sm_s03_hue_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_house_sm_s03_hue_door, "object/tangible/tarkin_custom/decorative/shared_ply_house_sm_s03_hue_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_blockade_runner_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_blockade_runner_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_blockade_runner_s01, "object/tangible/tarkin_custom/decorative/shared_door_blockade_runner_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_bunker_rebel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_bunker_rebel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_bunker_rebel, "object/tangible/tarkin_custom/decorative/shared_door_bunker_rebel.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_nboo_cantina_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_nboo_cantina_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_nboo_cantina_s01, "object/tangible/tarkin_custom/decorative/shared_door_nboo_cantina_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s01, "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s02, "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s04, "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s04.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s05 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s05.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_nboo_filler_s05, "object/tangible/tarkin_custom/decorative/shared_door_nboo_filler_s05.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_newbiehall = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_newbiehall.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_newbiehall, "object/tangible/tarkin_custom/decorative/shared_door_newbiehall.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s01, "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s02, "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s03, "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s03.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s04, "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s04.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s05 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s05.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_star_destroyer_s05, "object/tangible/tarkin_custom/decorative/shared_door_star_destroyer_s05.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_despot_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_despot_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_despot_s01, "object/tangible/tarkin_custom/decorative/shared_door_tato_despot_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_despot_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_despot_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_despot_s02, "object/tangible/tarkin_custom/decorative/shared_door_tato_despot_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_tato_despot_s03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_tato_despot_s03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_tato_despot_s03, "object/tangible/tarkin_custom/decorative/shared_door_tato_despot_s03.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_echo_base_door_lg = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_echo_base_door_lg.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_echo_base_door_lg, "object/tangible/tarkin_custom/decorative/shared_echo_base_door_lg.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_echo_base_door_sm = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_echo_base_door_sm.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_echo_base_door_sm, "object/tangible/tarkin_custom/decorative/shared_echo_base_door_sm.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_echo_base_hangar_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_echo_base_hangar_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_echo_base_hangar_door, "object/tangible/tarkin_custom/decorative/shared_echo_base_hangar_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_exar_door_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_exar_door_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_exar_door_s01, "object/tangible/tarkin_custom/decorative/shared_exar_door_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_exar_door_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_exar_door_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_exar_door_s02, "object/tangible/tarkin_custom/decorative/shared_exar_door_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_exar_door_s03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_exar_door_s03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_exar_door_s03, "object/tangible/tarkin_custom/decorative/shared_exar_door_s03.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_exar_door_s04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_exar_door_s04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_exar_door_s04, "object/tangible/tarkin_custom/decorative/shared_exar_door_s04.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_exar_door_s05 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_exar_door_s05.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_exar_door_s05, "object/tangible/tarkin_custom/decorative/shared_exar_door_s05.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_impl_door_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_impl_door_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_impl_door_s01, "object/tangible/tarkin_custom/decorative/shared_impl_door_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_all_bespin_house_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_bespin_house_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_bespin_house_door, "object/tangible/tarkin_custom/decorative/shared_ply_all_bespin_house_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_all_bespin_house_door2 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_bespin_house_door2.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_bespin_house_door2, "object/tangible/tarkin_custom/decorative/shared_ply_all_bespin_house_door2.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_all_commando_bunker_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_commando_bunker_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_commando_bunker_door, "object/tangible/tarkin_custom/decorative/shared_ply_all_commando_bunker_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_all_rebel_spire_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_rebel_spire_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_rebel_spire_door, "object/tangible/tarkin_custom/decorative/shared_ply_all_rebel_spire_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_all_sandcrawler_house_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_sandcrawler_house_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_sandcrawler_house_door, "object/tangible/tarkin_custom/decorative/shared_ply_all_sandcrawler_house_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_all_sith_meditation_room_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_sith_meditation_room_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_sith_meditation_room_door, "object/tangible/tarkin_custom/decorative/shared_ply_all_sith_meditation_room_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_all_swimming_pool_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_swimming_pool_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_swimming_pool_door, "object/tangible/tarkin_custom/decorative/shared_ply_all_swimming_pool_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_jedi_meditation_room_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_jedi_meditation_room_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_jedi_meditation_room_door, "object/tangible/tarkin_custom/decorative/shared_ply_jedi_meditation_room_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_nboo_house_door_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_nboo_house_door_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_nboo_house_door_s01, "object/tangible/tarkin_custom/decorative/shared_ply_nboo_house_door_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_nboo_house_door_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_nboo_house_door_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_nboo_house_door_s02, "object/tangible/tarkin_custom/decorative/shared_ply_nboo_house_door_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_ply_yt1300_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_yt1300_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_yt1300_door, "object/tangible/tarkin_custom/decorative/shared_ply_yt1300_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_poi_all_bunker_cave_s01_exterior_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_poi_all_bunker_cave_s01_exterior_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_poi_all_bunker_cave_s01_exterior_door, "object/tangible/tarkin_custom/decorative/shared_poi_all_bunker_cave_s01_exterior_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_poi_all_diner_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_poi_all_diner_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_poi_all_diner_door, "object/tangible/tarkin_custom/decorative/shared_poi_all_diner_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_poi_all_escape_pod_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_poi_all_escape_pod_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_poi_all_escape_pod_door, "object/tangible/tarkin_custom/decorative/shared_poi_all_escape_pod_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_poi_aurilia_rodian_hut_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_poi_aurilia_rodian_hut_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_poi_aurilia_rodian_hut_door, "object/tangible/tarkin_custom/decorative/shared_poi_aurilia_rodian_hut_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_thm_npe_hangar_start_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_npe_hangar_start_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_npe_hangar_start_door, "object/tangible/tarkin_custom/decorative/shared_thm_npe_hangar_start_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_door, "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_thm_yavn_ljt_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_yavn_ljt_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_yavn_ljt_door, "object/tangible/tarkin_custom/decorative/shared_thm_yavn_ljt_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_thm_yavn_ljt_extdoor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_yavn_ljt_extdoor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_yavn_ljt_extdoor, "object/tangible/tarkin_custom/decorative/shared_thm_yavn_ljt_extdoor.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_transport_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_transport_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_transport_door, "object/tangible/tarkin_custom/decorative/shared_transport_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_dath_nightsister_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_dath_nightsister_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_dath_nightsister_s01, "object/tangible/tarkin_custom/decorative/shared_door_dath_nightsister_s01.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_dath_nightsister_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_dath_nightsister_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_dath_nightsister_s02, "object/tangible/tarkin_custom/decorative/shared_door_dath_nightsister_s02.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_djt_arena_down = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_djt_arena_down.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_djt_arena_down, "object/tangible/tarkin_custom/decorative/shared_door_djt_arena_down.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_djt_emperor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_djt_emperor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_djt_emperor, "object/tangible/tarkin_custom/decorative/shared_door_djt_emperor.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_djt_entrance = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_djt_entrance.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_djt_entrance, "object/tangible/tarkin_custom/decorative/shared_door_djt_entrance.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_djt_hall_short = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_djt_hall_short.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_djt_hall_short, "object/tangible/tarkin_custom/decorative/shared_door_djt_hall_short.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_door_djt_hall_tall = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_door_djt_hall_tall.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_door_djt_hall_tall, "object/tangible/tarkin_custom/decorative/shared_door_djt_hall_tall.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_thm_spc_asteroid_bunker_energy_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_asteroid_bunker_energy_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_asteroid_bunker_energy_door, "object/tangible/tarkin_custom/decorative/shared_thm_spc_asteroid_bunker_energy_door.iff")
+
+--Door
+object_tangible_tarkin_custom_decorative_shared_wall_modular_restraining_wall_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wall_modular_restraining_wall_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wall_modular_restraining_wall_door, "object/tangible/tarkin_custom/decorative/shared_wall_modular_restraining_wall_door.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_intr_medicalwall_fallback_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_medicalwall_fallback_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_medicalwall_fallback_a, "object/tangible/tarkin_custom/decorative/shared_intr_medicalwall_fallback_a.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_intr_medicalwall_fallback_b = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_medicalwall_fallback_b.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_medicalwall_fallback_b, "object/tangible/tarkin_custom/decorative/shared_intr_medicalwall_fallback_b.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_intr_medicalwall_fallback_turquoise = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_medicalwall_fallback_turquoise.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_medicalwall_fallback_turquoise, "object/tangible/tarkin_custom/decorative/shared_intr_medicalwall_fallback_turquoise.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_corl_metal_accent_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corl_metal_accent_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corl_metal_accent_a, "object/tangible/tarkin_custom/decorative/shared_corl_metal_accent_a.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_intr_hotelwall_agreen = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_hotelwall_agreen.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_hotelwall_agreen, "object/tangible/tarkin_custom/decorative/shared_intr_hotelwall_agreen.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_corv_whitewall_base = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corv_whitewall_base.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corv_whitewall_base, "object/tangible/tarkin_custom/decorative/shared_corv_whitewall_base.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_echo_base_poi_bunker_rebl_roomwall = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_echo_base_poi_bunker_rebl_roomwall.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_echo_base_poi_bunker_rebl_roomwall, "object/tangible/tarkin_custom/decorative/shared_echo_base_poi_bunker_rebl_roomwall.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_poi_bunker_rebl_roomwall = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_poi_bunker_rebl_roomwall.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_poi_bunker_rebl_roomwall, "object/tangible/tarkin_custom/decorative/shared_poi_bunker_rebl_roomwall.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_djt_wallstone_rectangles = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_rectangles.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_djt_wallstone_rectangles, "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_rectangles.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_djt_wallstone_streaked_dirt_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_streaked_dirt_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_djt_wallstone_streaked_dirt_a, "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_streaked_dirt_a.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_djt_wallstone_streaked_dirt_b = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_streaked_dirt_b.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_djt_wallstone_streaked_dirt_b, "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_streaked_dirt_b.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_djt_wallstone_tx_b = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_tx_b.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_djt_wallstone_tx_b, "object/tangible/tarkin_custom/decorative/shared_djt_wallstone_tx_b.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_sd_metal_smk_horiz = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_sd_metal_smk_horiz.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_sd_metal_smk_horiz, "object/tangible/tarkin_custom/decorative/shared_sd_metal_smk_horiz.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_item_miniature_cloud_city_house_wall_ext = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_item_miniature_cloud_city_house_wall_ext.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_item_miniature_cloud_city_house_wall_ext, "object/tangible/tarkin_custom/decorative/shared_item_miniature_cloud_city_house_wall_ext.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_poi_aurilia_rodian_hut_walltrim = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_poi_aurilia_rodian_hut_walltrim.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_poi_aurilia_rodian_hut_walltrim, "object/tangible/tarkin_custom/decorative/shared_poi_aurilia_rodian_hut_walltrim.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_atat_house_metal_grate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_atat_house_metal_grate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_atat_house_metal_grate, "object/tangible/tarkin_custom/decorative/shared_atat_house_metal_grate.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_sd_metal_grate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_sd_metal_grate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_sd_metal_grate, "object/tangible/tarkin_custom/decorative/shared_sd_metal_grate.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_rebl_metl_trim = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_rebl_metl_trim.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_rebl_metl_trim, "object/tangible/tarkin_custom/decorative/shared_rebl_metl_trim.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_rebl_metal_paneling_b = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_rebl_metal_paneling_b.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_rebl_metal_paneling_b, "object/tangible/tarkin_custom/decorative/shared_rebl_metal_paneling_b.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_despot_intr_tech_trim = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_despot_intr_tech_trim.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_despot_intr_tech_trim, "object/tangible/tarkin_custom/decorative/shared_despot_intr_tech_trim.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_hangarwall01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_hangarwall01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_hangarwall01, "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_hangarwall01.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_hangarwall02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_hangarwall02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_hangarwall02, "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_hangarwall02.iff")
+
+--Wall
+object_tangible_tarkin_custom_decorative_shared_sd_cmd_deck_console_front = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_sd_cmd_deck_console_front.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_sd_cmd_deck_console_front, "object/tangible/tarkin_custom/decorative/shared_sd_cmd_deck_console_front.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_blacksun_transport_player_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_blacksun_transport_player_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_blacksun_transport_player_floor, "object/tangible/tarkin_custom/decorative/shared_blacksun_transport_player_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corellia_concrete_floor_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corellia_concrete_floor_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corellia_concrete_floor_a, "object/tangible/tarkin_custom/decorative/shared_corellia_concrete_floor_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corellia_marble_floor_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corellia_marble_floor_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corellia_marble_floor_a, "object/tangible/tarkin_custom/decorative/shared_corellia_marble_floor_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corl_metl_cantina_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corl_metl_cantina_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corl_metl_cantina_floor, "object/tangible/tarkin_custom/decorative/shared_corl_metl_cantina_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corl_sky_interior_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corl_sky_interior_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corl_sky_interior_floor, "object/tangible/tarkin_custom/decorative/shared_corl_sky_interior_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_djt_floorstone_dirt_e = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_djt_floorstone_dirt_e.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_djt_floorstone_dirt_e, "object/tangible/tarkin_custom/decorative/shared_djt_floorstone_dirt_e.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_echo_base_poi_bunker_rebl_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_echo_base_poi_bunker_rebl_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_echo_base_poi_bunker_rebl_floor, "object/tangible/tarkin_custom/decorative/shared_echo_base_poi_bunker_rebl_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_echo_base_rebl_floor_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_echo_base_rebl_floor_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_echo_base_rebl_floor_a, "object/tangible/tarkin_custom/decorative/shared_echo_base_rebl_floor_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_garage_floor_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_garage_floor_02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_garage_floor_02, "object/tangible/tarkin_custom/decorative/shared_garage_floor_02.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_generic_corellian_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_generic_corellian_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_generic_corellian_floor, "object/tangible/tarkin_custom/decorative/shared_generic_corellian_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_hospital_floor_blue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_hospital_floor_blue.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_hospital_floor_blue, "object/tangible/tarkin_custom/decorative/shared_hospital_floor_blue.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_hospital_floor_gray = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_hospital_floor_gray.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_hospital_floor_gray, "object/tangible/tarkin_custom/decorative/shared_hospital_floor_gray.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_impl_floor_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_impl_floor_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_impl_floor_a, "object/tangible/tarkin_custom/decorative/shared_impl_floor_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_impl_floor_a_edged_grunge = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_impl_floor_a_edged_grunge.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_impl_floor_a_edged_grunge, "object/tangible/tarkin_custom/decorative/shared_impl_floor_a_edged_grunge.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_combat_floor_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_combat_floor_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_combat_floor_a, "object/tangible/tarkin_custom/decorative/shared_intr_combat_floor_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_commerce_floor_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_commerce_floor_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_commerce_floor_a, "object/tangible/tarkin_custom/decorative/shared_intr_commerce_floor_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_tech_floor_c = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_tech_floor_c.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_tech_floor_c, "object/tangible/tarkin_custom/decorative/shared_intr_tech_floor_c.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_ply_corl_floor_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_corl_floor_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_corl_floor_a, "object/tangible/tarkin_custom/decorative/shared_ply_corl_floor_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thed_floor_destroyed = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thed_floor_destroyed.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thed_floor_destroyed, "object/tangible/tarkin_custom/decorative/shared_thed_floor_destroyed.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thed_tile_floora = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thed_tile_floora.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thed_tile_floora, "object/tangible/tarkin_custom/decorative/shared_thed_tile_floora.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thm_yavn_masstemple_grandhallfloor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_yavn_masstemple_grandhallfloor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_yavn_masstemple_grandhallfloor, "object/tangible/tarkin_custom/decorative/shared_thm_yavn_masstemple_grandhallfloor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_ply_all_sith_meditation_room_wall = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_all_sith_meditation_room_wall.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_all_sith_meditation_room_wall, "object/tangible/tarkin_custom/decorative/shared_ply_all_sith_meditation_room_wall.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_all_tile_a = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_all_tile_a.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_all_tile_a, "object/tangible/tarkin_custom/decorative/shared_all_tile_a.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corellia_marble_a_fallback = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corellia_marble_a_fallback.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corellia_marble_a_fallback, "object/tangible/tarkin_custom/decorative/shared_corellia_marble_a_fallback.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corellia_marble_c_fallback = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corellia_marble_c_fallback.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corellia_marble_c_fallback, "object/tangible/tarkin_custom/decorative/shared_corellia_marble_c_fallback.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corellia_marble_d_fallback = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corellia_marble_d_fallback.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corellia_marble_d_fallback, "object/tangible/tarkin_custom/decorative/shared_corellia_marble_d_fallback.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corl_concrete_lined_fallback = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corl_concrete_lined_fallback.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corl_concrete_lined_fallback, "object/tangible/tarkin_custom/decorative/shared_corl_concrete_lined_fallback.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thed_marble_graylightslate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thed_marble_graylightslate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thed_marble_graylightslate, "object/tangible/tarkin_custom/decorative/shared_thed_marble_graylightslate.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_newbie_ceiling_c = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_newbie_ceiling_c.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_newbie_ceiling_c, "object/tangible/tarkin_custom/decorative/shared_newbie_ceiling_c.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_newbie_ceiling_c_black = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_newbie_ceiling_c_black.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_newbie_ceiling_c_black, "object/tangible/tarkin_custom/decorative/shared_newbie_ceiling_c_black.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_floorramp = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_floorramp.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_floorramp, "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_floorramp.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_corv_gray_metal_grate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_corv_gray_metal_grate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_corv_gray_metal_grate, "object/tangible/tarkin_custom/decorative/shared_corv_gray_metal_grate.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_sd_gray_metal_grate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_sd_gray_metal_grate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_sd_gray_metal_grate, "object/tangible/tarkin_custom/decorative/shared_sd_gray_metal_grate.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_jabbas_sail_barge_dirt_metalplate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_jabbas_sail_barge_dirt_metalplate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_jabbas_sail_barge_dirt_metalplate, "object/tangible/tarkin_custom/decorative/shared_jabbas_sail_barge_dirt_metalplate.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_exarkun_intr_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_exarkun_intr_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_exarkun_intr_floor, "object/tangible/tarkin_custom/decorative/shared_exarkun_intr_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_jedi_floor_fallback = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_jedi_floor_fallback.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_jedi_floor_fallback, "object/tangible/tarkin_custom/decorative/shared_jedi_floor_fallback.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_hotel_floor_a1 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_hotel_floor_a1.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_hotel_floor_a1, "object/tangible/tarkin_custom/decorative/shared_intr_hotel_floor_a1.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_medicalfloor_fallback = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_medicalfloor_fallback.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_medicalfloor_fallback, "object/tangible/tarkin_custom/decorative/shared_intr_medicalfloor_fallback.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_bunk_mine_concwall_outer = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_bunk_mine_concwall_outer.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_bunk_mine_concwall_outer, "object/tangible/tarkin_custom/decorative/shared_bunk_mine_concwall_outer.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_floor02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_floor02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_floor02, "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_floor02.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_floor03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_floor03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_npe_floor03, "object/tangible/tarkin_custom/decorative/shared_thm_spc_npe_floor03.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_ply_bank_tato_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_bank_tato_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_bank_tato_floor, "object/tangible/tarkin_custom/decorative/shared_ply_bank_tato_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_ljt_dojofloor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ljt_dojofloor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ljt_dojofloor, "object/tangible/tarkin_custom/decorative/shared_ljt_dojofloor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_ljt_dojofloor02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ljt_dojofloor02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ljt_dojofloor02, "object/tangible/tarkin_custom/decorative/shared_ljt_dojofloor02.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_cptl_tatt_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_cptl_tatt_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_cptl_tatt_floor, "object/tangible/tarkin_custom/decorative/shared_intr_cptl_tatt_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_nboo_intr_palace_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_nboo_intr_palace_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_nboo_intr_palace_floor, "object/tangible/tarkin_custom/decorative/shared_nboo_intr_palace_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_hotel_floor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_hotel_floor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_hotel_floor, "object/tangible/tarkin_custom/decorative/shared_intr_hotel_floor.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_thed_theater_floor_intr_destroyed = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thed_theater_floor_intr_destroyed.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thed_theater_floor_intr_destroyed, "object/tangible/tarkin_custom/decorative/shared_thed_theater_floor_intr_destroyed.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_intr_hotel_ceiling_a1 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_intr_hotel_ceiling_a1.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_intr_hotel_ceiling_a1, "object/tangible/tarkin_custom/decorative/shared_intr_hotel_ceiling_a1.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_ply_nboo_marblefloorblue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_ply_nboo_marblefloorblue.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_ply_nboo_marblefloorblue, "object/tangible/tarkin_custom/decorative/shared_ply_nboo_marblefloorblue.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_herringbone_parquet_light = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_herringbone_parquet_light.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_herringbone_parquet_light, "object/tangible/tarkin_custom/decorative/shared_herringbone_parquet_light.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_herringbone_parquet_dark = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_herringbone_parquet_dark.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_herringbone_parquet_dark, "object/tangible/tarkin_custom/decorative/shared_herringbone_parquet_dark.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_kitchen_tile = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_kitchen_tile.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_kitchen_tile, "object/tangible/tarkin_custom/decorative/shared_kitchen_tile.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_wood_plank_tile = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wood_plank_tile.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wood_plank_tile, "object/tangible/tarkin_custom/decorative/shared_wood_plank_tile.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_black = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_black.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_black, "object/tangible/tarkin_custom/decorative/shared_carpet_black.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_blue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_blue.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_blue, "object/tangible/tarkin_custom/decorative/shared_carpet_blue.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_brown = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_brown.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_brown, "object/tangible/tarkin_custom/decorative/shared_carpet_brown.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_green = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_green.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_green, "object/tangible/tarkin_custom/decorative/shared_carpet_green.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_orange = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_orange.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_orange, "object/tangible/tarkin_custom/decorative/shared_carpet_orange.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_pink = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_pink.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_pink, "object/tangible/tarkin_custom/decorative/shared_carpet_pink.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_purple = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_purple.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_purple, "object/tangible/tarkin_custom/decorative/shared_carpet_purple.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_red = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_red.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_red, "object/tangible/tarkin_custom/decorative/shared_carpet_red.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_sand = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_sand.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_sand, "object/tangible/tarkin_custom/decorative/shared_carpet_sand.iff")
+
+--Floor
+object_tangible_tarkin_custom_decorative_shared_carpet_teal = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_carpet_teal.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_teal, "object/tangible/tarkin_custom/decorative/shared_carpet_teal.iff")
