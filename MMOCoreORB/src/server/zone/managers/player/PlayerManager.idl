@@ -61,7 +61,9 @@ class PlayerManager extends Observer implements Logger {
 	protected int baseStoredShips;
 	protected boolean allowSameAccountPvpRatingCredit;
 	protected int onlineCharactersPerAccount;
-	
+
+	protected TangibleObject trophy;	
+
 	@dereferenced
 	protected XpBonusList xpBonusList;
 
