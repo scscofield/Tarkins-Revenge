@@ -28,3 +28,15 @@ object_tangible_tcg_series6_shared_decorative_jabba_bed = SharedTangibleObjectTe
 	clientTemplateFileName = "object/tangible/tcg/series6/shared_decorative_jabba_bed.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_decorative_jabba_bed, "object/tangible/tcg/series6/shared_decorative_jabba_bed.iff")
+
+--Battle Droid Statuette
+object_tangible_tcg_series6_shared_combine_object_battle_droid_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_combine_object_battle_droid_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_combine_object_battle_droid_statuette, "object/tangible/tcg/series6/shared_combine_object_battle_droid_statuette.iff")
+
+--HK47 Statuette
+object_tangible_tcg_series6_shared_combine_object_hk47_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_combine_object_hk47_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_combine_object_hk47_statuette, "object/tangible/tcg/series6/shared_combine_object_hk47_statuette.iff")

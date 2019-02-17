@@ -45,7 +45,7 @@ servant_of_lord_nyax = Creature:new {
 				{group = "armor_attachments", chance = 5000000},
    		            	{group = "clothing_attachments", chance = 5000000}
 			},
-			lootChance = 4000000
+			lootChance = 500000
 		},
 		{
 			groups = {

@@ -2071,5 +2071,447 @@ schematics = {
 	{path="object/draft_schematic/weapon/lance_electric.iff"},
 	{path="object/draft_schematic/weapon/lance_paragon.iff"},
 	{path="object/draft_schematic/weapon/lance_magnaguard.iff"},
-	{path="object/draft_schematic/weapon/lance_kashyyyk_spirit.iff"}
+	{path="object/draft_schematic/weapon/lance_kashyyyk_spirit.iff"},
+
+	--CU/NGE Armors
+	--Battle Worn Rebel Marine Armor	
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_utility_belt_gcw.iff"},
+
+	--Battle Worn Stormtrooper Armor
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_utility_belt_gcw.iff"},
+
+	--Stormtrooper Armor Chest Plate w/Officer's Pauldron
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_chest_officer.iff"},
+
+	--Battle Worn Stormtrooper Armor Chest Plate w/Officer's Pauldron
+	{path="object/draft_schematic/armor/armor_stormtrooper_chest_officer_gcw.iff"},
+
+	--Camo Stormtrooper Armor Chest Plate w/Officer's Pauldron
+	{path="object/draft_schematic/armor/armor_stormtrooper_chest_officer_camo.iff"},
+
+	--Camo Stormtrooper Armor
+	{path="object/draft_schematic/armor/armor_stormtrooper_bicep_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_bicep_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_boots_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_bracer_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_bracer_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_chest_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_gloves_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_helmet_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_leggings_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_utility_belt_camo.iff"},
+
+	--Assault Trooper Armor
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_utility_belt.iff"},
+
+	--Battle Worn Assault Trooper Armor
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_utility_belt_gcw.iff"},
+
+	--Galactic Marine Armor
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_boots.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_chest.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_utility_belt.iff"},
+
+	--Battle Worn Galactic Marine Armor
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_utility_belt_gcw.iff"},
+
+	--Scout Trooper Armor
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_utility_belt.iff"},
+
+	--Battle Worn Scout Trooper Armor
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_utility_belt_gcw.iff"},
+
+	--Camo Scout Trooper Armor
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_boots_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_chest_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_gloves_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_helmet_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_leggings_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_utility_belt_camo.iff"},
+
+	--Swamp Trooper Armor
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_utility_belt.iff"},
+
+	--Snowtrooper Armor
+	{path="object/draft_schematic/armor/armor_snowtrooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_utility_belt.iff"},
+
+	--Factional Backpacks
+	{path="object/draft_schematic/armor/backpack_s08.iff"},	
+	{path="object/draft_schematic/armor/backpack_snowtrooper.iff"},	
+	{path="object/draft_schematic/armor/empireday_sandtrooper_backpack.iff"},	
+	{path="object/draft_schematic/armor/backpack_galactic_marine.iff"},	
+	{path="object/draft_schematic/armor/backpack_marine.iff"},	
+	{path="object/draft_schematic/armor/backpack_s07.iff"},	
+	{path="object/draft_schematic/armor/rebel_endor_backpack.iff"},	
+	{path="object/draft_schematic/armor/backpack_rebel_snow_soldier.iff"},	
+
+	--Rebel Marine Armor Chest Plate w/Rebel Insignia
+	{path="object/draft_schematic/armor/armor_marine_chest_rebel.iff"},
+
+	--Battle Worn Rebel Marine Armor
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_rebel_marine_utility_belt_gcw.iff"},
+
+	--Battle Worn Stormtrooper Armor
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_utility_belt_gcw.iff"},
+
+	--Stormtrooper Armor Chest Plate w/Officer's Pauldron
+	{path="object/draft_schematic/armor/armor_appearance_stormtrooper_chest_officer.iff"},
+
+	--Battle Worn Stormtrooper Armor Chest Plate w/Officer's Pauldron
+	{path="object/draft_schematic/armor/armor_stormtrooper_chest_officer_gcw.iff"},
+
+	--Camo Stormtrooper Armor Chest Plate w/Officer's Pauldron
+	{path="object/draft_schematic/armor/armor_stormtrooper_chest_officer_camo.iff"},
+
+	--Camo Stormtrooper Armor
+	{path="object/draft_schematic/armor/armor_stormtrooper_bicep_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_bicep_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_boots_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_bracer_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_bracer_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_chest_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_gloves_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_helmet_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_leggings_camo.iff"},
+	{path="object/draft_schematic/armor/armor_stormtrooper_utility_belt_camo.iff"},
+
+	--Assault Trooper Armor
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_utility_belt.iff"},
+
+	--Battle Worn Assault Trooper Armor
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_assault_trooper_utility_belt_gcw.iff"},
+
+	--Galactic Marine Armor
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_boots.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_chest.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_utility_belt.iff"},
+
+	--Battle Worn Galactic Marine Armor
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_galactic_marine_utility_belt_gcw.iff"},
+
+	--Scout Trooper Armor
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_utility_belt.iff"},
+
+	--Battle Worn Scout Trooper Armor
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_leggings_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_utility_belt_gcw.iff"},
+
+	--Camo Scout Trooper Armor
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bicep_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_boots_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_bracer_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_chest_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_gloves_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_helmet_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_leggings_camo.iff"},
+	{path="object/draft_schematic/armor/armor_scout_trooper_utility_belt_camo.iff"},
+
+	--Swamp Trooper Armor
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_swamp_trooper_utility_belt.iff"},
+
+	--Snowtrooper Armor
+	{path="object/draft_schematic/armor/armor_snowtrooper_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_boots.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_chest.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_leggings.iff"},
+	{path="object/draft_schematic/armor/armor_snowtrooper_utility_belt.iff"},
+
+	--Backpacks
+	{path="object/draft_schematic/armor/backpack_s08.iff"},
+	{path="object/draft_schematic/armor/backpack_snowtrooper.iff"},
+	{path="object/draft_schematic/armor/empireday_sandtrooper_backpack.iff"},
+	{path="object/draft_schematic/armor/backpack_galactic_marine.iff"},
+	{path="object/draft_schematic/armor/backpack_marine.iff"},
+	{path="object/draft_schematic/armor/backpack_s07.iff"},
+	{path="object/draft_schematic/armor/rebel_endor_backpack.iff"},
+	{path="object/draft_schematic/armor/backpack_rebel_snow_soldier.iff"},
+
+	--Rebel Assault Armor
+	{path="object/draft_schematic/armor/armor_rebel_assault_belt.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_boots.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_chest.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_leggings.iff"},
+
+	--Battle Worn Rebel Assault Armor
+	{path="object/draft_schematic/armor/armor_rebel_assault_belt_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_leggings_gcw.iff"},
+
+	--Rebel Assault Forest Camouflage Armor
+	{path="object/draft_schematic/armor/armor_rebel_assault_belt_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bicep_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bicep_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_boots_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bracer_l_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_bracer_r_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_chest_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_gloves_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_helmet_camo.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_assault_leggings_camo.iff"},
+
+	--Rebel Battle Armor
+	{path="object/draft_schematic/armor/armor_rebel_battle_belt.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_boots.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_chest.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_leggings.iff"},
+
+	--Battle Worn Rebel Battle Armor
+	{path="object/draft_schematic/armor/armor_rebel_battle_belt_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_battle_leggings_gcw.iff"},
+
+	--Rebel Spec Force Armor
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_belt.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_boots.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_chest.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_leggings.iff"},
+
+	--Battle Worn Rebel Spec Force Armor
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_belt_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bicep_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bicep_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_boots_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bracer_l_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_bracer_r_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_chest_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_gloves_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_helmet_gcw.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_force_leggings_gcw.iff"},
+
+	--Rebel Spec Ops Armor
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_belt.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_boots.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_chest.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_spec_ops_leggings.iff"},
+
+	--Alliance Cold Weather Armor
+	{path="object/draft_schematic/armor/armor_rebel_snow_belt.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_bicep_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_bicep_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_boots.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_bracer_l.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_bracer_r.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_chest.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_gloves.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_helmet.iff"},
+	{path="object/draft_schematic/armor/armor_rebel_snow_leggings.iff"},
+
+	--Rebel Endor Helmet
+	{path="object/draft_schematic/armor/armor_rebel_endor_helmet.iff"}
+
 };

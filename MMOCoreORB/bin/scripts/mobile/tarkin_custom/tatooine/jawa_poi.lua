@@ -40,7 +40,7 @@ jawa_poi = Creature:new {
 				{group = "armor_attachments", chance = 1250000},
 				{group = "color_crystals", chance = 200000}
 			},
-			lootChance = 2500000
+			lootChance = 5000000
 		}						
 	},
 	weapons = {"novice_weapons"},

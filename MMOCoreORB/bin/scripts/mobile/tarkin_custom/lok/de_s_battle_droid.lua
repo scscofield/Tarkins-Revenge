@@ -34,15 +34,16 @@ de_s_battle_droid = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "av_21_pp", chance = 2000000},
-				{group = "av_21_scheme", chance = 8000000}
+				{group = "av_21_pp", chance = 1000000},
+				{group = "av_21_scheme", chance = 2000000},
+				{group = "droid_cave", chance = 7000000}
 			},
-			lootChance = 1500000
+			lootChance = 900000
 		},
 		{
 			groups = {
-				{group = "droid_loot", chance = 9000000},
-				{group = "droid_cave", chance = 1000000},
+				{group = "droid_loot", chance = 1000000},
+				{group = "droid_cave_common", chance = 9000000},
 			},
 			lootChance = 10000000
 		},
@@ -51,7 +52,7 @@ de_s_battle_droid = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 45000000
+			lootChance = 4000000
 		},
 },
 	conversationTemplate = "",

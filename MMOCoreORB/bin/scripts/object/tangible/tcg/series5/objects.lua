@@ -41,3 +41,9 @@ object_tangible_tcg_series5_shared_food_station_jabbas_roasting_spit
 	clientTemplateFileName = "object/tangible/tcg/series5/shared_food_station_jabbas_roasting_spit.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_food_station_jabbas_roasting_spit, "object/tangible/tcg/series5/shared_food_station_jabbas_roasting_spit.iff")
+
+--Nightsister Backpack
+object_tangible_tcg_series5_shared_nightsister_backpack = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_nightsister_backpack.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_nightsister_backpack, "object/tangible/tcg/series5/shared_nightsister_backpack.iff")
