@@ -1,4 +1,4 @@
-21bmedical_powerdown = {
+a21bmedical_powerdown = {
 	minimumLevel = 0,
 	maximumLevel = -1,
 	customObjectName = "",
@@ -12,4 +12,4 @@
 	}
 }
 
-addLootItemTemplate("21bmedical_powerdown", 21bmedical_powerdown)
+addLootItemTemplate("a21bmedical_powerdown", a21bmedical_powerdown)

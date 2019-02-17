@@ -1,4 +1,4 @@
-4lom_powerdown = {
+a4lom_powerdown = {
 	minimumLevel = 0,
 	maximumLevel = -1,
 	customObjectName = "",
@@ -12,4 +12,4 @@
 	}
 }
 
-addLootItemTemplate("4lom_powerdown", 4lom_powerdown)
+addLootItemTemplate("a4lom_powerdown", a4lom_powerdown)

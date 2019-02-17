@@ -5,8 +5,8 @@ droid_cave_common = {
 	lootItems = {
 		{itemTemplate = "droideka_powerdown", weight = 714286},	
 		{itemTemplate = "probedroid_powerdown", weight = 714286},	
-		{itemTemplate = "21bmedical_powerdown", weight = 714286},	
-		{itemTemplate = "4lom_powerdown", weight = 714286},	
+		{itemTemplate = "a21bmedical_powerdown", weight = 714286},	
+		{itemTemplate = "a4lom_powerdown", weight = 714286},	
 		{itemTemplate = "lemedical_powerdown", weight = 714286},	
 		{itemTemplate = "powerdroid_powerdown", weight = 714286},	
 		{itemTemplate = "r2_powerdown", weight = 714286},	
