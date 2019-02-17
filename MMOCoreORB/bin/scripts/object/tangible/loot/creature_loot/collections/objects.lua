@@ -204,3 +204,101 @@ object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_023
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_broken_lightsaber_hilt_023, "object/tangible/loot/creature_loot/collections/shared_broken_lightsaber_hilt_023.iff")
+
+--Imperial Patch
+object_tangible_loot_creature_loot_collections_shared_col_imperial_logo_patch = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_imperial_logo_patch.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_imperial_logo_patch, "object/tangible/loot/creature_loot/collections/shared_col_imperial_logo_patch.iff")
+
+--Imperial Lieutenant Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_lt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_lt.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_lt, "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_lt.iff")
+
+--Imperial Captain Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_cpt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_cpt.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_cpt, "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_cpt.iff")
+
+--Imperial Major Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_maj = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_maj.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_maj, "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_maj.iff")
+
+--Imperial Lieutenant Colonel Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_ltcol = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_ltcol.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_ltcol, "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_ltcol.iff")
+
+--Imperial Colonel Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_col = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_col.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_col, "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_col.iff")
+
+--Imperial General Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_gen = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_gen.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_imperial_rank_gen, "object/tangible/loot/creature_loot/collections/shared_col_imperial_rank_gen.iff")
+
+--Rebel Patch
+object_tangible_loot_creature_loot_collections_shared_col_rebel_logo_patch = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_rebel_logo_patch.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_logo_patch, "object/tangible/loot/creature_loot/collections/shared_col_rebel_logo_patch.iff")
+
+--Rebel Lieutenant Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_lt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_lt.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_lt, "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_lt.iff")
+
+--Rebel Captain Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_cpt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_cpt.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_cpt, "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_cpt.iff")
+
+--Rebel Major Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_maj = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_maj.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_maj, "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_maj.iff")
+
+--Rebel Commander Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_com = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_com.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_com, "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_com.iff")
+
+--Rebel Colonel Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_col = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_col.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_col, "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_col.iff")
+
+--Rebel General Rank Badge
+object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_gen = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_gen.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_gen, "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_gen.iff")

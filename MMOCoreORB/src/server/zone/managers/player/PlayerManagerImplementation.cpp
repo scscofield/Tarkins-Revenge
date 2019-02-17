@@ -916,31 +916,31 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 		String playerName = player->getFirstName();
 		String killerName = attackerCreature->getFirstName();
 		StringBuffer zBroadcast;
-		String killerFaction, playerFaction, killerAllegience, playerAllegience;
+		String killerFaction, playerFaction, killerAllegiance, playerAllegiance;
 		if (attacker->isRebel()) {
 			killerFaction = "Rebel";
-			killerAllegience = "the Rebel Alliance";
+			killerAllegiance = "the Rebel Alliance";
 		}
 		else if (attacker->isImperial()) {
 			killerFaction = "Imperial";
-			killerAllegience = "the Empire";
+			killerAllegiance = "the Empire";
 		}
 		else {
 			killerFaction = "Civilian";
-			killerAllegience = "an unknown faction";
+			killerAllegiance = "an unknown faction";
 		}
 
 		if (player->isRebel()) {
 			playerFaction = "Rebel";
-			playerAllegience = "the Rebel Alliance";
+			playerAllegiance = "the Rebel Alliance";
 		}
 		else if (player->isImperial()) {
 			playerFaction = "Imperial";
-			playerAllegience = "the Empire";
+			playerAllegiance = "the Empire";
 				}
 		else {
 			playerFaction = "Civilian";
-			playerAllegience = "an unknown faction";
+			playerAllegiance = "an unknown faction";
 				}
 		if (CombatManager::instance()->areInDuel(attackerCreature, player)) {
 			zBroadcast <<"\\#ffa100 Murder in the galaxy!  It has been reported that " << playerName << " was killed in a duel by " << killerName << ".";
@@ -952,15 +952,163 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 			return;
 		}
 		//Only spout the GCW message if the players involved are not in a duel, and are not BH/Jedi
-		else
-			zBroadcast <<"\\#e28eff A win for " << killerAllegience << "!  In this latest report from the Galactic Civil War, " << killerName << " (" << killerFaction << ") has killed the " << playerFaction << " known as " << playerName << ".";
+		else {
+			String playerLastName = player->getLastName();
+			String playerRankName;
+			StringBuffer trophyBuffer;
+
+			int playerRank = player->getFactionRank();
+
+			ManagedReference<SceneObject*> inventory = attackerCreature->getSlottedObject("inventory");
+			trophy = NULL;
+
+			if (playerRank < 10){
+				if (player->isImperial()) {
+					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_logo_patch.iff"), 2)).castTo<TangibleObject*>();
+				} else {
+					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_logo_patch.iff"), 2)).castTo<TangibleObject*>();
+				}	
+			}
+			if (playerRank > 15){
+				if (player->isImperial()) {
+					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_gen.iff"), 2)).castTo<TangibleObject*>();
+				} else {
+					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_gen.iff"), 2)).castTo<TangibleObject*>();	
+				}
+			}
+
+
+			switch (playerRank) {
+				case 0: {
+					playerRankName = "Recruit";
+					break;
+				} case 1: {
+					playerRankName = "Private";
+					break;
+				} case 2: {
+					playerRankName = "Lance Corporal";
+					break;
+				} case 3: {
+					playerRankName = "Corporal";
+					break;
+				} case 4: {
+					playerRankName = "Staff Corporal";
+					break;
+				} case 5: {
+					playerRankName = "Sergeant";
+					break;
+				} case 6: {
+					playerRankName = "Staff Sergeant";
+					break;
+				} case 7: {
+					playerRankName = "Master Sergeant";
+					break;
+				} case 8: {
+					playerRankName = "Warrant Officer 2";
+					break;
+				} case 9: {
+					playerRankName = "Warrant Officer 1";
+					break;
+				} case 10: {
+					playerRankName = "Second Lieutenant";
+					if (player->isImperial()) {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_lt.iff"), 2)).castTo<TangibleObject*>();
+					} else {			
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_lt.iff"), 2)).castTo<TangibleObject*>();
+					}
+					break;
+				} case 11: {
+					playerRankName = "Lieutenant";
+					if (player->isImperial()) {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_lt.iff"), 2)).castTo<TangibleObject*>();
+					} else {		
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_lt.iff"), 2)).castTo<TangibleObject*>();
+					}
+					break;
+				} case 12: {
+					playerRankName = "Captain";
+					if (player->isImperial()) {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_cpt.iff"), 2)).castTo<TangibleObject*>();
+					} else {			
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_cpt.iff"), 2)).castTo<TangibleObject*>();
+					}
+					break;
+				} case 13: {
+					playerRankName = "Major";
+					if (player->isImperial()) {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_maj.iff"), 2)).castTo<TangibleObject*>();
+					} else {			
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_maj.iff"), 2)).castTo<TangibleObject*>();
+					}
+					break;
+				} case 14: {
+					playerRankName = "Lieutenant Colonel";
+					if (player->isImperial()) {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_ltcol.iff"), 2)).castTo<TangibleObject*>();
+					} else {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_com.iff"), 2)).castTo<TangibleObject*>();
+					}
+					break;
+				} case 15: {
+					playerRankName = "Colonel";
+					if (player->isImperial()) {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_col.iff"), 2)).castTo<TangibleObject*>();
+					} else {				
+						trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_col.iff"), 2)).castTo<TangibleObject*>();
+					}
+					break;
+				} case 16: {
+					playerRankName = "Brigadier General";
+					break;
+				} case 17: {
+					playerRankName = "Major General";
+					break;
+				} case 18: {
+					playerRankName = "Lieutenant General";
+					break;
+				} case 19: {
+					playerRankName = "General";
+					break;
+				} case 20: {
+					playerRankName = "High General";
+					break;
+				} case 21: {
+					playerRankName = "Surface Marshal";
+					break;
+				}
+			}
+
+			if (trophy != NULL) {
+				Locker locker(trophy);
+
+				// Rename the rank badge after the defeated player, and give it to the victorious player
+				if (inventory->transferObject(trophy, -1, true)) {
+
+					if (playerLastName != "")		
+						trophyBuffer << playerRankName << " " << playerName << " " << playerLastName << "'s Rank Badge";
+					else
+						trophyBuffer << playerRankName << " " << playerName << "'s Rank Badge";
+
+					trophy->setCustomObjectName(trophyBuffer.toString(), false);
+
+					trophy->sendTo(attackerCreature, trophy);
+				} else {
+					trophy->destroyObjectFromDatabase(trophy);
+					abort();
+					return;
+				}
+			}
+		
+			zBroadcast <<"\\#e28eff A win for " << killerAllegiance << "!  In this latest report from the Galactic Civil War, " << killerName << " (" << killerFaction << ") has killed the " << playerFaction << " known as " << playerName << ".";
+			
+		}
 
 		ghost->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, zBroadcast.toString());
-		}
+
 
 	}
 
-
+}
 
 }
 

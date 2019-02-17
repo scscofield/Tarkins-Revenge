@@ -29,3 +29,22 @@ includeFile("tangible/loot/creature_loot/collections/broken_lightsaber_hilt_020.
 includeFile("tangible/loot/creature_loot/collections/broken_lightsaber_hilt_021.lua")
 includeFile("tangible/loot/creature_loot/collections/broken_lightsaber_hilt_022.lua")
 includeFile("tangible/loot/creature_loot/collections/broken_lightsaber_hilt_023.lua")
+
+--Imperial Rank Badges
+includeFile("tangible/loot/creature_loot/collections/col_imperial_logo_patch.lua")
+includeFile("tangible/loot/creature_loot/collections/col_imperial_rank_lt.lua")
+includeFile("tangible/loot/creature_loot/collections/col_imperial_rank_cpt.lua")
+includeFile("tangible/loot/creature_loot/collections/col_imperial_rank_maj.lua")
+includeFile("tangible/loot/creature_loot/collections/col_imperial_rank_ltcol.lua")
+includeFile("tangible/loot/creature_loot/collections/col_imperial_rank_col.lua")
+includeFile("tangible/loot/creature_loot/collections/col_imperial_rank_gen.lua")
+
+--Rebel Rank Badges
+includeFile("tangible/loot/creature_loot/collections/col_rebel_logo_patch.lua")
+includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_lt.lua")
+includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_cpt.lua")
+includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_maj.lua")
+includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_com.lua")
+includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_col.lua")
+includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_gen.lua")
+
