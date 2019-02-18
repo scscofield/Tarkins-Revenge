@@ -1222,3 +1222,17 @@ object_tangible_tarkin_custom_decorative_shared_mud_oven = SharedTangibleObjectT
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_mud_oven, "object/tangible/tarkin_custom/decorative/shared_mud_oven.iff")
+
+--Danger Sign
+object_tangible_tarkin_custom_decorative_shared_sign_danger = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_sign_danger.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_sign_danger, "object/tangible/tarkin_custom/decorative/shared_sign_danger.iff")
+
+--Go Back Sign
+object_tangible_tarkin_custom_decorative_shared_sign_go_back = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_sign_go_back.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_sign_go_back, "object/tangible/tarkin_custom/decorative/shared_sign_go_back.iff")

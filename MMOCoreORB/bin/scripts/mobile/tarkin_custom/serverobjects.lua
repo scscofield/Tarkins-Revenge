@@ -91,3 +91,18 @@ includeFile("tarkin_custom/dantooine/kunga_soothsayer_poi.lua")
 includeFile("tarkin_custom/dantooine/kunga_tribe_member_poi.lua")
 includeFile("tarkin_custom/dantooine/kunga_warrior_poi.lua")
 
+--Mokk Cave
+includeFile("tarkin_custom/dantooine/mokk_tribesman_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_herbalist_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_harvester_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_hunter_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_soothsayer_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_clan_primalist_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_scout_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_loreweaver_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_shaman_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_warrior_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_rockshaper_poi.lua")
+includeFile("tarkin_custom/dantooine/mokk_clan_leader_poi.lua")
+includeFile("tarkin_custom/dantooine/xandank.lua")
+

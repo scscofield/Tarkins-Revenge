@@ -122,6 +122,7 @@ includeFile("tangible/weather_object/serverobjects.lua")
 
 includeFile("tangible/borrie/serverobjects.lua")
 includeFile("tangible/collection/serverobjects.lua")
+includeFile("tangible/content/serverobjects.lua")
 includeFile("tangible/holiday/empire_day/serverobjects.lua")
 includeFile("tangible/holiday/love_day/serverobjects.lua")
 includeFile("tangible/meatlump/serverobjects.lua")

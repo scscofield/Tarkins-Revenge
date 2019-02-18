@@ -58,3 +58,9 @@ object_tangible_loot_mustafar_shared_mustafar_map = SharedTangibleObjectTemplate
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_mustafar_map, "object/tangible/loot/mustafar/shared_mustafar_map.iff")
+
+--Xandank Trophy
+object_tangible_loot_mustafar_shared_trophey_xandank = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_trophey_xandank.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_trophey_xandank, "object/tangible/loot/mustafar/shared_trophey_xandank.iff")
