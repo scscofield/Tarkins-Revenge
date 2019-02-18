@@ -55,3 +55,11 @@ object_tangible_collection_reward_shared_fish_rack = SharedTangibleObjectTemplat
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_fish_rack, "object/tangible/collection/reward/shared_fish_rack.iff")
+
+--Meat
+object_tangible_collection_reward_shared_col_resource_harvest_reward_meat = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_resource_harvest_reward_meat.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_resource_harvest_reward_meat, "object/tangible/collection/reward/shared_col_resource_harvest_reward_meat.iff")
+

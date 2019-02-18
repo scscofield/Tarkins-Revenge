@@ -95,3 +95,17 @@ object_tangible_storyteller_prop_shared_pr_fire_pit = SharedTangibleObjectTempla
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_fire_pit, "object/tangible/storyteller/prop/shared_pr_fire_pit.iff")
+
+--Fireplace
+object_tangible_storyteller_prop_shared_pr_lifeday_fireplace_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_lifeday_fireplace_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_lifeday_fireplace_01, "object/tangible/storyteller/prop/shared_pr_lifeday_fireplace_01.iff")
+
+--Scarecrow
+object_tangible_storyteller_prop_shared_pr_scarecrow_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_scarecrow_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_scarecrow_01, "object/tangible/storyteller/prop/shared_pr_scarecrow_01.iff")

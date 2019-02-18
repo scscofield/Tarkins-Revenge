@@ -77,3 +77,17 @@ includeFile("tarkin_custom/dantooine/dantari_chief_poi.lua")
 includeFile("tarkin_custom/dantooine/dantari_raider_poi.lua")
 includeFile("tarkin_custom/dantooine/dantari_strategist_poi.lua")
 
+--Kunga Cave
+includeFile("tarkin_custom/dantooine/kunga_clan_leader_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_clan_primalist_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_harvester_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_herbalist_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_hunter_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_loreweaver_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_rockshaper_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_scout_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_shaman_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_soothsayer_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_tribe_member_poi.lua")
+includeFile("tarkin_custom/dantooine/kunga_warrior_poi.lua")
+

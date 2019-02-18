@@ -1215,3 +1215,10 @@ object_tangible_tarkin_custom_decorative_shared_carpet_teal = SharedTangibleObje
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_carpet_teal, "object/tangible/tarkin_custom/decorative/shared_carpet_teal.iff")
+
+--Mud Oven
+object_tangible_tarkin_custom_decorative_shared_mud_oven = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_mud_oven.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_mud_oven, "object/tangible/tarkin_custom/decorative/shared_mud_oven.iff")
