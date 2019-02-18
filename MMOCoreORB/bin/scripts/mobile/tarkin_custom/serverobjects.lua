@@ -70,3 +70,10 @@ includeFile("tarkin_custom/lok/giant_dune_kimogila_matriarch_cave.lua")
 includeFile("tarkin_custom/lok/young_spined_snake_cave.lua")
 includeFile("tarkin_custom/lok/giant_spined_snake_cave.lua")
 
+--Dantari POI
+includeFile("tarkin_custom/dantooine/katarn.lua")
+includeFile("tarkin_custom/dantooine/dantari_battlelord_poi.lua")
+includeFile("tarkin_custom/dantooine/dantari_chief_poi.lua")
+includeFile("tarkin_custom/dantooine/dantari_raider_poi.lua")
+includeFile("tarkin_custom/dantooine/dantari_strategist_poi.lua")
+

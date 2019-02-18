@@ -48,3 +48,10 @@ object_tangible_collection_reward_shared_posed_ig_88_reward = SharedTangibleObje
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_posed_ig_88_reward, "object/tangible/collection/reward/shared_posed_ig_88_reward.iff")
+
+--Fish Rack
+object_tangible_collection_reward_shared_fish_rack = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_fish_rack.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_fish_rack, "object/tangible/collection/reward/shared_fish_rack.iff")

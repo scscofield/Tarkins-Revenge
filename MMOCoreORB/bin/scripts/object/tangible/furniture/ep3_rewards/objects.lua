@@ -1,0 +1,17 @@
+--Ritual Fire Pit
+object_tangible_furniture_ep3_rewards_shared_ritual_fire_pit = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ritual_fire_pit.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ritual_fire_pit, "object/tangible/furniture/ep3_rewards/shared_ritual_fire_pit.iff")
+
+--Sayormi Mobile
+object_tangible_furniture_ep3_rewards_shared_sayormi_mobile = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_sayormi_mobile.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_sayormi_mobile, "object/tangible/furniture/ep3_rewards/shared_sayormi_mobile.iff")
+
+--Katarn Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_katarn = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_katarn.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_katarn, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_katarn.iff")

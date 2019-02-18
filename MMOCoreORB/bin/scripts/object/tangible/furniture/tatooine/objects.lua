@@ -1182,3 +1182,12 @@ object_tangible_furniture_tatooine_shared_uber_aurilia_obelisk = SharedTangibleO
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_aurilia_obelisk, "object/tangible/furniture/tatooine/shared_uber_aurilia_obelisk.iff")
+
+--Dantooine Totem Pole
+object_tangible_furniture_tatooine_shared_uber_dant_totem_pole = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_dant_totem_pole.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_dant_totem_pole, "object/tangible/furniture/tatooine/shared_uber_dant_totem_pole.iff")
+
+

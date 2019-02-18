@@ -88,3 +88,10 @@ object_tangible_storyteller_prop_shared_pr_ch9_droid_ra7_powerdown = SharedTangi
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_droid_ra7_powerdown, "object/tangible/storyteller/prop/shared_pr_ch9_droid_ra7_powerdown.iff")
+
+--Fire Pit
+object_tangible_storyteller_prop_shared_pr_fire_pit = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_fire_pit.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_fire_pit, "object/tangible/storyteller/prop/shared_pr_fire_pit.iff")

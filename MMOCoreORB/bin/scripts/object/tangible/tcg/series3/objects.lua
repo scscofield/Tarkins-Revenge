@@ -23,3 +23,11 @@ object_tangible_tcg_series3_shared_vehicle_deed_koro2_exodrive_airspeeder = Shar
 	clientTemplateFileName = "object/tangible/tcg/series3/shared_vehicle_deed_koro2_exodrive_airspeeder.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_vehicle_deed_koro2_exodrive_airspeeder, "object/tangible/tcg/series3/shared_vehicle_deed_koro2_exodrive_airspeeder.iff")
+
+--Wompa Skin Rug
+object_tangible_tcg_series3_shared_decorative_wompa_skin_rug = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_wompa_skin_rug.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_wompa_skin_rug, "object/tangible/tcg/series3/shared_decorative_wompa_skin_rug.iff")
+
+
