@@ -64,3 +64,22 @@ object_tangible_loot_mustafar_shared_trophey_xandank = SharedTangibleObjectTempl
 	clientTemplateFileName = "object/tangible/loot/mustafar/shared_trophey_xandank.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_trophey_xandank, "object/tangible/loot/mustafar/shared_trophey_xandank.iff")
+
+--Stuffed Bantha
+object_tangible_loot_mustafar_shared_stuff_bantha_doll = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_stuff_bantha_doll.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_stuff_bantha_doll, "object/tangible/loot/mustafar/shared_stuff_bantha_doll.iff")
+
+--Stuffed Dewback
+object_tangible_loot_mustafar_shared_stuffed_dewback_doll = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_stuffed_dewback_doll.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_stuffed_dewback_doll, "object/tangible/loot/mustafar/shared_stuffed_dewback_doll.iff")
+
+--Stuffed Rancor
+object_tangible_loot_mustafar_shared_stuff_rancor_doll = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_stuff_rancor_doll.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_stuff_rancor_doll, "object/tangible/loot/mustafar/shared_stuff_rancor_doll.iff")

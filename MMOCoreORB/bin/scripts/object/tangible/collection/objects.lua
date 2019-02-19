@@ -51,3 +51,9 @@ object_tangible_collection_shared_deathtrooper_gamma_energy_cartridge_01 = Share
 	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_gamma_energy_cartridge_01.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_gamma_energy_cartridge_01, "object/tangible/collection/shared_deathtrooper_gamma_energy_cartridge_01.iff")
+
+--Stuffed Star Destroyer
+object_tangible_collection_shared_deathtrooper_research_stuffed_stardestroyer_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_research_stuffed_stardestroyer_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_research_stuffed_stardestroyer_01, "object/tangible/collection/shared_deathtrooper_research_stuffed_stardestroyer_01.iff")

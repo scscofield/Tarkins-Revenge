@@ -116,3 +116,33 @@ object_tangible_storyteller_prop_shared_pr_scarecrow_01 = SharedTangibleObjectTe
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_scarecrow_01, "object/tangible/storyteller/prop/shared_pr_scarecrow_01.iff")
+
+--Wookiee Gravestone 1
+object_tangible_storyteller_prop_shared_pr_eqp_wookiee_gravestone_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_eqp_wookiee_gravestone_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_eqp_wookiee_gravestone_s01, "object/tangible/storyteller/prop/shared_pr_eqp_wookiee_gravestone_s01.iff")
+
+--Wookiee Gravestone 2
+object_tangible_storyteller_prop_shared_pr_eqp_wookiee_gravestone_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_eqp_wookiee_gravestone_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_eqp_wookiee_gravestone_s02, "object/tangible/storyteller/prop/shared_pr_eqp_wookiee_gravestone_s02.iff")
+
+--Wookiee Gravestone 3
+object_tangible_storyteller_prop_shared_pr_eqp_wookiee_gravestone_s03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_eqp_wookiee_gravestone_s03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_eqp_wookiee_gravestone_s03, "object/tangible/storyteller/prop/shared_pr_eqp_wookiee_gravestone_s03.iff")
+
+--Wookiee Stick
+object_tangible_storyteller_prop_shared_pr_item_wookiee_stick = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_wookiee_stick.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_wookiee_stick, "object/tangible/storyteller/prop/shared_pr_item_wookiee_stick.iff")
+
+

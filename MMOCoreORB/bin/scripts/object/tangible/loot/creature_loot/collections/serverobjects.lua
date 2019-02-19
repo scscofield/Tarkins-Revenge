@@ -48,3 +48,6 @@ includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_com.lua")
 includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_col.lua")
 includeFile("tangible/loot/creature_loot/collections/col_rebel_rank_gen.lua")
 
+includeFile("tangible/loot/creature_loot/collections/opt_in_mail_09.lua")
+includeFile("tangible/loot/creature_loot/collections/treasure_hunter_dolovite_mask.lua")
+includeFile("tangible/loot/creature_loot/collections/treasure_hunter_hendanyn_mask.lua")

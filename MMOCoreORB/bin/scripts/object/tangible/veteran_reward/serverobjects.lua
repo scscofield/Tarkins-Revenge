@@ -70,3 +70,4 @@ includeFile("tangible/veteran_reward/resource.lua")
 
 includeFile("tangible/veteran_reward/frn_vet_painting_april_07.lua")
 includeFile("tangible/veteran_reward/frn_vet_painting_community_summit_s02.lua")
+includeFile("tangible/veteran_reward/frn_plush_tauntaun.lua")

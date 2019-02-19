@@ -63,3 +63,37 @@ object_tangible_collection_reward_shared_col_resource_harvest_reward_meat = Shar
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_resource_harvest_reward_meat, "object/tangible/collection/reward/shared_col_resource_harvest_reward_meat.iff")
 
+--Meatlump Doll Henchman
+object_tangible_collection_reward_shared_col_reward_meatlump_doll_hench = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_reward_meatlump_doll_hench.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_reward_meatlump_doll_hench, "object/tangible/collection/reward/shared_col_reward_meatlump_doll_hench.iff")
+
+--Meatlump Doll King
+object_tangible_collection_reward_shared_col_reward_meatlump_doll_king = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_reward_meatlump_doll_king.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_reward_meatlump_doll_king, "object/tangible/collection/reward/shared_col_reward_meatlump_doll_king.iff")
+
+--Meatlump Doll Officer
+object_tangible_collection_reward_shared_col_reward_meatlump_doll_officer = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_reward_meatlump_doll_officer.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_reward_meatlump_doll_officer, "object/tangible/collection/reward/shared_col_reward_meatlump_doll_officer.iff")
+
+--Desert Demon Doll
+object_tangible_collection_reward_shared_desert_demon_doll_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_desert_demon_doll_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_desert_demon_doll_reward, "object/tangible/collection/reward/shared_desert_demon_doll_reward.iff")
+
+--Space Mobile
+object_tangible_collection_reward_shared_space_mobile_publish_gift = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_space_mobile_publish_gift.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_space_mobile_publish_gift, "object/tangible/collection/reward/shared_space_mobile_publish_gift.iff")

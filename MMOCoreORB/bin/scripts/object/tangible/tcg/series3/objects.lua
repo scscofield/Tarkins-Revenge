@@ -30,4 +30,8 @@ object_tangible_tcg_series3_shared_decorative_wompa_skin_rug = SharedTangibleObj
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_wompa_skin_rug, "object/tangible/tcg/series3/shared_decorative_wompa_skin_rug.iff")
 
-
+--Wookiee Ceremonial Pipe
+object_tangible_tcg_series3_shared_consumable_wookiee_ceremonial_pipe = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_consumable_wookiee_ceremonial_pipe.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_consumable_wookiee_ceremonial_pipe, "object/tangible/tcg/series3/shared_consumable_wookiee_ceremonial_pipe.iff")

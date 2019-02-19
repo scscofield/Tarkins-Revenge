@@ -17,3 +17,10 @@ object_tangible_tcg_series8_shared_painting_tcg8_yoda = SharedTangibleObjectTemp
 	clientTemplateFileName = "object/tangible/tcg/series8/shared_painting_tcg8_yoda.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series8_shared_painting_tcg8_yoda, "object/tangible/tcg/series8/shared_painting_tcg8_yoda.iff")
+
+--Armored Tauntaun Statue
+object_tangible_tcg_series8_shared_tauntaun_armored_statue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series8/shared_tauntaun_armored_statue.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series8_shared_tauntaun_armored_statue, "object/tangible/tcg/series8/shared_tauntaun_armored_statue.iff")
+

@@ -40,3 +40,9 @@ object_tangible_tcg_series6_shared_combine_object_hk47_statuette = SharedTangibl
 	clientTemplateFileName = "object/tangible/tcg/series6/shared_combine_object_hk47_statuette.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_combine_object_hk47_statuette, "object/tangible/tcg/series6/shared_combine_object_hk47_statuette.iff")
+
+--Armored Dewback Statue
+object_tangible_tcg_series6_shared_dewback_armor_statue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_dewback_armor_statue.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_dewback_armor_statue, "object/tangible/tcg/series6/shared_dewback_armor_statue.iff")

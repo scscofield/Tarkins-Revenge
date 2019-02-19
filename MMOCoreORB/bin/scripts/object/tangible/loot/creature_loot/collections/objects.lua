@@ -302,3 +302,24 @@ object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_gen = Share
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_col_rebel_rank_gen, "object/tangible/loot/creature_loot/collections/shared_col_rebel_rank_gen.iff")
+
+--Stuffed ATAT
+object_tangible_loot_creature_loot_collections_shared_opt_in_mail_09 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_09.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_opt_in_mail_09, "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_09.iff")
+
+--Dolovite Mask
+object_tangible_loot_creature_loot_collections_shared_treasure_hunter_dolovite_mask = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_dolovite_mask.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_treasure_hunter_dolovite_mask, "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_dolovite_mask.iff")
+
+--Hendanyn Mask
+object_tangible_loot_creature_loot_collections_shared_treasure_hunter_hendanyn_mask = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_hendanyn_mask.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_treasure_hunter_hendanyn_mask, "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_hendanyn_mask.iff")

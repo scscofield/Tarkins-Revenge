@@ -1236,3 +1236,52 @@ object_tangible_tarkin_custom_decorative_shared_sign_go_back = SharedTangibleObj
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_sign_go_back, "object/tangible/tarkin_custom/decorative/shared_sign_go_back.iff")
+
+--Primitive Operating Table
+object_tangible_tarkin_custom_decorative_shared_frn_kash_table_operating = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_kash_table_operating.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_kash_table_operating, "object/tangible/tarkin_custom/decorative/shared_frn_kash_table_operating.iff")
+
+--Primitive Loom
+object_tangible_tarkin_custom_decorative_shared_frn_kash_wookiee_loom = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_kash_wookiee_loom.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_kash_wookiee_loom, "object/tangible/tarkin_custom/decorative/shared_frn_kash_wookiee_loom.iff")
+
+--Primitive Hospital Bed
+object_tangible_tarkin_custom_decorative_shared_frn_kash_hospital_bed = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_kash_hospital_bed.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_kash_hospital_bed, "object/tangible/tarkin_custom/decorative/shared_frn_kash_hospital_bed.iff")
+
+--Rope Ladder
+object_tangible_tarkin_custom_decorative_shared_frn_kash_myyydril_rope_ladder = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_kash_myyydril_rope_ladder.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_kash_myyydril_rope_ladder, "object/tangible/tarkin_custom/decorative/shared_frn_kash_myyydril_rope_ladder.iff")
+
+--Primitive Streetlamp
+object_tangible_tarkin_custom_decorative_shared_mun_kash_imprv_streetlamp_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_mun_kash_imprv_streetlamp_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_mun_kash_imprv_streetlamp_s02, "object/tangible/tarkin_custom/decorative/shared_mun_kash_imprv_streetlamp_s02.iff")
+
+--Primitive Stand
+object_tangible_tarkin_custom_decorative_shared_mun_kash_signpost_primitive_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_mun_kash_signpost_primitive_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_mun_kash_signpost_primitive_s01, "object/tangible/tarkin_custom/decorative/shared_mun_kash_signpost_primitive_s01.iff")
+
+--Stuffed ATAT
+object_tangible_tarkin_custom_decorative_shared_frn_all_sclpt_stuffed_atat_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_sclpt_stuffed_atat_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_sclpt_stuffed_atat_s02, "object/tangible/tarkin_custom/decorative/shared_frn_all_sclpt_stuffed_atat_s02.iff")
