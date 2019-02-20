@@ -97,3 +97,10 @@ object_tangible_collection_reward_shared_space_mobile_publish_gift = SharedTangi
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_space_mobile_publish_gift, "object/tangible/collection/reward/shared_space_mobile_publish_gift.iff")
+
+--Framed Beetle Specimen
+object_tangible_collection_reward_shared_framed_beetle_specimen = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_framed_beetle_specimen.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_framed_beetle_specimen, "object/tangible/collection/reward/shared_framed_beetle_specimen.iff")

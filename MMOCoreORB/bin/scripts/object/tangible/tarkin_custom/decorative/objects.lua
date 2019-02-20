@@ -1285,3 +1285,18 @@ object_tangible_tarkin_custom_decorative_shared_frn_all_sclpt_stuffed_atat_s02 =
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_sclpt_stuffed_atat_s02, "object/tangible/tarkin_custom/decorative/shared_frn_all_sclpt_stuffed_atat_s02.iff")
+
+--Scarecrow
+object_tangible_tarkin_custom_decorative_shared_poi_moon_scarecrow_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_poi_moon_scarecrow_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_poi_moon_scarecrow_s02, "object/tangible/tarkin_custom/decorative/shared_poi_moon_scarecrow_s02.iff")
+
+--Bars
+object_tangible_tarkin_custom_decorative_shared_thm_kash_cave_myyydril_bars = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_kash_cave_myyydril_bars.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_kash_cave_myyydril_bars, "object/tangible/tarkin_custom/decorative/shared_thm_kash_cave_myyydril_bars.iff")
+

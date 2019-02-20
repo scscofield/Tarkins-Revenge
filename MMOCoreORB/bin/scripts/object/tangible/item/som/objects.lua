@@ -9,3 +9,10 @@ object_tangible_item_som_shared_blistmok_rug = SharedTangibleObjectTemplate:new 
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_item_som_shared_blistmok_rug, "object/tangible/item/som/shared_blistmok_rug.iff")
+
+--Lava Beetle Nest
+object_tangible_item_som_shared_lava_beetle_nest = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/item/som/shared_lava_beetle_nest.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_item_som_shared_lava_beetle_nest, "object/tangible/item/som/shared_lava_beetle_nest.iff")

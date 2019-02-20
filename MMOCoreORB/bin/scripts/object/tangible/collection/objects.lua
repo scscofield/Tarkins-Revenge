@@ -57,3 +57,39 @@ object_tangible_collection_shared_deathtrooper_research_stuffed_stardestroyer_01
 	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_research_stuffed_stardestroyer_01.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_research_stuffed_stardestroyer_01, "object/tangible/collection/shared_deathtrooper_research_stuffed_stardestroyer_01.iff")
+
+--Borer Beetle
+object_tangible_collection_shared_beetle_borer = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_beetle_borer.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_borer, "object/tangible/collection/shared_beetle_borer.iff")
+
+--Flame Beetle
+object_tangible_collection_shared_beetle_flame = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_beetle_flame.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_flame, "object/tangible/collection/shared_beetle_flame.iff")
+
+--Ground Beetle
+object_tangible_collection_shared_beetle_ground = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_beetle_ground.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_ground, "object/tangible/collection/shared_beetle_ground.iff")
+
+--Junk Beetle
+object_tangible_collection_shared_beetle_junk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_beetle_junk.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_junk, "object/tangible/collection/shared_beetle_junk.iff")
+
+--Piranha Beetle
+object_tangible_collection_shared_beetle_piranha = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_beetle_piranha.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_piranha, "object/tangible/collection/shared_beetle_piranha.iff")
+
+--Young Cave Beetle
+object_tangible_collection_shared_beetle_young_cave = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_beetle_young_cave.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_young_cave, "object/tangible/collection/shared_beetle_young_cave.iff")

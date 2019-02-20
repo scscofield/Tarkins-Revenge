@@ -145,4 +145,17 @@ object_tangible_storyteller_prop_shared_pr_item_wookiee_stick = SharedTangibleOb
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_wookiee_stick, "object/tangible/storyteller/prop/shared_pr_item_wookiee_stick.iff")
 
+--Burning Man
+object_tangible_storyteller_prop_shared_pr_item_burning_man = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_burning_man.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_burning_man, "object/tangible/storyteller/prop/shared_pr_item_burning_man.iff")
+
+--Large Burning Man
+object_tangible_storyteller_prop_shared_pr_item_burning_man_huge = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_burning_man_huge.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_burning_man_huge, "object/tangible/storyteller/prop/shared_pr_item_burning_man_huge.iff")
 
