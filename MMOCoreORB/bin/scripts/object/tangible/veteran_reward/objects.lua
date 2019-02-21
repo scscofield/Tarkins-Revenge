@@ -1314,3 +1314,14 @@ object_tangible_veteran_reward_shared_frn_vet_carbonite_ugnaught = SharedTangibl
 }
 ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_carbonite_ugnaught, "object/tangible/veteran_reward/shared_frn_vet_carbonite_ugnaught.iff")
 
+--Houseplant 1
+object_tangible_veteran_reward_shared_frn_vet_houseplant = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_houseplant.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_houseplant, "object/tangible/veteran_reward/shared_frn_vet_houseplant.iff")
+
+--Houseplant 2
+object_tangible_veteran_reward_shared_frn_vet_houseplant_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_houseplant_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_houseplant_02, "object/tangible/veteran_reward/shared_frn_vet_houseplant_02.iff")

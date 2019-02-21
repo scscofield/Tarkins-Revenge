@@ -27,3 +27,39 @@ object_tangible_loot_creature_loot_kashyyyk_loot_shared_white_potion = SharedTan
 	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_white_potion.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_white_potion, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_white_potion.iff")
+
+--Mystical Tome
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome.iff")
+
+--Mystical Tome 01
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_01, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_01.iff")
+
+--Mystical Tome 02
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_02, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_02.iff")
+
+--Mystical Tome 03
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_03.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_03, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_03.iff")
+
+--Mystical Tome 04
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_04.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_tome_04, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_tome_04.iff")
+
+--Mystical Scroll
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_scroll = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_scroll.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_scroll, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_scroll.iff")

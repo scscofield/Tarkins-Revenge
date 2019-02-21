@@ -70,14 +70,14 @@ includeFile("tarkin_custom/lok/giant_dune_kimogila_matriarch_cave.lua")
 includeFile("tarkin_custom/lok/young_spined_snake_cave.lua")
 includeFile("tarkin_custom/lok/giant_spined_snake_cave.lua")
 
---Dantari POI
+--Dantari Stronghold
 includeFile("tarkin_custom/dantooine/katarn.lua")
 includeFile("tarkin_custom/dantooine/dantari_battlelord_poi.lua")
 includeFile("tarkin_custom/dantooine/dantari_chief_poi.lua")
 includeFile("tarkin_custom/dantooine/dantari_raider_poi.lua")
 includeFile("tarkin_custom/dantooine/dantari_strategist_poi.lua")
 
---Kunga Cave
+--Kunga Stronghold
 includeFile("tarkin_custom/dantooine/kunga_clan_leader_poi.lua")
 includeFile("tarkin_custom/dantooine/kunga_clan_primalist_poi.lua")
 includeFile("tarkin_custom/dantooine/kunga_harvester_poi.lua")
@@ -91,7 +91,7 @@ includeFile("tarkin_custom/dantooine/kunga_soothsayer_poi.lua")
 includeFile("tarkin_custom/dantooine/kunga_tribe_member_poi.lua")
 includeFile("tarkin_custom/dantooine/kunga_warrior_poi.lua")
 
---Mokk Cave
+--Mokk Stronghold
 includeFile("tarkin_custom/dantooine/mokk_tribesman_poi.lua")
 includeFile("tarkin_custom/dantooine/mokk_herbalist_poi.lua")
 includeFile("tarkin_custom/dantooine/mokk_harvester_poi.lua")
@@ -120,3 +120,19 @@ includeFile("tarkin_custom/endor/korga_chieftain_poi.lua")
 includeFile("tarkin_custom/endor/tulrus.lua")
 includeFile("tarkin_custom/endor/lava_flea.lua")
 includeFile("tarkin_custom/endor/kubaza_beetle.lua")
+
+--Jinda Ritualist Cave
+includeFile("tarkin_custom/endor/jinda_cub_poi.lua")
+includeFile("tarkin_custom/endor/jinda_elder_poi.lua")
+includeFile("tarkin_custom/endor/jinda_elder_worker_poi.lua")
+includeFile("tarkin_custom/endor/jinda_worker_poi.lua")
+includeFile("tarkin_custom/endor/jinda_ritualist_poi.lua")
+includeFile("tarkin_custom/endor/jinda_tribesman_poi.lua")
+includeFile("tarkin_custom/endor/jinda_shaman_poi.lua")
+includeFile("tarkin_custom/endor/jinda_warrior_poi.lua")
+includeFile("tarkin_custom/endor/jinda_outcast_poi.lua")
+includeFile("tarkin_custom/endor/jinda_loremaster_poi.lua")
+includeFile("tarkin_custom/endor/jinda_matriarch_poi.lua")
+includeFile("tarkin_custom/endor/archaic_jinda_ritualist_poi.lua")
+includeFile("tarkin_custom/endor/jinda_veteran_poi.lua")
+includeFile("tarkin_custom/endor/jinda_chief_poi.lua")

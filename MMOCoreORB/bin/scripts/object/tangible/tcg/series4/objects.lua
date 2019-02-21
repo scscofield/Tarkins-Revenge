@@ -37,3 +37,10 @@ object_tangible_tcg_series4_shared_decorative_stuffed_wampa = SharedTangibleObje
 	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_stuffed_wampa.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_stuffed_wampa, "object/tangible/tcg/series4/shared_decorative_stuffed_wampa.iff")
+
+--Child Bed
+object_tangible_tcg_series4_shared_decorative_child_bed_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_child_bed_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_child_bed_01, "object/tangible/tcg/series4/shared_decorative_child_bed_01.iff")
+
