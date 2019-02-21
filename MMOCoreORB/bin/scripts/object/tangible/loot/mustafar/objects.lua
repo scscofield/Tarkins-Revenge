@@ -58,3 +58,47 @@ object_tangible_loot_mustafar_shared_mustafar_map = SharedTangibleObjectTemplate
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_mustafar_map, "object/tangible/loot/mustafar/shared_mustafar_map.iff")
+
+--Xandank Trophy
+object_tangible_loot_mustafar_shared_trophey_xandank = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_trophey_xandank.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_trophey_xandank, "object/tangible/loot/mustafar/shared_trophey_xandank.iff")
+
+--Stuffed Bantha
+object_tangible_loot_mustafar_shared_stuff_bantha_doll = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_stuff_bantha_doll.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_stuff_bantha_doll, "object/tangible/loot/mustafar/shared_stuff_bantha_doll.iff")
+
+--Stuffed Dewback
+object_tangible_loot_mustafar_shared_stuffed_dewback_doll = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_stuffed_dewback_doll.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_stuffed_dewback_doll, "object/tangible/loot/mustafar/shared_stuffed_dewback_doll.iff")
+
+--Stuffed Rancor
+object_tangible_loot_mustafar_shared_stuff_rancor_doll = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_stuff_rancor_doll.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_stuff_rancor_doll, "object/tangible/loot/mustafar/shared_stuff_rancor_doll.iff")
+
+--Tulrus Spine
+object_tangible_loot_mustafar_shared_trophey_tulrus_spine = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_trophey_tulrus_spine.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_trophey_tulrus_spine, "object/tangible/loot/mustafar/shared_trophey_tulrus_spine.iff")
+
+--Kubaza Beetle Trophy
+object_tangible_loot_mustafar_shared_trophey_lava_beetle = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_trophey_lava_beetle.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_trophey_lava_beetle, "object/tangible/loot/mustafar/shared_trophey_lava_beetle.iff")
+
+--Lava Flea Trophy
+object_tangible_loot_mustafar_shared_trophey_lava_flea = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_trophey_lava_flea.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_trophey_lava_flea, "object/tangible/loot/mustafar/shared_trophey_lava_flea.iff")

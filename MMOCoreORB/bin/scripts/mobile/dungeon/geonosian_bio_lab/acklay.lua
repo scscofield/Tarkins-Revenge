@@ -46,7 +46,7 @@ acklay = Creature:new {
 	weapons = {"creature_spit_large_yellow"},
 	conversationTemplate = "",
 	attacks = {
-		{"creatureareacombo",""},
+		{"creatureareacombo","mediumpoison"},
 		{"posturedownattack","postureDownChance=50"}
 	}
 }

@@ -1289,3 +1289,39 @@ object_tangible_veteran_reward_shared_frn_vet_painting_community_summit_s02 = Sh
 	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_painting_community_summit_s02.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_painting_community_summit_s02, "object/tangible/veteran_reward/shared_frn_vet_painting_community_summit_s02.iff")
+
+--Plush Tauntaun
+object_tangible_veteran_reward_shared_frn_plush_tauntaun = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_plush_tauntaun.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_plush_tauntaun, "object/tangible/veteran_reward/shared_frn_plush_tauntaun.iff")
+
+--Geonisian in Carbonite
+object_tangible_veteran_reward_shared_frn_vet_carbonite_geonosian = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_carbonite_geonosian.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_carbonite_geonosian, "object/tangible/veteran_reward/shared_frn_vet_carbonite_geonosian.iff")
+
+--Gungan in Carbonite
+object_tangible_veteran_reward_shared_frn_vet_carbonite_gungan = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_carbonite_gungan.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_carbonite_gungan, "object/tangible/veteran_reward/shared_frn_vet_carbonite_gungan.iff")
+
+--Ugnaught in Carbonite
+object_tangible_veteran_reward_shared_frn_vet_carbonite_ugnaught = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_carbonite_ugnaught.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_carbonite_ugnaught, "object/tangible/veteran_reward/shared_frn_vet_carbonite_ugnaught.iff")
+
+--Houseplant 1
+object_tangible_veteran_reward_shared_frn_vet_houseplant = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_houseplant.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_houseplant, "object/tangible/veteran_reward/shared_frn_vet_houseplant.iff")
+
+--Houseplant 2
+object_tangible_veteran_reward_shared_frn_vet_houseplant_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_houseplant_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_houseplant_02, "object/tangible/veteran_reward/shared_frn_vet_houseplant_02.iff")

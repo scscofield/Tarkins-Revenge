@@ -7087,3 +7087,17 @@ object_tangible_furniture_all_shared_frn_chair_control = SharedTangibleObjectTem
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_chair_control, "object/tangible/furniture/all/frn_chair_control.iff")
+
+--Meatlump Rock Chair
+object_tangible_furniture_all_shared_meatlump_reward_rock_chair_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/meatlump_reward_rock_chair_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_meatlump_reward_rock_chair_01, "object/tangible/furniture/all/meatlump_reward_rock_chair_01.iff")
+
+--Bantha Skin Rug
+object_tangible_furniture_all_shared_frn_all_rug_bantha_skin = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_rug_bantha_skin.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_rug_bantha_skin, "object/tangible/furniture/all/frn_all_rug_bantha_skin.iff")

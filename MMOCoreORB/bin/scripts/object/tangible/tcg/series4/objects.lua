@@ -26,3 +26,21 @@ object_tangible_tcg_series4_shared_video_game_table = SharedTangibleObjectTempla
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_video_game_table, "object/tangible/tcg/series4/shared_video_game_table.iff")
 
+--Stuffed Tauntaun
+object_tangible_tcg_series4_shared_decorative_stuffed_tauntaun = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_stuffed_tauntaun.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_stuffed_tauntaun, "object/tangible/tcg/series4/shared_decorative_stuffed_tauntaun.iff")
+
+--Stuffed Wampa
+object_tangible_tcg_series4_shared_decorative_stuffed_wampa = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_stuffed_wampa.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_stuffed_wampa, "object/tangible/tcg/series4/shared_decorative_stuffed_wampa.iff")
+
+--Child Bed
+object_tangible_tcg_series4_shared_decorative_child_bed_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_child_bed_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_child_bed_01, "object/tangible/tcg/series4/shared_decorative_child_bed_01.iff")
+

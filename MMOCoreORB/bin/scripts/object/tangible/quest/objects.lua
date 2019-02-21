@@ -63,3 +63,17 @@ object_tangible_quest_shared_som_kenobi_final_force_crystal = SharedTangibleObje
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_quest_shared_som_kenobi_final_force_crystal, "object/tangible/quest/shared_som_kenobi_final_force_crystal.iff")
+
+--Blooming Sapflower
+object_tangible_quest_shared_blooming_sapflower = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/quest/shared_blooming_sapflower.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_quest_shared_blooming_sapflower, "object/tangible/quest/shared_blooming_sapflower.iff")
+
+--Xharnoh Plant
+object_tangible_quest_shared_naboo_theed_xharnoh_plant = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/quest/shared_naboo_theed_xharnoh_plant.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_quest_shared_naboo_theed_xharnoh_plant, "object/tangible/quest/shared_naboo_theed_xharnoh_plant.iff")

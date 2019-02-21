@@ -2027,3 +2027,10 @@ object_tangible_furniture_decorative_shared_decorative_fedora_hat = SharedTangib
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_decorative_fedora_hat, "object/tangible/furniture/decorative/shared_decorative_fedora_hat.iff")
+
+--Wookiee Shield
+object_tangible_furniture_decorative_shared_event_wookiee_shield = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_event_wookiee_shield.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_event_wookiee_shield, "object/tangible/furniture/decorative/shared_event_wookiee_shield.iff")

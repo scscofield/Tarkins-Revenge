@@ -45,5 +45,6 @@
 --Children folder includes
 includeFile("tangible/loot/creature_loot/collections/serverobjects.lua")
 includeFile("tangible/loot/creature_loot/generic/serverobjects.lua")
+includeFile("tangible/loot/creature_loot/kashyyyk_loot/serverobjects.lua")
 
 -- Server Objects

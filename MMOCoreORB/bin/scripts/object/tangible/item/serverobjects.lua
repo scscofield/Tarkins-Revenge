@@ -47,6 +47,7 @@ includeFile("tangible/item/new_player/serverobjects.lua")
 includeFile("tangible/item/plant/serverobjects.lua")
 includeFile("tangible/item/quest/serverobjects.lua")
 includeFile("tangible/item/som/serverobjects.lua")
+includeFile("tangible/item/kashyyyk/serverobjects.lua")
 
 -- Server Objects
 includeFile("tangible/item/con_drinking_glass_01.lua")

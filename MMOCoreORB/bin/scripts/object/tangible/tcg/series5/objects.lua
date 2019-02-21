@@ -47,3 +47,17 @@ object_tangible_tcg_series5_shared_nightsister_backpack = SharedTangibleObjectTe
 	clientTemplateFileName = "object/tangible/tcg/series5/shared_nightsister_backpack.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_nightsister_backpack, "object/tangible/tcg/series5/shared_nightsister_backpack.iff")
+
+--Korri Clan Shield
+object_tangible_tcg_series5_shared_consumable_klorri_clan_shield = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_consumable_klorri_clan_shield.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_consumable_klorri_clan_shield, "object/tangible/tcg/series5/shared_consumable_klorri_clan_shield.iff")
+
+--Armored Varactyl Statue
+object_tangible_tcg_series5_shared_varactyl_armor_statue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_varactyl_armor_statue.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_varactyl_armor_statue, "object/tangible/tcg/series5/shared_varactyl_armor_statue.iff")
+
+

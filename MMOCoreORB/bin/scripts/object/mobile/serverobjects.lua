@@ -48,6 +48,7 @@ includeFile("mobile/skeleton/serverobjects.lua")
 includeFile("mobile/tatooine_npc/serverobjects.lua")
 includeFile("mobile/vehicle/serverobjects.lua")
 includeFile("mobile/vendor/serverobjects.lua")
+includeFile("mobile/som/serverobjects.lua")
 
 -- Server Objects
 includeFile("mobile/21b_surgical_droid_crafted.lua")
@@ -2657,3 +2658,5 @@ includeFile("mobile/zabrak_female.lua")
 includeFile("mobile/zabrak_male.lua")
 includeFile("mobile/zucca_boar.lua")
 includeFile("mobile/zucca_boar_hue.lua")
+
+includeFile("mobile/katarn.lua")
