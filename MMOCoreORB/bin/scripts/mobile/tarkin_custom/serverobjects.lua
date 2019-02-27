@@ -136,3 +136,10 @@ includeFile("tarkin_custom/endor/jinda_matriarch_poi.lua")
 includeFile("tarkin_custom/endor/archaic_jinda_ritualist_poi.lua")
 includeFile("tarkin_custom/endor/jinda_veteran_poi.lua")
 includeFile("tarkin_custom/endor/jinda_chief_poi.lua")
+
+--Rogue Corsec Base
+includeFile("tarkin_custom/corellia/rogue_corsec_trooper_poi.lua")
+includeFile("tarkin_custom/corellia/corsec_deserter_poi.lua")
+includeFile("tarkin_custom/corellia/renegade_corsec_trooper_poi.lua")
+includeFile("tarkin_custom/corellia/corsec_traitor_poi.lua")
+includeFile("tarkin_custom/corellia/rogue_corsec_leader_poi.lua")

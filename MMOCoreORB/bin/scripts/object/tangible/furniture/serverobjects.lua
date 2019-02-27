@@ -61,6 +61,8 @@ includeFile("tangible/furniture/lifeday/serverobjects.lua")
 includeFile("tangible/furniture/nym_themepark/serverobjects.lua")
 includeFile("tangible/furniture/terminal/serverobjects.lua")
 includeFile("tangible/furniture/ep3_rewards/serverobjects.lua")
+includeFile("tangible/furniture/house_cleanup/serverobjects.lua")
+includeFile("tangible/furniture/wod_themepark/serverobjects.lua")
 
 -- Server Objects
 includeFile("tangible/furniture/furniture_base.lua")

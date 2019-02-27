@@ -104,3 +104,10 @@ object_tangible_collection_reward_shared_framed_beetle_specimen = SharedTangible
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_framed_beetle_specimen, "object/tangible/collection/reward/shared_framed_beetle_specimen.iff")
+
+--Glass Shelving
+object_tangible_collection_reward_shared_glass_shelving_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_glass_shelving_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_glass_shelving_01, "object/tangible/collection/reward/shared_glass_shelving_01.iff")

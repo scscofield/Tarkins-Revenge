@@ -46,3 +46,16 @@ object_tangible_tcg_series6_shared_dewback_armor_statue = SharedTangibleObjectTe
 	clientTemplateFileName = "object/tangible/tcg/series6/shared_dewback_armor_statue.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_dewback_armor_statue, "object/tangible/tcg/series6/shared_dewback_armor_statue.iff")
+
+--Baby Colo Claw Fish
+object_tangible_tcg_series6_shared_decorative_baby_colo_claw_fish = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_decorative_baby_colo_claw_fish.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_decorative_baby_colo_claw_fish, "object/tangible/tcg/series6/shared_decorative_baby_colo_claw_fish.iff")
+
+--Baby Colo Claw Fishtank
+object_tangible_tcg_series6_shared_decorative_baby_colo_claw_fishtank = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_decorative_baby_colo_claw_fishtank.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_decorative_baby_colo_claw_fishtank, "object/tangible/tcg/series6/shared_decorative_baby_colo_claw_fishtank.iff")
+

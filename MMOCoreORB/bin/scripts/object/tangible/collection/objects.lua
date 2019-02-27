@@ -77,10 +77,10 @@ object_tangible_collection_shared_beetle_ground = SharedTangibleObjectTemplate:n
 ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_ground, "object/tangible/collection/shared_beetle_ground.iff")
 
 --Junk Beetle
-object_tangible_collection_shared_beetle_junk = SharedTangibleObjectTemplate:new {
-	clientTemplateFileName = "object/tangible/collection/shared_beetle_junk.iff"
-}
-ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_junk, "object/tangible/collection/shared_beetle_junk.iff")
+--object_tangible_collection_shared_beetle_junk = SharedTangibleObjectTemplate:new {
+--	clientTemplateFileName = "object/tangible/collection/shared_beetle_junk.iff"
+--}
+--ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_junk, "object/tangible/collection/shared_beetle_junk.iff")
 
 --Piranha Beetle
 object_tangible_collection_shared_beetle_piranha = SharedTangibleObjectTemplate:new {
@@ -93,3 +93,28 @@ object_tangible_collection_shared_beetle_young_cave = SharedTangibleObjectTempla
 	clientTemplateFileName = "object/tangible/collection/shared_beetle_young_cave.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_collection_shared_beetle_young_cave, "object/tangible/collection/shared_beetle_young_cave.iff")
+
+--Braata Statue
+object_tangible_collection_shared_dwartii_statue_braata = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_dwartii_statue_braata.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_dwartii_statue_braata, "object/tangible/collection/shared_dwartii_statue_braata.iff")
+
+--Faya Statue
+object_tangible_collection_shared_dwartii_statue_faya = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_dwartii_statue_faya.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_dwartii_statue_faya, "object/tangible/collection/shared_dwartii_statue_faya.iff")
+
+--Sistros Statue
+object_tangible_collection_shared_dwartii_statue_sistros = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_dwartii_statue_sistros.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_dwartii_statue_sistros, "object/tangible/collection/shared_dwartii_statue_sistros.iff")
+
+--Yanjon Statue
+object_tangible_collection_shared_dwartii_statue_yanjon = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_dwartii_statue_yanjon.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_dwartii_statue_yanjon, "object/tangible/collection/shared_dwartii_statue_yanjon.iff")
+

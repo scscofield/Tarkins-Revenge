@@ -42,3 +42,16 @@ object_tangible_tcg_series7_shared_painting_lando_poster = SharedTangibleObjectT
 	clientTemplateFileName = "object/tangible/tcg/series7/shared_painting_lando_poster.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_painting_lando_poster, "object/tangible/tcg/series7/shared_painting_lando_poster.iff")
+
+--Gold Cape
+object_tangible_tcg_series7_shared_wearable_gold_cape = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series7/shared_wearable_gold_cape.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_wearable_gold_cape, "object/tangible/tcg/series7/shared_wearable_gold_cape.iff")
+
+--Purple Cape
+object_tangible_tcg_series7_shared_wearable_purple_cape = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series7/shared_wearable_purple_cape.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_wearable_purple_cape, "object/tangible/tcg/series7/shared_wearable_purple_cape.iff")
+
