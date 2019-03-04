@@ -81,3 +81,8 @@ object_tangible_tcg_series1_shared_decorative_display_case_02 = SharedTangibleOb
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_display_case_02, "object/tangible/tcg/series1/shared_decorative_display_case_02.iff")
 
+--Decorative Drink Dispenser
+object_tangible_tcg_series1_shared_decorative_drink_dispenser = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_drink_dispenser.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_drink_dispenser, "object/tangible/tcg/series1/shared_decorative_drink_dispenser.iff")

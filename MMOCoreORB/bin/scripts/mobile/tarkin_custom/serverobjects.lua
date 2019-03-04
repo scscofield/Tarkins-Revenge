@@ -143,3 +143,10 @@ includeFile("tarkin_custom/corellia/corsec_deserter_poi.lua")
 includeFile("tarkin_custom/corellia/renegade_corsec_trooper_poi.lua")
 includeFile("tarkin_custom/corellia/corsec_traitor_poi.lua")
 includeFile("tarkin_custom/corellia/rogue_corsec_leader_poi.lua")
+
+--Drall Patriot Cave
+includeFile("tarkin_custom/corellia/drall_patriot_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_foot_soldier_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_legionnaire_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_conqueror_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_chief_poi.lua")
