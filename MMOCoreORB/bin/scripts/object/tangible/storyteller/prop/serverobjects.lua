@@ -25,3 +25,8 @@ includeFile("tangible/storyteller/prop/pr_eqp_wookiee_gravestone_s03.lua")
 includeFile("tangible/storyteller/prop/pr_item_wookiee_stick.lua")
 includeFile("tangible/storyteller/prop/pr_item_burning_man.lua")
 includeFile("tangible/storyteller/prop/pr_item_burning_man_huge.lua")
+includeFile("tangible/storyteller/prop/pr_ch9_scaffolding_short.lua")
+includeFile("tangible/storyteller/prop/pr_ch9_scaffolding_tall.lua")
+includeFile("tangible/storyteller/prop/pr_all_lair_webweaver.lua")
+includeFile("tangible/storyteller/prop/pr_web.lua")
+

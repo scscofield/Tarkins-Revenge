@@ -159,3 +159,32 @@ object_tangible_storyteller_prop_shared_pr_item_burning_man_huge = SharedTangibl
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_burning_man_huge, "object/tangible/storyteller/prop/shared_pr_item_burning_man_huge.iff")
 
+--Short Scaffolding
+object_tangible_storyteller_prop_shared_pr_ch9_scaffolding_short = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_ch9_scaffolding_short.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_scaffolding_short, "object/tangible/storyteller/prop/shared_pr_ch9_scaffolding_short.iff")
+
+--Tall Scaffolding
+object_tangible_storyteller_prop_shared_pr_ch9_scaffolding_tall = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_ch9_scaffolding_tall.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_scaffolding_tall, "object/tangible/storyteller/prop/shared_pr_ch9_scaffolding_tall.iff")
+
+--Webweaver Lair
+object_tangible_storyteller_prop_shared_pr_all_lair_webweaver = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_all_lair_webweaver.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_all_lair_webweaver, "object/tangible/storyteller/prop/shared_pr_all_lair_webweaver.iff")
+
+--Web
+object_tangible_storyteller_prop_shared_pr_web = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_web.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_web, "object/tangible/storyteller/prop/shared_pr_web.iff")
+
+

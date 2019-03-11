@@ -1300,3 +1300,21 @@ object_tangible_tarkin_custom_decorative_shared_thm_kash_cave_myyydril_bars = Sh
 
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_kash_cave_myyydril_bars, "object/tangible/tarkin_custom/decorative/shared_thm_kash_cave_myyydril_bars.iff")
 
+--Orion Map 1
+object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map1 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map1.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map1, "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map1.iff")
+
+--Orion Map 2
+object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map2 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map2.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map2, "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map2.iff")
+
+--Orion Map 3
+object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map3 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map3.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map3, "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map3.iff")
+

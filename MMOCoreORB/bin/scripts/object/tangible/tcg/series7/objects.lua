@@ -55,3 +55,15 @@ object_tangible_tcg_series7_shared_wearable_purple_cape = SharedTangibleObjectTe
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_wearable_purple_cape, "object/tangible/tcg/series7/shared_wearable_purple_cape.iff")
 
+--Embroidered Sash
+object_tangible_tcg_series7_shared_wearable_sash_embroidered = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series7/shared_wearable_sash_embroidered.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_wearable_sash_embroidered, "object/tangible/tcg/series7/shared_wearable_sash_embroidered.iff")
+
+--Handmade Sash
+object_tangible_tcg_series7_shared_wearable_sash_handmade = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series7/shared_wearable_sash_handmade.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_wearable_sash_handmade, "object/tangible/tcg/series7/shared_wearable_sash_handmade.iff")
+

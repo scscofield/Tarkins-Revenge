@@ -44,3 +44,9 @@ object_tangible_tcg_series4_shared_decorative_child_bed_01 = SharedTangibleObjec
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_child_bed_01, "object/tangible/tcg/series4/shared_decorative_child_bed_01.iff")
 
+--Mando Rug
+object_tangible_tcg_series4_shared_decorative_tcg_rug_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_tcg_rug_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_tcg_rug_01, "object/tangible/tcg/series4/shared_decorative_tcg_rug_01.iff")
+

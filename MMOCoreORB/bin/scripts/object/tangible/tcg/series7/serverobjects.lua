@@ -3,6 +3,8 @@ includeFile("tangible/tcg/series7/painting_commando.lua")
 includeFile("tangible/tcg/series7/painting_lando_poster.lua")
 includeFile("tangible/tcg/series7/wearable_gold_cape.lua")
 includeFile("tangible/tcg/series7/wearable_purple_cape.lua")
+includeFile("tangible/tcg/series7/wearable_sash_embroidered.lua")
+includeFile("tangible/tcg/series7/wearable_sash_handmade.lua")
 
 --Not Targetable
 --includeFile("tangible/tcg/series7/decal_imperial_graffiti_01.lua")

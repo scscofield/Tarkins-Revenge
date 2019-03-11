@@ -2034,3 +2034,10 @@ object_tangible_furniture_decorative_shared_event_wookiee_shield = SharedTangibl
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_event_wookiee_shield, "object/tangible/furniture/decorative/shared_event_wookiee_shield.iff")
+
+--Floating Stones
+object_tangible_furniture_decorative_shared_wod_floating_stones = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_wod_floating_stones.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_wod_floating_stones, "object/tangible/furniture/decorative/shared_wod_floating_stones.iff")

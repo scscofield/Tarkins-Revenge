@@ -337,3 +337,10 @@ object_tangible_loot_creature_loot_collections_shared_opt_in_mail_11 = SharedTan
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_opt_in_mail_11, "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_11.iff")
+
+--Mandalore Mask
+object_tangible_loot_creature_loot_collections_shared_treasure_hunter_mandalore_mask = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_mandalore_mask.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_treasure_hunter_mandalore_mask, "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_mandalore_mask.iff")

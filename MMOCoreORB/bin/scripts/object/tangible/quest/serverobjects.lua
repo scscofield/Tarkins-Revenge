@@ -44,6 +44,7 @@
 
 --Children folder includes
 includeFile("tangible/quest/quest_start/serverobjects.lua")
+includeFile("tangible/quest/wod/serverobjects.lua")
 
 -- Server Objects
 includeFile("tangible/quest/naktra_crystals.lua")
