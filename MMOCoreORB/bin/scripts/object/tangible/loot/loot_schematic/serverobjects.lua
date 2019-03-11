@@ -589,3 +589,32 @@ includeFile("tangible/loot/loot_schematic/armor_rebel_snow_leggings_schematic.lu
 
 --Rebel Endor Helmet
 includeFile("tangible/loot/loot_schematic/armor_rebel_endor_helmet_schematic.lua")
+
+--Imperial Mandalorian Armor
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_belt_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_bicep_l_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_bicep_r_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_boots_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_bracer_l_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_bracer_r_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_chest_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_gloves_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_helmet_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_imperial_leggings_schematic.lua")
+
+--Rebel Mandalorian Armor
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_belt_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_bicep_l_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_bicep_r_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_boots_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_bracer_l_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_bracer_r_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_chest_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_gloves_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_helmet_schematic.lua")
+includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_leggings_schematic.lua")
+
+--TCG Backpacks
+includeFile("tangible/loot/loot_schematic/wearable_backpack_armored_schematic.lua")
+includeFile("tangible/loot/loot_schematic/wearable_backpack_recon_schematic.lua")
+

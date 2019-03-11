@@ -35,3 +35,9 @@ object_tangible_tcg_series3_shared_consumable_wookiee_ceremonial_pipe = SharedTa
 	clientTemplateFileName = "object/tangible/tcg/series3/shared_consumable_wookiee_ceremonial_pipe.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_consumable_wookiee_ceremonial_pipe, "object/tangible/tcg/series3/shared_consumable_wookiee_ceremonial_pipe.iff")
+
+--Mythosaur Skull Banner
+object_tangible_tcg_series3_shared_decorative_mandalorian_skull_banner = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_mandalorian_skull_banner.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_mandalorian_skull_banner, "object/tangible/tcg/series3/shared_decorative_mandalorian_skull_banner.iff")

@@ -24,3 +24,8 @@ object_tangible_tcg_series8_shared_tauntaun_armored_statue = SharedTangibleObjec
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series8_shared_tauntaun_armored_statue, "object/tangible/tcg/series8/shared_tauntaun_armored_statue.iff")
 
+--Lando Cape
+object_tangible_tcg_series8_shared_wearable_lando_cape = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series8/shared_wearable_lando_cape.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series8_shared_wearable_lando_cape, "object/tangible/tcg/series8/shared_wearable_lando_cape.iff")

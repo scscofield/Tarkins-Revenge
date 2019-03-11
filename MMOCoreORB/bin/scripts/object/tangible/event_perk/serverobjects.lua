@@ -134,3 +134,6 @@ includeFile("tangible/event_perk/xwing.lua")
 includeFile("tangible/event_perk/yavn_imprv_flagpole_s01.lua")
 
 includeFile("tangible/event_perk/halloween_painting.lua")
+includeFile("tangible/event_perk/halloween_spider_web_01.lua")
+includeFile("tangible/event_perk/halloween_spider_web_02.lua")
+includeFile("tangible/event_perk/halloween_spider_web_03.lua")

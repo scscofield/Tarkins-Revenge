@@ -2660,3 +2660,8 @@ includeFile("mobile/zucca_boar.lua")
 includeFile("mobile/zucca_boar_hue.lua")
 
 includeFile("mobile/katarn.lua")
+includeFile("mobile/corsec_druno_kener.lua")
+includeFile("mobile/corsec_lieutenant_varias.lua")
+includeFile("mobile/corsec_sgt_hirka.lua")
+includeFile("mobile/corsec_sgt_mener.lua")
+includeFile("mobile/webweaver.lua")

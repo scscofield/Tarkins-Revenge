@@ -1210,3 +1210,17 @@ object_tangible_furniture_tatooine_shared_uber_kash_bar_table = SharedTangibleOb
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_kash_bar_table, "object/tangible/furniture/tatooine/shared_uber_kash_bar_table.iff")
+
+--Basket Holder
+object_tangible_furniture_tatooine_shared_uber_basket_holder = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_basket_holder.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_basket_holder, "object/tangible/furniture/tatooine/shared_uber_basket_holder.iff")
+
+--Shallow Basket
+object_tangible_furniture_tatooine_shared_uber_basket_shallow = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_basket_shallow.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_basket_shallow, "object/tangible/furniture/tatooine/shared_uber_basket_shallow.iff")

@@ -191,4 +191,6 @@ includeFile("tangible/tarkin_custom/decorative/mun_kash_signpost_primitive_s01.l
 includeFile("tangible/tarkin_custom/decorative/frn_all_sclpt_stuffed_atat_s02.lua")
 includeFile("tangible/tarkin_custom/decorative/poi_moon_scarecrow_s02.lua")
 includeFile("tangible/tarkin_custom/decorative/thm_kash_cave_myyydril_bars.lua")
-
+includeFile("tangible/tarkin_custom/decorative/thm_spc_nebula_orion_map1.lua")
+includeFile("tangible/tarkin_custom/decorative/thm_spc_nebula_orion_map2.lua")
+includeFile("tangible/tarkin_custom/decorative/thm_spc_nebula_orion_map3.lua")

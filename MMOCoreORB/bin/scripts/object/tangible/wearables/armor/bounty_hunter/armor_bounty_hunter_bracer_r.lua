@@ -118,7 +118,7 @@ object_tangible_wearables_armor_bounty_hunter_armor_bounty_hunter_bracer_r = obj
 	experimentalGroupTitles = {"null", "null", "null", "null", "exp_quality", "exp_durability", "exp_durability", "exp_durability", "exp_durability", "null", "null", "exp_resistance", "null"},
 	experimentalSubGroupTitles = {"null", "null", "sockets", "hit_points", "armor_effectiveness", "armor_integrity", "armor_health_encumbrance", "armor_action_encumbrance", "armor_mind_encumbrance", "armor_rating", "armor_special_type", "armor_special_effectiveness", "armor_special_integrity"},
 	experimentalMin = {0, 0, 0, 1000, 1, 35000, 25, 22, 25, 1, 0, 5, 35000},
-	experimentalMax = {0, 0, 0, 5000, 40, 70000, 15, 13, 15, 1, 0, 55, 70000},
+	experimentalMax = {0, 0, 0, 1000, 40, 70000, 15, 13, 15, 1, 0, 55, 70000},
 	experimentalPrecision = {0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1}
 }

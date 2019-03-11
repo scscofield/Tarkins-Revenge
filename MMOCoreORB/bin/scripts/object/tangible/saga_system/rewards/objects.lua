@@ -40,3 +40,24 @@ object_tangible_saga_system_rewards_shared_jabba_table = SharedTangibleObjectTem
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_jabba_table, "object/tangible/saga_system/rewards/shared_jabba_table.iff")
+
+--Glass Pane 01
+object_tangible_saga_system_rewards_shared_pgc_glass_pane_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_pgc_glass_pane_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_pgc_glass_pane_01, "object/tangible/saga_system/rewards/shared_pgc_glass_pane_01.iff")
+
+--Glass Pane 02
+object_tangible_saga_system_rewards_shared_pgc_glass_pane_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_pgc_glass_pane_02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_pgc_glass_pane_02, "object/tangible/saga_system/rewards/shared_pgc_glass_pane_02.iff")
+
+--PGC Robe Statue
+object_tangible_saga_system_rewards_shared_pgc_robe_statue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_pgc_robe_statue.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_pgc_robe_statue, "object/tangible/saga_system/rewards/shared_pgc_robe_statue.iff")

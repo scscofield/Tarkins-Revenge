@@ -136,3 +136,52 @@ includeFile("tarkin_custom/endor/jinda_matriarch_poi.lua")
 includeFile("tarkin_custom/endor/archaic_jinda_ritualist_poi.lua")
 includeFile("tarkin_custom/endor/jinda_veteran_poi.lua")
 includeFile("tarkin_custom/endor/jinda_chief_poi.lua")
+
+--Rogue Corsec Base
+includeFile("tarkin_custom/corellia/rogue_corsec_trooper_poi.lua")
+includeFile("tarkin_custom/corellia/corsec_deserter_poi.lua")
+includeFile("tarkin_custom/corellia/renegade_corsec_trooper_poi.lua")
+includeFile("tarkin_custom/corellia/corsec_traitor_poi.lua")
+includeFile("tarkin_custom/corellia/rogue_corsec_leader_poi.lua")
+
+--Drall Patriot Cave
+includeFile("tarkin_custom/corellia/drall_patriot_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_foot_soldier_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_legionnaire_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_conqueror_poi.lua")
+includeFile("tarkin_custom/corellia/drall_patriot_chief_poi.lua")
+
+--Afarathu Cave
+includeFile("tarkin_custom/corellia/afarathu_ruffian_poi.lua")
+includeFile("tarkin_custom/corellia/afarathu_cult_follower_poi.lua")
+includeFile("tarkin_custom/corellia/afarathu_savage_poi.lua")
+includeFile("tarkin_custom/corellia/afarathu_brute_poi.lua")
+includeFile("tarkin_custom/corellia/afarathu_cult_leader_poi.lua")
+
+--Spiderclan Cave
+includeFile("tarkin_custom/dathomir/spiderclan_sentry_poi.lua")
+includeFile("tarkin_custom/dathomir/spiderclan_acolyte_poi.lua")
+includeFile("tarkin_custom/dathomir/spiderclan_web_dancer_poi.lua")
+includeFile("tarkin_custom/dathomir/spiderclan_sentinel_poi.lua")
+includeFile("tarkin_custom/dathomir/spiderclan_auspex_poi.lua")
+includeFile("tarkin_custom/dathomir/spiderclan_protector_poi.lua")
+includeFile("tarkin_custom/dathomir/spiderclan_elder_poi.lua")
+includeFile("tarkin_custom/dathomir/webweaver.lua")
+
+--Black Sun Outpost
+includeFile("tarkin_custom/rori/insane_miner_poi.lua")
+includeFile("tarkin_custom/rori/black_sun_initiate_poi.lua")
+includeFile("tarkin_custom/rori/black_sun_minion_poi.lua")
+includeFile("tarkin_custom/rori/black_sun_smuggler_poi.lua")
+includeFile("tarkin_custom/rori/black_sun_assassin_poi.lua")
+includeFile("tarkin_custom/rori/black_sun_bloodguard_poi.lua")
+includeFile("tarkin_custom/rori/black_sun_ghost_poi.lua")
+includeFile("tarkin_custom/rori/black_sun_initiate_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_minion_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_guard_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_smuggler_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_assassin_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_bloodguard_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_ghost_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_overlord_poi_3.lua")
+includeFile("tarkin_custom/rori/black_sun_battle_droid.lua")

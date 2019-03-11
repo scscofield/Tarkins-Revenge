@@ -1697,3 +1697,21 @@ object_tangible_event_perk_shared_halloween_painting = SharedTangibleObjectTempl
 	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_painting.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_painting, "object/tangible/event_perk/shared_halloween_painting.iff")
+
+--Web 1
+object_tangible_event_perk_shared_halloween_spider_web_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_spider_web_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_spider_web_01, "object/tangible/event_perk/shared_halloween_spider_web_01.iff")
+
+--Web 2
+object_tangible_event_perk_shared_halloween_spider_web_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_spider_web_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_spider_web_02, "object/tangible/event_perk/shared_halloween_spider_web_02.iff")
+
+--Web 3
+object_tangible_event_perk_shared_halloween_spider_web_03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_spider_web_03.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_spider_web_03, "object/tangible/event_perk/shared_halloween_spider_web_03.iff")

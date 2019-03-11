@@ -754,3 +754,9 @@ object_tangible_wearables_bracelet_shared_primitive_bracelet = SharedTangibleObj
 	clientTemplateFileName = "object/tangible/wearables/bracelet/shared_primitive_bracelet.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_wearables_bracelet_shared_primitive_bracelet, "object/tangible/wearables/bracelet/shared_primitive_bracelet.iff")
+
+--NS Bracelet
+object_tangible_wearables_bracelet_shared_bracelet_wod_crafting_l = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/bracelet/shared_bracelet_wod_crafting_l.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_wearables_bracelet_shared_bracelet_wod_crafting_l, "object/tangible/wearables/bracelet/shared_bracelet_wod_crafting_l.iff")

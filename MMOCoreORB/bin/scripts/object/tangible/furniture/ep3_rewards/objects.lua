@@ -58,4 +58,14 @@ object_tangible_furniture_ep3_rewards_shared_wookiee_totem_runner = SharedTangib
 }
 ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_wookiee_totem_runner, "object/tangible/furniture/ep3_rewards/shared_wookiee_totem_runner.iff")
 
+--Webweaver Blanket
+object_tangible_furniture_ep3_rewards_shared_webweaver_blanket = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_webweaver_blanket.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_webweaver_blanket, "object/tangible/furniture/ep3_rewards/shared_webweaver_blanket.iff")
 
+--Webweaver Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_webweaver = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_webweaver.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_webweaver, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_webweaver.iff")

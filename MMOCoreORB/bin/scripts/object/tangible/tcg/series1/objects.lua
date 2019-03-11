@@ -50,3 +50,39 @@ object_tangible_tcg_series1_shared_video_game_table = SharedTangibleObjectTempla
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_video_game_table, "object/tangible/tcg/series1/shared_video_game_table.iff")
 
+--Decorative Bas Relief
+object_tangible_tcg_series1_shared_decorative_bas_relief = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_bas_relief.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_bas_relief, "object/tangible/tcg/series1/shared_decorative_bas_relief.iff")
+
+
+--Chon Bust
+object_tangible_tcg_series1_shared_decorative_chon_bust = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_chon_bust.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_chon_bust, "object/tangible/tcg/series1/shared_decorative_chon_bust.iff")
+
+--Dooku Bust
+object_tangible_tcg_series1_shared_decorative_dooku_bust = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_dooku_bust.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_dooku_bust, "object/tangible/tcg/series1/shared_decorative_dooku_bust.iff")
+
+--Display Case 1
+object_tangible_tcg_series1_shared_decorative_display_case_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_display_case_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_display_case_01, "object/tangible/tcg/series1/shared_decorative_display_case_01.iff")
+
+--Display Case 2
+object_tangible_tcg_series1_shared_decorative_display_case_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_display_case_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_display_case_02, "object/tangible/tcg/series1/shared_decorative_display_case_02.iff")
+
+--Decorative Drink Dispenser
+object_tangible_tcg_series1_shared_decorative_drink_dispenser = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_drink_dispenser.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_drink_dispenser, "object/tangible/tcg/series1/shared_decorative_drink_dispenser.iff")

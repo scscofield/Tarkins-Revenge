@@ -1325,3 +1325,15 @@ object_tangible_veteran_reward_shared_frn_vet_houseplant_02 = SharedTangibleObje
 	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_houseplant_02.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_houseplant_02, "object/tangible/veteran_reward/shared_frn_vet_houseplant_02.iff")
+
+--Display Stand
+object_tangible_veteran_reward_shared_frn_vet_display_stand = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_display_stand.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_display_stand, "object/tangible/veteran_reward/shared_frn_vet_display_stand.iff")
+
+--Emperor's Chair
+object_tangible_veteran_reward_shared_frn_vet_emp_chair = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_emp_chair.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_emp_chair, "object/tangible/veteran_reward/shared_frn_vet_emp_chair.iff")

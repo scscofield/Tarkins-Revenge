@@ -12,4 +12,6 @@ includeFile("tangible/furniture/ep3_rewards/wke_prayer_mobile.lua")
 includeFile("tangible/furniture/ep3_rewards/wke_windchime.lua")
 includeFile("tangible/furniture/ep3_rewards/wookiee_totem_crafter.lua")
 includeFile("tangible/furniture/ep3_rewards/wookiee_totem_runner.lua")
+includeFile("tangible/furniture/ep3_rewards/webweaver_blanket.lua")
+includeFile("tangible/furniture/ep3_rewards/ep3_kash_reward_trophy_webweaver.lua")
 
