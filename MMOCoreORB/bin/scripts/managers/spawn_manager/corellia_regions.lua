@@ -43,6 +43,7 @@ corellia_regions = {
 	{"corellia_rebel_riverside_fort", 0, 0, {1, 0}, UNDEFINEDAREA},
 	{"coronet_easy_newbie", -230, -4460, {1, 1560}, NOSPAWNAREA},
 	{"coronet", 0, 0, {1, 0}, UNDEFINEDAREA},
+	{"coronet_starport", -171, -4930, {1, 60}, NOSPAWNAREA + NOBUILDZONEAREA},
 --	{"coronet_medium_newbie", -230, -4460, {3, 1750, 2500}, SPAWNAREA + NOWORLDSPAWNAREA, {"corellia_medium"}, 384},
 	{"crystal_arch_hall", -6831, 2200, {1, 30}, NOSPAWNAREA + NOBUILDZONEAREA},
 	{"daoba_guerfel", 0, 0, {1, 0}, UNDEFINEDAREA},
