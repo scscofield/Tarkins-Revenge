@@ -174,6 +174,7 @@ tatooine_regions = {
 	{"mos_eisley_easy_newbie", 3400, -4775, {1, 1750}, SPAWNAREA + NOWORLDSPAWNAREA, {"tatooine_easy"}, 256},
 	{"mos_eisley_medium_newbie", 3400, -4775, {3, 1750, 2500}, SPAWNAREA + NOWORLDSPAWNAREA, {"tatooine_medium"}, 384},
 	{"mos_entha", 0, 0, {1, 0}, UNDEFINEDAREA},
+	{"mos_entha_starport", 1055, 2999, {1, 60}, NOSPAWNAREA + NOBUILDZONEAREA},
 	{"mos_entha_easy_newbie", 1490, 3165, {1, 1750}, SPAWNAREA + NOWORLDSPAWNAREA, {"tatooine_easy"}, 256},
 	{"mos_entha_medium_newbie", 1490, 3165, {3, 1750, 2500}, SPAWNAREA + NOWORLDSPAWNAREA, {"tatooine_medium"}, 384},
 	{"mos_espa", 0, 0, {1, 0}, UNDEFINEDAREA},

@@ -917,6 +917,8 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 		String killerName = attackerCreature->getFirstName();
 		StringBuffer zBroadcast;
 		String killerFaction, playerFaction, killerAllegiance, playerAllegiance;
+		Reference<PlayerObject*> ghost = attackerCreature->getSlottedObject("ghost").castTo<PlayerObject*>();
+
 		if (attacker->isRebel()) {
 			killerFaction = "Rebel";
 			killerAllegiance = "the Rebel Alliance";
@@ -942,13 +944,17 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 			playerFaction = "Civilian";
 			playerAllegiance = "an unknown faction";
 				}
-		if (CombatManager::instance()->areInDuel(attackerCreature, player)) {
+		
+		if (ghost->getAdminLevel() >= 15) {
+			zBroadcast <<"\\#ff004c Be afraid, all ye peons of the galaxy, for " << playerName << " has been killed by an Act of God.";
+		}
+		else if (CombatManager::instance()->areInDuel(attackerCreature, player)) {
 			zBroadcast <<"\\#ffa100 Murder in the galaxy!  It has been reported that " << playerName << " was killed in a duel by " << killerName << ".";
 		}
-		else if (attackerCreature->hasSkill("force_title_jedi_rank_01") && player->hasSkill("combat_bountyhunter_investigation_03")) {
+		else if (attackerCreature->hasSkill("force_title_jedi_rank_02") && player->hasSkill("combat_bountyhunter_investigation_03")) {
 			zBroadcast <<"\\#ffe100 " << playerName << ", a bounty hunter, has been slain by -REDACTED-, a Jedi";
 		}
-		else if (attackerCreature->hasSkill("combat_bountyhunter_investigation_03") && player->hasSkill("force_title_jedi_rank_01")) {
+		else if (attackerCreature->hasSkill("combat_bountyhunter_investigation_03") && player->hasSkill("force_title_jedi_rank_02")) {
 			return;
 		}
 		//Only spout the GCW message if the players involved are not in a duel, and are not BH/Jedi
@@ -965,15 +971,19 @@ void PlayerManagerImplementation::killPlayer(TangibleObject* attacker, CreatureO
 			if (playerRank < 10){
 				if (player->isImperial()) {
 					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_logo_patch.iff"), 2)).castTo<TangibleObject*>();
-				} else {
+				} else if (player->isRebel()) {
 					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_logo_patch.iff"), 2)).castTo<TangibleObject*>();
+				} else {
+					return;
 				}	
 			}
 			if (playerRank > 15){
 				if (player->isImperial()) {
 					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_imperial_rank_gen.iff"), 2)).castTo<TangibleObject*>();
-				} else {
+				} else if (player->isRebel()) {
 					trophy = (attackerCreature->getZoneServer()->createObject(STRING_HASHCODE("object/tangible/loot/creature_loot/collections/col_rebel_rank_gen.iff"), 2)).castTo<TangibleObject*>();	
+				} else {
+					return;
 				}
 			}
 
