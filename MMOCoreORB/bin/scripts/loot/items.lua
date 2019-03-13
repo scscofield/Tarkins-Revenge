@@ -2121,3 +2121,12 @@ includeFile("items/tarkin_custom/black_sun_outpost/armor_mandalorian_imperial_gl
 includeFile("items/tarkin_custom/black_sun_outpost/armor_mandalorian_imperial_helmet_schematic.lua")
 includeFile("items/tarkin_custom/black_sun_outpost/armor_mandalorian_imperial_leggings_schematic.lua")
 
+--Garyn POI
+includeFile("items/tarkin_custom/garyn_poi/pr_platform_stage.lua")
+includeFile("items/tarkin_custom/garyn_poi/decorative_house_lamp.lua")
+includeFile("items/tarkin_custom/garyn_poi/pob_chair_furniture_hue_01.lua")
+includeFile("items/tarkin_custom/garyn_poi/pob_couch_furniture_hue_01.lua")
+includeFile("items/tarkin_custom/garyn_poi/pgc_monitorscreen.lua")
+includeFile("items/tarkin_custom/garyn_poi/pgc_monitorscreen_small.lua")
+
+

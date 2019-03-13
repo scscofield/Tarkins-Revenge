@@ -187,4 +187,9 @@ object_tangible_storyteller_prop_shared_pr_web = SharedTangibleObjectTemplate:ne
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_web, "object/tangible/storyteller/prop/shared_pr_web.iff")
 
+--Stage
+object_tangible_storyteller_prop_shared_pr_platform_stage = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_platform_stage.iff"
+}
 
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_platform_stage, "object/tangible/storyteller/prop/shared_pr_platform_stage.iff")

@@ -29,4 +29,4 @@ includeFile("tangible/storyteller/prop/pr_ch9_scaffolding_short.lua")
 includeFile("tangible/storyteller/prop/pr_ch9_scaffolding_tall.lua")
 includeFile("tangible/storyteller/prop/pr_all_lair_webweaver.lua")
 includeFile("tangible/storyteller/prop/pr_web.lua")
-
+includeFile("tangible/storyteller/prop/pr_platform_stage.lua")

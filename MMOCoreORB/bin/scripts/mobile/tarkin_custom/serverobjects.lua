@@ -185,3 +185,10 @@ includeFile("tarkin_custom/rori/black_sun_bloodguard_poi_3.lua")
 includeFile("tarkin_custom/rori/black_sun_ghost_poi_3.lua")
 includeFile("tarkin_custom/rori/black_sun_overlord_poi_3.lua")
 includeFile("tarkin_custom/rori/black_sun_battle_droid.lua")
+
+--Garyn Raiders
+includeFile("tarkin_custom/rori/garyns_prowler_poi.lua")
+includeFile("tarkin_custom/rori/garyns_thief_poi.lua")
+includeFile("tarkin_custom/rori/garyns_pirate_poi.lua")
+includeFile("tarkin_custom/rori/garyns_mugger_poi.lua")
+includeFile("tarkin_custom/rori/garyns_marauder_poi.lua")

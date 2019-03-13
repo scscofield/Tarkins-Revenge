@@ -59,3 +59,9 @@ object_tangible_tcg_series6_shared_decorative_baby_colo_claw_fishtank = SharedTa
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_decorative_baby_colo_claw_fishtank, "object/tangible/tcg/series6/shared_decorative_baby_colo_claw_fishtank.iff")
 
+--Lamp
+object_tangible_tcg_series6_shared_decorative_house_lamp = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_decorative_house_lamp.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_decorative_house_lamp, "object/tangible/tcg/series6/shared_decorative_house_lamp.iff")
+

@@ -61,3 +61,17 @@ object_tangible_saga_system_rewards_shared_pgc_robe_statue = SharedTangibleObjec
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_pgc_robe_statue, "object/tangible/saga_system/rewards/shared_pgc_robe_statue.iff")
+
+--Monitorscreen
+object_tangible_saga_system_rewards_shared_pgc_monitorscreen = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_pgc_monitorscreen.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_pgc_monitorscreen, "object/tangible/saga_system/rewards/shared_pgc_monitorscreen.iff")
+
+--Small Monitorscreen
+object_tangible_saga_system_rewards_shared_pgc_monitorscreen_small = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_pgc_monitorscreen_small.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_pgc_monitorscreen_small, "object/tangible/saga_system/rewards/shared_pgc_monitorscreen_small.iff")

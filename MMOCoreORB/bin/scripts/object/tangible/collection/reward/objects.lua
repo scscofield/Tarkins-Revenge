@@ -118,3 +118,18 @@ object_tangible_collection_reward_shared_cyborg_headband = SharedTangibleObjectT
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_cyborg_headband, "object/tangible/collection/reward/shared_cyborg_headband.iff")
+
+--Chair
+object_tangible_collection_reward_shared_pob_chair_furniture_hue_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_pob_chair_furniture_hue_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_pob_chair_furniture_hue_01, "object/tangible/collection/reward/shared_pob_chair_furniture_hue_01.iff")
+
+--Couch
+object_tangible_collection_reward_shared_pob_couch_furniture_hue_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_pob_couch_furniture_hue_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_pob_couch_furniture_hue_01, "object/tangible/collection/reward/shared_pob_couch_furniture_hue_01.iff")
+
