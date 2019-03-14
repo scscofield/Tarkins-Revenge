@@ -925,3 +925,10 @@ object_tangible_dungeon_shared_wall_terminal_s4 = SharedTangibleObjectTemplate:n
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_dungeon_shared_wall_terminal_s4, "object/tangible/dungeon/shared_wall_terminal_s4.iff")
+
+--Radioactive Pile
+object_tangible_dungeon_mustafar_working_droid_factory_shared_radioactive_pile = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/dungeon/mustafar/working_droid_factory/shared_radioactive_pile.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_dungeon_mustafar_working_droid_factory_shared_radioactive_pile, "object/tangible/dungeon/mustafar/working_droid_factory/shared_radioactive_pile.iff")
+

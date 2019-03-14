@@ -9,3 +9,10 @@ object_tangible_loot_creature_loot_generic_shared_mara_jade_comm_number = Shared
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_generic_shared_mara_jade_comm_number, "object/tangible/loot/creature_loot/generic/shared_mara_jade_comm_number.iff")
+
+--Medic Kit
+object_tangible_loot_creature_loot_generic_shared_heroic_tusken_medic_kit = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/generic/shared_heroic_tusken_medic_kit.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_generic_shared_heroic_tusken_medic_kit, "object/tangible/loot/creature_loot/generic/shared_heroic_tusken_medic_kit.iff")

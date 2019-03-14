@@ -118,3 +118,33 @@ object_tangible_collection_shared_dwartii_statue_yanjon = SharedTangibleObjectTe
 }
 ObjectTemplates:addClientTemplate(object_tangible_collection_shared_dwartii_statue_yanjon, "object/tangible/collection/shared_dwartii_statue_yanjon.iff")
 
+--Medical Scanner
+object_tangible_collection_shared_deathtrooper_delta_medical_scanner_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_delta_medical_scanner_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_delta_medical_scanner_01, "object/tangible/collection/shared_deathtrooper_delta_medical_scanner_01.iff")
+
+--Antidote Kit
+object_tangible_collection_shared_deathtrooper_epsilon_antidote_kit_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_epsilon_antidote_kit_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_epsilon_antidote_kit_01, "object/tangible/collection/shared_deathtrooper_epsilon_antidote_kit_01.iff")
+
+--Medical Tool
+object_tangible_collection_shared_deathtrooper_epsilon_medical_tool_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_epsilon_medical_tool_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_epsilon_medical_tool_01, "object/tangible/collection/shared_deathtrooper_epsilon_medical_tool_01.iff")
+
+--Auto Syringe
+object_tangible_collection_shared_deathtrooper_research_auto_syringe_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_research_auto_syringe_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_research_auto_syringe_01, "object/tangible/collection/shared_deathtrooper_research_auto_syringe_01.iff")
+
+--Patient Records
+object_tangible_collection_shared_deathtrooper_research_patient_records_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_deathtrooper_research_patient_records_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_research_patient_records_01, "object/tangible/collection/shared_deathtrooper_research_patient_records_01.iff")
+

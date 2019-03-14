@@ -192,3 +192,8 @@ includeFile("tarkin_custom/rori/garyns_thief_poi.lua")
 includeFile("tarkin_custom/rori/garyns_pirate_poi.lua")
 includeFile("tarkin_custom/rori/garyns_mugger_poi.lua")
 includeFile("tarkin_custom/rori/garyns_marauder_poi.lua")
+
+--Kahmurra Facility
+includeFile("tarkin_custom/talus/rabid_mutant_kahmurra_poi.lua")
+includeFile("tarkin_custom/talus/frenzied_kahmurra_poi.lua")
+includeFile("tarkin_custom/talus/genetically_enhanced_kahmurra_poi.lua")

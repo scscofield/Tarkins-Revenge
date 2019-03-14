@@ -44,6 +44,7 @@
 
 --Children folder includes
 includeFile("tangible/quest/quest_start/serverobjects.lua")
+includeFile("tangible/quest/outbreak/serverobjects.lua")
 includeFile("tangible/quest/wod/serverobjects.lua")
 
 -- Server Objects
@@ -53,4 +54,4 @@ includeFile("tangible/quest/r_naktra_crystals.lua")
 includeFile("tangible/quest/som_kenobi_final_force_crystal.lua")
 includeFile("tangible/quest/som_kenobi_final_force_crystal.lua")
 includeFile("tangible/quest/blooming_sapflower.lua")
-includeFile("tangible/quest/naboo_theed_xharnoh_plant.lua")
+

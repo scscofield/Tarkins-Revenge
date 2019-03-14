@@ -63,3 +63,33 @@ object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_scroll = Shared
 	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_scroll.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_mystical_scroll, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_mystical_scroll.iff")
+
+--Adventurer Remains
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_adventurers_remains_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_adventurers_remains_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_adventurers_remains_01, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_adventurers_remains_01.iff")
+
+--Adventurer Remains
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_adventurers_remains_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_adventurers_remains_04.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_adventurers_remains_04, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_adventurers_remains_04.iff")
+
+--Outcast Tool
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_tool_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_tool_04.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_tool_04, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_tool_04.iff")
+
+--Outcast Tool
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_tool_07 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_tool_07.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_tool_07, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_tool_07.iff")
+
+--Outcast Vitamins
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_vitamins = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_vitamins.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_vitamins, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_vitamins.iff")

@@ -60,4 +60,9 @@ object_tangible_tcg_series5_shared_varactyl_armor_statue = SharedTangibleObjectT
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_varactyl_armor_statue, "object/tangible/tcg/series5/shared_varactyl_armor_statue.iff")
 
+--Anakin Forearm
+object_tangible_tcg_series5_shared_cybernetic_rots_forearm_r = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_cybernetic_rots_forearm_r.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_cybernetic_rots_forearm_r, "object/tangible/tcg/series5/shared_cybernetic_rots_forearm_r.iff")
 

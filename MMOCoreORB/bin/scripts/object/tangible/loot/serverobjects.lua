@@ -43,6 +43,7 @@
 
 
 --Children folder includes
+includeFile("tangible/loot/base/serverobjects.lua")
 includeFile("tangible/loot/bestine/serverobjects.lua")
 includeFile("tangible/loot/collectible/serverobjects.lua")
 includeFile("tangible/loot/dungeon/serverobjects.lua")
@@ -55,5 +56,6 @@ includeFile("tangible/loot/tool/serverobjects.lua")
 includeFile("tangible/loot/creature_loot/serverobjects.lua")
 includeFile("tangible/loot/mustafar/serverobjects.lua")
 includeFile("tangible/loot/npc_loot/serverobjects.lua")
+includeFile("tangible/loot/generic_usable/serverobjects.lua")
 
 -- Server Objects

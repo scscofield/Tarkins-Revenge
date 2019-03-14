@@ -1,4 +1,5 @@
 --Children folder includes
+includeFile("tangible/storyteller/prop/base/serverobjects.lua")
 includeFile("tangible/storyteller/prop/hoth/serverobjects.lua")
 
 -- Server Objects

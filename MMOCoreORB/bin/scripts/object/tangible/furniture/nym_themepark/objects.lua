@@ -21,3 +21,31 @@ object_tangible_furniture_nym_themepark_shared_nym_themepark_surveillance_device
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_nym_themepark_shared_nym_themepark_surveillance_device, "object/tangible/furniture/nym_themepark/shared_nym_themepark_surveillance_device.iff")
+
+--Flocculation Chamber
+object_tangible_furniture_nym_themepark_shared_nym_themepark_flocculation_chamber = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/nym_themepark/shared_nym_themepark_flocculation_chamber.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_nym_themepark_shared_nym_themepark_flocculation_chamber, "object/tangible/furniture/nym_themepark/shared_nym_themepark_flocculation_chamber.iff")
+
+--Liquid Storage
+object_tangible_furniture_nym_themepark_shared_nym_themepark_liquid_storage = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/nym_themepark/shared_nym_themepark_liquid_storage.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_nym_themepark_shared_nym_themepark_liquid_storage, "object/tangible/furniture/nym_themepark/shared_nym_themepark_liquid_storage.iff")
+
+--Mixing Chamber
+object_tangible_furniture_nym_themepark_shared_nym_themepark_mixing_chamber = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/nym_themepark/shared_nym_themepark_mixing_chamber.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_nym_themepark_shared_nym_themepark_mixing_chamber, "object/tangible/furniture/nym_themepark/shared_nym_themepark_mixing_chamber.iff")
+
+--Sedimentation Tank
+object_tangible_furniture_nym_themepark_shared_nym_themepark_sedimentation_tank = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/nym_themepark/shared_nym_themepark_sedimentation_tank.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_nym_themepark_shared_nym_themepark_sedimentation_tank, "object/tangible/furniture/nym_themepark/shared_nym_themepark_sedimentation_tank.iff")

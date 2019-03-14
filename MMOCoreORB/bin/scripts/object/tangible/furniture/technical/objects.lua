@@ -530,3 +530,9 @@ object_tangible_furniture_technical_shared_sd_console_s02 = SharedTangibleObject
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_technical_shared_sd_console_s02, "object/tangible/furniture/technical/shared_sd_console_s02.iff")
+
+--Cyborg Repair Table
+object_tangible_furniture_technical_shared_cyborg_repair_table = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/technical/shared_cyborg_repair_table.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_technical_shared_cyborg_repair_table, "object/tangible/furniture/technical/shared_cyborg_repair_table.iff")

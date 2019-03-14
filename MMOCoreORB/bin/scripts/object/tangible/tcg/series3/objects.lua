@@ -41,3 +41,9 @@ object_tangible_tcg_series3_shared_decorative_mandalorian_skull_banner = SharedT
 	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_mandalorian_skull_banner.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_mandalorian_skull_banner, "object/tangible/tcg/series3/shared_decorative_mandalorian_skull_banner.iff")
+
+--Medical Table
+object_tangible_tcg_series3_shared_decorative_empal_surecon_center_medical_table = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_empal_surecon_center_medical_table.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_empal_surecon_center_medical_table, "object/tangible/tcg/series3/shared_decorative_empal_surecon_center_medical_table.iff")

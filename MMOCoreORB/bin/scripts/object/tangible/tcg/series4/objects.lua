@@ -50,3 +50,9 @@ object_tangible_tcg_series4_shared_decorative_tcg_rug_01 = SharedTangibleObjectT
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_tcg_rug_01, "object/tangible/tcg/series4/shared_decorative_tcg_rug_01.iff")
 
+--Medical Table
+object_tangible_tcg_series4_shared_decorative_medical_table_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_medical_table_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_medical_table_01, "object/tangible/tcg/series4/shared_decorative_medical_table_01.iff")
+
