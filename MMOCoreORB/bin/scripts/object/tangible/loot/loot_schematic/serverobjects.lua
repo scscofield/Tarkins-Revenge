@@ -618,3 +618,6 @@ includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_leggings_schem
 includeFile("tangible/loot/loot_schematic/wearable_backpack_armored_schematic.lua")
 includeFile("tangible/loot/loot_schematic/wearable_backpack_recon_schematic.lua")
 
+--Lok Revenant Backpack
+includeFile("tangible/loot/loot_schematic/nym_themepark_backpack_schematic.lua")
+

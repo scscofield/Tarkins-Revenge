@@ -2540,6 +2540,9 @@ schematics = {
 
 	--TCG Backpacks
 	{path="object/draft_schematic/clothing/clothing_wearable_backpack_armored.iff"},
-	{path="object/draft_schematic/clothing/clothing_wearable_backpack_recon.iff"}
+	{path="object/draft_schematic/clothing/clothing_wearable_backpack_recon.iff"},
+
+	--Revenant Backpack
+	{path="object/draft_schematic/clothing/nym_themepark_backpack.iff"}	
 
 };

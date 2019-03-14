@@ -24890,3 +24890,10 @@ object_draft_schematic_clothing_shared_clothing_wearable_backpack_recon = Shared
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_wearable_backpack_recon, "object/draft_schematic/clothing/shared_clothing_wearable_backpack_recon.iff")
+
+--Revenant Backpack
+object_draft_schematic_clothing_shared_nym_themepark_backpack = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_nym_themepark_backpack.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_nym_themepark_backpack, "object/draft_schematic/clothing/shared_nym_themepark_backpack.iff")

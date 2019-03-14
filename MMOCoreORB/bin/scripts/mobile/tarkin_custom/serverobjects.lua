@@ -197,3 +197,8 @@ includeFile("tarkin_custom/rori/garyns_marauder_poi.lua")
 includeFile("tarkin_custom/talus/rabid_mutant_kahmurra_poi.lua")
 includeFile("tarkin_custom/talus/frenzied_kahmurra_poi.lua")
 includeFile("tarkin_custom/talus/genetically_enhanced_kahmurra_poi.lua")
+
+--Nym's Pirate Cave
+includeFile("tarkin_custom/lok/sulfur_lake_pirate_cutthroat_poi.lua")
+includeFile("tarkin_custom/lok/sulfur_lake_pirate_initiate_poi.lua")
+includeFile("tarkin_custom/lok/sulfur_lake_pirate_lieutenant_poi.lua")

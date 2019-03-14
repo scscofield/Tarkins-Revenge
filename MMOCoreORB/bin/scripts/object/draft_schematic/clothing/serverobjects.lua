@@ -572,3 +572,4 @@ includeFile("draft_schematic/clothing/clothing_armor_mandalorian_rebel_helmet.lu
 includeFile("draft_schematic/clothing/clothing_armor_mandalorian_rebel_leggings.lua")
 includeFile("draft_schematic/clothing/clothing_wearable_backpack_armored.lua")
 includeFile("draft_schematic/clothing/clothing_wearable_backpack_recon.lua")
+includeFile("draft_schematic/clothing/nym_themepark_backpack.lua")

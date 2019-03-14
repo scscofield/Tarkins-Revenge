@@ -7755,3 +7755,10 @@ object_tangible_loot_loot_schematic_shared_wearable_backpack_recon_schematic = S
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_wearable_backpack_recon_schematic, "object/tangible/loot/loot_schematic/shared_wearable_backpack_recon_schematic.iff")
+
+--Lok Revenant Backpack
+object_tangible_loot_loot_schematic_shared_nym_themepark_backpack_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_nym_themepark_backpack_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_nym_themepark_backpack_schematic, "object/tangible/loot/loot_schematic/shared_nym_themepark_backpack_schematic.iff")
