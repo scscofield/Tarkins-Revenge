@@ -193,3 +193,17 @@ object_tangible_storyteller_prop_shared_pr_platform_stage = SharedTangibleObject
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_platform_stage, "object/tangible/storyteller/prop/shared_pr_platform_stage.iff")
+
+--Escape Pod
+object_tangible_storyteller_prop_shared_pr_escape_pod = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_escape_pod.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_escape_pod, "object/tangible/storyteller/prop/shared_pr_escape_pod.iff")
+
+--Escape Pod Door
+object_tangible_storyteller_prop_shared_pr_escape_pod_door = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_escape_pod_door.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_escape_pod_door, "object/tangible/storyteller/prop/shared_pr_escape_pod_door.iff")

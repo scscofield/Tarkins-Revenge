@@ -102,3 +102,31 @@ object_tangible_loot_mustafar_shared_trophey_lava_flea = SharedTangibleObjectTem
 	clientTemplateFileName = "object/tangible/loot/mustafar/shared_trophey_lava_flea.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_trophey_lava_flea, "object/tangible/loot/mustafar/shared_trophey_lava_flea.iff")
+
+--Mustafar Chair
+object_tangible_loot_mustafar_shared_must_chair_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_must_chair_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_must_chair_01, "object/tangible/loot/mustafar/shared_must_chair_01.iff")
+
+--Display Case
+object_tangible_loot_mustafar_shared_must_display_case = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_must_display_case.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_must_display_case, "object/tangible/loot/mustafar/shared_must_display_case.iff")
+
+--Large Table
+object_tangible_loot_mustafar_shared_must_table_large_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_must_table_large_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_must_table_large_01, "object/tangible/loot/mustafar/shared_must_table_large_01.iff")
+
+--Small Table
+object_tangible_loot_mustafar_shared_must_table_small_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/mustafar/shared_must_table_small_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_mustafar_shared_must_table_small_01, "object/tangible/loot/mustafar/shared_must_table_small_01.iff")

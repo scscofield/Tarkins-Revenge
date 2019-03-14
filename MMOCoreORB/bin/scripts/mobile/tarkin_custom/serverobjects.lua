@@ -202,3 +202,12 @@ includeFile("tarkin_custom/talus/genetically_enhanced_kahmurra_poi.lua")
 includeFile("tarkin_custom/lok/sulfur_lake_pirate_cutthroat_poi.lua")
 includeFile("tarkin_custom/lok/sulfur_lake_pirate_initiate_poi.lua")
 includeFile("tarkin_custom/lok/sulfur_lake_pirate_lieutenant_poi.lua")
+
+--Sennex Cave
+includeFile("tarkin_custom/tatooine/sennex_lookout_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_warder_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_slaver_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_hunter_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_guard_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_slavemaster_poi.lua")
+

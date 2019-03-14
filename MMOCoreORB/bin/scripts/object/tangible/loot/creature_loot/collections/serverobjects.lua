@@ -54,3 +54,4 @@ includeFile("tangible/loot/creature_loot/collections/treasure_hunter_hendanyn_ma
 includeFile("tangible/loot/creature_loot/collections/opt_in_mail_07.lua")
 includeFile("tangible/loot/creature_loot/collections/opt_in_mail_11.lua")
 includeFile("tangible/loot/creature_loot/collections/treasure_hunter_mandalore_mask.lua")
+includeFile("tangible/loot/creature_loot/collections/contraband_style1_04.lua")

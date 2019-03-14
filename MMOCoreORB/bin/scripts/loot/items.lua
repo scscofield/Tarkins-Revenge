@@ -2193,3 +2193,17 @@ includeFile("items/tarkin_custom/nyms_pirate_poi/nym_themepark_backpack_schemati
 includeFile("items/tarkin_custom/nyms_pirate_poi/nym_themepark_rug.lua")
 includeFile("items/tarkin_custom/nyms_pirate_poi/frn_loyalty_award_plaque_gold.lua")
 includeFile("items/tarkin_custom/nyms_pirate_poi/frn_loyalty_award_plaque_silver.lua")
+
+--Sennex cave
+includeFile("items/tarkin_custom/sennex_cave/must_chair_01.lua")
+includeFile("items/tarkin_custom/sennex_cave/must_display_case.lua")
+includeFile("items/tarkin_custom/sennex_cave/must_table_large_01.lua")
+includeFile("items/tarkin_custom/sennex_cave/must_table_small_01.lua")
+includeFile("items/tarkin_custom/sennex_cave/pr_escape_pod.lua")
+includeFile("items/tarkin_custom/sennex_cave/pr_escape_pod_door.lua")
+includeFile("items/tarkin_custom/sennex_cave/contraband_style1_04.lua")
+includeFile("items/tarkin_custom/sennex_cave/sarlacc_base_s01.lua")
+includeFile("items/tarkin_custom/sennex_cave/sarlacc_base_s02.lua")
+includeFile("items/tarkin_custom/sennex_cave/sarlacc_mini_s01.lua")
+includeFile("items/tarkin_custom/sennex_cave/sarlacc_mini_s02.lua")
+includeFile("items/tarkin_custom/sennex_cave/tactical_binoculars.lua")

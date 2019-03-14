@@ -344,3 +344,10 @@ object_tangible_loot_creature_loot_collections_shared_treasure_hunter_mandalore_
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_treasure_hunter_mandalore_mask, "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_mandalore_mask.iff")
+
+--Contraband
+object_tangible_loot_creature_loot_collections_shared_contraband_style1_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_contraband_style1_04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_contraband_style1_04, "object/tangible/loot/creature_loot/collections/shared_contraband_style1_04.iff")
