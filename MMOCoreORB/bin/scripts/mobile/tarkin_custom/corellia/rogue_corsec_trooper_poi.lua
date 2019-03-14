@@ -48,13 +48,13 @@ rogue_corsec_trooper_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 500000
+			lootChance = 100000
 		},
 		{	
 			groups = {
 				{group = "rogue_corsec_base_rare", chance = 10000000}
 			},
-			lootChance = 200000
+			lootChance = 100000
 		},
 			
 	},

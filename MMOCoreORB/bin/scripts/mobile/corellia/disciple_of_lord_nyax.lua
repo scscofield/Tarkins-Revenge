@@ -44,14 +44,14 @@ disciple_of_lord_nyax = Creature:new {
 				{group = "armor_attachments", chance = 5000000},
    		            	{group = "clothing_attachments", chance = 5000000}
 			},
-			lootChance = 700000
+			lootChance = 100000
 		},
 		{
 			groups = {
                   		{group = "power_crystals", chance = 5500000},
 				{group = "nyax_minions", chance = 4500000}
 			},
-			lootChance = 300000
+			lootChance = 100000
 		},
 	},
 	weapons = {"aakuan_2h_weapons"},

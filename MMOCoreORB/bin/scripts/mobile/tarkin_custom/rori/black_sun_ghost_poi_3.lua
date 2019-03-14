@@ -51,7 +51,7 @@ black_sun_ghost_poi_3 = Creature:new {
 				{group = "death_watch_bunker_ingredient_protective",  chance = 2500000},
 				{group = "death_watch_bunker_ingredient_binary",  chance = 2500000}
 			},
-			lootChance = 5000000
+			lootChance = 700000
 		},
 		{
 			groups = {
@@ -60,7 +60,7 @@ black_sun_ghost_poi_3 = Creature:new {
 				{group = "death_watch_bunker_ingredient_protective",  chance = 2500000},
 				{group = "death_watch_bunker_ingredient_binary",  chance = 2500000}
 			},
-			lootChance = 5000000
+			lootChance = 700000
 		},
 		{	
 			groups = {
@@ -69,7 +69,7 @@ black_sun_ghost_poi_3 = Creature:new {
 				{group = "black_sun_mando_armor", chance = 1000000},
 				{group = "deed_voucher", chance = 100000}		
 			},
-			lootChance = 1500000
+			lootChance = 700000
 		},
 		{	
 			groups = {
@@ -78,7 +78,7 @@ black_sun_ghost_poi_3 = Creature:new {
 				{group = "black_sun_mando_armor", chance = 1500000},
 				{group = "deed_voucher", chance = 100000}		
 			},
-			lootChance = 1500000
+			lootChance = 700000
 		},		
 	},
 	weapons = {"black_sun_outpost_ranged_weapons"},

@@ -52,7 +52,7 @@ corsec_traitor_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 600000
+			lootChance = 500000
 		},
 		{	
 			groups = {

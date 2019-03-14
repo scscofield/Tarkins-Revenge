@@ -48,13 +48,13 @@ force_crystal_hunter_cave = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 900000
+			lootChance = 300000
 		},
 		{	
 			groups = {
 				{group = "crystal_hunter_rare", chance = 10000000}
 			},
-			lootChance = 80000
+			lootChance = 300000
 		},
 			
 	},

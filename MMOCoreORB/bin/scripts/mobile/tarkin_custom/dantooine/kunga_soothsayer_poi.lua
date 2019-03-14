@@ -46,13 +46,13 @@ kunga_soothsayer_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 400000
+			lootChance = 100000
 		},
 		{
 			groups = {
 				{group = "kunga_cave_rare", chance = 10000000}
 			},
-			lootChance = 200000
+			lootChance = 100000
 		},
 	},
 	weapons = {"kunga_weapons"},

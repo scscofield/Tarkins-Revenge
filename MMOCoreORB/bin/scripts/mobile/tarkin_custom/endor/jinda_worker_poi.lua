@@ -48,13 +48,13 @@ jinda_worker_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 500000
+			lootChance = 100000
 		},
 		{
 			groups = {
 				{group = "jinda_cave_rare", chance = 10000000}
 			},
-			lootChance = 300000
+			lootChance = 100000
 		},
 	},
 	weapons = {"jinda_pistol_weapons"},

@@ -52,14 +52,14 @@ black_sun_initiate_poi_3 = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 300000
+			lootChance = 100000
 		},
 		{	
 			groups = {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 300000
+			lootChance = 100000
 		},	
 	},
 	weapons = {"black_sun_outpost_melee_weapons"},

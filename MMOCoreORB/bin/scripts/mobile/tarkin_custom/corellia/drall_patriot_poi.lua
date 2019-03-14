@@ -53,13 +53,13 @@ drall_patriot_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 300000
+			lootChance = 50000
 		},
 		{	
 			groups = {
 				{group = "drall_patriot_poi_rare", chance = 10000000}
 			},
-			lootChance = 100000
+			lootChance = 50000
 		},
 			
 	},

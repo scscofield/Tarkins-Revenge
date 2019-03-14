@@ -52,19 +52,19 @@ naboo_pirate_armsman_bunker = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 3000000
+			lootChance = 200000
 		},
 		{	
 			groups = {
 				{group = "pirate_bunker_rare", chance = 10000000}
 			},
-			lootChance = 1000000
+			lootChance = 500000
 		},
 		{	
 			groups = {
 				{group = "deed_voucher", chance = 10000000}
 			},
-			lootChance = 200000
+			lootChance = 25000
 
 		},
 	},

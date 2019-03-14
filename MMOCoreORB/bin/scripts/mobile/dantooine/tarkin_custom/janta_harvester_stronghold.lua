@@ -42,7 +42,7 @@ janta_harvester_stronghold = Creature:new {
 				{group = "janta_rare", chance = 200000},		
 				{group = "forage_rare", chance = 200000}
 			},
-			lootChance = 30000000
+			lootChance = 6000000
 		}	
 	},
 	weapons = {"primitive_weapons"},

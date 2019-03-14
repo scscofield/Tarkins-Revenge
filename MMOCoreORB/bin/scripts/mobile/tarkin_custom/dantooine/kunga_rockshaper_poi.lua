@@ -46,13 +46,13 @@ kunga_rockshaper_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 1200000
+			lootChance = 600000
 		},
 		{
 			groups = {
 				{group = "kunga_cave_rare", chance = 10000000}
 			},
-			lootChance = 1000000
+			lootChance = 600000
 		},
 	},
 	weapons = {"kunga_weapons"},

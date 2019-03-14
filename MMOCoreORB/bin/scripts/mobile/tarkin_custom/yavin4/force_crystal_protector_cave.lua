@@ -55,7 +55,7 @@ force_crystal_protector_cave = Creature:new {
 			groups = {
 				{group = "crystal_hunter_rare", chance = 10000000}
 			},
-			lootChance = 2500000
+			lootChance = 1800000
 		},
 			
 	},

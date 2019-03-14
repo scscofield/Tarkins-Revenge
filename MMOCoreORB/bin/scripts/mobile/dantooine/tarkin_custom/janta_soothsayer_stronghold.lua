@@ -42,7 +42,7 @@ janta_soothsayer_stronghold = Creature:new {
 				{group = "janta_rare", chance = 200000},
 				{group = "forage_rare", chance = 200000}
 			},
-			lootChance = 45000000
+			lootChance = 7000000
 		}	
 	},
 	weapons = {"primitive_weapons"},

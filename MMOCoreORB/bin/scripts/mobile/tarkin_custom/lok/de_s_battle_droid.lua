@@ -38,7 +38,7 @@ de_s_battle_droid = Creature:new {
 				{group = "av_21_scheme", chance = 2000000},
 				{group = "droid_cave", chance = 7000000}
 			},
-			lootChance = 900000
+			lootChance = 400000
 		},
 		{
 			groups = {
@@ -52,7 +52,7 @@ de_s_battle_droid = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 4000000
+			lootChance = 1000000
 		},
 },
 	conversationTemplate = "",

@@ -45,7 +45,7 @@ servant_of_lord_nyax = Creature:new {
 				{group = "armor_attachments", chance = 5000000},
    		            	{group = "clothing_attachments", chance = 5000000}
 			},
-			lootChance = 500000
+			lootChance = 50000
 		},
 		{
 			groups = {
@@ -53,7 +53,7 @@ servant_of_lord_nyax = Creature:new {
 				{group = "nyax_minions", chance = 4000000},
 				{group = "holocron_splinters", chance = 1000000}
 			},
-			lootChance = 300000
+			lootChance = 50000
 		},
 	},
 	weapons = {"aakuan_polearm_weapons"},

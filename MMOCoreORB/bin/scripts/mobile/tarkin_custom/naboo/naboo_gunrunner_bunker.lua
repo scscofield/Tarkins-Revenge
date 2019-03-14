@@ -44,19 +44,19 @@ naboo_gunrunner_bunker = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 1500000
+			lootChance = 100000
 		},
 		{	
 			groups = {
 				{group = "pirate_bunker_rare", chance = 10000000}
 			},
-			lootChance = 400000
+			lootChance = 100000
 		},
 		{	
 			groups = {
 				{group = "deed_voucher", chance = 10000000}
 			},
-			lootChance = 100000
+			lootChance = 25000
 
 		},
 	},
