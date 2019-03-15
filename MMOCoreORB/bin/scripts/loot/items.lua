@@ -1778,6 +1778,8 @@ includeFile("items/tarkin_custom/generic_consoles/pr_hoth_terminal_01.lua")
 includeFile("items/tarkin_custom/generic_consoles/crafting_assembly_terminal.lua")
 includeFile("items/tarkin_custom/generic_consoles/heroic_destroyer_reactor_console.lua")
 includeFile("items/tarkin_custom/generic_consoles/heroic_destroyer_cooling_coil.lua")
+includeFile("items/tarkin_custom/generic_consoles/uber_must_mining_console_s01.lua")
+includeFile("items/tarkin_custom/generic_consoles/uber_must_mining_console_s02.lua")
 
 --Force Crystal Hunters
 includeFile("items/tarkin_custom/crystal_hunter/uber_aurila_crystal.lua")
@@ -1801,6 +1803,9 @@ includeFile("items/tarkin_custom/crystal_hunter/kasha_crystal.lua")
 includeFile("items/tarkin_custom/crystal_hunter/luxum_crystal.lua")
 includeFile("items/tarkin_custom/crystal_hunter/treasure_hunter_sith_mask.lua")
 includeFile("items/tarkin_custom/crystal_hunter/unknown_shattered_shard_fragment.lua")
+includeFile("items/tarkin_custom/crystal_hunter/heroic_axkva_min_crystal_s01.lua")
+includeFile("items/tarkin_custom/crystal_hunter/heroic_axkva_min_crystal_s02.lua")
+includeFile("items/tarkin_custom/crystal_hunter/heroic_axkva_min_crystal_s03.lua")
 
 --Broken Lightsabers
 includeFile("items/tarkin_custom/broken_lightsabers/broken_lightsaber_hilt_001.lua")
@@ -2194,7 +2199,7 @@ includeFile("items/tarkin_custom/nyms_pirate_poi/nym_themepark_rug.lua")
 includeFile("items/tarkin_custom/nyms_pirate_poi/frn_loyalty_award_plaque_gold.lua")
 includeFile("items/tarkin_custom/nyms_pirate_poi/frn_loyalty_award_plaque_silver.lua")
 
---Sennex cave
+--Sennex Cave
 includeFile("items/tarkin_custom/sennex_cave/must_chair_01.lua")
 includeFile("items/tarkin_custom/sennex_cave/must_display_case.lua")
 includeFile("items/tarkin_custom/sennex_cave/must_table_large_01.lua")
@@ -2207,3 +2212,16 @@ includeFile("items/tarkin_custom/sennex_cave/sarlacc_base_s02.lua")
 includeFile("items/tarkin_custom/sennex_cave/sarlacc_mini_s01.lua")
 includeFile("items/tarkin_custom/sennex_cave/sarlacc_mini_s02.lua")
 includeFile("items/tarkin_custom/sennex_cave/tactical_binoculars.lua")
+
+--Lost Aqualish Cave
+includeFile("items/tarkin_custom/lost_aqualish/survival_equipment_generic.lua")
+includeFile("items/tarkin_custom/lost_aqualish/place_setting_generic.lua")
+includeFile("items/tarkin_custom/lost_aqualish/npe_artisan_metal_plate.lua")
+includeFile("items/tarkin_custom/lost_aqualish/consumable_lepese_dictionary.lua")
+includeFile("items/tarkin_custom/lost_aqualish/col_hoth_meteorite_01.lua")
+includeFile("items/tarkin_custom/lost_aqualish/frn_fireplace.lua")
+includeFile("items/tarkin_custom/lost_aqualish/uber_mining_device.lua")
+includeFile("items/tarkin_custom/lost_aqualish/uber_mining_tower.lua")
+includeFile("items/tarkin_custom/lost_aqualish/uber_must_cooling_unit.lua")
+includeFile("items/tarkin_custom/lost_aqualish/uber_must_generator.lua")
+includeFile("items/tarkin_custom/lost_aqualish/storage_unit.lua")

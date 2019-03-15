@@ -211,3 +211,12 @@ includeFile("tarkin_custom/tatooine/sennex_hunter_poi.lua")
 includeFile("tarkin_custom/tatooine/sennex_guard_poi.lua")
 includeFile("tarkin_custom/tatooine/sennex_slavemaster_poi.lua")
 
+--Lost Aqualish Cave
+includeFile("tarkin_custom/talus/lost_aqualish_scout_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_lookout_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_outrider_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_commando_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_marksman_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_infiltrator_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_captain_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_warchief_poi.lua")

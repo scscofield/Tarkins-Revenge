@@ -148,3 +148,8 @@ object_tangible_collection_shared_deathtrooper_research_patient_records_01 = Sha
 }
 ObjectTemplates:addClientTemplate(object_tangible_collection_shared_deathtrooper_research_patient_records_01, "object/tangible/collection/shared_deathtrooper_research_patient_records_01.iff")
 
+--Hoth Meteorite
+object_tangible_collection_shared_col_hoth_meteorite_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/shared_col_hoth_meteorite_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_collection_shared_col_hoth_meteorite_01, "object/tangible/collection/shared_col_hoth_meteorite_01.iff")

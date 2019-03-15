@@ -1224,3 +1224,45 @@ object_tangible_furniture_tatooine_shared_uber_basket_shallow = SharedTangibleOb
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_basket_shallow, "object/tangible/furniture/tatooine/shared_uber_basket_shallow.iff")
+
+--Mining Device
+object_tangible_furniture_tatooine_shared_uber_mining_device = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_mining_device.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_mining_device, "object/tangible/furniture/tatooine/shared_uber_mining_device.iff")
+
+--Mining Tower 
+object_tangible_furniture_tatooine_shared_uber_mining_tower = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_mining_tower.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_mining_tower, "object/tangible/furniture/tatooine/shared_uber_mining_tower.iff")
+
+--Cooling Unit
+object_tangible_furniture_tatooine_shared_uber_must_cooling_unit = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_must_cooling_unit.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_must_cooling_unit, "object/tangible/furniture/tatooine/shared_uber_must_cooling_unit.iff")
+
+--Generator
+object_tangible_furniture_tatooine_shared_uber_must_generator = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_must_generator.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_must_generator, "object/tangible/furniture/tatooine/shared_uber_must_generator.iff")
+
+--Mining Console 
+object_tangible_furniture_tatooine_shared_uber_must_mining_console_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_must_mining_console_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_must_mining_console_s01, "object/tangible/furniture/tatooine/shared_uber_must_mining_console_s01.iff")
+
+--Mining Console 2
+object_tangible_furniture_tatooine_shared_uber_must_mining_console_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_must_mining_console_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_must_mining_console_s02, "object/tangible/furniture/tatooine/shared_uber_must_mining_console_s02.iff")

@@ -75,3 +75,10 @@ object_tangible_saga_system_rewards_shared_pgc_monitorscreen_small = SharedTangi
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_pgc_monitorscreen_small, "object/tangible/saga_system/rewards/shared_pgc_monitorscreen_small.iff")
+
+--Fireplace
+object_tangible_saga_system_rewards_shared_frn_fireplace = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_frn_fireplace.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_frn_fireplace, "object/tangible/saga_system/rewards/shared_frn_fireplace.iff")

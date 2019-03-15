@@ -45,6 +45,7 @@
 --Children folder includes
 includeFile("tangible/loot/quest/force_sensitive/serverobjects.lua")
 includeFile("tangible/loot/quest/hero_of_tatooine/serverobjects.lua")
+includeFile("tangible/loot/quest/npe/serverobjects.lua")
 
 -- Server Objects
 includeFile("tangible/loot/quest/2h_sword_scythe_schematic.lua")
@@ -114,3 +115,4 @@ includeFile("tangible/loot/quest/victor_questp_testimony.lua")
 includeFile("tangible/loot/quest/wind_crystal.lua")
 
 includeFile("tangible/loot/quest/naktra_crystal.lua")
+
