@@ -627,3 +627,16 @@ includeFile("tangible/loot/loot_schematic/aurebesh_forn_schematic.lua")
 includeFile("tangible/loot/loot_schematic/aurebesh_leth_schematic.lua")
 includeFile("tangible/loot/loot_schematic/aurebesh_peth_schematic.lua")
 includeFile("tangible/loot/loot_schematic/aurebesh_usk_schematic.lua")
+
+--Elite Backpacks
+includeFile("tangible/loot/loot_schematic/backpack_s01_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s03_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s04_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s05_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s06_elite_schematic.lua")
+
+--Pilot Ace Backpack
+includeFile("tangible/loot/loot_schematic/backpack_s09_schematic.lua")
+
+--Chiss Poacher Backpack
+includeFile("tangible/loot/loot_schematic/ep3_chiss_poacher_backpack_schematic.lua")

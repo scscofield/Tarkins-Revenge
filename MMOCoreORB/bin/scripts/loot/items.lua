@@ -1263,6 +1263,7 @@ includeFile("items/tarkin_custom/ns_shirt_type_01.lua")
 includeFile("items/tarkin_custom/ns_shirt_type_02.lua")
 includeFile("items/tarkin_custom/ns_shirt_type_03.lua")
 includeFile("items/npc/nightsister_bicep_r.lua")
+includeFile("items/tarkin_custom/nightsister_backpack.lua")
 
 --Housing
 includeFile("items/tarkin_custom/nge_housing/nge_bespin_house_scheme.lua")
@@ -1856,6 +1857,9 @@ includeFile("items/tarkin_custom/pirate_bunker/bantha_ivory.lua")
 includeFile("items/tarkin_custom/pirate_bunker/bantha_ivory_rare.lua")
 includeFile("items/tarkin_custom/pirate_bunker/bantha_ivory_projectile.lua")
 includeFile("items/tarkin_custom/pirate_bunker/bantha_ivory_projectile_rare.lua")
+includeFile("items/tarkin_custom/pirate_bunker/backpack_s09_schematic.lua")
+
+--Kimo Cave
 includeFile("items/tarkin_custom/kimo_cave/kimo_claw.lua")
 includeFile("items/tarkin_custom/kimo_cave/kimo_tissue_common.lua")
 includeFile("items/tarkin_custom/kimo_cave/kimo_tissue_uncommon.lua")
@@ -2125,6 +2129,7 @@ includeFile("items/tarkin_custom/black_sun_outpost/armor_mandalorian_imperial_ch
 includeFile("items/tarkin_custom/black_sun_outpost/armor_mandalorian_imperial_gloves_schematic.lua")
 includeFile("items/tarkin_custom/black_sun_outpost/armor_mandalorian_imperial_helmet_schematic.lua")
 includeFile("items/tarkin_custom/black_sun_outpost/armor_mandalorian_imperial_leggings_schematic.lua")
+includeFile("items/tarkin_custom/black_sun_outpost/ep3_chiss_poacher_backpack_schematic.lua")
 
 --Garyn POI
 includeFile("items/tarkin_custom/garyn_poi/pr_platform_stage.lua")
@@ -2254,3 +2259,10 @@ includeFile("items/tarkin_custom/erran_sif_bunker/aurebesh_forn_schematic.lua")
 includeFile("items/tarkin_custom/erran_sif_bunker/aurebesh_leth_schematic.lua")
 includeFile("items/tarkin_custom/erran_sif_bunker/aurebesh_peth_schematic.lua")
 includeFile("items/tarkin_custom/erran_sif_bunker/aurebesh_usk_schematic.lua")
+
+--Elite Backpacks
+includeFile("items/tarkin_custom/elite_backpacks/backpack_s01_elite_schematic.lua")
+includeFile("items/tarkin_custom/elite_backpacks/backpack_s03_elite_schematic.lua")
+includeFile("items/tarkin_custom/elite_backpacks/backpack_s04_elite_schematic.lua")
+includeFile("items/tarkin_custom/elite_backpacks/backpack_s05_elite_schematic.lua")
+includeFile("items/tarkin_custom/elite_backpacks/backpack_s06_elite_schematic.lua")
