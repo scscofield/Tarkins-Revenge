@@ -1,54 +1,71 @@
-# SWGEmu Core3 #
+# Tarkin's Revenge
 
-## What is SWGEmu? ##
+ 
 
-Star Wars Galaxies was a massively multi-player online role playing game introduced by Sony Online Entertainment in the year 2003 and shut down in 2011.
-It is this game the SWGEmu project focuses to recreate at a specific milestone referred to as Pre-CU, or Pre-Combat Upgrade. The Combat Upgrade was a set of game changes which radically changed the game-play, to the dislike of thousands of players. These changes led to the founding of this project, in an attempt to "recreate" the game as it was during the Pre-CU era.
-At SWGEmu, Emulator refers to the software the SWGEmu team is building. This Emulator is meant to imitate Sony Online Entertainment's server-side software, which hosted the galaxies of Star Wars Galaxies during the Pre-CU era.
+[![Discord](https://discordapp.com/api/guilds/198160124320284674/widget.png)](https://discord.gg/3bGJvm4) [![Forums](https://img.shields.io/badge/tarkin%20forums-Click%20Here-ff69b4.svg?style=plastic)](http://tarkinswg.com/) [![GitHub Last Commit](https://img.shields.io/github/last-commit/TarkinII/Tarkins-Revenge.svg?style=plastic)](https://github.com/TarkinII/Tarkins-Revenge/commits/master) [![License](https://img.shields.io/badge/license-AGPL%203.0-green.svg?style=plastic)](https://github.com/TarkinII/Tarkins-Revenge/blob/master/LICENSE)
 
-#### How to build ####
+ 
 
-##### Dependencies #####
-  * CMake 3.1.0 or higher
-  * BerkeleyDB 5.3
-  * MySQL Client and Server
-  * OpenSSL libraries
-  * pthreads
-  * Lua 5.3 libraries
-  * Zlib libraries
-  * g++ 5+
-  * engine3
-  * java jre 1.7+
+ 
 
-### Debian 9+ or Ubuntu 16.04+ ###
-  * Install dependencies
+A Star Wars Galaxies server, based upon SWGEmu's Core3 / Engine3.  Roleplay-friendly, with a focus on quality of life, we are not your average glowbat zone.
 
-        sudo apt install build-essential libmysqlclient-dev liblua5.3-dev libdb5.3-dev libssl-dev cmake git default-jre libssl-dev git
-  * Clone core3 repository somewhere  (~/git)
 
-        mkdir -p ~/git
-        cd ~/git
-        git clone http://review.swgemu.com/Core3
-  * Build Core3 with 8 threads
+ 
 
-        cd MMOCoreORB
-        make -j8
-  * Import sql database
+ 
 
-        mysql -h<MYSQLHOST> -u<MYSQLUSER> -p<MYSQLPASSWORD> < sql/swgemu.sql
+### Getting Started
 
-### How to Run ###
-    cd ~/git/Core3/MMOCoreORB/bin
-    ./core3
+ 
 
-### License ###
-    Copyright (C) 2017 SWGEmu
+* You need to install Star Wars Galaxies from disk.
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+  * We recommend installing to a Tarkin-specific directory if you also have accounts on other servers, to avoid file conflicts.
 
-    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+* [Download the Tarkin launcher (TO COME)](http://www)
 
-    You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  * This will keep you up-to-date with current Tarkin patches.
 
-For more information, see https://review.swgemu.com.
+* [--Alternative-- manual installation (last updated 3/11/19)](https://drive.google.com/file/d/1tgeeh6iqNBBHe6f8mR9x23DgbIBBjZjK/view)
+
+  * Only use if you do not wish to use the launcher.  You will not auto-receive updates, which may cause client crashes if you are not using the most current files.  Use at your own risk.
+
+ 
+
+### Where is the server headed?
+
+* [Tarkin roadmap](https://airtable.com/shrtYrNyKRew2Qmzt)
+
+
+
+### Credits 
+
+Current and former staff:
+
+Kinshi first and foremost, founder of the original SWGCanon/Tarkin, for the foundation upon which we have built Tarkin's Revenge (especially NPC Player Cities, but so many more contributions, far too numerous to list them all - including most of the vision and principles by which we operate.  We would not exist without Kinshi's vision), along with Skolten, our web dev, as well as Wol, Gurgi, and Zetlaux, who served as staff and code contributors on dugeons and screenplays during Tarkin's original run.
+
+Liakhara (Github: stacy19201325) for merging original tarkin_scripts and TarkinII/Core3 with current SWGEmu code, craftable factional armors, craftable CU/NGE weapons,  vast amounts of client asset implementation, many dungeon revamps, SUI menu to choose combat mission levels, Jedi and faction trophies, custom DNA naming, many camp changes, world snapshot changes, recycler changes, Star Tours Adventure Service, custom color palettes, most other Post-Tarkin II contributions so far.
+
+ParadymShift (Github: Spartan5150) for networking, hardware, and forum management, as well as world snapshot editing, and community relations.
+
+Tatwi, for the contributions he made through the various iterations of Tarkin: /tarkin command, houseplop, medical services terminals, skill training NPCs, hunting mission revamp, mission terminal renaming, new player email, CA/AA to drop with one stat only, pitch/roll/yaw, and various other quality of life improvements.
+
+Devereux (Github: Trakaa) for fixes correcting decrimenting of manufacturing schematics, making mind heal work on stims, recoloring armor with multiple palettes, making current resource list export in a format compatible with swgcraft, on Tarkin II.
+
+Taylaria for some work on mobile templates on Tarkin II.
+
+SealGunman for our knee-jerk hatred of Fixer, thanks to crashing our server repeatedly due to a screenplay bug on Tarkin II.
+
+Sources and inspiration from other servers:
+
+Borrie for Wall Pack and Windmill.
+
+Halyn's comments in ModtheGalaxy chat for slicing locked briefcases.
+
+Toxic for contributions of galaxy-wide invites, unstick command, and changes to /move on Tarkin II as well as inspiration to make a SUI window upon character creation to describe the server.
+
+Most likely Red as orginator for CA/AA being named after the stat - modified and contributed by Tatwi, modified again by Liakhara as it exists in its current state on Tarkin's Revenge.
+
+Unsure: Serverwide announcements of important events like pvp kills, new server joins, etc.  We encountered this playing on Remastered and used this idea here on Tarkin's Revenge, but I don't believe the idea originated there.  Let us know if you know for certain where this idea originated.
+
