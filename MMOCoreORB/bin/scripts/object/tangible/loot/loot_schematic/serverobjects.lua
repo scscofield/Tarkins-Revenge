@@ -621,3 +621,9 @@ includeFile("tangible/loot/loot_schematic/wearable_backpack_recon_schematic.lua"
 --Lok Revenant Backpack
 includeFile("tangible/loot/loot_schematic/nym_themepark_backpack_schematic.lua")
 
+--Aurebesh Tiles
+includeFile("tangible/loot/loot_schematic/aurebesh_aurek_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_forn_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_leth_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_peth_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_usk_schematic.lua")

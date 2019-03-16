@@ -2543,6 +2543,13 @@ schematics = {
 	{path="object/draft_schematic/clothing/clothing_wearable_backpack_recon.iff"},
 
 	--Revenant Backpack
-	{path="object/draft_schematic/clothing/nym_themepark_backpack.iff"}	
+	{path="object/draft_schematic/clothing/nym_themepark_backpack.iff"},
+
+	--Aurebesh Tile Packs
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_aurek.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_forn.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_leth.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_peth.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_usk.iff"}
 
 };

@@ -218,5 +218,11 @@ includeFile("tarkin_custom/talus/lost_aqualish_outrider_poi.lua")
 includeFile("tarkin_custom/talus/lost_aqualish_commando_poi.lua")
 includeFile("tarkin_custom/talus/lost_aqualish_marksman_poi.lua")
 includeFile("tarkin_custom/talus/lost_aqualish_infiltrator_poi.lua")
+
+--Erran Sif Bunker
+includeFile("tarkin_custom/talus/sif_mercenary_poi.lua")
+includeFile("tarkin_custom/talus/trandoshan_sif_02_poi.lua")
+includeFile("tarkin_custom/talus/rodian_sif_poi.lua")
+includeFile("tarkin_custom/talus/rodian_sif_02_poi.lua")
 includeFile("tarkin_custom/talus/lost_aqualish_captain_poi.lua")
 includeFile("tarkin_custom/talus/lost_aqualish_warchief_poi.lua")
