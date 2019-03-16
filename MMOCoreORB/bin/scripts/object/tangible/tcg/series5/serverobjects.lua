@@ -9,3 +9,5 @@ includeFile("tangible/tcg/series5/food_station_jabbas_roasting_spit.lua")
 includeFile("tangible/tcg/series5/nightsister_backpack.lua")
 includeFile("tangible/tcg/series5/consumable_klorri_clan_shield.lua")
 includeFile("tangible/tcg/series5/varactyl_armor_statue.lua")
+includeFile("tangible/tcg/series5/cybernetic_rots_forearm_r.lua")
+

@@ -54,7 +54,7 @@ black_sun_bloodguard_poi = Creature:new {
 				{group = "clothing_attachments", chance = 2500000},
 				{group = "armor_attachments", chance = 2500000}				
 			},
-			lootChance = 1500000
+			lootChance = 400000
 		},
 		{	
 			groups = {

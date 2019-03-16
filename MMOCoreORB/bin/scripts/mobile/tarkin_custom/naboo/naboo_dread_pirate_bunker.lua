@@ -45,13 +45,13 @@ naboo_dread_pirate_bunker = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 8000000
+			lootChance = 7000000
 		},
 		{	
 			groups = {
 				{group = "pirate_bunker_rare", chance = 10000000}
 			},
-			lootChance = 2000000
+			lootChance = 1800000
 
 		},
 		{	

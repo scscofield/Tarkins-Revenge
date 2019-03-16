@@ -86,3 +86,10 @@ object_tangible_tcg_series1_shared_decorative_drink_dispenser = SharedTangibleOb
 	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_drink_dispenser.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_drink_dispenser, "object/tangible/tcg/series1/shared_decorative_drink_dispenser.iff")
+
+--Lepese Dictionary
+object_tangible_tcg_series1_shared_consumable_lepese_dictionary = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_consumable_lepese_dictionary.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_consumable_lepese_dictionary, "object/tangible/tcg/series1/shared_consumable_lepese_dictionary.iff")
+

@@ -3,7 +3,7 @@ object_tangible_loot_loot_schematic_wearable_backpack_recon_schematic = object_t
 	customName = "Recon Backpack Schematic",
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
-	requiredSkill = "crafting_tailor_novice",
+	requiredSkill = "crafting_tailor_master",
 	targetDraftSchematic = "object/draft_schematic/clothing/clothing_wearable_backpack_recon.iff",
 	targetUseCount = 1
 }

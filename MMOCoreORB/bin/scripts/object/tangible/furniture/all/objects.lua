@@ -7150,3 +7150,17 @@ object_tangible_furniture_all_shared_frn_diner_table = SharedTangibleObjectTempl
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_diner_table, "object/tangible/furniture/all/frn_diner_table.iff")
+
+--Lung Vat
+object_tangible_furniture_all_shared_outbreak_lung_vat = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/outbreak_lung_vat.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_outbreak_lung_vat, "object/tangible/furniture/all/outbreak_lung_vat.iff")
+
+--Table
+object_tangible_furniture_all_shared_outbreak_science_desk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/outbreak_science_desk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_outbreak_science_desk, "object/tangible/furniture/all/outbreak_science_desk.iff")

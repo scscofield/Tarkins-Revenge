@@ -108,6 +108,7 @@ includeFile("tangible/terminal/test.lua")
 
 includeFile("tangible/terminal/crafting_assembly_terminal.lua")
 includeFile("tangible/terminal/npe_droid_production.lua")
+includeFile("tangible/terminal/terminal_gcw_publish_gift.lua")
 
 --Tarkin Custom
 includeFile("tangible/terminal/imp_travel_term.lua")

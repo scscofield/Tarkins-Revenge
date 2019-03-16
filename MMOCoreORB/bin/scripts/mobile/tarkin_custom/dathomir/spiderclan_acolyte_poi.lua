@@ -46,7 +46,7 @@ spiderclan_acolyte_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 400000
+			lootChance = 100000
 		},		
 	},
 	weapons = {"mixed_force_weapons"},

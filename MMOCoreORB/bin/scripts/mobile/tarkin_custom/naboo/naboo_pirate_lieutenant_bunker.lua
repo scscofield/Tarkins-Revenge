@@ -52,13 +52,13 @@ naboo_pirate_lieutenant_bunker = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 3500000
+			lootChance = 200000
 		},
 		{	
 			groups = {
 				{group = "pirate_bunker_rare", chance = 10000000}
 			},
-			lootChance = 1000000
+			lootChance = 500000
 		},
 		{	
 			groups = {
@@ -66,7 +66,7 @@ naboo_pirate_lieutenant_bunker = Creature:new {
 				{group = "smuggled_bantha_ivory", chance = 2000000},
 				{group = "smuggled_bantha_ivory_projectile", chance = 2000000}
 			},
-			lootChance = 200000
+			lootChance = 50000
 
 		},
 	},

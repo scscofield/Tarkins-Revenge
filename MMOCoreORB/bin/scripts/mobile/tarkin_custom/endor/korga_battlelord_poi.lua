@@ -46,14 +46,14 @@ korga_battlelord_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 800000
+			lootChance = 300000
 		},
 		{
 			groups = {
 				{group = "korga_cave_rare", chance = 9888889},
 				{group = "deed_voucher", chance = 111111}
 			},
-			lootChance = 600000
+			lootChance = 500000
 		},
 	},
 	weapons = {"korga_2h_weapons"},

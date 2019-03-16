@@ -30,3 +30,10 @@ includeFile("draft_schematic/furniture/tarkin_custom/floor_schematic_05.lua")
 includeFile("draft_schematic/furniture/tarkin_custom/floor_schematic_06.lua")
 includeFile("draft_schematic/furniture/tarkin_custom/floor_schematic_07.lua")
 includeFile("draft_schematic/furniture/tarkin_custom/floor_schematic_08.lua")
+
+--Aurebesh Tile Packs
+includeFile("draft_schematic/furniture/tarkin_custom/aurebesh_aurek.lua")
+includeFile("draft_schematic/furniture/tarkin_custom/aurebesh_forn.lua")
+includeFile("draft_schematic/furniture/tarkin_custom/aurebesh_leth.lua")
+includeFile("draft_schematic/furniture/tarkin_custom/aurebesh_peth.lua")
+includeFile("draft_schematic/furniture/tarkin_custom/aurebesh_usk.lua")

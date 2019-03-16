@@ -159,3 +159,34 @@ object_draft_schematic_furniture_tarkin_custom_shared_floor_schematic_08 = Share
 	clientTemplateFileName = "object/draft_schematic/furniture/tarkin_custom/shared_floor_schematic_08.iff"
 }
 ObjectTemplates:addClientTemplate(object_draft_schematic_furniture_tarkin_custom_shared_floor_schematic_08, "object/draft_schematic/furniture/tarkin_custom/shared_floor_schematic_08.iff")
+
+--Aurebesh Tile Pack Aurek-Esk
+object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_aurek = SharedDraftSchematicObjectTemplate:new {
+
+	clientTemplateFileName = "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_aurek.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_aurek, "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_aurek.iff")
+
+--Aurebesh Tile Pack Forn-Krill
+object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_forn = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_forn.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_forn, "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_forn.iff")
+
+--Aurebesh Tile Pack Leth-Osk
+object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_leth = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_leth.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_leth, "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_leth.iff")
+
+--Aurebesh Tile Pack Peth-Trill
+object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_peth = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_peth.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_peth, "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_peth.iff")
+
+--Aurebesh Tile Pack Usk-Zerek
+object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_usk = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_usk.iff"
+}
+ObjectTemplates:addClientTemplate(object_draft_schematic_furniture_tarkin_custom_shared_aurebesh_usk, "object/draft_schematic/furniture/tarkin_custom/shared_aurebesh_usk.iff")

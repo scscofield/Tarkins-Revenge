@@ -52,14 +52,14 @@ black_sun_guard_poi_3 = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}				
 			},
-			lootChance = 400000
+			lootChance = 200000
 		},
 		{	
 			groups = {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}				
 			},
-			lootChance = 400000
+			lootChance = 200000
 		},
 		{	
 			groups = {

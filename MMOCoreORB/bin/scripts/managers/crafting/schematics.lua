@@ -2540,6 +2540,28 @@ schematics = {
 
 	--TCG Backpacks
 	{path="object/draft_schematic/clothing/clothing_wearable_backpack_armored.iff"},
-	{path="object/draft_schematic/clothing/clothing_wearable_backpack_recon.iff"}
+	{path="object/draft_schematic/clothing/clothing_wearable_backpack_recon.iff"},
 
+	--Revenant Backpack
+	{path="object/draft_schematic/clothing/nym_themepark_backpack.iff"},
+
+	--Aurebesh Tile Packs
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_aurek.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_forn.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_leth.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_peth.iff"},
+	{path="object/draft_schematic/furniture/tarkin_custom/aurebesh_usk.iff"},
+
+	--Elite Backpacks
+	{path="object/draft_schematic/clothing/clothing_backpack_field_01_elite.iff"},
+	{path="object/draft_schematic/clothing/clothing_backpack_field_03_elite.iff"},
+	{path="object/draft_schematic/clothing/clothing_backpack_field_04_elite.iff"},
+	{path="object/draft_schematic/clothing/clothing_backpack_field_05_elite.iff"},
+	{path="object/draft_schematic/clothing/clothing_backpack_field_06_elite.iff"},
+
+	--Ace Pilot Backpack
+	{path="object/draft_schematic/clothing/clothing_backpack_s09.iff"},
+
+	--Chiss Poacher Backpack
+	{path="object/draft_schematic/clothing/ep3_chiss_poacher_backpack.iff"}
 };

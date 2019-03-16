@@ -344,3 +344,255 @@ object_tangible_loot_creature_loot_collections_shared_treasure_hunter_mandalore_
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_treasure_hunter_mandalore_mask, "object/tangible/loot/creature_loot/collections/shared_treasure_hunter_mandalore_mask.iff")
+
+--Contraband
+object_tangible_loot_creature_loot_collections_shared_contraband_style1_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_contraband_style1_04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_contraband_style1_04, "object/tangible/loot/creature_loot/collections/shared_contraband_style1_04.iff")
+
+--Code Word
+object_tangible_loot_creature_loot_collections_shared_meatlump_code_word_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_code_word_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_code_word_01, "object/tangible/loot/creature_loot/collections/shared_meatlump_code_word_01.iff")
+
+--Aurebesh Tiles
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_aurek = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_aurek.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_aurek, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_aurek.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_besh = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_besh.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_besh, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_besh.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_cherek = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_cherek.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_cherek, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_cherek.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_cresh = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_cresh.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_cresh, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_cresh.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_dorn = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_dorn.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_dorn, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_dorn.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_enth = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_enth.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_enth, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_enth.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_esk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_esk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_esk, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_esk.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_forn = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_forn.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_forn, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_forn.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_grek = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_grek.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_grek, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_grek.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_herf = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_herf.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_herf, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_herf.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_isk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_isk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_isk, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_isk.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_jenth = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_jenth.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_jenth, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_jenth.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_kerenth = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_kerenth.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_kerenth, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_kerenth.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_krill = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_krill.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_krill, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_krill.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_leth = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_leth.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_leth, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_leth.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_mern = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_mern.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_mern, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_mern.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_nen = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_nen.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_nen, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_nen.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_nern = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_nern.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_nern, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_nern.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_onith = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_onith.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_onith, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_onith.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_orenth = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_orenth.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_orenth, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_orenth.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_osk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_osk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_osk, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_osk.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_peth = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_peth.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_peth, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_peth.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_qek = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_qek.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_qek, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_qek.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_resh = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_resh.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_resh, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_resh.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_senth = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_senth.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_senth, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_senth.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_shen = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_shen.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_shen, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_shen.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_thesh = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_thesh.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_thesh, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_thesh.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_trill = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_trill.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_trill, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_trill.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_usk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_usk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_usk, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_usk.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_vev = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_vev.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_vev, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_vev.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_wesk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_wesk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_wesk, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_wesk.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_xesh = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_xesh.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_xesh, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_xesh.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_yirt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_yirt.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_yirt, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_yirt.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_zerek = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_zerek.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_zerek, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_zerek.iff")

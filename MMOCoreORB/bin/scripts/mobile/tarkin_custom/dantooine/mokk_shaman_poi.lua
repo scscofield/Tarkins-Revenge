@@ -46,13 +46,13 @@ mokk_shaman_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 800000
+			lootChance = 400000
 		},
 		{
 			groups = {
 				{group = "mokk_cave_rare", chance = 10000000}
 			},
-			lootChance = 600000
+			lootChance = 400000
 		},
 	},
 	weapons = {"mokk_weapons"},

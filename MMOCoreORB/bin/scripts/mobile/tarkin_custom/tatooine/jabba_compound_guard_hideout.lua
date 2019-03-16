@@ -45,7 +45,7 @@ jabba_compound_guard_hideout = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 1000000
+			lootChance = 100000
 		},
 		{	
 			groups = {

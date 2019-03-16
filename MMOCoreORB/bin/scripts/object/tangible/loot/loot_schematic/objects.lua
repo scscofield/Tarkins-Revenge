@@ -7755,3 +7755,93 @@ object_tangible_loot_loot_schematic_shared_wearable_backpack_recon_schematic = S
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_wearable_backpack_recon_schematic, "object/tangible/loot/loot_schematic/shared_wearable_backpack_recon_schematic.iff")
+
+--Lok Revenant Backpack
+object_tangible_loot_loot_schematic_shared_nym_themepark_backpack_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_nym_themepark_backpack_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_nym_themepark_backpack_schematic, "object/tangible/loot/loot_schematic/shared_nym_themepark_backpack_schematic.iff")
+
+--Aurek Through Esk Tile Schematic 
+object_tangible_loot_loot_schematic_shared_aurebesh_aurek_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_aurebesh_aurek_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_aurebesh_aurek_schematic, "object/tangible/loot/loot_schematic/shared_aurebesh_aurek_schematic.iff")
+
+--Forn Through Krill Tile Schematic 
+object_tangible_loot_loot_schematic_shared_aurebesh_forn_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_aurebesh_forn_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_aurebesh_forn_schematic, "object/tangible/loot/loot_schematic/shared_aurebesh_forn_schematic.iff")
+
+--Leth Through Osk Tile Schematic 
+object_tangible_loot_loot_schematic_shared_aurebesh_leth_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_aurebesh_leth_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_aurebesh_leth_schematic, "object/tangible/loot/loot_schematic/shared_aurebesh_leth_schematic.iff")
+
+--Peth Through Trill Tile Schematic 
+object_tangible_loot_loot_schematic_shared_aurebesh_peth_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_aurebesh_peth_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_aurebesh_peth_schematic, "object/tangible/loot/loot_schematic/shared_aurebesh_peth_schematic.iff")
+
+--Usk Through Zerek Tile Schematic 
+object_tangible_loot_loot_schematic_shared_aurebesh_usk_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_aurebesh_usk_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_aurebesh_usk_schematic, "object/tangible/loot/loot_schematic/shared_aurebesh_usk_schematic.iff")
+
+--Armored Backpack
+object_tangible_loot_loot_schematic_shared_backpack_s01_elite_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_backpack_s01_elite_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_backpack_s01_elite_schematic, "object/tangible/loot/loot_schematic/shared_backpack_s01_elite_schematic.iff")
+
+
+object_tangible_loot_loot_schematic_shared_backpack_s03_elite_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_backpack_s03_elite_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_backpack_s03_elite_schematic, "object/tangible/loot/loot_schematic/shared_backpack_s03_elite_schematic.iff")
+
+
+object_tangible_loot_loot_schematic_shared_backpack_s04_elite_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_backpack_s04_elite_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_backpack_s04_elite_schematic, "object/tangible/loot/loot_schematic/shared_backpack_s04_elite_schematic.iff")
+
+
+object_tangible_loot_loot_schematic_shared_backpack_s05_elite_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_backpack_s05_elite_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_backpack_s05_elite_schematic, "object/tangible/loot/loot_schematic/shared_backpack_s05_elite_schematic.iff")
+
+
+object_tangible_loot_loot_schematic_shared_backpack_s06_elite_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_backpack_s06_elite_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_backpack_s06_elite_schematic, "object/tangible/loot/loot_schematic/shared_backpack_s06_elite_schematic.iff")
+
+
+object_tangible_loot_loot_schematic_shared_backpack_s09_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_backpack_s09_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_backpack_s09_schematic, "object/tangible/loot/loot_schematic/shared_backpack_s09_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_ep3_chiss_poacher_backpack_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_ep3_chiss_poacher_backpack_schematic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_ep3_chiss_poacher_backpack_schematic, "object/tangible/loot/loot_schematic/shared_ep3_chiss_poacher_backpack_schematic.iff")

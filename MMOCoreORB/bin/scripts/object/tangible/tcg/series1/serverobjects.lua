@@ -14,4 +14,4 @@ includeFile("tangible/tcg/series1/decorative_dooku_bust.lua")
 includeFile("tangible/tcg/series1/decorative_display_case_01.lua")
 includeFile("tangible/tcg/series1/decorative_display_case_02.lua")
 includeFile("tangible/tcg/series1/decorative_drink_dispenser.lua")
-
+includeFile("tangible/tcg/series1/consumable_lepese_dictionary.lua")

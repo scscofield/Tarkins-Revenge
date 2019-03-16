@@ -42,7 +42,7 @@ de_ig_assassin_droid = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 1000000
+			lootChance = 200000
 		},
 		{
 			groups = {

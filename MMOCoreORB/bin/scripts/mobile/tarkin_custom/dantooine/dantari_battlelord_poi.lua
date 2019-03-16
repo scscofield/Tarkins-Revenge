@@ -46,7 +46,7 @@ dantari_battlelord_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 800000
+			lootChance = 400000
 		},
 		{
 			groups = {

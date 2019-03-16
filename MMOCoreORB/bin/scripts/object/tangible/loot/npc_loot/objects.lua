@@ -64,3 +64,33 @@ object_tangible_loot_npc_loot_shared_heroic_destroyer_cooling_coil = SharedTangi
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_destroyer_cooling_coil, "object/tangible/loot/npc_loot/shared_heroic_destroyer_cooling_coil.iff")
+
+object_tangible_loot_npc_loot_shared_survival_equipment_generic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_survival_equipment_generic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_survival_equipment_generic, "object/tangible/loot/npc_loot/shared_survival_equipment_generic.iff")
+
+object_tangible_loot_npc_loot_shared_place_setting_generic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_place_setting_generic.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_place_setting_generic, "object/tangible/loot/npc_loot/shared_place_setting_generic.iff")
+
+object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_heroic_axkva_min_crystal_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s01, "object/tangible/loot/npc_loot/shared_heroic_axkva_min_crystal_s01.iff")
+
+object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_heroic_axkva_min_crystal_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s02, "object/tangible/loot/npc_loot/shared_heroic_axkva_min_crystal_s02.iff")
+
+object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_heroic_axkva_min_crystal_s03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s03, "object/tangible/loot/npc_loot/shared_heroic_axkva_min_crystal_s03.iff")

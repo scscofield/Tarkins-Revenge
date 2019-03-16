@@ -1715,3 +1715,15 @@ object_tangible_event_perk_shared_halloween_spider_web_03 = SharedTangibleObject
 	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_spider_web_03.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_spider_web_03, "object/tangible/event_perk/shared_halloween_spider_web_03.iff")
+
+--Gold Loyalty Plaque
+object_tangible_event_perk_shared_frn_loyalty_award_plaque_gold = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_frn_loyalty_award_plaque_gold.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_frn_loyalty_award_plaque_gold, "object/tangible/event_perk/shared_frn_loyalty_award_plaque_gold.iff")
+
+--Silver Loyalty Plaque
+object_tangible_event_perk_shared_frn_loyalty_award_plaque_silver = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_frn_loyalty_award_plaque_silver.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_frn_loyalty_award_plaque_silver, "object/tangible/event_perk/shared_frn_loyalty_award_plaque_silver.iff")

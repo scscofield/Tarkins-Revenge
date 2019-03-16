@@ -56,3 +56,31 @@ object_tangible_furniture_house_cleanup_shared_xeno_throne = SharedTangibleObjec
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_house_cleanup_shared_xeno_throne, "object/tangible/furniture/house_cleanup/shared_xeno_throne.iff")
 
+--Sarlacc Mini Base 1
+object_tangible_furniture_house_cleanup_shared_sarlacc_base_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/house_cleanup/shared_sarlacc_base_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_house_cleanup_shared_sarlacc_base_s01, "object/tangible/furniture/house_cleanup/shared_sarlacc_base_s01.iff")
+
+--Sarlacc Mini Base 2
+object_tangible_furniture_house_cleanup_shared_sarlacc_base_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/house_cleanup/shared_sarlacc_base_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_house_cleanup_shared_sarlacc_base_s02, "object/tangible/furniture/house_cleanup/shared_sarlacc_base_s02.iff")
+
+--Sarlacc Mini 1
+object_tangible_furniture_house_cleanup_shared_sarlacc_mini_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/house_cleanup/shared_sarlacc_mini_s01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_house_cleanup_shared_sarlacc_mini_s01, "object/tangible/furniture/house_cleanup/shared_sarlacc_mini_s01.iff")
+
+--Sarlacc Mini 2
+object_tangible_furniture_house_cleanup_shared_sarlacc_mini_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/house_cleanup/shared_sarlacc_mini_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_house_cleanup_shared_sarlacc_mini_s02, "object/tangible/furniture/house_cleanup/shared_sarlacc_mini_s02.iff")
+

@@ -1,4 +1,5 @@
 --Children folder includes
+includeFile("tangible/storyteller/prop/base/serverobjects.lua")
 includeFile("tangible/storyteller/prop/hoth/serverobjects.lua")
 
 -- Server Objects
@@ -29,4 +30,6 @@ includeFile("tangible/storyteller/prop/pr_ch9_scaffolding_short.lua")
 includeFile("tangible/storyteller/prop/pr_ch9_scaffolding_tall.lua")
 includeFile("tangible/storyteller/prop/pr_all_lair_webweaver.lua")
 includeFile("tangible/storyteller/prop/pr_web.lua")
-
+includeFile("tangible/storyteller/prop/pr_platform_stage.lua")
+includeFile("tangible/storyteller/prop/pr_escape_pod.lua")
+includeFile("tangible/storyteller/prop/pr_escape_pod_door.lua")

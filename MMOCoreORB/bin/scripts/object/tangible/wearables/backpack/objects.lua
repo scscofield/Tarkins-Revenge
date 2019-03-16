@@ -607,4 +607,37 @@ object_tangible_wearables_backpack_shared_wearable_backpack_recon = SharedTangib
 
 ObjectTemplates:addClientTemplate(object_tangible_wearables_backpack_shared_wearable_backpack_recon, "object/tangible/wearables/backpack/shared_wearable_backpack_recon.iff")
 
+--Elite Backpacks
+object_tangible_wearables_backpack_shared_backpack_s01_elite = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/backpack/shared_backpack_s01_elite.iff"
+}
 
+ObjectTemplates:addClientTemplate(object_tangible_wearables_backpack_shared_backpack_s01_elite, "object/tangible/wearables/backpack/shared_backpack_s01_elite.iff")
+
+
+object_tangible_wearables_backpack_shared_backpack_s03_elite = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/backpack/shared_backpack_s03_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_backpack_shared_backpack_s03_elite, "object/tangible/wearables/backpack/shared_backpack_s03_elite.iff")
+
+
+object_tangible_wearables_backpack_shared_backpack_s04_elite = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/backpack/shared_backpack_s04_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_backpack_shared_backpack_s04_elite, "object/tangible/wearables/backpack/shared_backpack_s04_elite.iff")
+
+
+object_tangible_wearables_backpack_shared_backpack_s05_elite = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/backpack/shared_backpack_s05_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_backpack_shared_backpack_s05_elite, "object/tangible/wearables/backpack/shared_backpack_s05_elite.iff")
+
+
+object_tangible_wearables_backpack_shared_backpack_s06_elite = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/wearables/backpack/shared_backpack_s06_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_wearables_backpack_shared_backpack_s06_elite, "object/tangible/wearables/backpack/shared_backpack_s06_elite.iff")

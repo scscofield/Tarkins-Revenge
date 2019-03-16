@@ -618,3 +618,25 @@ includeFile("tangible/loot/loot_schematic/armor_mandalorian_rebel_leggings_schem
 includeFile("tangible/loot/loot_schematic/wearable_backpack_armored_schematic.lua")
 includeFile("tangible/loot/loot_schematic/wearable_backpack_recon_schematic.lua")
 
+--Lok Revenant Backpack
+includeFile("tangible/loot/loot_schematic/nym_themepark_backpack_schematic.lua")
+
+--Aurebesh Tiles
+includeFile("tangible/loot/loot_schematic/aurebesh_aurek_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_forn_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_leth_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_peth_schematic.lua")
+includeFile("tangible/loot/loot_schematic/aurebesh_usk_schematic.lua")
+
+--Elite Backpacks
+includeFile("tangible/loot/loot_schematic/backpack_s01_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s03_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s04_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s05_elite_schematic.lua")
+includeFile("tangible/loot/loot_schematic/backpack_s06_elite_schematic.lua")
+
+--Pilot Ace Backpack
+includeFile("tangible/loot/loot_schematic/backpack_s09_schematic.lua")
+
+--Chiss Poacher Backpack
+includeFile("tangible/loot/loot_schematic/ep3_chiss_poacher_backpack_schematic.lua")

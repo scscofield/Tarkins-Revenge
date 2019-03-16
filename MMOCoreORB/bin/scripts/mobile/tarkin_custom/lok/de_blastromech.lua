@@ -42,7 +42,7 @@ de_blastromech = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 900000
+			lootChance = 100000
 		},
 		{
 			groups = {

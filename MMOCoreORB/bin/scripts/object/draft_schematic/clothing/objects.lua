@@ -24890,3 +24890,58 @@ object_draft_schematic_clothing_shared_clothing_wearable_backpack_recon = Shared
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_wearable_backpack_recon, "object/draft_schematic/clothing/shared_clothing_wearable_backpack_recon.iff")
+
+--Revenant Backpack
+object_draft_schematic_clothing_shared_nym_themepark_backpack = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_nym_themepark_backpack.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_nym_themepark_backpack, "object/draft_schematic/clothing/shared_nym_themepark_backpack.iff")
+
+--Elite Backpacks
+object_draft_schematic_clothing_shared_clothing_backpack_field_01_elite = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_clothing_backpack_field_01_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_backpack_field_01_elite, "object/draft_schematic/clothing/shared_clothing_backpack_field_01_elite.iff")
+
+
+object_draft_schematic_clothing_shared_clothing_backpack_field_03_elite = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_clothing_backpack_field_03_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_backpack_field_03_elite, "object/draft_schematic/clothing/shared_clothing_backpack_field_03_elite.iff")
+
+
+object_draft_schematic_clothing_shared_clothing_backpack_field_04_elite = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_clothing_backpack_field_04_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_backpack_field_04_elite, "object/draft_schematic/clothing/shared_clothing_backpack_field_04_elite.iff")
+
+
+object_draft_schematic_clothing_shared_clothing_backpack_field_05_elite = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_clothing_backpack_field_05_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_backpack_field_05_elite, "object/draft_schematic/clothing/shared_clothing_backpack_field_05_elite.iff")
+
+
+object_draft_schematic_clothing_shared_clothing_backpack_field_06_elite = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_clothing_backpack_field_06_elite.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_backpack_field_06_elite, "object/draft_schematic/clothing/shared_clothing_backpack_field_06_elite.iff")
+
+object_draft_schematic_clothing_shared_clothing_backpack_s09 = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_clothing_backpack_s09.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothing_backpack_s09, "object/draft_schematic/clothing/shared_clothing_backpack_s09.iff")
+
+
+object_draft_schematic_clothing_shared_ep3_chiss_poacher_backpack = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/clothing/shared_ep3_chiss_poacher_backpack.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_ep3_chiss_poacher_backpack, "object/draft_schematic/clothing/shared_ep3_chiss_poacher_backpack.iff")

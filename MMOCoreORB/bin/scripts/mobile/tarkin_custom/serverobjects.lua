@@ -185,3 +185,44 @@ includeFile("tarkin_custom/rori/black_sun_bloodguard_poi_3.lua")
 includeFile("tarkin_custom/rori/black_sun_ghost_poi_3.lua")
 includeFile("tarkin_custom/rori/black_sun_overlord_poi_3.lua")
 includeFile("tarkin_custom/rori/black_sun_battle_droid.lua")
+
+--Garyn Raiders
+includeFile("tarkin_custom/rori/garyns_prowler_poi.lua")
+includeFile("tarkin_custom/rori/garyns_thief_poi.lua")
+includeFile("tarkin_custom/rori/garyns_pirate_poi.lua")
+includeFile("tarkin_custom/rori/garyns_mugger_poi.lua")
+includeFile("tarkin_custom/rori/garyns_marauder_poi.lua")
+
+--Kahmurra Facility
+includeFile("tarkin_custom/talus/rabid_mutant_kahmurra_poi.lua")
+includeFile("tarkin_custom/talus/frenzied_kahmurra_poi.lua")
+includeFile("tarkin_custom/talus/genetically_enhanced_kahmurra_poi.lua")
+
+--Nym's Pirate Cave
+includeFile("tarkin_custom/lok/sulfur_lake_pirate_cutthroat_poi.lua")
+includeFile("tarkin_custom/lok/sulfur_lake_pirate_initiate_poi.lua")
+includeFile("tarkin_custom/lok/sulfur_lake_pirate_lieutenant_poi.lua")
+
+--Sennex Cave
+includeFile("tarkin_custom/tatooine/sennex_lookout_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_warder_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_slaver_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_hunter_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_guard_poi.lua")
+includeFile("tarkin_custom/tatooine/sennex_slavemaster_poi.lua")
+
+--Lost Aqualish Cave
+includeFile("tarkin_custom/talus/lost_aqualish_scout_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_lookout_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_outrider_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_commando_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_marksman_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_infiltrator_poi.lua")
+
+--Erran Sif Bunker
+includeFile("tarkin_custom/talus/sif_mercenary_poi.lua")
+includeFile("tarkin_custom/talus/trandoshan_sif_02_poi.lua")
+includeFile("tarkin_custom/talus/rodian_sif_poi.lua")
+includeFile("tarkin_custom/talus/rodian_sif_02_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_captain_poi.lua")
+includeFile("tarkin_custom/talus/lost_aqualish_warchief_poi.lua")

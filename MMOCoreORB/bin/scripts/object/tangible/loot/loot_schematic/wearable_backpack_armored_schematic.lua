@@ -3,7 +3,7 @@ object_tangible_loot_loot_schematic_wearable_backpack_armored_schematic = object
 	customName = "Armored Backpack Schematic",
 	objectMenuComponent = "LootSchematicMenuComponent",
 	attributeListComponent = "LootSchematicAttributeListComponent",
-	requiredSkill = "crafting_tailor_novice",
+	requiredSkill = "crafting_tailor_master",
 	targetDraftSchematic = "object/draft_schematic/clothing/clothing_wearable_backpack_armored.iff",
 	targetUseCount = 1
 }

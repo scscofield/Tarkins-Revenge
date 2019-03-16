@@ -3355,6 +3355,12 @@ object_tangible_terminal_shared_crafting_assembly_terminal = SharedTangibleObjec
 }
 ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_crafting_assembly_terminal, "object/tangible/terminal/shared_crafting_assembly_terminal.iff")
 
+--GCW Publish Terminal
+object_tangible_terminal_shared_terminal_gcw_publish_gift = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_terminal_gcw_publish_gift.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_gcw_publish_gift, "object/tangible/terminal/shared_terminal_gcw_publish_gift.iff")
+
 
 --Tarkin Custom
 

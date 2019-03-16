@@ -52,7 +52,7 @@ black_sun_assassin_poi = Creature:new {
 				{group = "clothing_attachments", chance = 5000000},
 				{group = "armor_attachments", chance = 5000000}
 			},
-			lootChance = 500000
+			lootChance = 300000
 		},
 		{	
 			groups = {

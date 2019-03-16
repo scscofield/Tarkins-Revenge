@@ -67,3 +67,10 @@ includeFile("tangible/wearables/backpack/ep3_chiss_poacher_backpack.lua")
 includeFile("tangible/wearables/backpack/nym_themepark_backpack.lua")
 includeFile("tangible/wearables/backpack/wearable_backpack_armored.lua")
 includeFile("tangible/wearables/backpack/wearable_backpack_recon.lua")
+
+--Tarkin Custom
+includeFile("tangible/wearables/backpack/backpack_s01_elite.lua")
+includeFile("tangible/wearables/backpack/backpack_s03_elite.lua")
+includeFile("tangible/wearables/backpack/backpack_s04_elite.lua")
+includeFile("tangible/wearables/backpack/backpack_s05_elite.lua")
+includeFile("tangible/wearables/backpack/backpack_s06_elite.lua")
