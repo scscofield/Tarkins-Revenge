@@ -92,3 +92,11 @@ includeFile("tangible/loot/creature_loot/collections/aurebesh_tile_wesk.lua")
 includeFile("tangible/loot/creature_loot/collections/aurebesh_tile_xesh.lua")
 includeFile("tangible/loot/creature_loot/collections/aurebesh_tile_yirt.lua")
 includeFile("tangible/loot/creature_loot/collections/aurebesh_tile_zerek.lua")
+
+--Fish Tank Components
+includeFile("tangible/loot/creature_loot/collections/fish_tank_bubble_stone.lua")
+includeFile("tangible/loot/creature_loot/collections/fish_tank_front_panel.lua")
+includeFile("tangible/loot/creature_loot/collections/fish_tank_left_panel.lua")
+includeFile("tangible/loot/creature_loot/collections/fish_tank_rear_panel.lua")
+includeFile("tangible/loot/creature_loot/collections/fish_tank_right_panel.lua")
+includeFile("tangible/loot/creature_loot/collections/fish_tank_tubing.lua")

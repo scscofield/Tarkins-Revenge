@@ -596,3 +596,40 @@ object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_zerek = Shar
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_zerek, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_zerek.iff")
+
+--Fish Tank Items
+object_tangible_loot_creature_loot_collections_shared_fish_tank_bubble_stone = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_bubble_stone.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_bubble_stone, "object/tangible/loot/creature_loot/collections/shared_fish_tank_bubble_stone.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_front_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_front_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_front_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_front_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_left_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_left_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_left_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_left_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_rear_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_rear_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_rear_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_rear_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_right_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_right_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_right_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_right_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_tubing = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_tubing.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_tubing, "object/tangible/loot/creature_loot/collections/shared_fish_tank_tubing.iff")

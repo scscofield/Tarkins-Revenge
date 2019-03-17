@@ -2266,3 +2266,12 @@ includeFile("items/tarkin_custom/elite_backpacks/backpack_s03_elite_schematic.lu
 includeFile("items/tarkin_custom/elite_backpacks/backpack_s04_elite_schematic.lua")
 includeFile("items/tarkin_custom/elite_backpacks/backpack_s05_elite_schematic.lua")
 includeFile("items/tarkin_custom/elite_backpacks/backpack_s06_elite_schematic.lua")
+
+--Fishtank Items
+includeFile("items/tarkin_custom/fishtank/fish_tank_bubble_stone.lua")
+includeFile("items/tarkin_custom/fishtank/fish_tank_front_panel.lua")
+includeFile("items/tarkin_custom/fishtank/fish_tank_rear_panel.lua")
+includeFile("items/tarkin_custom/fishtank/fish_tank_right_panel.lua")
+includeFile("items/tarkin_custom/fishtank/fish_tank_left_panel.lua")
+includeFile("items/tarkin_custom/fishtank/fish_tank_tubing.lua")
+includeFile("items/tarkin_custom/fishtank/fishtank_kit.lua")

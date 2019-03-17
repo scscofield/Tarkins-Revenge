@@ -1318,3 +1318,10 @@ object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map3 = Shar
 }
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map3, "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map3.iff")
 
+--Fishtank Kit
+object_tangible_tarkin_custom_decorative_shared_fishtank_kit = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_fishtank_kit.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_fishtank_kit, "object/tangible/tarkin_custom/decorative/shared_fishtank_kit.iff")
+
+
