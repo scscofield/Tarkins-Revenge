@@ -8,6 +8,7 @@
 #include "server/zone/objects/scene/SceneObject.h"
 #include "server/zone/objects/player/PlayerObject.h"
 #include "server/zone/objects/player/sui/callbacks/TipCommandSuiCallback.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 class TipCommand: public QueueCommand {
 private:
@@ -50,6 +51,8 @@ private:
 		tipself.setDI(amount);
 		tipself.setTT(targetPlayer->getCreatureName());
 		player->sendSystemMessage(tipself);
+		
+		StatisticsManager::instance()->lumberjack(player, targetPlayer, amount, "na", 1);
 
 		return SUCCESS;
 	}
@@ -86,6 +89,8 @@ private:
 
 		ghost->addSuiBox(confirmbox);
 		player->sendMessage(confirmbox->generateMessage());
+		
+		StatisticsManager::instance()->lumberjack(player, targetPlayer, amount, "na", 2);
 
 		return SUCCESS;
 	}
