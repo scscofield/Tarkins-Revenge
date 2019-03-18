@@ -146,3 +146,24 @@ object_tangible_collection_reward_shared_dejarik_table_reward = SharedTangibleOb
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_dejarik_table_reward, "object/tangible/collection/reward/shared_dejarik_table_reward.iff")
+
+--Goggles
+object_tangible_collection_reward_shared_target_reticule_goggles = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_target_reticule_goggles.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_target_reticule_goggles, "object/tangible/collection/reward/shared_target_reticule_goggles.iff")
+
+--Scrapbook
+object_tangible_collection_reward_shared_meatlump_scrapbook_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_meatlump_scrapbook_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_meatlump_scrapbook_reward, "object/tangible/collection/reward/shared_meatlump_scrapbook_reward.iff")
+
+--SMC Necklace
+object_tangible_collection_reward_shared_smc_jeweled_necklace_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_smc_jeweled_necklace_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_smc_jeweled_necklace_reward, "object/tangible/collection/reward/shared_smc_jeweled_necklace_reward.iff")

@@ -66,3 +66,8 @@ object_tangible_tcg_series5_shared_cybernetic_rots_forearm_r = SharedTangibleObj
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_cybernetic_rots_forearm_r, "object/tangible/tcg/series5/shared_cybernetic_rots_forearm_r.iff")
 
+--Tie Fighter Chair
+object_tangible_tcg_series5_shared_furniture_tie_fighter_chair = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_furniture_tie_fighter_chair.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_furniture_tie_fighter_chair, "object/tangible/tcg/series5/shared_furniture_tie_fighter_chair.iff")

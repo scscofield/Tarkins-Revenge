@@ -1235,6 +1235,8 @@ includeFile("items/tarkin_custom/goggles_s03.lua")
 includeFile("items/tarkin_custom/goggles_s04.lua")
 includeFile("items/tarkin_custom/goggles_s05.lua")
 includeFile("items/tarkin_custom/goggles_s06.lua")
+includeFile("items/tarkin_custom/target_reticule_goggles.lua")
+includeFile("items/tarkin_custom/emperors_day_goggles.lua")
 
 --NS & SMC Clothing
 includeFile("items/tarkin_custom/smc_bicep_l.lua")
@@ -1264,6 +1266,10 @@ includeFile("items/tarkin_custom/ns_shirt_type_02.lua")
 includeFile("items/tarkin_custom/ns_shirt_type_03.lua")
 includeFile("items/npc/nightsister_bicep_r.lua")
 includeFile("items/tarkin_custom/nightsister_backpack.lua")
+includeFile("items/tarkin_custom/wod_witch_banner_s01.lua")
+includeFile("items/tarkin_custom/wod_witch_banner_s02.lua")
+includeFile("items/tarkin_custom/wod_witch_banner_s03.lua")
+includeFile("items/tarkin_custom/smc_jeweled_necklace_reward.lua")
 
 --Housing
 includeFile("items/tarkin_custom/nge_housing/nge_bespin_house_scheme.lua")
@@ -2318,3 +2324,27 @@ includeFile("items/tarkin_custom/hunting_trophies/ep3_kash_reward_trophy_minstyn
 includeFile("items/tarkin_custom/hunting_trophies/ep3_kash_reward_trophy_mouf.lua")
 includeFile("items/tarkin_custom/hunting_trophies/ep3_kash_reward_trophy_uller.lua")
 includeFile("items/tarkin_custom/hunting_trophies/ep3_kash_reward_trophy_walluga.lua")
+
+--Meatlump
+includeFile("items/tarkin_custom/meatlump/meatlump_scrapbook_reward.lua")
+includeFile("items/tarkin_custom/meatlump/meatlump_lump.lua")
+includeFile("items/tarkin_custom/meatlump/meatlump_newspaper_01.lua")
+includeFile("items/tarkin_custom/meatlump/meatlump_newspaper_02.lua")
+includeFile("items/tarkin_custom/meatlump/meatlump_newspaper_03.lua")
+includeFile("items/tarkin_custom/meatlump/meatlump_newspaper_04.lua")
+
+--Factional
+includeFile("items/tarkin_custom/factional/gcw_table_bestine_imp.lua")
+includeFile("items/tarkin_custom/factional/gcw_table_dearic_imp.lua")
+includeFile("items/tarkin_custom/factional/gcw_table_keren_imp.lua")
+includeFile("items/tarkin_custom/factional/col_imperial_logo_patch.lua")
+includeFile("items/tarkin_custom/factional/frn_vet_rug_imperial.lua")
+includeFile("items/tarkin_custom/factional/gcw_imperial_rug_01.lua")
+includeFile("items/tarkin_custom/factional/furniture_tie_fighter_chair.lua")
+includeFile("items/tarkin_custom/factional/decorative_atst_chair.lua")
+includeFile("items/tarkin_custom/factional/gcw_rebel_rug_01.lua")
+includeFile("items/tarkin_custom/factional/frn_vet_rug_rebel.lua")
+includeFile("items/tarkin_custom/factional/col_rebel_logo_patch.lua")
+includeFile("items/tarkin_custom/factional/gcw_table_bestine_reb.lua")
+includeFile("items/tarkin_custom/factional/gcw_table_dearic_reb.lua")
+includeFile("items/tarkin_custom/factional/gcw_table_keren_reb.lua")

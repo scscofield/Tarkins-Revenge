@@ -36,7 +36,7 @@ stormtrooper_sentry = Creature:new {
 				{group = "pistols", chance = 1200000},
 				{group = "melee_weapons", chance = 1200000},
 				{group = "carbines", chance = 1200000},
-				{group = "rebel_spire", chance = 750000},
+				{group = "factional_rebel", chance = 750000},
 				{group = "clothing_attachments", chance = 1250000},
 				{group = "armor_attachments", chance = 1250000}
 			},

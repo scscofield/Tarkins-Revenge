@@ -39,7 +39,7 @@ specforce_combat_medic_sentry = Creature:new {
 				{group = "pistols", chance = 550000},
                 		{group = "melee_weapons", chance = 550000},
 		                {group = "carbines", chance = 550000},
-				{group = "imperial_spire", chance = 1000000},
+				{group = "factional_imperial", chance = 1000000},
 				{group = "clothing_attachments", chance = 125000},
 				{group = "armor_attachments", chance = 125000}
 			},

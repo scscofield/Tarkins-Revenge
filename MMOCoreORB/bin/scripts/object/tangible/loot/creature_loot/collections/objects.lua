@@ -726,3 +726,28 @@ object_tangible_loot_creature_loot_collections_shared_dejarik_table_stand = Shar
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_table_stand, "object/tangible/loot/creature_loot/collections/shared_dejarik_table_stand.iff")
 
+--Meatlump Newspapers
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_01, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_01.iff")
+
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_02, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_02.iff")
+
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_03, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_03.iff")
+
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_04, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_04.iff")
+

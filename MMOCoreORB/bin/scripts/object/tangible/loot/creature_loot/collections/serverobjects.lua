@@ -117,3 +117,9 @@ includeFile("tangible/loot/creature_loot/collections/dejarik_monnok.lua")
 includeFile("tangible/loot/creature_loot/collections/dejarik_ngok.lua")
 includeFile("tangible/loot/creature_loot/collections/dejarik_table_base.lua")
 includeFile("tangible/loot/creature_loot/collections/dejarik_table_stand.lua")
+
+--Meatlump Newspapers
+includeFile("tangible/loot/creature_loot/collections/meatlump_newspaper_01.lua")
+includeFile("tangible/loot/creature_loot/collections/meatlump_newspaper_02.lua")
+includeFile("tangible/loot/creature_loot/collections/meatlump_newspaper_03.lua")
+includeFile("tangible/loot/creature_loot/collections/meatlump_newspaper_04.lua")
