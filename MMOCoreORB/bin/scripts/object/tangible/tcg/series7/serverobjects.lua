@@ -5,6 +5,7 @@ includeFile("tangible/tcg/series7/wearable_gold_cape.lua")
 includeFile("tangible/tcg/series7/wearable_purple_cape.lua")
 includeFile("tangible/tcg/series7/wearable_sash_embroidered.lua")
 includeFile("tangible/tcg/series7/wearable_sash_handmade.lua")
+includeFile("tangible/tcg/series7/decorative_atst_chair.lua")
 
 --Not Targetable
 --includeFile("tangible/tcg/series7/decal_imperial_graffiti_01.lua")

@@ -1337,3 +1337,22 @@ object_tangible_veteran_reward_shared_frn_vet_emp_chair = SharedTangibleObjectTe
 	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_emp_chair.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_emp_chair, "object/tangible/veteran_reward/shared_frn_vet_emp_chair.iff")
+
+--Goggles
+object_tangible_veteran_reward_shared_emperors_day_goggles = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_emperors_day_goggles.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_emperors_day_goggles, "object/tangible/veteran_reward/shared_emperors_day_goggles.iff")
+
+--Imperial Rug
+object_tangible_veteran_reward_shared_frn_vet_rug_imperial = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_rug_imperial.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_rug_imperial, "object/tangible/veteran_reward/shared_frn_vet_rug_imperial.iff")
+
+--Rebel Rug
+object_tangible_veteran_reward_shared_frn_vet_rug_rebel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/veteran_reward/shared_frn_vet_rug_rebel.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_veteran_reward_shared_frn_vet_rug_rebel, "object/tangible/veteran_reward/shared_frn_vet_rug_rebel.iff")
+

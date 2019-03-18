@@ -28,7 +28,14 @@ gurreck_forest_stalker = Creature:new {
 
 	templates = {"object/mobile/gurreck_hue.iff"},
 	hues = { 0, 1, 2, 3, 4, 5, 6, 7 },
-	lootGroups = {},
+	lootGroups = {
+	 {
+	        groups = {
+				{group = "gurreck_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		}
+	},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {

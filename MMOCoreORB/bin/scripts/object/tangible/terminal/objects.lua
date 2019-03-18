@@ -3361,6 +3361,37 @@ object_tangible_terminal_shared_terminal_gcw_publish_gift = SharedTangibleObject
 }
 ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_terminal_gcw_publish_gift, "object/tangible/terminal/shared_terminal_gcw_publish_gift.iff")
 
+--Planning Tables
+object_tangible_terminal_shared_gcw_table_bestine_imp = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_gcw_table_bestine_imp.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_gcw_table_bestine_imp, "object/tangible/terminal/shared_gcw_table_bestine_imp.iff")
+
+object_tangible_terminal_shared_gcw_table_bestine_reb = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_gcw_table_bestine_reb.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_gcw_table_bestine_reb, "object/tangible/terminal/shared_gcw_table_bestine_reb.iff")
+
+object_tangible_terminal_shared_gcw_table_dearic_imp = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_gcw_table_dearic_imp.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_gcw_table_dearic_imp, "object/tangible/terminal/shared_gcw_table_dearic_imp.iff")
+
+object_tangible_terminal_shared_gcw_table_dearic_reb = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_gcw_table_dearic_reb.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_gcw_table_dearic_reb, "object/tangible/terminal/shared_gcw_table_dearic_reb.iff")
+
+object_tangible_terminal_shared_gcw_table_keren_imp = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_gcw_table_keren_imp.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_gcw_table_keren_imp, "object/tangible/terminal/shared_gcw_table_keren_imp.iff")
+
+object_tangible_terminal_shared_gcw_table_keren_reb = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/terminal/shared_gcw_table_keren_reb.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_terminal_shared_gcw_table_keren_reb, "object/tangible/terminal/shared_gcw_table_keren_reb.iff")
+
 
 --Tarkin Custom
 

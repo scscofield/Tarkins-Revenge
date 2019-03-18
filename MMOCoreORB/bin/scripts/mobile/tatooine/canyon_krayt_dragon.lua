@@ -46,7 +46,13 @@ canyon_krayt_dragon = Creature:new {
 				{group = "krayt_pearls", chance = 2000000}				
 			},
 			lootChance = 10000000
-		}
+		},
+		{	
+			groups = {
+				{group = "krayt_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		},
 	},
 	weapons = {},
 	conversationTemplate = "",

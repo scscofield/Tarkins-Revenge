@@ -35,7 +35,13 @@ kliknik_scout = Creature:new {
 				{group = "kliknik_common", chance = 10000000}
 			},
 			lootChance = 1540000
-		}
+		},
+		{	
+			groups = {
+				{group = "kliknik_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		},
 	},
 	weapons = {"creature_spit_small_yellow"},
 	conversationTemplate = "",

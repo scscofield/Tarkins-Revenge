@@ -29,7 +29,14 @@ frenzied_choku = Creature:new {
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },
 	controlDeviceTemplate = "object/intangible/pet/choku_hue.iff",
 	scale = 1.15,
-	lootGroups = {},
+	lootGroups = {
+	 {
+	        groups = {
+				{group = "choku_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		}
+	},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {

@@ -78,3 +78,7 @@ includeFile("tangible/veteran_reward/frn_vet_houseplant.lua")
 includeFile("tangible/veteran_reward/frn_vet_houseplant_02.lua")
 includeFile("tangible/veteran_reward/frn_vet_display_stand.lua")
 includeFile("tangible/veteran_reward/frn_vet_emp_chair.lua")
+includeFile("tangible/veteran_reward/emperors_day_goggles.lua")
+includeFile("tangible/veteran_reward/frn_vet_rug_imperial.lua")
+includeFile("tangible/veteran_reward/frn_vet_rug_rebel.lua")
+

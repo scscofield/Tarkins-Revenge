@@ -69,3 +69,51 @@ object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_webweaver = 
 	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_webweaver.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_webweaver, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_webweaver.iff")
+
+--Sordaan Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_sordaan_hunting_trophy = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_sordaan_hunting_trophy.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_sordaan_hunting_trophy, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_sordaan_hunting_trophy.iff")
+
+--Kashyyyk Bantha Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_bantha_kash = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_bantha_kash.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_bantha_kash, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_bantha_kash.iff")
+
+--Bolotaur Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_bolotaur = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_bolotaur.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_bolotaur, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_bolotaur.iff")
+
+--Kkorrwrot Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_kkorrwrot = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_kkorrwrot.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_kkorrwrot, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_kkorrwrot.iff")
+
+--Minstyngar Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_minstyngar = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_minstyngar.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_minstyngar, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_minstyngar.iff")
+
+--Mouf Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_mouf = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_mouf.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_mouf, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_mouf.iff")
+
+--Uller Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_uller = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_uller.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_uller, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_uller.iff")
+
+--Walluga Hunting Trophy
+object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_walluga = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_walluga.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_walluga, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_walluga.iff")

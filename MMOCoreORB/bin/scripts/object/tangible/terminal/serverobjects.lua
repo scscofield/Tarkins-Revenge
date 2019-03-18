@@ -109,6 +109,12 @@ includeFile("tangible/terminal/test.lua")
 includeFile("tangible/terminal/crafting_assembly_terminal.lua")
 includeFile("tangible/terminal/npe_droid_production.lua")
 includeFile("tangible/terminal/terminal_gcw_publish_gift.lua")
+includeFile("tangible/terminal/gcw_table_bestine_imp.lua")
+includeFile("tangible/terminal/gcw_table_bestine_reb.lua")
+includeFile("tangible/terminal/gcw_table_dearic_imp.lua")
+includeFile("tangible/terminal/gcw_table_dearic_reb.lua")
+includeFile("tangible/terminal/gcw_table_keren_imp.lua")
+includeFile("tangible/terminal/gcw_table_keren_reb.lua")
 
 --Tarkin Custom
 includeFile("tangible/terminal/imp_travel_term.lua")

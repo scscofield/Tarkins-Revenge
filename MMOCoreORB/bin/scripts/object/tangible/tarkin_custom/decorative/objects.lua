@@ -1318,3 +1318,104 @@ object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map3 = Shar
 }
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_thm_spc_nebula_orion_map3, "object/tangible/tarkin_custom/decorative/shared_thm_spc_nebula_orion_map3.iff")
 
+--Fishtank Kit
+object_tangible_tarkin_custom_decorative_shared_fishtank_kit = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_fishtank_kit.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_fishtank_kit, "object/tangible/tarkin_custom/decorative/shared_fishtank_kit.iff")
+
+--Choku Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_choku = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_choku.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_choku, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_choku.iff")
+
+--Bocatt Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_bocatt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_bocatt.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_bocatt, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_bocatt.iff")
+
+--Razor Cat Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_corellian_sand_panther = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_corellian_sand_panther.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_corellian_sand_panther, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_corellian_sand_panther.iff")
+
+--Ewok Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_ewok = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_ewok.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_ewok, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_ewok.iff")
+
+--Gurreck Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_gurreck = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_gurreck.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_gurreck, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_gurreck.iff")
+
+--Kliknik Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_kliknik = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_kliknik.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_kliknik, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_kliknik.iff")
+
+--Krayt Dragon Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_krayt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_krayt.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_krayt, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_krayt.iff")
+
+--Peko Peko Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_peko_peko = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_peko_peko.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_peko_peko, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_peko_peko.iff")
+
+--Rancor Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_rancor = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_rancor.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_rancor, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_rancor.iff")
+
+--Slice Hound Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_slice_hound = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_slice_hound.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_slice_hound, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_slice_hound.iff")
+
+--Swirl Prong Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_swirlprong = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_swirlprong.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_swirlprong, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_swirlprong.iff")
+
+--Verne Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_verne = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_verne.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_verne, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_verne.iff")
+
+--Zucca Boar Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_zucca_boar = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_zucca_boar.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_zucca_boar, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_zucca_boar.iff")
+
+--Condor Dragon Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_condor_dragon = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_condor_dragon.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_condor_dragon, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_condor_dragon.iff")
+
+--Greater Krayt Dragon Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_greater_krayt = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_greater_krayt.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_greater_krayt, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_greater_krayt.iff")
+
+--Tauntaun Hunting Trophy
+object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_tauntaun = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_tauntaun.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_tauntaun, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_tauntaun.iff")

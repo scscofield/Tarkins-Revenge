@@ -35,7 +35,13 @@ kliknik_dark_worker = Creature:new {
 				{group = "kliknik_common", chance = 10000000}
 			},
 			lootChance = 1600000
-		}
+		},
+		{	
+			groups = {
+				{group = "kliknik_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		},
 	},
 	weapons = {},
 	conversationTemplate = "",

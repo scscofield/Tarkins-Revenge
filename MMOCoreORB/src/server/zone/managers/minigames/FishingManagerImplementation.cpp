@@ -380,10 +380,10 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 
 	Zone* zone = player->getZone();
 
-	if (fish > 93){ // NON-FISH ITEM WAS CAUGHT!
+	if (fish > 97){ // NON-FISH ITEM WAS CAUGHT! //Lowered chance of getting a non-fish item from 6% to 2% of all successes (you're more likely to get a fish)
 		int chance = System::random(99)/*+(luck/10)*/;
 
-		if (chance > 94) { // RARE ITEM WAS CAUGHT!
+		if (chance > 84) { // RARE ITEM WAS CAUGHT! //Keep chance of rare item at 0.3% of all successes (you're just as likely as before to get a rare item, but less likely to get a misc item)
 			int i = rareLoot.size();
 
 			String loot = rareLoot.get(System::random(i - 1));
@@ -412,9 +412,41 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 
 			return;
 		} else {
+			//This was my best idea to get the planet-specific fish to show up on only their appropriate planets
+			if (fish > 6) {	
+				String planet = zone->getZoneName();
+				int reroll = System::random(9);
+				if (planet == "dathomir" || planet == "endor" || planet == "naboo"  || planet == "yavin4" ) {
+					if (planet == "dathomir") {
+						if (reroll == 9)
+							fish = 7;
+						else
+							fish = System::random(6);
+					} else if (planet == "yavin4") {
+						if (reroll == 9)
+							fish = 15;
+						else
+							fish = System::random(6);
+					} else if (planet == "endor") {
+						if (reroll == 9) {
+							int newfish = System::random(1);
+							fish = newfish + 8;
+						} else
+							fish = System::random(6);
+					} else {
+						if (reroll == 9) {
+							int newfish = System::random(4);
+							fish = newfish + 10;
+						} else
+							fish = System::random(6);
+					}
+				} else {
+					fish = System::random(6);
+				}
+			}
+		
 			String lootFish = "object/tangible/fishing/fish/" + fishType.get(fish) + ".iff";
 			ManagedReference<FishObject*> lootFishObject = player->getZoneServer()->createObject(lootFish.hashCode(), 2).castTo<FishObject*>();
-
 			if (lootFishObject != NULL) {
 				Locker lootLocker(lootFishObject);
 
@@ -424,7 +456,6 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 				int quality = 1;
 
 				ManagedReference<FishingPoleObject*> pole = getPole(player);
-
 				if (pole != NULL) {
 					if (pole->getQuality() != 0)
 						quality += (int)ceil((float)pole->getQuality() / 25);
@@ -458,7 +489,6 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 				float length = fishLength.get(fish)*factor;
 
 				length = System::random(length)+quality;
-
 				lootFishObject->setAttributes(name, zone->getZoneName(), time, length / 100);
 
 				//if (player->hasSkill("outdoors_ranger_novice") || player->hasSkill("outdoors_scout_novice")) {
@@ -470,11 +500,10 @@ void FishingManagerImplementation::success(CreatureObject* player, int fish, Sce
 					xp = length * 2;
 
 				ManagedReference<PlayerManager*> playerManager = zone->getZoneServer()->getPlayerManager();
-
 				Locker playerLocker(player);
 				playerManager->awardExperience(player, "camp", xp, true);
-
-				lootFishObject->setCustomizationVariable("/private/index_color_1", color.get(zone->getZoneName()));
+				if (fish == 6)
+					lootFishObject->setCustomizationVariable("/private/index_color_1", color.get(zone->getZoneName()));
 
 				String baitString = "object/tangible/fishing/bait/bait_chum.iff";
 				ManagedReference<TangibleObject*> baitObject = zone->getZoneServer()->createObject(baitString.hashCode(), 2).castTo<TangibleObject*>();
@@ -647,7 +676,7 @@ int FishingManagerImplementation::getFish(CreatureObject* player) {
 						+ ((3 - bait->getFreshness()) * 3.0) // ACCOUNT FOR BAIT STATUS - freshness is 0 at init
 						//+ (luck / 100) // ACCOUNT FOR LUCK - no luck stat yet!?
 						+ (System::random(20))) // RANDOM BIAS
-						% 7; // MUX NUMBER TO FISH 0-6
+						% 16; // MUX NUMBER TO FISH 0-15
 	}
 
 	return chance;
@@ -1247,9 +1276,9 @@ FishingEvent* FishingManagerImplementation::createFishingEvent(CreatureObject* p
 	int timer = System::random(1000);
 
 	if (state >= CATCH)
-		player->addPendingTask("fishing", fishingEvent, timer + 4000);
+		player->addPendingTask("fishing", fishingEvent, timer + 2000);
 	else
-		player->addPendingTask("fishing", fishingEvent, timer + 6000);
+		player->addPendingTask("fishing", fishingEvent, timer + 3000);
 
 	return fishingEvent;
 }
