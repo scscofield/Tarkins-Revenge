@@ -596,3 +596,158 @@ object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_zerek = Shar
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_aurebesh_tile_zerek, "object/tangible/loot/creature_loot/collections/shared_aurebesh_tile_zerek.iff")
+
+--Fish Tank Items
+object_tangible_loot_creature_loot_collections_shared_fish_tank_bubble_stone = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_bubble_stone.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_bubble_stone, "object/tangible/loot/creature_loot/collections/shared_fish_tank_bubble_stone.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_front_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_front_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_front_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_front_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_left_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_left_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_left_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_left_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_rear_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_rear_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_rear_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_rear_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_right_panel = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_right_panel.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_right_panel, "object/tangible/loot/creature_loot/collections/shared_fish_tank_right_panel.iff")
+
+object_tangible_loot_creature_loot_collections_shared_fish_tank_tubing = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_fish_tank_tubing.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_fish_tank_tubing, "object/tangible/loot/creature_loot/collections/shared_fish_tank_tubing.iff")
+
+--Dejarik Loot Parts
+object_tangible_loot_creature_loot_collections_shared_dejarik_battery = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_battery.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_battery, "object/tangible/loot/creature_loot/collections/shared_dejarik_battery.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_board = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_board.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_board, "object/tangible/loot/creature_loot/collections/shared_dejarik_board.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_ghhhk = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_ghhhk.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_ghhhk, "object/tangible/loot/creature_loot/collections/shared_dejarik_ghhhk.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_grimtaash = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_grimtaash.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_grimtaash, "object/tangible/loot/creature_loot/collections/shared_dejarik_grimtaash.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_holoprojector = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_holoprojector.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_holoprojector, "object/tangible/loot/creature_loot/collections/shared_dejarik_holoprojector.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_houjix = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_houjix.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_houjix, "object/tangible/loot/creature_loot/collections/shared_dejarik_houjix.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_keypad_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_keypad_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_keypad_01, "object/tangible/loot/creature_loot/collections/shared_dejarik_keypad_01.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_keypad_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_keypad_02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_keypad_02, "object/tangible/loot/creature_loot/collections/shared_dejarik_keypad_02.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_kintan = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_kintan.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_kintan, "object/tangible/loot/creature_loot/collections/shared_dejarik_kintan.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_klorslug = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_klorslug.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_klorslug, "object/tangible/loot/creature_loot/collections/shared_dejarik_klorslug.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_mantellian = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_mantellian.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_mantellian, "object/tangible/loot/creature_loot/collections/shared_dejarik_mantellian.iff")
+
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_monnok = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_monnok.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_monnok, "object/tangible/loot/creature_loot/collections/shared_dejarik_monnok.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_ngok = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_ngok.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_ngok, "object/tangible/loot/creature_loot/collections/shared_dejarik_ngok.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_table_base = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_table_base.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_table_base, "object/tangible/loot/creature_loot/collections/shared_dejarik_table_base.iff")
+
+object_tangible_loot_creature_loot_collections_shared_dejarik_table_stand = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_dejarik_table_stand.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_dejarik_table_stand, "object/tangible/loot/creature_loot/collections/shared_dejarik_table_stand.iff")
+
+--Meatlump Newspapers
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_01, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_01.iff")
+
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_02, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_02.iff")
+
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_03 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_03.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_03, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_03.iff")
+
+object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_04, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_04.iff")
+

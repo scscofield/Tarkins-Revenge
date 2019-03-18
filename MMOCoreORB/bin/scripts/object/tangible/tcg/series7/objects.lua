@@ -67,3 +67,8 @@ object_tangible_tcg_series7_shared_wearable_sash_handmade = SharedTangibleObject
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_wearable_sash_handmade, "object/tangible/tcg/series7/shared_wearable_sash_handmade.iff")
 
+--AT-ST Chair
+object_tangible_tcg_series7_shared_decorative_atst_chair = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series7/shared_decorative_atst_chair.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_decorative_atst_chair, "object/tangible/tcg/series7/shared_decorative_atst_chair.iff")

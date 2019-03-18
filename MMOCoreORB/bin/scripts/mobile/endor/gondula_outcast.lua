@@ -36,7 +36,13 @@ gondula_outcast = Creature:new {
 				{group = "gondula_loot", chance = 1100000}
 			},
 			lootChance = 1260000
-		}
+		},
+		{	
+			groups = {
+				{group = "ewok_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		},
 	},
 	weapons = {"ewok_weapons"},
 	conversationTemplate = "",

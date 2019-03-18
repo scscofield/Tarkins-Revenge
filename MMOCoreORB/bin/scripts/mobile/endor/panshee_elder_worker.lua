@@ -40,7 +40,13 @@ panshee_elder_worker = Creature:new {
 				{group = "panshee_loot", chance = 2100000}
 			},
 			lootChance = 1540000
-		}
+		},
+		{	
+			groups = {
+				{group = "ewok_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		},
 	},
 	weapons = {"ewok_weapons"},
 	conversationTemplate = "",

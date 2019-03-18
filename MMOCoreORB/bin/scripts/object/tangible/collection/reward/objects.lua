@@ -133,3 +133,37 @@ object_tangible_collection_reward_shared_pob_couch_furniture_hue_01 = SharedTang
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_pob_couch_furniture_hue_01, "object/tangible/collection/reward/shared_pob_couch_furniture_hue_01.iff")
 
+--Fishtank Reward
+object_tangible_collection_reward_shared_fish_tank_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_fish_tank_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_fish_tank_reward, "object/tangible/collection/reward/shared_fish_tank_reward.iff")
+
+--Djarik Table Reward
+object_tangible_collection_reward_shared_dejarik_table_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_dejarik_table_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_dejarik_table_reward, "object/tangible/collection/reward/shared_dejarik_table_reward.iff")
+
+--Goggles
+object_tangible_collection_reward_shared_target_reticule_goggles = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_target_reticule_goggles.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_target_reticule_goggles, "object/tangible/collection/reward/shared_target_reticule_goggles.iff")
+
+--Scrapbook
+object_tangible_collection_reward_shared_meatlump_scrapbook_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_meatlump_scrapbook_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_meatlump_scrapbook_reward, "object/tangible/collection/reward/shared_meatlump_scrapbook_reward.iff")
+
+--SMC Necklace
+object_tangible_collection_reward_shared_smc_jeweled_necklace_reward = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_smc_jeweled_necklace_reward.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_smc_jeweled_necklace_reward, "object/tangible/collection/reward/shared_smc_jeweled_necklace_reward.iff")
