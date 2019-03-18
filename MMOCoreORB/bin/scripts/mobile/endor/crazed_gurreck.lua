@@ -29,7 +29,14 @@ crazed_gurreck = Creature:new {
 	hues = { 8, 9, 10, 11, 12, 13, 14, 15 },
 	controlDeviceTemplate = "object/intangible/pet/gurreck_hue.iff",
 	scale = 0.95,
-	lootGroups = {},
+	lootGroups = {
+	 {
+	        groups = {
+				{group = "gurreck_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		}
+	},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {

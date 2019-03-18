@@ -28,7 +28,14 @@ diseased_bocatt = Creature:new {
 	templates = {"object/mobile/bocatt_hue.iff"},
 	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },
 	scale = 0.8,
-	lootGroups = {},
+	lootGroups = {
+	 {
+	        groups = {
+				{group = "bocatt_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		}
+	},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {

@@ -28,7 +28,14 @@ verne = Creature:new {
 	templates = {"object/mobile/verne_hue.iff"},
 	hues = { 16, 17, 18, 19, 20, 21, 22, 23 },
 	controlDeviceTemplate = "object/intangible/pet/verne_hue.iff",
-	lootGroups = {},
+	lootGroups = {
+	 {
+	        groups = {
+				{group = "verne_trophy", chance = 10000000}
+			},
+			lootChance = 25000
+		}
+	},
 	weapons = {},
 	conversationTemplate = "",
 	attacks = {
