@@ -751,7 +751,7 @@ void AuctionManagerImplementation::doInstantBuy(CreatureObject* player, AuctionI
 		if(auctionMap->getVendorItemCount(vendor, true) == 0)
 			sendVendorUpdateMail(vendor, true);
 			
-		StatisticsManager::instance()->lumberjack(player, seller, itemPrice, itemName, 4);
+		StatisticsManager::instance()->lumberjack(player, seller, vendor, itemPrice, itemName, 4);
 
 	} else {
 
@@ -800,7 +800,7 @@ void AuctionManagerImplementation::doInstantBuy(CreatureObject* player, AuctionI
 		cman->sendMail(sender, sellerSubject, blankBody, sellerName, &sellerBodyVector, &sellerWaypointVector);
 		cman->sendMail(sender, buyerSubject, blankBody, item->getBidderName(), &buyerBodyVector, &buyerWaypointVector);
 		
-		StatisticsManager::instance()->lumberjack(player, seller, itemPrice, itemName, 3);
+		StatisticsManager::instance()->lumberjack(player, seller, vendor, itemPrice, itemName, 3);
 	}
 
 	if (seller == NULL) {
