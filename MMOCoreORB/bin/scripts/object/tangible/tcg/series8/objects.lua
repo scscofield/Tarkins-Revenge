@@ -29,3 +29,15 @@ object_tangible_tcg_series8_shared_wearable_lando_cape = SharedTangibleObjectTem
 	clientTemplateFileName = "object/tangible/tcg/series8/shared_wearable_lando_cape.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series8_shared_wearable_lando_cape, "object/tangible/tcg/series8/shared_wearable_lando_cape.iff")
+
+--Torture Table
+object_tangible_tcg_series8_shared_decorative_torture_table = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series8/shared_decorative_torture_table.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series8_shared_decorative_torture_table, "object/tangible/tcg/series8/shared_decorative_torture_table.iff")
+
+--Cryo Room
+object_tangible_tcg_series8_shared_diorama_cryo_room = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series8/shared_diorama_cryo_room.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series8_shared_diorama_cryo_room, "object/tangible/tcg/series8/shared_diorama_cryo_room.iff")

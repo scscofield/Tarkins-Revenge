@@ -751,3 +751,58 @@ object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_04 = Sh
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_meatlump_newspaper_04, "object/tangible/loot/creature_loot/collections/shared_meatlump_newspaper_04.iff")
 
+--Tusken Bantha Braid
+object_tangible_loot_creature_loot_collections_shared_tusken_bantha_braid = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_tusken_bantha_braid.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_tusken_bantha_braid, "object/tangible/loot/creature_loot/collections/shared_tusken_bantha_braid.iff")
+
+--Tusken Bracelet
+object_tangible_loot_creature_loot_collections_shared_tusken_bracelet = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_tusken_bracelet.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_tusken_bracelet, "object/tangible/loot/creature_loot/collections/shared_tusken_bracelet.iff")
+
+--Broken Gaderiffi Baton
+object_tangible_loot_creature_loot_collections_shared_tusken_gaderffi = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_tusken_gaderffi.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_tusken_gaderffi, "object/tangible/loot/creature_loot/collections/shared_tusken_gaderffi.iff")
+
+--Hubba Gourd
+object_tangible_loot_creature_loot_collections_shared_tusken_hubba_gourd = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_tusken_hubba_gourd.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_tusken_hubba_gourd, "object/tangible/loot/creature_loot/collections/shared_tusken_hubba_gourd.iff")
+
+--Tusken Spirit Mask
+object_tangible_loot_creature_loot_collections_shared_tusken_spirit_mask = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_tusken_spirit_mask.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_tusken_spirit_mask, "object/tangible/loot/creature_loot/collections/shared_tusken_spirit_mask.iff")
+
+--Tusken Talisman
+object_tangible_loot_creature_loot_collections_shared_tusken_talisman = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_tusken_talisman.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_tusken_talisman, "object/tangible/loot/creature_loot/collections/shared_tusken_talisman.iff")
+
+--Revenant Ship Toy
+object_tangible_loot_creature_loot_collections_shared_opt_in_mail_10 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_10.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_opt_in_mail_10, "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_10.iff")
+
+--Holoshroud
+object_tangible_loot_creature_loot_collections_shared_eow_defective_holoshroud = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_eow_defective_holoshroud.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_eow_defective_holoshroud, "object/tangible/loot/creature_loot/collections/shared_eow_defective_holoshroud.iff")

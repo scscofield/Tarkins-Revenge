@@ -1727,3 +1727,33 @@ object_tangible_event_perk_shared_frn_loyalty_award_plaque_silver = SharedTangib
 	clientTemplateFileName = "object/tangible/event_perk/shared_frn_loyalty_award_plaque_silver.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_frn_loyalty_award_plaque_silver, "object/tangible/event_perk/shared_frn_loyalty_award_plaque_silver.iff")
+
+--Holo Table
+object_tangible_event_perk_shared_lifeday_holo_table = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_lifeday_holo_table.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_lifeday_holo_table, "object/tangible/event_perk/shared_lifeday_holo_table.iff")
+
+--Krayt Skeleton
+object_tangible_event_perk_shared_halloween_krayt_dragon_skeleton = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_krayt_dragon_skeleton.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_krayt_dragon_skeleton, "object/tangible/event_perk/shared_halloween_krayt_dragon_skeleton.iff")
+
+--Skull Candle 1
+object_tangible_event_perk_shared_halloween_skull_candle_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_skull_candle_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_skull_candle_01, "object/tangible/event_perk/shared_halloween_skull_candle_01.iff")
+
+--Skull Candle 2
+object_tangible_event_perk_shared_halloween_skull_candle_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_skull_candle_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_skull_candle_02, "object/tangible/event_perk/shared_halloween_skull_candle_02.iff")
+
+--Halloween Song Book
+object_tangible_event_perk_shared_halloween_song_book = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_song_book.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_song_book, "object/tangible/event_perk/shared_halloween_song_book.iff")

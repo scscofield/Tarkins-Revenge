@@ -1419,3 +1419,51 @@ object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_tauntaun = Shared
 	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_tauntaun.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_all_trophy_tauntaun, "object/tangible/tarkin_custom/decorative/shared_frn_all_trophy_tauntaun.iff")
+
+--Restraining Chair
+object_tangible_tarkin_custom_decorative_shared_frn_kash_restraining_chair = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_frn_kash_restraining_chair.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_frn_kash_restraining_chair, "object/tangible/tarkin_custom/decorative/shared_frn_kash_restraining_chair.iff")
+
+--Exar Kun Sarcophagus
+object_tangible_tarkin_custom_decorative_shared_exarkun_sarcophagus = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_exarkun_sarcophagus.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_exarkun_sarcophagus, "object/tangible/tarkin_custom/decorative/shared_exarkun_sarcophagus.iff")
+
+--Glowing Skull
+object_tangible_tarkin_custom_decorative_shared_pt_glowing_skullhead = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_pt_glowing_skullhead.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_pt_glowing_skullhead, "object/tangible/tarkin_custom/decorative/shared_pt_glowing_skullhead.iff")
+
+--Lia's Fried Brain
+object_tangible_tarkin_custom_decorative_shared_lia_brain = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_lia_brain.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_lia_brain, "object/tangible/tarkin_custom/decorative/shared_lia_brain.iff")
+
+--Paradym's Lost Glove
+object_tangible_tarkin_custom_decorative_shared_paradym_glove = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_paradym_glove.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_paradym_glove, "object/tangible/tarkin_custom/decorative/shared_paradym_glove.iff")
+
+--Kinshi's Lunch Money
+object_tangible_tarkin_custom_decorative_shared_kinshi_lunch_money = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_kinshi_lunch_money.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_kinshi_lunch_money, "object/tangible/tarkin_custom/decorative/shared_kinshi_lunch_money.iff")
+
+--Skolten's Warehouse Key
+object_tangible_tarkin_custom_decorative_shared_skolten_key = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_skolten_key.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_skolten_key, "object/tangible/tarkin_custom/decorative/shared_skolten_key.iff")
+
+--Tatwi's Lost Marble
+object_tangible_tarkin_custom_decorative_shared_tatwi_marble = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_tatwi_marble.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_tatwi_marble, "object/tangible/tarkin_custom/decorative/shared_tatwi_marble.iff")

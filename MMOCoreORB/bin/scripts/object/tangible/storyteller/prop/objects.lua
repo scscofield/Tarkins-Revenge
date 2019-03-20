@@ -207,3 +207,116 @@ object_tangible_storyteller_prop_shared_pr_escape_pod_door = SharedTangibleObjec
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_escape_pod_door, "object/tangible/storyteller/prop/shared_pr_escape_pod_door.iff")
+
+--Exar K'un Brazier
+object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_brazier = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_brazier.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_brazier, "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_brazier.iff")
+
+--Exar K'un Torch 1
+object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_torch_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_torch_01.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_torch_01, "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_torch_01.iff")
+
+--Exar K'un Torch 2
+object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_torch_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_torch_02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_torch_02, "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_torch_02.iff")
+
+--Exar K'un Torture Table
+object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_torture_table = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_torture_table.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_torture_table, "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_torture_table.iff")
+
+--Exar K'un Zapper
+object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_zapper = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_zapper.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_ch9_exar_kun_zapper, "object/tangible/storyteller/prop/shared_pr_ch9_exar_kun_zapper.iff")
+
+--Large Jaw
+object_tangible_storyteller_prop_shared_pr_eqp_bones_must_monster_jaw_large = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_eqp_bones_must_monster_jaw_large.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_eqp_bones_must_monster_jaw_large, "object/tangible/storyteller/prop/shared_pr_eqp_bones_must_monster_jaw_large.iff")
+
+--Small Jaw
+object_tangible_storyteller_prop_shared_pr_eqp_bones_must_monster_jaw_small = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_eqp_bones_must_monster_jaw_small.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_eqp_bones_must_monster_jaw_small, "object/tangible/storyteller/prop/shared_pr_eqp_bones_must_monster_jaw_small.iff")
+
+
+--Humanoid Bone Pile
+object_tangible_storyteller_prop_shared_pr_humanoid_bone_pile = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_humanoid_bone_pile.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_humanoid_bone_pile, "object/tangible/storyteller/prop/shared_pr_humanoid_bone_pile.iff")
+
+--Sitholantern 1
+object_tangible_storyteller_prop_shared_pr_item_sitholantern1 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_sitholantern1.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_sitholantern1, "object/tangible/storyteller/prop/shared_pr_item_sitholantern1.iff")
+
+--Sitholantern 2
+object_tangible_storyteller_prop_shared_pr_item_sitholantern2 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_sitholantern2.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_sitholantern2, "object/tangible/storyteller/prop/shared_pr_item_sitholantern2.iff")
+
+--Sitholantern 3
+object_tangible_storyteller_prop_shared_pr_item_sitholantern3 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_sitholantern3.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_sitholantern3, "object/tangible/storyteller/prop/shared_pr_item_sitholantern3.iff")
+
+--Sitholantern 4
+object_tangible_storyteller_prop_shared_pr_item_sitholantern4 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_sitholantern4.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_sitholantern4, "object/tangible/storyteller/prop/shared_pr_item_sitholantern4.iff")
+
+--Sitholantern 5
+object_tangible_storyteller_prop_shared_pr_item_sitholantern5 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_item_sitholantern5.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_item_sitholantern5, "object/tangible/storyteller/prop/shared_pr_item_sitholantern5.iff")
+
+--Krayt Skull
+object_tangible_storyteller_prop_shared_pr_krayt_skull = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_krayt_skull.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_krayt_skull, "object/tangible/storyteller/prop/shared_pr_krayt_skull.iff")
+
+--Scarecrow 2
+object_tangible_storyteller_prop_shared_pr_scarecrow_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_scarecrow_02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_scarecrow_02, "object/tangible/storyteller/prop/shared_pr_scarecrow_02.iff")
+
+--Bacta Tank
+object_tangible_storyteller_prop_shared_pr_eqp_bacta_tank_lg = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/storyteller/prop/shared_pr_eqp_bacta_tank_lg.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_storyteller_prop_shared_pr_eqp_bacta_tank_lg, "object/tangible/storyteller/prop/shared_pr_eqp_bacta_tank_lg.iff")

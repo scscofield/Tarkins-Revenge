@@ -94,3 +94,26 @@ object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s03 = SharedTangib
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_axkva_min_crystal_s03, "object/tangible/loot/npc_loot/shared_heroic_axkva_min_crystal_s03.iff")
+
+--Shelves
+object_tangible_loot_npc_loot_shared_heroic_tusken_shelves = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_heroic_tusken_shelves.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_tusken_shelves, "object/tangible/loot/npc_loot/shared_heroic_tusken_shelves.iff")
+
+--Stairs
+object_tangible_loot_npc_loot_shared_heroic_tusken_stairs = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_heroic_tusken_stairs.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_tusken_stairs, "object/tangible/loot/npc_loot/shared_heroic_tusken_stairs.iff")
+
+--Vent Pillar
+object_tangible_loot_npc_loot_shared_heroic_tusken_vent_pillar = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/npc_loot/shared_heroic_tusken_vent_pillar.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_npc_loot_shared_heroic_tusken_vent_pillar, "object/tangible/loot/npc_loot/shared_heroic_tusken_vent_pillar.iff")
+
+

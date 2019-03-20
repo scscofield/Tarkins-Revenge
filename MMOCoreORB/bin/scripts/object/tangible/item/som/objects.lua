@@ -16,3 +16,17 @@ object_tangible_item_som_shared_lava_beetle_nest = SharedTangibleObjectTemplate:
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_item_som_shared_lava_beetle_nest, "object/tangible/item/som/shared_lava_beetle_nest.iff")
+
+--Heart
+object_tangible_item_som_shared_blistmok_heart = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/item/som/shared_blistmok_heart.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_item_som_shared_blistmok_heart, "object/tangible/item/som/shared_blistmok_heart.iff")
+
+--Brain
+object_tangible_item_som_shared_kenobi_dark_jedi_brain = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/item/som/shared_kenobi_dark_jedi_brain.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_item_som_shared_kenobi_dark_jedi_brain, "object/tangible/item/som/shared_kenobi_dark_jedi_brain.iff")

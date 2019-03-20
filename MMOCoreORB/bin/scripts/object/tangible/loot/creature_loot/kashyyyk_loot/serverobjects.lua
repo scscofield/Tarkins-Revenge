@@ -17,3 +17,4 @@ includeFile("tangible/loot/creature_loot/kashyyyk_loot/adventurers_remains_04.lu
 includeFile("tangible/loot/creature_loot/kashyyyk_loot/outcast_tool_04.lua")
 includeFile("tangible/loot/creature_loot/kashyyyk_loot/outcast_tool_07.lua")
 includeFile("tangible/loot/creature_loot/kashyyyk_loot/outcast_vitamins.lua")
+includeFile("tangible/loot/creature_loot/kashyyyk_loot/cave_light.lua")
