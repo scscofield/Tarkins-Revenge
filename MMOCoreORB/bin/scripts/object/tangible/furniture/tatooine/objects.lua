@@ -1266,3 +1266,10 @@ object_tangible_furniture_tatooine_shared_uber_must_mining_console_s02 = SharedT
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_must_mining_console_s02, "object/tangible/furniture/tatooine/shared_uber_must_mining_console_s02.iff")
+
+--Uber Altar
+object_tangible_furniture_tatooine_shared_uber_altar = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/tatooine/shared_uber_altar.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_tatooine_shared_uber_altar, "object/tangible/furniture/tatooine/shared_uber_altar.iff")

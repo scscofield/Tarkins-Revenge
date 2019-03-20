@@ -93,3 +93,39 @@ object_tangible_tcg_series1_shared_consumable_lepese_dictionary = SharedTangible
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_consumable_lepese_dictionary, "object/tangible/tcg/series1/shared_consumable_lepese_dictionary.iff")
 
+--Tusken Talisman
+object_tangible_tcg_series1_shared_reuseable_buff_item_tusken_talisman = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_reuseable_buff_item_tusken_talisman.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_reuseable_buff_item_tusken_talisman, "object/tangible/tcg/series1/shared_reuseable_buff_item_tusken_talisman.iff")
+
+--Sanyassan Skull
+object_tangible_tcg_series1_shared_reuseable_buff_item_sanyassan_skull = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_reuseable_buff_item_sanyassan_skull.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_reuseable_buff_item_sanyassan_skull, "object/tangible/tcg/series1/shared_reuseable_buff_item_sanyassan_skull.iff")
+
+--Fountain 1
+object_tangible_tcg_series1_shared_decorative_indoor_fountain_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_indoor_fountain_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_indoor_fountain_01, "object/tangible/tcg/series1/shared_decorative_indoor_fountain_01.iff")
+
+--Fountain 2
+object_tangible_tcg_series1_shared_decorative_indoor_fountain_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_indoor_fountain_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_indoor_fountain_02, "object/tangible/tcg/series1/shared_decorative_indoor_fountain_02.iff")
+
+--Garden 1
+object_tangible_tcg_series1_shared_decorative_indoor_garden_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_indoor_garden_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_indoor_garden_01, "object/tangible/tcg/series1/shared_decorative_indoor_garden_01.iff")
+
+--Garden 2
+object_tangible_tcg_series1_shared_decorative_indoor_garden_02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_indoor_garden_02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_indoor_garden_02, "object/tangible/tcg/series1/shared_decorative_indoor_garden_02.iff")
+

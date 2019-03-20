@@ -4865,3 +4865,8 @@ object_tangible_painting_shared_painting_wod_sm_02 = SharedTangibleObjectTemplat
 	clientTemplateFileName = "object/tangible/painting/shared_painting_wod_sm_02.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_painting_shared_painting_wod_sm_02, "object/tangible/painting/shared_painting_wod_sm_02.iff")
+
+object_tangible_painting_shared_painting_heroic_exar_kun_ultra_rare = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/painting/shared_painting_heroic_exar_kun_ultra_rare.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_painting_shared_painting_heroic_exar_kun_ultra_rare, "object/tangible/painting/shared_painting_heroic_exar_kun_ultra_rare.iff")

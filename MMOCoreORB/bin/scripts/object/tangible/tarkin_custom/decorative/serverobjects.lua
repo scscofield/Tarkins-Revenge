@@ -211,3 +211,14 @@ includeFile("tangible/tarkin_custom/decorative/frn_all_trophy_zucca_boar.lua")
 includeFile("tangible/tarkin_custom/decorative/frn_all_trophy_condor_dragon.lua")
 includeFile("tangible/tarkin_custom/decorative/frn_all_trophy_greater_krayt.lua")
 includeFile("tangible/tarkin_custom/decorative/frn_all_trophy_tauntaun.lua")
+includeFile("tangible/tarkin_custom/decorative/frn_kash_restraining_chair.lua")
+includeFile("tangible/tarkin_custom/decorative/pt_glowing_skullhead.lua")
+includeFile("tangible/tarkin_custom/decorative/lia_brain.lua")
+includeFile("tangible/tarkin_custom/decorative/paradym_glove.lua")
+includeFile("tangible/tarkin_custom/decorative/kinshi_lunch_money.lua")
+includeFile("tangible/tarkin_custom/decorative/skolten_key.lua")
+includeFile("tangible/tarkin_custom/decorative/tatwi_marble.lua")
+
+--Disagreeable Shader
+--includeFile("tangible/tarkin_custom/decorative/exarkun_sarcophagus.lua")
+

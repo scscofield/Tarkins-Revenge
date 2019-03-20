@@ -167,3 +167,10 @@ object_tangible_collection_reward_shared_smc_jeweled_necklace_reward = SharedTan
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_smc_jeweled_necklace_reward, "object/tangible/collection/reward/shared_smc_jeweled_necklace_reward.iff")
+
+--Skeleton
+object_tangible_collection_reward_shared_col_resource_harvest_reward_bone = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/collection/reward/shared_col_resource_harvest_reward_bone.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_collection_reward_shared_col_resource_harvest_reward_bone, "object/tangible/collection/reward/shared_col_resource_harvest_reward_bone.iff")

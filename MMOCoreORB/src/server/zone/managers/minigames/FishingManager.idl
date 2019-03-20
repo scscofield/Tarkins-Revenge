@@ -714,6 +714,11 @@ class FishingManager extends Observer implements Logger {
 		miscLoot.add("object/tangible/loot/npc_loot/heroic_axkva_min_crystal_s01.iff");
 		miscLoot.add("object/tangible/loot/npc_loot/heroic_axkva_min_crystal_s02.iff");
 		miscLoot.add("object/tangible/loot/npc_loot/heroic_axkva_min_crystal_s03.iff");
+		miscLoot.add("object/tangible/tarkin_custom/decorative/lia_brain.iff");
+		miscLoot.add("object/tangible/tarkin_custom/decorative/paradym_glove.iff");
+		miscLoot.add("object/tangible/tarkin_custom/decorative/kinshi_lunch_money.iff");
+		miscLoot.add("object/tangible/tarkin_custom/decorative/skolten_key.iff");
+		miscLoot.add("object/tangible/tarkin_custom/decorative/tatwi_marble.iff");
 
 		rareLoot.add("object/tangible/loot/loot_schematic/rebel_marine_bicep_l_schematic.iff");
 		rareLoot.add("object/tangible/loot/loot_schematic/rebel_marine_bicep_r_schematic.iff");

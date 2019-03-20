@@ -93,3 +93,9 @@ object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_vitamins = Share
 	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_vitamins.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_outcast_vitamins, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_outcast_vitamins.iff")
+
+--Cave LIght
+object_tangible_loot_creature_loot_kashyyyk_loot_shared_cave_light = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/kashyyyk_loot/shared_cave_light.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_kashyyyk_loot_shared_cave_light, "object/tangible/loot/creature_loot/kashyyyk_loot/shared_cave_light.iff")
