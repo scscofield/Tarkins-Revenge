@@ -11,6 +11,7 @@
 #include "server/login/account/Account.h"
 #include "server/zone/ZoneClientSession.h"
 #include "server/ServerCore.h"
+#include "server/zone/objects/tangible/components/vendor/VendorDataComponent.h"
 
 class StatisticsManager : public Singleton<StatisticsManager>, public Logger, public Object {
 	AtomicLong numberOfCompletedMissionsBounty;
@@ -93,14 +94,15 @@ public:
 	}
 	
 	/**
-	 * Logs player activity
+	 * Logs player credit transactions
 	 * @param sender Creature object of character who sent credits or bought an item. Also used for the character that was deleted when logged deleted character.
 	 * @param receiver Creature object of character that received the credits.
+	 * @param vendor Scene object of vendor or bazaar terminal that made the sale. Use nullptr in cases where vendor is not applicable.
 	 * @param value The amount of credits that were exchanged.
-	 * @param name Name of the item bought from the vendor/bazaar and future misc string usage.
+	 * @param name Name of the item bought from the vendor/bazaar.
 	 * @param transactionType The use case for this function. Transaction Types: tip 1, bank tip 2, bazaar sale 3, vendor sale 4.
 	 */
-	void lumberjack(CreatureObject* sender, CreatureObject* receiver, int value, String name, int transactionType){
+	void lumberjack(CreatureObject* sender, CreatureObject* receiver, SceneObject* vendor, int value, String name, int transactionType){
 		// Get server config
 		int logTips = ConfigManager::instance()->getLumberjackTips();
 		int logBazaar = ConfigManager::instance()->getLumberjackBazaar();
@@ -124,7 +126,12 @@ public:
 		}
 		
 		if (sender == nullptr || receiver == nullptr){
-			Logger::console.error("Lumberjack: Requires CreatureObject sender, CreatureObject receiver, int, string, int. When there isn't a reciever, such as logging deleted characters, use sender for both.");
+			Logger::console.error("Lumberjack: CreatureObject for sender or receiver not found.");
+			return;
+		}
+		
+		if (transactionType > 2 && vendor == nullptr){
+			Logger::console.error("Lumberjack: SceneObject for vendor or terminal not found.");
 			return;
 		}
 		
@@ -180,6 +187,43 @@ public:
 			rCharAge = String::valueOf(receiverGhost->getCharacterAgeInDays());
 		}
 		
+		// Vendor
+		String vID = "";
+		StringBuffer vPos;
+		String vOffer = "no";
+		
+		if (vendor != nullptr){
+			vID = String::valueOf(vendor->getObjectID());
+			vPos << int(vendor->getWorldPositionX()) << " " << int(vendor->getWorldPositionY()) << " " << vendor->getZone()->getZoneName();
+		
+		
+			// If receiver of credits was not the vendor owner then item was offered to the vendor
+			if (vendor->isVendor()){
+				DataObjectComponentReference* data = vendor->getDataObjectComponent();
+				if(data == NULL || data->get() == NULL || !data->get()->isVendorData()) {
+					Logger::console.error("Lumberjack: Vendor has no data component");
+					return;
+				}
+
+				VendorDataComponent* vendorData = cast<VendorDataComponent*>(data->get());
+				if(vendorData == NULL) {
+					Logger::console.error("Lumberjack: Vendor has wrong data component");
+					return;
+				}
+				
+				ZoneServer* server = ServerCore::getZoneServer();
+				ManagedReference<CreatureObject*> vendorOwner = server->getObject(vendorData->getOwnerId()).castTo<CreatureObject*>();
+				
+				if (vendorOwner == nullptr){
+					Logger::console.error("Lumberjack: CreatureObject for vendor owner not found.");
+					return;
+				}
+				
+				if (vendorOwner != receiver) 
+					vOffer = "yes";	
+			}
+		}
+		
 		// Log to file
 		if (logToTXT){			
 			String outputText = "";	
@@ -192,10 +236,10 @@ public:
 				outputText = timestamp + "," + sAccID + "," + sAccName + "," + sAccBorn + "," + sIP + "," + sCharName + "," + sCharAge + "," + String::valueOf(value) + "," + rAccID + "," + rAccName + "," + rAccBorn + "," + rIP + "," + rCharName + "," + rCharAge + ",";
 			} else if  (transactionType == 3){
 				fileName = "bazaarsales";
-				outputText = timestamp + "," + sAccID + "," + sAccName + "," + sAccBorn + "," + sIP + "," + sCharName + "," + sCharAge + "," + String::valueOf(value) + "," + name+ "," + rAccID + "," + rAccName + "," + rAccBorn + "," + rIP + "," + rCharName + "," + rCharAge + ",";
+				outputText = timestamp + "," + sAccID + "," + sAccName + "," + sAccBorn + "," + sIP + "," + sCharName + "," + sCharAge + "," + String::valueOf(value) + "," + name + "," + vID + "," + vPos.toString() + "," + rAccID + "," + rAccName + "," + rAccBorn + "," + rIP + "," + rCharName + "," + rCharAge + ",";
 			} else if  (transactionType == 4){
 				fileName = "vendorsales";
-				outputText = timestamp + "," + sAccID + "," + sAccName + "," + sAccBorn + "," + sIP + "," + sCharName + "," + sCharAge + "," + String::valueOf(value) + "," + name+ "," + rAccID + "," + rAccName + "," + rAccBorn + "," + rIP + "," + rCharName + "," + rCharAge + ",";
+				outputText = timestamp + "," + sAccID + "," + sAccName + "," + sAccBorn + "," + sIP + "," + sCharName + "," + sCharAge + "," + String::valueOf(value) + "," + name + "," + vID + "," + vPos.toString() + "," + vOffer + "," + rAccID + "," + rAccName + "," + rAccBorn + "," + rIP + "," + rCharName + "," + rCharAge + ",";
 			}
 			
 			File* file = new File("log/lumberjack/" + fileName + ".log");
@@ -248,9 +292,18 @@ public:
 		Time rCreatedTime(account->getTimeCreated());
 		String accBorn = rCreatedTime.getFormattedTime();
 		String charName = creature->getFirstName();		
-		String charAge = String::valueOf(ghost->getCharacterAgeInDays());	
+		String charAge = String::valueOf(ghost->getCharacterAgeInDays());
 		
-		String outputText = timestamp + "," + String::valueOf(accountId) + "," + accName + "," + accBorn + "," + charName + "," + charAge + ",";
+		StringBuffer query;
+		query << "SELECT ip_address, MIN(timestamp) FROM account_log WHERE account_id = '" << account->getAccountID() << "';";
+		ResultSet* result = ServerDatabase::instance()->executeQuery(query);
+
+		String sIP = "0.0.0.0:0";
+		
+		if (result->next())
+			sIP = result->getString(0);
+		
+		String outputText = timestamp + "," + String::valueOf(accountId) + "," + accName + "," + accBorn + "," + charName + "," + charAge + "," + sIP + ",";
 		
 		if (logToTXT){	
 			File* file = new File("log/lumberjack/deletedcharacters.log");
