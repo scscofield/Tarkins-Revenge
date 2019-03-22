@@ -222,3 +222,19 @@ object_tangible_saga_system_rewards_shared_planet_hologram_yavin4_02 = SharedTan
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_planet_hologram_yavin4_02, "object/tangible/saga_system/rewards/shared_planet_hologram_yavin4_02.iff")
+
+--Rebel Decal
+object_tangible_saga_system_rewards_shared_decal_pgc_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_decal_pgc_s02.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_decal_pgc_s02, "object/tangible/saga_system/rewards/shared_decal_pgc_s02.iff")
+
+--Imperial Decal
+object_tangible_saga_system_rewards_shared_decal_pgc_s04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/saga_system/rewards/shared_decal_pgc_s04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_saga_system_rewards_shared_decal_pgc_s04, "object/tangible/saga_system/rewards/shared_decal_pgc_s04.iff")
+
+

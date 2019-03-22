@@ -6,12 +6,10 @@ includeFile("tangible/tcg/series7/wearable_purple_cape.lua")
 includeFile("tangible/tcg/series7/wearable_sash_embroidered.lua")
 includeFile("tangible/tcg/series7/wearable_sash_handmade.lua")
 includeFile("tangible/tcg/series7/decorative_atst_chair.lua")
-
---Not Targetable
---includeFile("tangible/tcg/series7/decal_imperial_graffiti_01.lua")
---includeFile("tangible/tcg/series7/decal_imperial_graffiti_02.lua")
---includeFile("tangible/tcg/series7/decal_imperial_graffiti_03.lua")
---includeFile("tangible/tcg/series7/decal_rebel_graffiti_01.lua")
---includeFile("tangible/tcg/series7/decal_rebel_graffiti_02.lua")
---includeFile("tangible/tcg/series7/decal_rebel_graffiti_03.lua")
+includeFile("tangible/tcg/series7/decal_imperial_graffiti_01.lua")
+includeFile("tangible/tcg/series7/decal_imperial_graffiti_02.lua")
+includeFile("tangible/tcg/series7/decal_imperial_graffiti_03.lua")
+includeFile("tangible/tcg/series7/decal_rebel_graffiti_01.lua")
+includeFile("tangible/tcg/series7/decal_rebel_graffiti_02.lua")
+includeFile("tangible/tcg/series7/decal_rebel_graffiti_03.lua")
 

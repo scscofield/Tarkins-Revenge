@@ -55,6 +55,4 @@ includeFile("tangible/holiday/empire_day/painting_empire_day_2011_imperial.lua")
 includeFile("tangible/holiday/empire_day/painting_empire_day_2011_rebel.lua")
 includeFile("tangible/holiday/empire_day/rebel_resistance_poster.lua")
 includeFile("tangible/holiday/empire_day/wedge_antilles_poster.lua")
-
---Not Targetable (alpha channel?)
---includeFile("tangible/holiday/empire_day/rebel_resistance_poster_torn.lua")
+includeFile("tangible/holiday/empire_day/rebel_resistance_poster_torn.lua")
