@@ -3,13 +3,19 @@ factional_rebel = {
 	minimumLevel = 0,
 	maximumLevel = 0,	
 	lootItems = {
-		{itemTemplate = "gcw_rebel_rug_01", weight = 1428571},
-		{itemTemplate = "frn_vet_rug_rebel", weight = 1428571},
-		{itemTemplate = "col_rebel_logo_patch", weight = 1428574},
-		{itemTemplate = "gcw_table_bestine_reb", weight = 1428571},
-		{itemTemplate = "gcw_table_dearic_reb", weight = 1428571},
-		{itemTemplate = "gcw_table_keren_reb", weight = 1428571},
-		{itemTemplate = "rebel_spire_scheme", weight = 1428571}
+		{itemTemplate = "gcw_rebel_rug_01", weight = 769230},
+		{itemTemplate = "frn_vet_rug_rebel", weight = 769230},
+		{itemTemplate = "col_rebel_logo_patch", weight = 769230},
+		{itemTemplate = "gcw_table_bestine_reb", weight = 769230},
+		{itemTemplate = "gcw_table_dearic_reb", weight = 769230},
+		{itemTemplate = "gcw_table_keren_reb", weight = 769230},
+		{itemTemplate = "rebel_spire_scheme", weight = 769230},
+		{itemTemplate = "decal_rebel_graffiti_01", weight = 769230},
+		{itemTemplate = "decal_rebel_graffiti_02", weight = 769230},
+		{itemTemplate = "decal_rebel_graffiti_03", weight = 769230},
+		{itemTemplate = "decal_pgc_s02", weight = 769230},
+		{itemTemplate = "imperial_recruitment_poster_defaced", weight = 769228},
+		{itemTemplate = "rebel_resistance_poster", weight = 769230}
 	}
 }
 

@@ -1474,6 +1474,17 @@ includeFile("items/tarkin_custom/paintings/one_year_anniversary_painting_08.lua"
 includeFile("items/tarkin_custom/paintings/one_year_anniversary_painting_09.lua")
 includeFile("items/tarkin_custom/paintings/one_year_anniversary_painting_10.lua")
 includeFile("items/tarkin_custom/paintings/halloween_painting.lua")
+includeFile("items/tarkin_custom/paintings/decal_arrow_left.lua")
+includeFile("items/tarkin_custom/paintings/decal_arrow_right.lua")
+includeFile("items/tarkin_custom/paintings/decal_imperial_graffiti_01.lua")
+includeFile("items/tarkin_custom/paintings/decal_imperial_graffiti_02.lua")
+includeFile("items/tarkin_custom/paintings/decal_imperial_graffiti_03.lua")
+includeFile("items/tarkin_custom/paintings/decal_rebel_graffiti_01.lua")
+includeFile("items/tarkin_custom/paintings/decal_rebel_graffiti_02.lua")
+includeFile("items/tarkin_custom/paintings/decal_rebel_graffiti_03.lua")
+includeFile("items/tarkin_custom/paintings/rebel_resistance_poster_torn.lua")
+includeFile("items/tarkin_custom/paintings/decal_pgc_s02.lua")
+includeFile("items/tarkin_custom/paintings/decal_pgc_s04.lua")
 
 --Craftables
 includeFile("items/loot_schematic/assorted_fruit_schematic.lua")

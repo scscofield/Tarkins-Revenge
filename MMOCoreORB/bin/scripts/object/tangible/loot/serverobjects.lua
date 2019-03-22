@@ -57,5 +57,6 @@ includeFile("tangible/loot/creature_loot/serverobjects.lua")
 includeFile("tangible/loot/mustafar/serverobjects.lua")
 includeFile("tangible/loot/npc_loot/serverobjects.lua")
 includeFile("tangible/loot/generic_usable/serverobjects.lua")
+includeFile("tangible/loot/undead/serverobjects.lua")
 
 -- Server Objects

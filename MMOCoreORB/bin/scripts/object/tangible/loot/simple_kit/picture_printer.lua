@@ -112,7 +112,12 @@ object_tangible_loot_simple_kit_picture_printer = object_tangible_loot_simple_ki
 		"object/tangible/furniture/nym_themepark/nym_themepark_painting.iff",
 		"object/tangible/furniture/gcw/gcw_rebel_painting_01.iff",
 		"object/tangible/loot/mustafar/must_painting_01.iff",
-		"object/tangible/loot/mustafar/must_painting_02.iff"
+		"object/tangible/loot/mustafar/must_painting_02.iff",
+		"object/tangible/loot/undead/decal_arrow_left.iff",
+		"object/tangible/loot/undead/decal_imperial_graffiti_01.iff",
+		"object/tangible/loot/undead/decal_imperial_graffiti_03.iff",
+		"object/tangible/loot/undead/decal_rebel_graffiti_02.iff",
+		"object/tangible/loot/undead/decal_pgc_s02.iff"
 	},
 	
 	deleteComponents = 0,

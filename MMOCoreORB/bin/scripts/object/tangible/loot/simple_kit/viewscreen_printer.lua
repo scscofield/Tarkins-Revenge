@@ -112,7 +112,12 @@ object_tangible_loot_simple_kit_viewscreen_printer = object_tangible_loot_simple
 		"object/tangible/furniture/nym_themepark/nym_themepark_arena_poster.iff",
 		"object/tangible/furniture/gcw/gcw_imperial_painting_01.iff",
 		"object/tangible/loot/mustafar/must_painting_03.iff",
-		"object/tangible/loot/mustafar/must_painting_04.iff"
+		"object/tangible/loot/mustafar/must_painting_04.iff",
+		"object/tangible/loot/undead/decal_arrow_right.iff",
+		"object/tangible/loot/undead/decal_imperial_graffiti_02.iff",
+		"object/tangible/loot/undead/decal_rebel_graffiti_01.iff",
+		"object/tangible/loot/undead/decal_rebel_graffiti_03.iff",
+		"object/tangible/loot/undead/decal_pgc_s04.iff"
 	},
 	
 	deleteComponents = 0,
