@@ -3,16 +3,17 @@ This is a tool that logs player transaction data for review by administrators.
 
 ## Features
 - Compiles information useful for discovering the exploitation of some key systems by end users.
-- Logs information to files on the server to plain text files, in csv format, for ease of use with spreadsheets, etc.
+- Logs information to plain files on the server, in csv format, for ease of use with spreadsheets, etc.
 - Settings are configurable in bin/conf/config.lua
 
 ## Settings
-- LumberjackTips: Value of 0 will disable. Sales values <= this amount will be logged.
-- LumberjackBazaar: Value of 0 will disable. Sales values <= this amount will be logged.
-- LumberjackVendor: Value of 0 will disable. Sales values <= this amount will be logged.
-- LumberjackDeleted: 0 Disables logging of deleted characters.
-- LumberjackTXT: 0 Disables logging to text files.
-- LumberjackSQL: 0 Disables logging to an exteral database.
+- **LumberjackTips:** Value of 0 will disable. Tip values <= this amount will be logged.
+- **LumberjackBazaar:** Value of 0 will disable. Sales values <= this amount will be logged.
+- **LumberjackVendor:** Value of 0 will disable. Sales values <= this amount will be logged.
+- **LumberjackTradedCredits:** Value of 0 will disable. Trade values <= this amount will be logged.
+- **LumberjackDeleted:** 0 Disables logging of deleted characters.
+- **LumberjackTXT:** 0 Disables logging to text files.
+- **LumberjackSQL:** 0 Disables logging to an exteral database.
 
 ## Text Log Usage
 The following files are generated in bin/log/lumberjack/  
@@ -21,6 +22,7 @@ The following files are generated in bin/log/lumberjack/
 tips.log  
 bazaarsales.log  
 vendorsales.log  
+tradecredits.log  
 deletedcharacters.log**  
 
 You will find examples of each in this wiki directory. All files share the same pattern of data output, but some files have more or less data than others.  

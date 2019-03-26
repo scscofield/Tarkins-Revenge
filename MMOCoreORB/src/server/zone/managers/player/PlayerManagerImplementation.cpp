@@ -106,6 +106,7 @@
 #include "server/zone/managers/visibility/VisibilityManager.h"
 #include "server/zone/managers/mission/MissionManager.h"
 #include "server/zone/managers/frs/FrsManager.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 
 PlayerManagerImplementation::PlayerManagerImplementation(ZoneServer* zoneServer, ZoneProcessServer* impl) :
@@ -2380,7 +2381,13 @@ void PlayerManagerImplementation::handleVerifyTradeMessage(CreatureObject* playe
 				}
 			}
 
+			//LJ
+			uint32 p1Before = player->getCashCredits();
+			uint32 p2Before = receiver->getCashCredits();
+
 			uint32 giveMoney = tradeContainer->getMoneyToTrade();
+			
+			uint32 p1Value = giveMoney; //LJ
 
 			if (giveMoney > 0) {
 				player->subtractCashCredits(giveMoney);
@@ -2388,6 +2395,8 @@ void PlayerManagerImplementation::handleVerifyTradeMessage(CreatureObject* playe
 			}
 
 			giveMoney = receiverTradeContainer->getMoneyToTrade();
+			
+			uint32 p2Value = giveMoney; //LJ
 
 			if (giveMoney > 0) {
 				receiver->subtractCashCredits(giveMoney);
@@ -2402,6 +2411,8 @@ void PlayerManagerImplementation::handleVerifyTradeMessage(CreatureObject* playe
 			player->sendMessage(msg->clone());
 
 			delete msg;
+			
+			StatisticsManager::instance()->lumberjack(player, receiver, p1Value, p1Before, player->getCashCredits(), p2Value, p2Before, receiver->getCashCredits());
 		}
 	}
 }

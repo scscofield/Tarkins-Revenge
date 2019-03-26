@@ -89,8 +89,6 @@ private:
 
 		ghost->addSuiBox(confirmbox);
 		player->sendMessage(confirmbox->generateMessage());
-		
-		StatisticsManager::instance()->lumberjack(player, targetPlayer, nullptr, amount, "na", 2);
 
 		return SUCCESS;
 	}

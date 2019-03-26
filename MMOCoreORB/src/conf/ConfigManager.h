@@ -98,7 +98,8 @@ namespace conf {
 		int lumberjackVendor = 0;
 		int lumberjackDeleted = 0;
 		int lumberjackTXT = 0;
-		int lumberjackSQL = 0; 
+		int lumberjackSQL = 0;
+		int lumberjackTradedCredits = 0;
 
 	public:
 		ConfigManager();
@@ -398,6 +399,10 @@ namespace conf {
 		}
 		
 		inline int getLumberjackSQL() const {
+			return lumberjackTXT;
+		}
+		
+		inline int getLumberjackTradedCredits() const {
 			return lumberjackTXT;
 		}
 	};

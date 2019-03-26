@@ -94,6 +94,39 @@ public:
 	}
 	
 	/**
+	 * Returns the most recently used ip address on an account (or 0.0.0.0 if a result was not found)
+	 * @param account Account object obtained from PlayerObject->getAccount()
+	 */
+	String getLastIP(Account* account){
+		String ip = "0.0.0.0";
+		
+		StringBuffer query;
+		query << "SELECT ip_address, MIN(timestamp) FROM account_log WHERE account_id = '" << account->getAccountID() << "';";
+		ResultSet* result = ServerDatabase::instance()->executeQuery(query);
+		
+		if (result->next())
+			ip = result->getString(0);
+		
+		return ip;
+	}
+	
+	/**
+	 * Writes and additional line to a file on the server
+	 * @param pathAndFile String The path to the file as well as the file name, such as log/mylog.log
+	 * @param content String The content to be written
+	 */
+	void logToFile(String pathAndFile, String content){
+		File* file = new File(pathAndFile);
+		FileWriter* writer = new FileWriter(file, true); // true for appending new lines
+
+		writer->writeLine(content);
+
+		writer->close();
+		delete file;
+		delete writer;
+	}
+	
+	/**
 	 * Logs player credit transactions
 	 * @param sender Creature object of character who sent credits or bought an item. Also used for the character that was deleted when logged deleted character.
 	 * @param receiver Creature object of character that received the credits.
@@ -149,16 +182,7 @@ public:
 		String sAccName = senderAccount->getUsername();
 		Time sCreatedTime(senderAccount->getTimeCreated());
 		String sAccBorn = sCreatedTime.getFormattedTime();
-		
-		StringBuffer query;
-		query << "SELECT ip_address, MIN(timestamp) FROM account_log WHERE account_id = '" << senderAccount->getAccountID() << "';";
-		ResultSet* result = ServerDatabase::instance()->executeQuery(query);
-
-		String sIP = "0.0.0.0:0";
-		
-		if (result->next())
-			sIP = result->getString(0);
-		
+		String sIP = getLastIP(senderAccount);		
 		String sCharName = sender->getFirstName();
 		String sCharAge = String::valueOf(senderGhost->getCharacterAgeInDays());
 		
@@ -176,13 +200,7 @@ public:
 			rAccName = receiverAccount->getUsername();		
 			Time rCreatedTime(receiverAccount->getTimeCreated());		
 			rAccBorn = rCreatedTime.getFormattedTime();		
-			StringBuffer query2;
-			query2 << "SELECT ip_address, MIN(timestamp) FROM account_log WHERE account_id = '" << receiverAccount->getAccountID() << "';";
-			result = ServerDatabase::instance()->executeQuery(query2);
-			
-			if (result->next())
-				rIP = result->getString(0);
-
+			rIP = getLastIP(receiverAccount);
 			rCharName = receiver->getFirstName();		
 			rCharAge = String::valueOf(receiverGhost->getCharacterAgeInDays());
 		}
@@ -242,14 +260,7 @@ public:
 				outputText = timestamp + "," + sAccID + "," + sAccName + "," + sAccBorn + "," + sIP + "," + sCharName + "," + sCharAge + "," + String::valueOf(value) + "," + rAccID + "," + rAccName + "," + rAccBorn + "," + rIP + "," + rCharName + "," + rCharAge + "," + name + "," + vID + "," + vPos.toString() + "," + vOffer + ",";
 			}
 			
-			File* file = new File("log/lumberjack/" + fileName + ".log");
-			FileWriter* writer = new FileWriter(file, true); // true for appending new lines
-
-			writer->writeLine(outputText);
-
-			writer->close();
-			delete file;
-			delete writer;
+			logToFile("log/lumberjack/" + fileName + ".log", outputText);
 		}
 		
 		// Log to SQL
@@ -293,33 +304,87 @@ public:
 		String accBorn = rCreatedTime.getFormattedTime();
 		String charName = creature->getFirstName();		
 		String charAge = String::valueOf(ghost->getCharacterAgeInDays());
-		
-		StringBuffer query;
-		query << "SELECT ip_address, MIN(timestamp) FROM account_log WHERE account_id = '" << account->getAccountID() << "';";
-		ResultSet* result = ServerDatabase::instance()->executeQuery(query);
-
-		String sIP = "0.0.0.0:0";
-		
-		if (result->next())
-			sIP = result->getString(0);
+		String sIP = getLastIP(account);
 		
 		String outputText = timestamp + "," + String::valueOf(accountId) + "," + accName + "," + accBorn + "," + charName + "," + charAge + "," + sIP + ",";
 		
 		if (logToTXT){	
-			File* file = new File("log/lumberjack/deletedcharacters.log");
-			FileWriter* writer = new FileWriter(file, true); // true for appending new lines
-
-			writer->writeLine(outputText);
-
-			writer->close();
-			delete file;
-			delete writer;
+			logToFile("log/lumberjack/deletedcharacters.log", outputText);
 		}
 		
 		if (logToSQL){
 			// This functionality will be created at a later date. It will push data to separate DB that is dedicated to logging player activity.
 		}
 		
+	}
+	
+	/**
+	 * Logs player activity
+	 * @param player1 Creature object of a player
+	 * @param player2 Creature object of a player
+	 * @param p1Value Credit value sent by player
+	 * @param p1Before Cash on hand balance before trade
+	 * @param p1After Cash on hand after trade
+	 * @param p2Value Credit value sent by player
+	 * @param p2Before Cash on hand balance before trade
+	 * @param p3After Cash on hand after trade
+	 */
+	void lumberjack(CreatureObject* player1, CreatureObject* player2, uint32 p1Value, uint32 p1Before, uint32 p1After, uint32 p2Value, uint32 p2Before, uint32 p2After){
+		// Don't log trades where credits were not exchanged
+		if (p1Value < 1 && p2Value < 1)
+			return;
+			
+		int logTradeCredits = ConfigManager::instance()->getLumberjackTradedCredits();
+		
+		if (!logTradeCredits || ( p1Value < logTradeCredits && p2Value < logTradeCredits))
+			return;
+			
+		int logToTXT = ConfigManager::instance()->getLumberjackTXT();
+		int logToSQL = ConfigManager::instance()->getLumberjackSQL();
+			
+		Reference<PlayerObject*> player1Ghost = player1->getPlayerObject();
+		ManagedReference<Account*> player1Account = player1Ghost->getAccount();	
+		Reference<PlayerObject*> player2Ghost = player2->getPlayerObject();
+		ManagedReference<Account*> player2Account = player2Ghost->getAccount();
+		
+		// Gather data
+		Time now;
+		String timestamp = now.getFormattedTime();
+		
+		// Player 1
+		String p1AccID = String::valueOf(player1Account->getAccountID());
+		String p1accName = player1Account->getUsername();
+		Time p1CreatedTime(player1Account->getTimeCreated());
+		String p1accBorn = p1CreatedTime.getFormattedTime();
+		String p1LastIP = getLastIP(player1Account);
+		String p1charName = player1->getFirstName();		
+		String p1charAge = String::valueOf(player1Ghost->getCharacterAgeInDays());
+		
+		// Player 2
+		String p2AccID = String::valueOf(player2Account->getAccountID());
+		String p2accName = player2Account->getUsername();
+		Time p2CreatedTime(player2Account->getTimeCreated());
+		String p2accBorn = p2CreatedTime.getFormattedTime();
+		String p2LastIP = getLastIP(player2Account);
+		String p2charName = player2->getFirstName();		
+		String p2charAge = String::valueOf(player2Ghost->getCharacterAgeInDays());
+		
+		if (logToTXT){	
+			// Transaction Datestamp, player1 account ID, player1 account name, player1 born, player1 ip, player1 character, player1 char age, credits (not used here), player2 account id, player2 account name, player2 born, player2 ip, player2 character, player2 char age, player1 balance before, player1 credits sent, player1 balance after, player2 balance before, player2 credits sent, player2 balance after,
+			StringBuffer toLog;
+			toLog << timestamp << ","; 
+			toLog << p1AccID  << "," <<  p1accName << "," <<  p1accBorn << "," <<  p1LastIP << "," <<  p1charName << "," <<  p1charAge << ",";
+			toLog << "0" << ",";
+			toLog << p2AccID  << "," <<  p2accName << "," <<  p2accBorn << "," <<  p2LastIP << "," <<  p2charName << "," <<  p2charAge << ",";
+			// And now the credit trade data
+			toLog << p1Before  << "," <<  p1Value  << "," <<  p1After  << "," <<  p2Before  << "," <<  p2Value  << "," <<  p2After  << ",";
+			
+			logToFile("log/lumberjack/tradecredits.log", toLog.toString());
+		}
+		
+		if (logToSQL){
+			// This functionality will be created at a later date. It will push data to separate DB that is dedicated to logging player activity.
+		}
 	}
 
 private:
