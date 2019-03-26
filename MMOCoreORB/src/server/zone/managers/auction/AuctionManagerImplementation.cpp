@@ -404,6 +404,28 @@ void AuctionManagerImplementation::addSaleItem(CreatureObject* player, uint64 ob
 				if(strongOwnerRef->isOnline()) {
 					strongOwnerRef->sendSystemMessage(player->getFirstName() + " has offered an item to " + vendor->getDisplayedName());
 				}
+				
+				// Tarkin's Revenge: Email player about offer to vendor
+				UnicodeString subject("@auction:vedor_offer_subject"); // An item has been offered to your vendor
+				
+				StringIdChatParameter offerBody("@auction:vedor_offer_body"); // %TU has been offered %TO by %TT for %DI credits.
+				offerBody.setTU(vendor->getDisplayedName());
+				offerBody.setTO(item->getItemName());
+				offerBody.setTT(player->getDisplayedName());
+				offerBody.setDI(item->getPrice());
+				
+				float waypointX = vendor->getWorldPositionX();
+				float waypointY = vendor->getWorldPositionY();
+
+				ManagedReference<WaypointObject*> waypointObject = ( zoneServer->createObject(STRING_HASHCODE("object/waypoint/world_waypoint_blue.iff"), 1)).castTo<WaypointObject*>();
+				waypointObject->setCustomObjectName(vendor->getDisplayedName(), false);
+				waypointObject->setActive(false);
+				waypointObject->setPosition(waypointX, 0, waypointY);
+				waypointObject->setPlanetCRC(vendor->getPlanetCRC());
+				
+				ManagedReference<ChatManager*> cman = zoneServer->getChatManager();
+				if (cman != NULL)
+					cman->sendMail(vendor->getDisplayedName(), subject, offerBody, strongOwnerRef->getFirstName(), waypointObject);
 			}
 		}
 	}
