@@ -176,6 +176,7 @@ bool ConfigManager::loadConfigData() {
 	lumberjackDeleted = getGlobalInt("LumberjackDeleted");
 	lumberjackTXT = getGlobalInt("LumberjackTXT");
 	lumberjackSQL = getGlobalInt("LumberjackSQL"); 
+	lumberjackTradedCredits = getGlobalInt("LumberjackTradedCredits");
 
 	return true;
 }

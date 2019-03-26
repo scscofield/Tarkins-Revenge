@@ -9,6 +9,7 @@
 #define TIPBANKSUICALLBACK_H_
 
 #include "server/zone/objects/player/sui/SuiCallback.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 class TipCommandSuiCallback: public SuiCallback {
 private:
@@ -80,6 +81,8 @@ public:
 		bodyself.setDI(amount);
 		cman->sendMail(sender, subject, bodyself,
 				player->getFirstName());
+				
+		StatisticsManager::instance()->lumberjack(player, targetPlayer, nullptr, amount, "na", 2);
 	}
 };
 
