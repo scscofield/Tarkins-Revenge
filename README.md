@@ -19,17 +19,14 @@ A Star Wars Galaxies server, based upon SWGEmu's Core3 / Engine3.  Roleplay-frie
 
  
 
-* You need to install Star Wars Galaxies from disk.
+* You need to own a valid copy of Star Wars Galaxies on disk.
 
   * We recommend installing to a Tarkin-specific directory if you also have accounts on other servers, to avoid file conflicts.
 
-* [Download the Tarkin launcher (TO COME)](http://www)
+* [Download the Tarkin launcher](https://tarkinswg.com/tre/launcher/tarkinlauncher.zip)
 
   * This will keep you up-to-date with current Tarkin patches.
 
-* [--Alternative-- manual installation (last updated 3/11/19)](https://drive.google.com/file/d/1tgeeh6iqNBBHe6f8mR9x23DgbIBBjZjK/view)
-
-  * Only use if you do not wish to use the launcher.  You will not auto-receive updates, which may cause client crashes if you are not using the most current files.  Use at your own risk.
 
  
 
@@ -49,9 +46,9 @@ Liakhara (Github: stacy19201325) for merging original tarkin_scripts and TarkinI
 
 ParadymShift (Github: Spartan5150) for networking, hardware, and forum management, as well as world snapshot editing, and community relations.
 
-Tatwi, for the contributions he made through the various iterations of Tarkin: /tarkin command, houseplop, medical services terminals, skill training NPCs, hunting mission revamp, mission terminal renaming, new player email, CA/AA to drop with one stat only, pitch/roll/yaw, and various other quality of life improvements.
+Tatwi, for the contributions he made through the various iterations of Tarkin: /tarkin command, houseplop, medical services terminals, skill training NPCs, hunting mission revamp, mission terminal renaming, new player email, CA/AA to drop with one stat only, pitch/roll/yaw, and numerous other quality of life improvements.  A HUGE thank you for delving into C# to update and add functionality to our launcher.  And finally, for Lumberjack, which will make it so much easier on staff to monitor suspicious activity.
 
-Devereux (Github: Trakaa) for fixes correcting decrimenting of manufacturing schematics, making mind heal work on stims, recoloring armor with multiple palettes, making current resource list export in a format compatible with swgcraft, on Tarkin II.
+Devereux (Github: Trakaa) for fixes correcting decrimenting of manufacturing schematics, making mind heal work on stims, recoloring armor with multiple palettes, making current resource list export in a format compatible with swgcraft, and Version 1 of our Launcher, on Tarkin II.
 
 Taylaria for some work on mobile templates on Tarkin II.
 
@@ -59,7 +56,7 @@ SealGunman for our knee-jerk hatred of Fixer, thanks to crashing our server repe
 
 Sources and inspiration from other servers:
 
-Borrie for Wall Pack and Windmill.
+Borrie for Wall Pack.
 
 Halyn's comments in ModtheGalaxy chat for slicing locked briefcases.
 
@@ -70,6 +67,8 @@ Most likely Red as orginator for CA/AA being named after the stat - modified and
 Cesta, Renik, Advantage Luminalflux for assistance with web-based account registration.
 
 dpwhittaker for Progor-Chat discord bot.
+
+pwillworth for Galaxy Harvester Web Application.  Not having to upload manually is a complete game-changer.
 
 The Mod the Galaxy team for the use of their TRE files.
 

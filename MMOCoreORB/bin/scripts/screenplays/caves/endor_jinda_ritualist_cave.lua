@@ -17,7 +17,7 @@ JindaRitualistCaveScreenPlay = ScreenPlay:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "jinda_common", chance = 2500000},
+				{group = "jinda_cave_common", chance = 2500000},
 				{group = "deed_voucher", chance = 1000000},
 				{group = "forage_medical_component", chance = 1500000},
 				{group = "clothing_attachments", chance = 2000000},
