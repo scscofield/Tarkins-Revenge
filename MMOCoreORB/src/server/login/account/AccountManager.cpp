@@ -111,7 +111,7 @@ Account* AccountManager::validateAccountCredentials(LoginClient* client, const S
 			account = createAccount(username, password, passwordStored);
 		} else {
 			if(client != nullptr)
-				client->sendErrorMessage("Login Error", "Automatic registration is currently disabled. Please contact the administrators of the server in order to get an authorized account.");
+				client->sendErrorMessage("Login Error", "Username not registered.  Forum registration and game registration are separate on Tarkin's Revenge.  If you have not registered for a game account, please go to our forums and click the Game Registration button to do so.  If you have already registered for a game account, please ensure you are not trying to log in using your forum account name, or mis-typing your game account login name.  If you continue to get this error, please contact an admin.");
 			return nullptr;
 		}
 	}
