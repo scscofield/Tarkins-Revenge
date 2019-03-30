@@ -6,7 +6,7 @@ CraftingSkillTrainer = ScreenPlay:new {
 	numberOfActs = 1,
 	professions = {"Architect", "Armorsmith", "Artisan", "Bio-Engineer", "Chef", "Combat Medic", "Doctor", 
 					"Droid Engineer", "Shipwright", "Smuggler", "Tailor", "Weaponsmith", "Merchant",
-					"Medic", "Entertainer", "Dancer", "Image Deigner", "Musician",
+					"Medic", "Entertainer", "Dancer", "Image Designer", "Musician",
 				  },
 	skills = {
 		{
