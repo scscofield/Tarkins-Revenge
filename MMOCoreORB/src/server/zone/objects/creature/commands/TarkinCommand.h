@@ -514,7 +514,7 @@ body << "Most Concurrent (since last reset): " << String::valueOf(creature->getZ
 		StringBuffer buffer;
 
 		if (days > 0)
-			buffer << hours << "d, ";
+			buffer << days << "d, ";
 
 		if (hours > 0)
 			buffer << hours << "h, ";
