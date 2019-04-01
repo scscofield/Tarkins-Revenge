@@ -196,12 +196,21 @@ function TarkinBuffTerminal:healWounds(pPlayer)
 	local price = self.healingFee
 
 	if (price > 0) then
-		if (CreatureObject(pPlayer):getCashCredits() < price) then
+		local playerCash = CreatureObject(pPlayer):getCashCredits()
+		local playerBank = CreatureObject(pPlayer):getBankCredits()
+
+		if (playerCash + playerBank < price) then
 			CreatureObject(pPlayer):sendSystemMessage("Insufficient Funds: You require " .. tostring(self.healingFee) .. " credits in cash to use the healing service.")
 			return
 		end
 		
-		CreatureObject(pPlayer):subtractCashCredits(price)
+		if (playerCash > price) then
+			CreatureObject(pPlayer):subtractCashCredits(price)
+		else
+			local diff = price - playerCash
+			CreatureObject(pPlayer):subtractCashCredits(playerCash)
+			CreatureObject(pPlayer):setBankCredits(playerBank-diff)
+		end		
 	end
 
 	for i = 0, 8 do
@@ -217,12 +226,21 @@ function TarkinBuffTerminal:applyBuff(pPlayer, buffSelected)
 	local price = self.buffs[buffSelected][2]
 	
 	if (price > 0)then
-		if (CreatureObject(pPlayer):getCashCredits() < price) then
-			CreatureObject(pPlayer):sendSystemMessage("Insufficient Funds: You require " .. tostring(self.buffs[buffSelected][2]) .. " credits in cash to purchase the selected buff.")
+		local playerCash = CreatureObject(pPlayer):getCashCredits()
+		local playerBank = CreatureObject(pPlayer):getBankCredits()
+
+		if (playerCash + playerBank < price) then
+			CreatureObject(pPlayer):sendSystemMessage("Insufficient Funds: You require " .. tostring(self.healingFee) .. " credits in cash to use the healing service.")
 			return
 		end
 		
-		CreatureObject(pPlayer):subtractCashCredits(price)
+		if (playerCash > price) then
+			CreatureObject(pPlayer):subtractCashCredits(price)
+		else
+			local diff = price - playerCash
+			CreatureObject(pPlayer):subtractCashCredits(playerCash)
+			CreatureObject(pPlayer):setBankCredits(playerBank-diff)
+		end	
 	end
 	
 	CreatureObject(pPlayer):removeBuffs()
