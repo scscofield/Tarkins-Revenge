@@ -809,9 +809,17 @@ void StructureManager::reportStructureStatus(CreatureObject* creature,
 	ManagedReference<SuiListBox*> status = new SuiListBox(creature,
 			SuiWindowType::STRUCTURE_STATUS);
 	status->setPromptTitle("@player_structure:structure_status_t"); //Structure Status
-	status->setPromptText(
-			"@player_structure:structure_name_prompt "
-					+ structure->getDisplayedName()); //Structure Name:
+	
+	// Stucture name without colors
+	String strName = structure->getDisplayedName();
+	int index = 0;
+	while (strName.contains("\\#")) {
+		index = strName.indexOf("\\#");
+		String sub = "\\" + strName.subString(index, index + 8);
+		strName = strName.replaceFirst(sub,"");
+	}
+	
+	status->setPromptText("@player_structure:structure_name_prompt " + strName); //Structure Name:
 	status->setUsingObject(structure);
 	status->setOkButton(true, "@refresh");
 	status->setCancelButton(true, "@cancel");
