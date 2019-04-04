@@ -383,7 +383,7 @@ float GroupObjectImplementation::getGroupHarvestModifier(CreatureObject* player)
 	String skillNovice = "outdoors_ranger_novice";
 	String skillMaster = "outdoors_ranger_master";
 
-	float modifier = 1.2f;
+	float modifier = 1.0f;
 
 	for (int i = 0; i < groupMembers.size(); ++i) {
 		Reference<CreatureObject*> groupMember = getGroupMember(i);

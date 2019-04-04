@@ -725,7 +725,7 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 	if (owner->isGrouped()) {
 		modifier = owner->getGroup()->getGroupHarvestModifier(owner);
 
-		} else {
+		} /* else {
 		//Lets add a bonus for Rangers if they are NOT in a group
 		if (owner->hasSkill("outdoors_ranger_novice")) {
 			modifier = 1.3f;
@@ -733,7 +733,7 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 				modifier = 1.4f;
 			}
 		}
-	}
+	}*/
 
 	quantityExtracted = (int)(quantityExtracted * modifier);
 
@@ -770,9 +770,9 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 	owner->sendSystemMessage(harvestMessage);
 
 	/// Send bonus message
-	if (modifier == 1.2f)
-		owner->sendSystemMessage("@skl_use:group_harvest_bonus");
-	else if (modifier == 1.3f && owner->isGrouped())
+	//if (modifier == 1.2f)
+		//owner->sendSystemMessage("@skl_use:group_harvest_bonus");
+	if (modifier == 1.3f && owner->isGrouped())
 		owner->sendSystemMessage("@skl_use:group_harvest_bonus_ranger");
 	else if (modifier == 1.4f && owner->isGrouped())
 		owner->sendSystemMessage("@skl_use:group_harvest_bonus_masterranger");
@@ -896,12 +896,12 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 	} else if (density > 0.25f) {
 		//This value could lower resources below 15. Change to prevent that.
 		quantityExtracted = Math::max(int(quantityExtracted * 0.75f), 15);
-		creatureHealth = "creature_quality_scrawny";
+		creatureHealth = "creature_quality_skinny";
 	} else {
 		quantityExtracted = int(quantityExtracted * 0.50f);
 		//This value could lower resources below 15. Change to prevent that.
 		quantityExtracted = Math::max(int(quantityExtracted * 0.50f), 15);
-		creatureHealth = "creature_quality_skinny";
+		creatureHealth = "creature_quality_scrawny";
 	}
 
 	float modifier = 1;
@@ -910,7 +910,7 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 	if (player->isGrouped()) {
 		modifier = player->getGroup()->getGroupHarvestModifier(player);
 
- 	} else {
+ 	} /* else {
 		//Lets add a bonus for Rangers if they are NOT in a group
 		if (player->hasSkill("outdoors_ranger_novice")) {
 			modifier = 1.3f;
@@ -918,7 +918,7 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 				modifier = 1.4f;
 			}
 		}
-	}
+	}*/
 	
 	quantityExtracted = (int)(quantityExtracted * modifier);
 // Removing the change that only allows 1 unit harvests inside buildings (caves).
@@ -936,9 +936,9 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 	player->sendSystemMessage(harvestMessage);
 
 	/// Send bonus message
-	if (modifier == 1.2f)
-		player->sendSystemMessage("@skl_use:group_harvest_bonus");
-	else if (modifier == 1.3f && player->isGrouped())
+	//if (modifier == 1.2f)
+		//player->sendSystemMessage("@skl_use:group_harvest_bonus");
+	if (modifier == 1.3f && player->isGrouped())
 		player->sendSystemMessage("@skl_use:group_harvest_bonus_ranger");
 	else if (modifier == 1.4f && player->isGrouped())
 		player->sendSystemMessage("@skl_use:group_harvest_bonus_masterranger");
