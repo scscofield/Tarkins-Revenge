@@ -33,7 +33,7 @@
 #include "templates/faction/Factions.h"
 #include "server/zone/objects/player/FactionStatus.h"
 #include "engine/engine.h"
-
+#include "server/zone/managers/objectcontroller/ObjectController.h"
 
 void TangibleObjectImplementation::initializeTransientMembers() {
 	SceneObjectImplementation::initializeTransientMembers();
@@ -197,6 +197,39 @@ void TangibleObjectImplementation::setFactionStatus(int status) {
 		task->execute();
 
 		ghost->updateInRangeBuildingPermissions();
+		
+		// Unequip faction gear when on leave
+		if (factionStatus == FactionStatus::ONLEAVE){
+			bool forcedUnequip = false;
+			
+			// Looped 5 times, because for some reason it takes a least 3 times to actually unequip all the items
+			for(int x = 0; x < 5; ++x) {
+				for(int i = 0; i < creature->getSlottedObjectsSize(); ++i) {
+					ManagedReference<TangibleObject*> object = creature->getSlottedObject(i).castTo<TangibleObject*>();
+					
+					if (object == nullptr)
+						continue;
+						
+					if (object->isContainerObject())
+						continue;
+					
+					if (object->isImperial() || object->isRebel()){
+						SceneObject* inventory = creature->getSlottedObject("inventory");
+						
+						if (inventory != nullptr){
+							ZoneServer* zoneServer = server->getZoneServer();
+							ObjectController* objectController = zoneServer->getObjectController();
+							objectController->transferObject(object, inventory, -1, true, true); // -1 is the containmentType to unequip items
+
+							forcedUnequip = true;
+						}
+					}
+				}
+			}
+			
+			if (forcedUnequip)
+				creature->sendSystemMessage("Faction gear unequipped. You must be covert or overt status to wear faction gear.");
+		}
 	}
 
 	notifyObservers(ObserverEventType::FACTIONCHANGED);
