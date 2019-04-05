@@ -683,14 +683,14 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 	}
 
 	//Let's make sure we give AT LEAST 15 units.
-	quantity = Math::max(quantity, 15.0f);
+	//quantity = Math::max(quantity, 15.0f);
 
 	int ownerSkill = owner->getSkillMod("creature_harvesting");
 	int quantityExtracted = int(quantity * float(ownerSkill / 100.0f));
 	// add in droid bonus
 
 	//A low harvest skill WILL reduce the base value below 15, so we will ensure it is at least 15 again.
-	quantityExtracted = Math::max(quantityExtracted, 15);
+	//quantityExtracted = Math::max(quantityExtracted, 15);
 
 	ManagedReference<ResourceSpawn*> resourceSpawn = resourceManager->getCurrentSpawn(restype, droid->getZone()->getZoneName());
 
@@ -710,14 +710,11 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 		quantityExtracted = int(quantityExtracted * 1.00f);
 		creatureHealth = "creature_quality_medium";
 	} else if (density > 0.25f) {
-		//This value could lower resources below 15. Change to prevent that.
-		quantityExtracted = Math::max(int(quantityExtracted * 0.75f), 15);
-		creatureHealth = "creature_quality_scrawny";
+		quantityExtracted = int(quantityExtracted * 0.75f);
+		creatureHealth = "creature_quality_skinny";
 	} else {
 		quantityExtracted = int(quantityExtracted * 0.50f);
-		//This value could lower resources below 15. Change to prevent that.
-		quantityExtracted = Math::max(int(quantityExtracted * 0.50f), 15);
-		creatureHealth = "creature_quality_skinny";
+		creatureHealth = "creature_quality_scrawny";
 	}
 
 	float modifier = 1;
@@ -725,15 +722,7 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 	if (owner->isGrouped()) {
 		modifier = owner->getGroup()->getGroupHarvestModifier(owner);
 
-		} /* else {
-		//Lets add a bonus for Rangers if they are NOT in a group
-		if (owner->hasSkill("outdoors_ranger_novice")) {
-			modifier = 1.3f;
-			if (owner->hasSkill("outdoors_ranger_master")) {
-				modifier = 1.4f;
-			}
-		}
-	}*/
+		} 
 
 	quantityExtracted = (int)(quantityExtracted * modifier);
 
@@ -744,6 +733,15 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 	int droidBonus = DroidMechanics::determineDroidSkillBonus(ownerSkill,harvestBonus,quantityExtracted);
 
 	quantityExtracted += droidBonus;
+
+	bool minTriggered = 0;
+	if (quantityExtracted < 15) {
+		minTriggered = 1;
+		quantityExtracted = 15 + (15 * (ownerSkill / 100.0f));
+
+	} else 
+		quantityExtracted += (15 * (ownerSkill / 100.0f));
+
 	// add to droid inventory if there is space available, otherwise to player
 	DroidObject* pet = cast<DroidObject*>(droid);
 
@@ -769,13 +767,18 @@ void CreatureManagerImplementation::droidHarvest(Creature* creature, CreatureObj
 
 	owner->sendSystemMessage(harvestMessage);
 
+	if (minTriggered ==  1)
+		owner->sendSystemMessage("Your harvest has been rounded up to a minimum value!");
+
 	/// Send bonus message
 	//if (modifier == 1.2f)
 		//owner->sendSystemMessage("@skl_use:group_harvest_bonus");
-	if (modifier == 1.3f && owner->isGrouped())
-		owner->sendSystemMessage("@skl_use:group_harvest_bonus_ranger");
-	else if (modifier == 1.4f && owner->isGrouped())
-		owner->sendSystemMessage("@skl_use:group_harvest_bonus_masterranger");
+	if (minTriggered ==  0) {
+		if (modifier == 1.3f && owner->isGrouped())
+			owner->sendSystemMessage("@skl_use:group_harvest_bonus_ranger");
+		else if (modifier == 1.4f && owner->isGrouped())
+			owner->sendSystemMessage("@skl_use:group_harvest_bonus_masterranger");
+	}
 
 	/// Send group spam
 	if (owner->isGrouped()) {
@@ -868,13 +871,7 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 		return;
 	}
 
-	//Let's make sure we give AT LEAST 15 units.
-	quantity = Math::max(quantity, 15.0f);
-
 	int quantityExtracted = int(quantity * float(player->getSkillMod("creature_harvesting") / 100.0f));
-
-	//A low harvest skill WILL reduce the base value below 15, so we will ensure it is at least 15 again.
-	quantityExtracted = Math::max(quantityExtracted, 15);
 
 	ManagedReference<ResourceSpawn*> resourceSpawn = resourceManager->getCurrentSpawn(restype, player->getZone()->getZoneName());
 
@@ -894,13 +891,10 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 		quantityExtracted = int(quantityExtracted * 1.00f);
 		creatureHealth = "creature_quality_medium";
 	} else if (density > 0.25f) {
-		//This value could lower resources below 15. Change to prevent that.
-		quantityExtracted = Math::max(int(quantityExtracted * 0.75f), 15);
+		quantityExtracted = int(quantityExtracted * 0.75f);
 		creatureHealth = "creature_quality_skinny";
 	} else {
 		quantityExtracted = int(quantityExtracted * 0.50f);
-		//This value could lower resources below 15. Change to prevent that.
-		quantityExtracted = Math::max(int(quantityExtracted * 0.50f), 15);
 		creatureHealth = "creature_quality_scrawny";
 	}
 
@@ -910,17 +904,19 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 	if (player->isGrouped()) {
 		modifier = player->getGroup()->getGroupHarvestModifier(player);
 
- 	} /* else {
-		//Lets add a bonus for Rangers if they are NOT in a group
-		if (player->hasSkill("outdoors_ranger_novice")) {
-			modifier = 1.3f;
-			if (player->hasSkill("outdoors_ranger_master")) {
-				modifier = 1.4f;
-			}
-		}
-	}*/
-	
+ 	}
+
 	quantityExtracted = (int)(quantityExtracted * modifier);
+	int skillMod = player->getSkillMod("creature_harvesting");
+
+	bool minTriggered = 0;
+	if (quantityExtracted < 15) {
+		minTriggered = 1;
+		quantityExtracted = 15 + (15 * (skillMod / 100.0f));
+
+	} else 
+		quantityExtracted += (15 * (skillMod / 100.0f));
+
 // Removing the change that only allows 1 unit harvests inside buildings (caves).
 //	if (creature->getParent().get() != NULL)
 //		quantityExtracted = 1;
@@ -935,13 +931,18 @@ void CreatureManagerImplementation::harvest(Creature* creature, CreatureObject* 
 
 	player->sendSystemMessage(harvestMessage);
 
+	if (minTriggered ==  1)
+		player->sendSystemMessage("Your harvest has been rounded up to a minimum value!");
+
 	/// Send bonus message
 	//if (modifier == 1.2f)
-		//player->sendSystemMessage("@skl_use:group_harvest_bonus");
-	if (modifier == 1.3f && player->isGrouped())
-		player->sendSystemMessage("@skl_use:group_harvest_bonus_ranger");
-	else if (modifier == 1.4f && player->isGrouped())
-		player->sendSystemMessage("@skl_use:group_harvest_bonus_masterranger");
+		//player->sendSystemMessage("@skl_use:group_harvest_bonus"); // Group harvesting bonus has been removed on Tarkin
+	if (minTriggered ==  0)	{
+		if (modifier == 1.3f && player->isGrouped()) {
+			player->sendSystemMessage("@skl_use:group_harvest_bonus_ranger");
+		} else if (modifier == 1.4f && player->isGrouped())
+			player->sendSystemMessage("@skl_use:group_harvest_bonus_masterranger");
+	}
 
 	/// Send group spam
 	if (player->isGrouped()) {

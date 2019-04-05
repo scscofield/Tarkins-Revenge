@@ -72,7 +72,7 @@ object_draft_schematic_furniture_furniture_plant_hanging = object_draft_schemati
    contribution = {100, 100, 100, 100},
 
 
-   targetTemplate = "object/tangible/furniture/decorative/hanging_plant.iff",
+   targetTemplate = "object/tangible/furniture/decorative/hanging_planter.iff",
 
    additionalTemplates = {
              }
