@@ -66,7 +66,9 @@ Most likely Red as orginator for CA/AA being named after the stat - modified and
 
 Cesta, Renik, Advantage, and Luminalflux for assistance with web-based account registration.
 
-Cesta again, for his Galaxy Harvester resource uploading functionality.Not having to upload manually is a complete game-changer.
+Cesta again, for his Galaxy Harvester resource uploading functionality. Not having to upload manually is a complete game-changer.
+
+TinyPebble, for the ui_auc.inc.
 
 dpwhittaker for Progor-Chat discord bot.
 
@@ -74,7 +76,7 @@ pwillworth for Galaxy Harvester Web Application.
 
 The Mod the Galaxy team for the use of their TRE files.
 
-Timbob for The Jawa Toolbox, which was so useful for opening up our cities.
+Timbab for The Jawa Toolbox, which was so useful for opening up our cities.
 
 Unsure: Serverwide announcements of important events like pvp kills, new server joins, etc.  We encountered this playing on Remastered and used this idea here on Tarkin's Revenge, but I don't believe the idea originated there.  Let us know if you know for certain where this idea originated.
 
