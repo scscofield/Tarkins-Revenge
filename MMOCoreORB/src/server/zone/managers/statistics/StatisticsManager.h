@@ -392,25 +392,30 @@ public:
 	 * @param lootItem SceneObject item that is the piece of loot
 	 * @param player CreatureObject of player who looted the item
 	 * @param lootsParent SceneObject "inventory" of container or aiAgent 
-	 * @param level int Legendary 0, Exceptional 1
+	 * @param level int Exceptional 0, Legendary 1
 	 */
 	void lumberjack(SceneObject* lootItem, CreatureObject* player, SceneObject* lootsParent, int lootType){
 		String itemName = lootItem->getDisplayedName();
-		Logger::console.info("Lumberjack: Checking item " + itemName, true);
-		
+
 		if (!itemName.contains("(Legendary)") && !itemName.contains("(Exceptional)"))
 			return;
+		
+		int logRareLoot = ConfigManager::instance()->getLumberjackRareLoot();
+		
+		if (!logRareLoot)
+			return; 
 			
-		Logger::console.info("Lumberjack: Tracking high end loot item...", true);
+		int logToTXT = ConfigManager::instance()->getLumberjackTXT();
+		int logToSQL = ConfigManager::instance()->getLumberjackSQL();
 		
 		ManagedReference<TangibleObject*> tano = lootItem->asTangibleObject();
 		Reference<PlayerObject*> ghost = player->getPlayerObject();
 		ManagedReference<Account*> account = ghost->getAccount();	
 		
 		// Gather data
-		String itemType = "Legendary";
+		String itemType = "Exceptional";
 		if (lootType == 1)
-			itemType = "Exceptional";
+			itemType = "Legendary";
 		
 		Time now;
 		String timestamp = now.getFormattedTime();
@@ -429,7 +434,13 @@ public:
 		toLog << timestamp << "," << account->getAccountID() << "," << account->getUsername() << "," << player->getFirstName() << "," << itemType << ",";
 		toLog << itemName << "," << lootItem->getObjectID() << "," << parentName << "," << location.toString();
 
-		logToFile("log/lumberjack/rareloot.log", toLog.toString());
+		if (logToTXT){
+			logToFile("log/lumberjack/rareloot.log", toLog.toString());
+		}
+		
+		if (logToSQL){
+			// This functionality will be created at a later date. It will push data to separate DB that is dedicated to logging player activity.
+		}
 	}
 
 private:

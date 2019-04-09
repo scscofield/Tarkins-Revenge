@@ -100,6 +100,7 @@ namespace conf {
 		int lumberjackTXT = 0;
 		int lumberjackSQL = 0;
 		int lumberjackTradedCredits = 0;
+		int lumberjackRareLoot = 0;
 
 	public:
 		ConfigManager();
@@ -404,6 +405,10 @@ namespace conf {
 		
 		inline int getLumberjackTradedCredits() const {
 			return lumberjackTXT;
+		}
+		
+		inline int getLumberjackRareLoot() const {
+			return lumberjackRareLoot;
 		}
 	};
 }
