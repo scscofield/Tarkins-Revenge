@@ -387,6 +387,51 @@ public:
 		}
 	}
 
+	/**
+	 * Logs important loot information
+	 * @param lootItem SceneObject item that is the piece of loot
+	 * @param player CreatureObject of player who looted the item
+	 * @param lootsParent SceneObject "inventory" of container or aiAgent 
+	 * @param level int Legendary 0, Exceptional 1
+	 */
+	void lumberjack(SceneObject* lootItem, CreatureObject* player, SceneObject* lootsParent, int lootType){
+		String itemName = lootItem->getDisplayedName();
+		Logger::console.info("Lumberjack: Checking item " + itemName, true);
+		
+		if (!itemName.contains("(Legendary)") && !itemName.contains("(Exceptional)"))
+			return;
+			
+		Logger::console.info("Lumberjack: Tracking high end loot item...", true);
+		
+		ManagedReference<TangibleObject*> tano = lootItem->asTangibleObject();
+		Reference<PlayerObject*> ghost = player->getPlayerObject();
+		ManagedReference<Account*> account = ghost->getAccount();	
+		
+		// Gather data
+		String itemType = "Legendary";
+		if (lootType == 1)
+			itemType = "Exceptional";
+		
+		Time now;
+		String timestamp = now.getFormattedTime();
+		StringBuffer location;
+		location << int(player->getWorldPositionX()) << " " << int(player->getWorldPositionY()) << " " << player->getZone()->getZoneName();
+		
+		String parentName = lootsParent->getParent().get()->getDisplayedName();
+		if (parentName == "")
+			parentName = "a loot crate";
+		
+		// Set hidden attribute on item
+		String lj = player->getFirstName() + " looted this from " + parentName + " at " + location.toString() + " on " + timestamp;
+		tano->setLuaStringData("lj", lj);
+		
+		StringBuffer toLog;
+		toLog << timestamp << "," << account->getAccountID() << "," << account->getUsername() << "," << player->getFirstName() << "," << itemType << ",";
+		toLog << itemName << "," << lootItem->getObjectID() << "," << parentName << "," << location.toString();
+
+		logToFile("log/lumberjack/rareloot.log", toLog.toString());
+	}
+
 private:
 	void getMissionStatistics(StringBuffer& stats) {
 		stats << "Number of completed missions" << endl;

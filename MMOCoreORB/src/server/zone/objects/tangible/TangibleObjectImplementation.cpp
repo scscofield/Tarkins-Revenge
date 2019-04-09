@@ -564,6 +564,11 @@ void TangibleObjectImplementation::fillAttributeList(AttributeListMessage* alm, 
 			alm->insertAttribute( "lock_mechanism", "@obj_attr_n:broken" );
 		}
 	}
+	
+	// Lumberjack
+	Reference<PlayerObject*> ghost = object->getPlayerObject();
+	if (ghost != nullptr && ghost->isStaff() && getLuaStringData("lj") != "")
+		alm->insertAttribute( "manf_attribs", getLuaStringData("lj"));
 }
 
 void TangibleObjectImplementation::setCustomizationVariable(byte type, int16 value, bool notifyClient) {
