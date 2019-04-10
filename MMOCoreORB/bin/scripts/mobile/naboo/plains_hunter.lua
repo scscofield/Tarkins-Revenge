@@ -26,7 +26,7 @@ plains_hunter = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/tusk_cat_hue.iff"},
-	hues = { 24, 25, 26, 27, 28, 29, 30, 31 },
+	hues = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 11, 12, 13, 17, 18, 22, 27, 32, 48, 57, 62, 67, 72, 77, 82 },
 	scale = 1.3,
 	lootGroups = {},
 	weapons = {},
