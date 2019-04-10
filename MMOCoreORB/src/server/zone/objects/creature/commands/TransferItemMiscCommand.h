@@ -205,10 +205,15 @@ public:
 
 		if (notifyLooted) {
 			objectToTransfer->notifyObservers(ObserverEventType::ITEMLOOTED, creature, 0);
+
+			StatisticsManager::instance()->lumberjack(objectToTransfer, creature, objectsParent, 0);
 		}
 
-		if (notifyContainerContentsChanged)
+		if (notifyContainerContentsChanged){
 			objectsParent->notifyObservers(ObserverEventType::CONTAINERCONTENTSCHANGED, creature, 0);
+
+			StatisticsManager::instance()->lumberjack(objectToTransfer, creature, objectsParent, 1);
+		}
 
 		return SUCCESS;
 	}

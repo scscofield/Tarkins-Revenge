@@ -12,6 +12,7 @@ This is a tool that logs player transaction data for review by administrators.
 - **LumberjackVendor:** Value of 0 will disable. Sales values <= this amount will be logged.
 - **LumberjackTradedCredits:** Value of 0 will disable. Trade values <= this amount will be logged.
 - **LumberjackDeleted:** 0 Disables logging of deleted characters.
+- **LumberjackRareLoot:** 0 Disables logging of Legendary and Exceptional loot.
 - **LumberjackTXT:** 0 Disables logging to text files.
 - **LumberjackSQL:** 0 Disables logging to an exteral database.
 
@@ -23,7 +24,8 @@ tips.log
 bazaarsales.log  
 vendorsales.log  
 tradecredits.log  
-deletedcharacters.log**  
+deletedcharacters.log
+rareloot.log**  
 
 You will find examples of each in this wiki directory. All files share the same pattern of data output, but some files have more or less data than others.  
 

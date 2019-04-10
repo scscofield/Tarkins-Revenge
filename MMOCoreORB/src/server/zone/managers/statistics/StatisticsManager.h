@@ -387,6 +387,62 @@ public:
 		}
 	}
 
+	/**
+	 * Logs important loot information
+	 * @param lootItem SceneObject item that is the piece of loot
+	 * @param player CreatureObject of player who looted the item
+	 * @param lootsParent SceneObject "inventory" of container or aiAgent 
+	 * @param level int Exceptional 0, Legendary 1
+	 */
+	void lumberjack(SceneObject* lootItem, CreatureObject* player, SceneObject* lootsParent, int lootType){
+		String itemName = lootItem->getDisplayedName();
+
+		if (!itemName.contains("(Legendary)") && !itemName.contains("(Exceptional)"))
+			return;
+		
+		int logRareLoot = ConfigManager::instance()->getLumberjackRareLoot();
+		
+		if (!logRareLoot)
+			return; 
+			
+		int logToTXT = ConfigManager::instance()->getLumberjackTXT();
+		int logToSQL = ConfigManager::instance()->getLumberjackSQL();
+		
+		ManagedReference<TangibleObject*> tano = lootItem->asTangibleObject();
+		Reference<PlayerObject*> ghost = player->getPlayerObject();
+		ManagedReference<Account*> account = ghost->getAccount();	
+		
+		// Gather data
+		String itemType = "Exceptional";
+		if (lootType == 1)
+			itemType = "Legendary";
+		
+		Time now;
+		String timestamp = now.getFormattedTime();
+		StringBuffer location;
+		location << int(player->getWorldPositionX()) << " " << int(player->getWorldPositionY()) << " " << player->getZone()->getZoneName();
+		
+		String parentName = lootsParent->getParent().get()->getDisplayedName();
+		if (parentName == "")
+			parentName = "a loot crate";
+		
+		// Set hidden attribute on item
+		String lj = player->getFirstName() + " looted this from " + parentName + " at " + location.toString() + " on " + timestamp;
+		tano->setLuaStringData("lj", lj);
+		
+		StringBuffer toLog;
+		toLog << timestamp << "," << account->getAccountID() << "," << account->getUsername() << "," << player->getFirstName() << "," << itemType << ",";
+		toLog << itemName << "," << lootItem->getObjectID() << "," << parentName << "," << location.toString();
+
+		if (logToTXT){
+			logToFile("log/lumberjack/rareloot.log", toLog.toString());
+		}
+		
+		if (logToSQL){
+			// This functionality will be created at a later date. It will push data to separate DB that is dedicated to logging player activity.
+		}
+	}
+
 private:
 	void getMissionStatistics(StringBuffer& stats) {
 		stats << "Number of completed missions" << endl;
