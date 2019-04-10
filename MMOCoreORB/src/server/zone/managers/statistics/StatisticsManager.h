@@ -416,7 +416,7 @@ public:
 		String itemType = "Exceptional";
 		if (lootType == 1)
 			itemType = "Legendary";
-		
+				
 		Time now;
 		String timestamp = now.getFormattedTime();
 		StringBuffer location;
@@ -425,6 +425,13 @@ public:
 		String parentName = lootsParent->getParent().get()->getDisplayedName();
 		if (parentName == "")
 			parentName = "a loot crate";
+			
+		// Prevent resetting original looted info. If item has this value, it has already been logged. This should not occur in normal play.
+		if (tano->getLuaStringData("lj") != ""){
+			String msg = "Lumberjack Error: Second attempt to loot  " + itemName + " with ObjectID " + String::valueOf(lootItem->getObjectID()) + " by " + player->getFirstName() + " using container " + parentName + " at " + location.toString();
+			Logger::console.info(msg, true);
+			return;
+		}	
 		
 		// Set hidden attribute on item
 		String lj = player->getFirstName() + " looted this from " + parentName + " at " + location.toString() + " on " + timestamp;
