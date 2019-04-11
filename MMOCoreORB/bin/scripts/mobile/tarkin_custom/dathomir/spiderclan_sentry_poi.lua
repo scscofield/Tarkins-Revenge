@@ -37,7 +37,7 @@ spiderclan_sentry_poi = Creature:new {
 				{group = "color_crystals", chance = 1700000},
 				{group = "spiderclan_poi_common", chance = 2000000},
 				{group = "melee_weapons", chance = 1600000},
-				{group = "holocron_splinters", chance = 900000},
+				{group = "theme_park_loot_rebel_pirate_holocron", chance = 900000},
 			},
 			lootChance = 10000000
 		},

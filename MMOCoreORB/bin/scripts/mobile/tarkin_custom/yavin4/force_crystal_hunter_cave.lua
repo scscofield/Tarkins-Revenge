@@ -37,7 +37,7 @@ force_crystal_hunter_cave = Creature:new {
 				{group = "color_crystals", chance = 3000000},
 				{group = "wearables_goggles", chance = 500000},
 				{group = "broken_lightsabers", chance = 500000},
-				{group = "holocron_splinters", chance = 500000},
+				{group = "theme_park_loot_rebel_pirate_holocron", chance = 500000},
 				{group = "holocron_dark", chance = 500000},
 				{group = "holocron_light", chance = 500000}
 			},
