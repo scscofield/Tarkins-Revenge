@@ -49,7 +49,7 @@ minion_of_lord_nyax = Creature:new {
 			groups = {
 				{group = "power_crystals", chance = 5000000},
 				{group = "nyax_minions", chance = 4000000},
-				{group = "holocron_splinters", chance = 1000000}
+				{group = "theme_park_loot_rebel_pirate_holocron", chance = 1000000}
 			},
 			lootChance = 50000
 		},
