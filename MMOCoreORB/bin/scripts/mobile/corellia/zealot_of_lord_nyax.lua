@@ -4,13 +4,13 @@ zealot_of_lord_nyax = Creature:new {
 	randomNameTag = true,
 	socialGroup = "followers_of_lord_nyax",
 	faction = "followers_of_lord_nyax",
-	level = 110,
-	chanceHit = 0.90,
+	level = 25,
+	chanceHit = 0.35,
 	damageMin = 250,
-	damageMax = 450,
-	baseXp = 9637,
-	baseHAM = 40100,
-	baseHAMmax = 45000,
+	damageMax = 260,
+	baseXp = 2637,
+	baseHAM = 4100,
+	baseHAMmax = 5000,
 	armor = 0,
 	resists = {10,50,-1,40,-1,-1,40,-1,-1},
 	meatType = "",
@@ -31,33 +31,17 @@ zealot_of_lord_nyax = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 5000000},
-				{group = "melee_two_handed", chance = 1500000},
-				{group = "color_crystals", chance = 2000000},
-				{group = "printer_parts", chance = 1500000}
-			},
-			lootChance = 10000000
-		},
-		{
-			groups = {
-				{group = "armor_attachments", chance = 5000000},
-   		       		{group = "clothing_attachments", chance = 5000000}
-			},
-			lootChance = 300000
-		},
-		{
-			groups = {
-				{group = "power_crystals", chance = 5000000},
-				{group = "nyax_minions", chance = 4000000},
-				{group = "theme_park_loot_rebel_pirate_holocron", chance = 1000000}
-			},
-			lootChance = 300000
+				{group = "junk", chance = 7000000},
+				{group = "pistols", chance = 1000000},
+				{group = "rifles", chance = 1000000},
+				{group = "carbines", chance = 1000000}
+			}
 		}
 	},
-	weapons = {"aakuan_assassin_weapon"},
+	weapons = {"pirate_weapons_heavy"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = merge(riflemanmaster,tkamaster)
+	attacks = merge(brawlermaster,marksmanmaster)
 }
 
 CreatureTemplates:addCreatureTemplate(zealot_of_lord_nyax, "zealot_of_lord_nyax")

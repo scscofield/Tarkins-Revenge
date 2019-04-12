@@ -2,15 +2,15 @@ lord_nyax = Creature:new {
 	objectName = "@mob/creature_names:lord_nyax",
 	socialGroup = "followers_of_lord_nyax",
 	faction = "followers_of_lord_nyax",
-	level = 160,
-	chanceHit = 5.3,
+	level = 129,
+	chanceHit = 4.9,
 	damageMin = 775,
 	damageMax = 1260,
-	baseXp = 15235,
-	baseHAM = 58000,
-	baseHAMmax = 81000,
+	baseXp = 12235,
+	baseHAM = 51000,
+	baseHAMmax = 62000,
 	armor = 2,
-	resists = {80,45,40,20,50,90,10,15,5},
+	resists = {80,45,40,20,50,100,10,15,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -29,31 +29,18 @@ lord_nyax = Creature:new {
 	lootGroups = {
 		{
 		groups = {
-				{group = "nyax", chance = 5000000},
-				{group = "power_crystals", chance = 5000000}
-			},
-			lootChance = 10000000
-		},
-		{
-			groups = {
-				{group = "armor_attachments", chance = 5000000},
-   		     	    	{group = "clothing_attachments", chance = 5000000}
-			},
-			lootChance = 7000000
-		},
-		{
-			groups = {
-				{group = "power_crystals", chance = 5000000},
-				{group = "nyax_minions", chance = 4000000},
-				{group = "theme_park_loot_rebel_pirate_holocron", chance = 1000000}
-			},
-			lootChance = 1500000
+				{group = "junk", chance = 4000000},
+				{group = "nyax", chance = 3000000},
+				{group = "grenades_looted", chance = 1000000},
+				{group = "armor_attachments", chance = 1000000},
+				{group = "clothing_attachments", chance = 1000000}
+			}
 		}
 	},
 	weapons = {"nyaxs_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = merge(swordsmanmaster)
+	attacks = merge(marksmanmaster,riflemanmaster,carbineermaster,brawlermaster,swordsmanmaster)
 }
 
 CreatureTemplates:addCreatureTemplate(lord_nyax, "lord_nyax")

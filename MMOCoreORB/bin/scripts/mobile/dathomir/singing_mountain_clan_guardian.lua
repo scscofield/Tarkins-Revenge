@@ -31,20 +31,22 @@ singing_mountain_clan_guardian = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "smc_rare", chance = 1000000},
-				{group = "power_crystals", chance = 500000},
-				{group = "color_crystals", chance = 500000},
-				{group = "armor_attachments", chance = 450000},
-				{group = "clothing_attachments", chance = 450000},
-				{group = "melee_weapons", chance = 1025000},
-				{group = "rifles", chance = 1025000},
-				{group = "pistols", chance = 1025000},
-				{group = "carbines", chance = 1025000},
-				{group = "smc_clothing", chance = 3000000}
-			},
-			lootChance = 7000000
-		}
-	},
+				{group = "junk", chance = 1500000},
+                		{group = "power_crystals", chance = 500000},
+                		{group = "color_crystals", chance = 500000},
+                		{group = "armor_attachments", chance = 450000},
+                		{group = "clothing_attachments", chance = 450000},
+                		{group = "melee_weapons", chance = 1025000},
+                		{group = "rifles", chance = 1025000},
+                		{group = "pistols", chance = 1025000},
+                		{group = "carbines", chance = 1025000},
+                		{group = "smc_clothing", chance = 2435000},
+                		{group = "smc_armor", chance = 550000},
+                		{group = "smc_rare", chance = 90000},
+                		{group = "deed_voucher", chance = 25000}                                           
+            		}
+        	}
+    	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",
 	attacks = merge(brawlermaster,pikemanmaster,forcewielder)

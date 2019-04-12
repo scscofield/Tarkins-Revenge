@@ -4,15 +4,15 @@ visionary_of_lord_nyax = Creature:new {
 	randomNameTag = true,
 	socialGroup = "followers_of_lord_nyax",
 	faction = "followers_of_lord_nyax",
-	level = 120,
-	chanceHit = 1,
+	level = 31,
+	chanceHit = 0.38,
 	damageMin = 280,
-	damageMax = 500,
-	baseXp = 10188,
-	baseHAM = 45300,
-	baseHAMmax = 48100,
-	armor = 1,
-	resists = {30,45,10,50,40,10,50,-1,-1},
+	damageMax = 290,
+	baseXp = 3188,
+	baseHAM = 8300,
+	baseHAMmax = 10100,
+	armor = 0,
+	resists = {30,45,0,50,-1,-1,50,-1,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,38 +33,17 @@ visionary_of_lord_nyax = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 5000000},
-				{group = "melee_two_handed", chance = 1500000},
-				{group = "color_crystals", chance = 2000000},
-				{group = "printer_parts", chance = 1500000}
-			},
-			lootChance = 10000000
-		},
-		{
-			groups = {
-				{group = "armor_attachments", chance = 5000000},
-   		            	{group = "clothing_attachments", chance = 5000000}
-			},
-			lootChance = 300000
-		},
-		{
-			groups = {
-				{group = "power_crystals", chance = 5000000},
-				{group = "nyax_minions", chance = 4000000},
-				{group = "theme_park_loot_rebel_pirate_holocron", chance = 1000000}
-			},
-			lootChance = 300000
-		},
+				{group = "junk", chance = 7000000},
+				{group = "pistols", chance = 1000000},
+				{group = "rifles", chance = 1000000},
+				{group = "carbines", chance = 1000000}
+			}
+		}
 	},
-	weapons = {"aakuan_pistol_weapons"},
+	weapons = {"ranged_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = {
-		{"creatureareaknockdown","knockdownChance=50"},
-		{"creatureareacombo",""},
-		{"dizzyattack","dizzyChance=50"},
-		{"blindattack","blindChance=50"},
- 	}
+	attacks = merge(brawlermaster,marksmanmaster)
 }
 
 CreatureTemplates:addCreatureTemplate(visionary_of_lord_nyax, "visionary_of_lord_nyax")
