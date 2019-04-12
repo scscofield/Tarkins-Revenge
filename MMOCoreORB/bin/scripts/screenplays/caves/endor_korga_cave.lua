@@ -16,11 +16,11 @@ EndorKorgaCaveScreenPlay = ScreenPlay:new {
 		{
 			groups = {
 				{group = "korga_common", chance = 2500000},
-				{group = "deed_voucher", chance = 1000000},
+				{group = "deed_voucher", chance = 10000},
 				{group = "forage_medical_component", chance = 1500000},
-				{group = "clothing_attachments", chance = 2000000},
-				{group = "wookiee_loot_common", chance = 1000000},
-				{group = "armor_attachments", chance = 2000000}
+				{group = "clothing_attachments", chance = 200000},
+				{group = "wookiee_loot_common", chance = 5590000},
+				{group = "armor_attachments", chance = 200000}
 			},
 			lootChance = 10000000
 		}

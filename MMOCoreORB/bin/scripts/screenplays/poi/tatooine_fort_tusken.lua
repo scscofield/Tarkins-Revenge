@@ -16,14 +16,14 @@ FortTuskenScreenPlay = ScreenPlay:new {
 	lootGroups = {
 		{
 			groups = {
---				{group = "color_crystals", chance = 3500000},
-				{group = "tusken_common", chance = 2000000},
-				{group = "rifles", chance = 1500000},
-				{group = "pistols", chance = 1500000},
-				{group = "nge_house_sand_crawler", chance = 1000000},
-				{group = "clothing_attachments", chance = 1700000},
-				{group = "armor_attachments", chance = 1700000},
-				{group = "deed_voucher", chance = 600000}
+				{group = "color_crystals", chance = 1800000},
+				{group = "tusken_common", chance = 2850000},
+				{group = "rifles", chance = 2100000},
+				{group = "pistols", chance = 2100000},
+				{group = "nge_house_sand_crawler", chance = 500000},
+				{group = "clothing_attachments", chance = 300000},
+				{group = "armor_attachments", chance = 300000},
+				{group = "deed_voucher", chance = 50000}
 			},
 			lootChance = 10000000
 		}

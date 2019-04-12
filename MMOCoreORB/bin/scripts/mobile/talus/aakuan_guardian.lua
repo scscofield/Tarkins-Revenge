@@ -4,15 +4,15 @@ aakuan_guardian = Creature:new {
 	randomNameTag = true,
 	socialGroup = "aakuans",
 	faction = "aakuans",
-	level = 50,
-	chanceHit = 0.42,
+	level = 25,
+	chanceHit = 0.35,
 	damageMin = 220,
 	damageMax = 230,
-	baseXp = 6637,
-	baseHAM = 35400,
-	baseHAMmax = 37000,
-	armor = 1,
-	resists = {60,60,30,20,55,40,40,50,-1},
+	baseXp = 2637,
+	baseHAM = 5400,
+	baseHAMmax = 6600,
+	armor = 0,
+	resists = {30,30,10,10,10,10,10,10,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,22 +33,19 @@ aakuan_guardian = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 3400000},
+				{group = "junk", chance = 4000000},
+				{group = "wearables_all", chance = 1000000},
+				{group = "data_storage_unit_parts", chance = 1600000},
 				{group = "aakuan_common", chance = 2300000},
-				{group = "armor_attachments", chance = 800000},
-				{group = "clothing_attachments", chance = 800000},
-				{group = "rifles", chance = 900000},
-				{group = "carbines", chance = 900000},
-				{group = "pistols", chance = 900000},
-				{group = "aakuan_rare", chance = 200000}
-			},
-		    lootChance = 3000000
+				{group = "armor_attachments", chance = 500000},
+				{group = "clothing_attachments", chance = 600000}
+			}
 		}
 	},
-	weapons = {"aakuan_1h_weapons"},
+	weapons = {"melee_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = fencermaster
+	attacks = merge(brawlermaster,swordsmanmaster)
 }
 
 CreatureTemplates:addCreatureTemplate(aakuan_guardian, "aakuan_guardian")

@@ -21,15 +21,15 @@ NabooPirateBunkerScreenPlay = ScreenPlay:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "color_crystals", chance = 600000},
+				{group = "color_crystals", chance = 1050000},
 				{group = "junk", chance = 5000000},
-				{group = "clothing_attachments", chance = 500000},
-				{group = "armor_attachments", chance = 500000},
+				{group = "clothing_attachments", chance = 200000},
+				{group = "armor_attachments", chance = 200000},
 				{group = "pirate_bunker_common", chance = 1050000},
-				{group = "misc_decoloot_schemes", chance = 750000},
+				{group = "misc_decoloot_schemes", chance = 950000},
 				{group = "generic_consoles", chance = 750000},
 				{group = "generic_tech", chance = 750000},
-				{group = "deed_voucher", chance = 100000}
+				{group = "deed_voucher", chance = 50000}
 			},
 			lootChance = 8000000
 		}

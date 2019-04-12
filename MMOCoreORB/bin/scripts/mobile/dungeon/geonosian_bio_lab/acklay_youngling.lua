@@ -33,7 +33,7 @@ acklay_youngling = Creature:new {
 			groups = {
 				{group = "deed_voucher", chance = 10000000}
 			},
-			lootChance = 750000
+			lootChance = 75000
 		},
 		{
 			groups = {
