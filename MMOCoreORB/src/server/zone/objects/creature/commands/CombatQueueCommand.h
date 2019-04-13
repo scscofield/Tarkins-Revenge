@@ -182,7 +182,7 @@ public:
 				if (ghost->isAFK())
 					return GENERALERROR;
 
-			/*	ManagedReference<TangibleObject*> targetTano = targetObject.castTo<TangibleObject*>();
+				ManagedReference<TangibleObject*> targetTano = targetObject.castTo<TangibleObject*>();
 
 				if (targetTano != NULL && creature->getFaction() != 0 && targetTano->getFaction() != 0 && targetTano->getFaction() != creature->getFaction() && creature->getFactionStatus() != FactionStatus::OVERT) {
 					if (targetTano->isCreatureObject()) {
@@ -208,10 +208,10 @@ public:
 							ghost->doFieldFactionChange(FactionStatus::COVERT);
 						else if ((targetTano->getPvpStatusBitmask() & CreatureFlag::OVERT))
 							ghost->doFieldFactionChange(FactionStatus::OVERT);
-					} 
-				}*/
+					}
+				}
 			}
-		} 
+		}
 
 		if (creature->isKneeling() && weapon->isMeleeWeapon() && !(poolsToDamage == 0) && !weapon->isJediWeapon())
 			return NOKNEELING;

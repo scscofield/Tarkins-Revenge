@@ -4,15 +4,15 @@ aakuan_sentinel = Creature:new {
 	randomNameTag = true,
 	socialGroup = "aakuans",
 	faction = "aakuans",
-	level = 17,
-	chanceHit = 0.31,
+	level = 35,
+	chanceHit = 0.37,
 	damageMin = 170,
 	damageMax = 180,
-	baseXp = 1257,
-	baseHAM = 4100,
-	baseHAMmax = 5000,
-	armor = 0,
-	resists = {0,0,0,0,0,0,0,0,-1},
+	baseXp = 5257,
+	baseHAM = 24100,
+	baseHAMmax = 30000,
+	armor = 1,
+	resists = {30,30,30,20,40,50,10,50,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,19 +33,22 @@ aakuan_sentinel = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 4000000},
-				{group = "wearables_all", chance = 1000000},
-				{group = "data_storage_unit_parts", chance = 1600000},
+				{group = "junk", chance = 3400000},
 				{group = "aakuan_common", chance = 2300000},
-				{group = "armor_attachments", chance = 500000},
-				{group = "clothing_attachments", chance = 600000}
-			}
+				{group = "armor_attachments", chance = 800000},
+				{group = "clothing_attachments", chance = 800000},
+				{group = "rifles", chance = 900000},
+				{group = "carbines", chance = 900000},
+				{group = "pistols", chance = 900000},
+				{group = "aakuan_rare", chance = 200000}
+			},
+		    lootChance = 3000000
 		}
 	},
-	weapons = {"melee_weapons"},
+	weapons = {"aakuan_carbine_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = brawlermaster
+	attacks = carbineermaster
 }
 
 CreatureTemplates:addCreatureTemplate(aakuan_sentinel, "aakuan_sentinel")

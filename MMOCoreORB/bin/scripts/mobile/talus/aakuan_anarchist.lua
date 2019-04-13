@@ -5,15 +5,15 @@ aakuan_anarchist = Creature:new {
 	customName = "an Aa'kuan Anarchist",
 	socialGroup = "aakuans",
 	faction = "aakuans",
-	level = 30,
-	chanceHit = 0.39,
+	level = 80,
+	chanceHit = 0.45,
 	damageMin = 290,
 	damageMax = 300,
-	baseXp = 3097,
-	baseHAM = 8400,
-	baseHAMmax = 10200,
-	armor = 0,
-	resists = {30,30,0,0,-1,-1,0,-1,-1},
+	baseXp = 8097,
+	baseHAM = 35000,
+	baseHAMmax = 48000,
+	armor = 1,
+	resists = {75,75,60,40,70,25,25,40,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -34,16 +34,19 @@ aakuan_anarchist = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 4000000},
-				{group = "wearables_all", chance = 1000000},
-				{group = "data_storage_unit_parts", chance = 1600000},
-				{group = "aakuan_common", chance = 2300000},
-				{group = "armor_attachments", chance = 500000},
-				{group = "clothing_attachments", chance = 600000}
-			}
+				{group = "junk", chance = 1280000},
+				{group = "aakuan_common", chance = 2480000},
+				{group = "armor_attachments", chance = 1100000},
+				{group = "clothing_attachments", chance = 1100000},
+				{group = "rifles", chance = 1280000},
+				{group = "carbines", chance = 1280000},
+				{group = "pistols", chance = 1280000},
+				{group = "aakuan_rare", chance = 200000}
+			},
+		    lootChance = 3000000
 		}
 	},
-	weapons = {"melee_weapons"},
+	weapons = {"aakuan_anarchist_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
 	attacks = merge(brawlermaster,swordsmanmaster)

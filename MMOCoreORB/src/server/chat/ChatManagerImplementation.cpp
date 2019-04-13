@@ -972,7 +972,7 @@ void ChatManagerImplementation::broadcastGalaxy(const String& message, const Str
 }
 
 void ChatManagerImplementation::broadcastGalaxy(CreatureObject* player, const String& message) {
-	String firstName = "IMPERIAL BROADCAST AUTHORITY";
+	String firstName = "SKYNET";
 
 	if (player != NULL)
 		firstName = player->getFirstName();

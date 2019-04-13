@@ -4,15 +4,15 @@ aakuan_defender = Creature:new {
 	randomNameTag = true,
 	socialGroup = "aakuans",
 	faction = "aakuans",
-	level = 23,
-	chanceHit = 0.33,
+	level = 50,
+	chanceHit = 0.4,
 	damageMin = 190,
 	damageMax = 200,
-	baseXp = 2443,
-	baseHAM = 5000,
-	baseHAMmax = 6100,
-	armor = 0,
-	resists = {35,35,-1,10,10,-1,10,-1,-1},
+	baseXp = 6443,
+	baseHAM = 35000,
+	baseHAMmax = 38000,
+	armor = 21,
+	resists = {30,30,60,70,35,30,30,10,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,19 +33,22 @@ aakuan_defender = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 4000000},
-				{group = "wearables_all", chance = 1000000},
-				{group = "data_storage_unit_parts", chance = 1600000},
+				{group = "junk", chance = 3400000},
 				{group = "aakuan_common", chance = 2300000},
-				{group = "armor_attachments", chance = 500000},
-				{group = "clothing_attachments", chance = 600000}
-			}
+				{group = "armor_attachments", chance = 800000},
+				{group = "clothing_attachments", chance = 800000},
+				{group = "rifles", chance = 900000},
+				{group = "carbines", chance = 900000},
+				{group = "pistols", chance = 900000},
+				{group = "aakuan_rare", chance = 200000}
+			},
+		    lootChance = 3000000
 		}
 	},
-	weapons = {"melee_weapons"},
+	weapons = {"aakuan_pistol_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = brawlermaster
+	attacks = pistoleermaster
 }
 
 CreatureTemplates:addCreatureTemplate(aakuan_defender, "aakuan_defender")

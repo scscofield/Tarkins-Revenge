@@ -31,21 +31,17 @@ singing_mountain_clan_councilwoman = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 1500000},
-                		{group = "power_crystals", chance = 500000},
-             		  	{group = "color_crystals", chance = 500000},
-                		{group = "armor_attachments", chance = 600000},
-                		{group = "clothing_attachments", chance = 600000},
-                		{group = "melee_weapons", chance = 900000},
-                		{group = "rifles", chance = 900000},
-                		{group = "pistols", chance = 900000},
-                		{group = "carbines", chance = 900000},
-                		{group = "smc_clothing", chance = 2000000},
-                		{group = "smc_armor", chance = 550000},
-                		{group = "smc_rare", chance = 100000},
-                		{group = "deed_voucher", chance = 50000}                                           
-            		}
-         	}
+				{group = "smc_rare", chance = 1000000},
+				{group = "smc_armor", chance = 1000000},
+				{group = "smc_clothing", chance = 3000000},
+				{group = "power_crystals", chance = 750000},
+				{group = "color_crystals", chance = 750000},
+				{group = "armor_attachments", chance = 1250000},
+				{group = "clothing_attachments", chance = 1250000},
+				{group = "deed_voucher", chance = 1000000}
+			},
+			lootChance = 6500000
+		}
 	},
 	weapons = {"mixed_force_weapons"},
 	conversationTemplate = "",

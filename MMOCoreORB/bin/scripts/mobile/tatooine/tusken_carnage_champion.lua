@@ -44,9 +44,9 @@ tusken_carnage_champion = Creature:new {
 		},
 		{
 			groups = {
-				{group = "power_crystals", chance = 6750000},
-				{group = "nge_house_sand_crawler", chance = 2750000},
-				{group = "deed_voucher", chance = 500000}
+				{group = "power_crystals", chance = 5000000},
+				{group = "nge_house_sand_crawler", chance = 2500000},
+				{group = "deed_voucher", chance = 2500000}
 			},
 			lootChance = 2500000
 		}

@@ -31,15 +31,15 @@ jawa_warlord_poi = Creature:new {
 	lootGroups = {
 	    {
 			groups = {
-				{group = "jawa_common", chance = 4060000},
-				{group = "armor_all", chance = 1700000},
-				{group = "tailor_components", chance = 1400000},
-				{group = "loot_kit_parts", chance = 1700000},
-				{group = "jawa_rare", chance = 100000},
-				{group = "deed_voucher", chance = 40000},
-				{group = "clothing_attachments", chance = 100000},
-				{group = "clothing_attachments", chance = 100000},
-				{group = "color_crystals", chance = 800000}
+				{group = "jawa_common", chance = 3000000},
+				{group = "armor_all", chance = 800000},
+				{group = "tailor_components", chance = 1000000},
+				{group = "loot_kit_parts", chance = 1000000},
+				{group = "jawa_rare", chance = 1000000},
+				{group = "deed_voucher", chance = 500000},
+				{group = "clothing_attachments", chance = 1250000},
+				{group = "clothing_attachments", chance = 1250000},
+				{group = "color_crystals", chance = 200000}
 			},
 			lootChance = 7000000
 		}					

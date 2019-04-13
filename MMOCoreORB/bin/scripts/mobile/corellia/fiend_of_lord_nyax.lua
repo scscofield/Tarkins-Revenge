@@ -2,15 +2,15 @@ fiend_of_lord_nyax = Creature:new {
 	objectName = "@mob/creature_names:lord_nyax_fiend",
 	socialGroup = "followers_of_lord_nyax",
 	faction = "followers_of_lord_nyax",
-	level = 29,
-	chanceHit = 0.36,
+	level = 90,
+	chanceHit = 0.8,
 	damageMin = 305,
 	damageMax = 320,
-	baseXp = 3005,
-	baseHAM = 5000,
-	baseHAMmax = 6100,
-	armor = 0,
-	resists = {30,45,0,50,-1,-1,50,-1,-1},
+	baseXp = 8005,
+	baseHAM = 35000,
+	baseHAMmax = 37100,
+	armor = 1,
+	resists = {40,65,10,50,-1,-1,50,60,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -29,17 +29,32 @@ fiend_of_lord_nyax = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 7000000},
-				{group = "pistols", chance = 1000000},
-				{group = "rifles", chance = 1000000},
-				{group = "carbines", chance = 1000000}
-			}
-		}
+				{group = "junk", chance = 5000000},
+				{group = "melee_two_handed", chance = 1500000},
+				{group = "color_crystals", chance = 2000000},
+				{group = "printer_parts", chance = 1500000}
+			},
+			lootChance = 10000000
+		},
+		{
+			groups = {
+				{group = "armor_attachments", chance = 5000000},
+   		            	{group = "clothing_attachments", chance = 5000000}
+			},
+			lootChance = 200000
+		},
+		{
+			groups = {
+				{group = "power_crystals", chance = 5500000},
+				{group = "nyax_minions", chance = 4500000}
+			},
+			lootChance = 200000
+		},
 	},
-	weapons = {"pirate_weapons_heavy"},
+	weapons = {"aakuan_rifle_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = merge(brawlermaster,marksmanmaster)
+	attacks = merge(riflemanmaster)
 }
 
 CreatureTemplates:addCreatureTemplate(fiend_of_lord_nyax, "fiend_of_lord_nyax")

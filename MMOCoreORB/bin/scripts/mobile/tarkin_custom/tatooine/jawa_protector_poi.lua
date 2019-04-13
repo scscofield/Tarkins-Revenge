@@ -31,15 +31,15 @@ jawa_protector_poi = Creature:new {
 	lootGroups = {
 	    {
 			groups = {
-				{group = "jawa_common", chance = 4000000},
-				{group = "armor_all", chance = 1500000},
+				{group = "jawa_common", chance = 3000000},
+				{group = "armor_all", chance = 800000},
 				{group = "tailor_components", chance = 1000000},
-				{group = "loot_kit_parts", chance = 1050000},
+				{group = "loot_kit_parts", chance = 1000000},
 				{group = "jawa_rare", chance = 1000000},
-				{group = "deed_voucher", chance = 50000},
-				{group = "clothing_attachments", chance = 300000},
-				{group = "armor_attachments", chance = 300000},
-				{group = "color_crystals", chance = 800000}
+				{group = "deed_voucher", chance = 500000},
+				{group = "clothing_attachments", chance = 1250000},
+				{group = "clothing_attachments", chance = 1250000},
+				{group = "color_crystals", chance = 200000}
 			},
 			lootChance = 7000000
 		}				

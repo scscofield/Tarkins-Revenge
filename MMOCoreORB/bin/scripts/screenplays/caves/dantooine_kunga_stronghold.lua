@@ -15,12 +15,12 @@ KungaStrongholdScreenPlay = ScreenPlay:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "color_crystals", chance = 550000},
+				{group = "color_crystals", chance = 500000},
 				{group = "junk", chance = 8300000},
 				{group = "kunga_common", chance = 500000},
-				{group = "deed_voucher", chance = 50000},
+				{group = "deed_voucher", chance = 100000},
 				{group = "clothing_attachments", chance = 300000},
-				{group = "armor_attachments", chance = 300000}
+				{group = "armor_attachments", chance = 300000},
 			},
 			lootChance = 8000000
 		}					

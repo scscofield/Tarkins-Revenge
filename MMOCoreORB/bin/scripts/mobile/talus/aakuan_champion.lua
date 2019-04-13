@@ -4,15 +4,15 @@ aakuan_champion = Creature:new {
 	randomNameTag = true,
 	socialGroup = "aakuans",
 	faction = "aakuans",
-	level = 30,
-	chanceHit = 0.39,
+	level = 130,
+	chanceHit = 0.65,
 	damageMin = 290,
 	damageMax = 300,
-	baseXp = 3097,
-	baseHAM = 8400,
-	baseHAMmax = 10200,
-	armor = 0,
-	resists = {30,30,0,0,-1,-1,0,-1,-1},
+	baseXp = 15097,
+	baseHAM = 50000,
+	baseHAMmax = 65000,
+	armor = 3,
+	resists = {60,60,30,20,40,35,60,35,1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,15 +33,18 @@ aakuan_champion = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "junk", chance = 4000000},
-				{group = "data_storage_unit_parts", chance = 2000000},
-				{group = "aakuan_common", chance = 2600000},
-				{group = "armor_attachments", chance = 600000},
-				{group = "clothing_attachments", chance = 800000}
-			}
+				{group = "clothing_attachments", chance = 1730000},
+				{group = "aakuan_common", chance = 390000},
+				{group = "armor_attachments", chance = 1730000},
+				{group = "rifles", chance = 2050000},
+				{group = "carbines", chance = 1850000},
+				{group = "pistols", chance = 2050000},
+				{group = "aakuan_rare", chance = 200000}
+			},
+		    lootChance = 5000000
 		}
 	},
-	weapons = {"melee_weapons"},
+	weapons = {"aakuan_champion_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
 	attacks = merge(brawlermaster,swordsmanmaster)
