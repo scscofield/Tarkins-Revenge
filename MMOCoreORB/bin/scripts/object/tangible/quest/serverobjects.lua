@@ -54,4 +54,5 @@ includeFile("tangible/quest/r_naktra_crystals.lua")
 includeFile("tangible/quest/som_kenobi_final_force_crystal.lua")
 includeFile("tangible/quest/som_kenobi_final_force_crystal.lua")
 includeFile("tangible/quest/blooming_sapflower.lua")
+includeFile("tangible/quest/naboo_theed_xharnoh_plant.lua")
 
