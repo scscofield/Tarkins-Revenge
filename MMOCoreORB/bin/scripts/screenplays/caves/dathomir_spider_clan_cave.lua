@@ -21,11 +21,11 @@ SpiderClanCaveScreenPlay = ScreenPlay:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "spiderclan_poi_common", chance = 2900000},
-				{group = "rifles", chance = 2000000},
-				{group = "pistols", chance = 2000000},
-				{group = "clothing_attachments", chance = 1500000},
-				{group = "armor_attachments", chance = 1500000},
+				{group = "spiderclan_poi_common", chance = 4000000},
+				{group = "rifles", chance = 2500000},
+				{group = "pistols", chance = 2600000},
+				{group = "clothing_attachments", chance = 400000},
+				{group = "armor_attachments", chance = 400000},
 				{group = "deed_voucher", chance = 100000}
 			},
 			lootChance = 8000000

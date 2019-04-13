@@ -4,15 +4,15 @@ aakuan_warder = Creature:new {
 	randomNameTag = true,
 	socialGroup = "aakuans",
 	faction = "aakuans",
-	level = 95,
-	chanceHit = 0.5,
+	level = 29,
+	chanceHit = 0.37,
 	damageMin = 260,
 	damageMax = 270,
-	baseXp = 10005,
-	baseHAM = 45000,
-	baseHAMmax = 55000,
-	armor = 2,
-	resists = {45,45,45,45,45,45,45,45,-1},
+	baseXp = 3005,
+	baseHAM = 8100,
+	baseHAMmax = 9900,
+	armor = 0,
+	resists = {30,30,15,15,15,-1,15,15,-1},
 	meatType = "",
 	meatAmount = 0,
 	hideType = "",
@@ -33,21 +33,19 @@ aakuan_warder = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "aakuan_common", chance = 2500000},
-				{group = "armor_attachments", chance = 1400000},
-				{group = "clothing_attachments", chance = 1400000},
-				{group = "rifles", chance = 1500000},
-				{group = "carbines", chance = 1500000},
-				{group = "pistols", chance = 1500000},
-				{group = "aakuan_rare", chance = 200000}
-			},
-		    lootChance = 4000000
+				{group = "junk", chance = 4000000},
+				{group = "wearables_all", chance = 1000000},
+				{group = "data_storage_unit_parts", chance = 1600000},
+				{group = "aakuan_common", chance = 2300000},
+				{group = "armor_attachments", chance = 500000},
+				{group = "clothing_attachments", chance = 600000}
+			}
 		}
 	},
-	weapons = {"aakuan_warder_weapons"},
+	weapons = {"melee_weapons"},
 	conversationTemplate = "",
 	reactionStf = "@npc_reaction/fancy",
-	attacks = merge(swordsmanmaster,carbineermaster)
+	attacks = merge(brawlermaster,swordsmanmaster)
 }
 
 CreatureTemplates:addCreatureTemplate(aakuan_warder, "aakuan_warder")

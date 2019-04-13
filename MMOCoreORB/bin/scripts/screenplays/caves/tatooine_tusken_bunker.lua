@@ -15,13 +15,13 @@ TuskenBunkerScreenPlay = ScreenPlay:new {
 	lootGroups = {
 		{
 			groups = {
---				{group = "color_crystals", chance = 160000},
+				{group = "color_crystals", chance = 1190000},
 				{group = "tusken_common", chance = 3000000},
 				{group = "rifles", chance = 2500000},
 				{group = "pistols", chance = 2500000},
-				{group = "clothing_attachments", chance = 750000},
-				{group = "armor_attachments", chance = 750000},
-				{group = "deed_voucher", chance = 500000}
+				{group = "clothing_attachments", chance = 300000},
+				{group = "armor_attachments", chance = 300000},
+				{group = "deed_voucher", chance = 50000}
 			},
 			lootChance = 10000000
 		}
