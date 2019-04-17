@@ -831,9 +831,28 @@ void AuctionManagerImplementation::doInstantBuy(CreatureObject* player, AuctionI
 	}
 
 	locker.release();
+	
+	// Skim % of vendor sale into vendor maint
+	int skim = 0;
+	
+	if (!item->isOnBazaar() && item->getPrice() > 10){
+		VendorDataComponent* vendorData = NULL;
+		DataObjectComponentReference* data = vendor->getDataObjectComponent();
+		if(data != NULL && data->get() != NULL && data->get()->isVendorData())
+			vendorData = cast<VendorDataComponent*>(data->get());
+
+		if(vendorData != NULL){
+			skim = item->getPrice() * 0.05; // 5%
+			
+			if(skim > 100000) // Respecting hard cap in VendorData handlePayMaintanence()
+				skim = 100000;
+				
+			vendorData->skimMaintanence(skim);
+		}
+	}
 
 	Locker slocker(seller);
-	seller->addBankCredits(item->getPrice() - tax);
+	seller->addBankCredits(item->getPrice() - tax - skim);
 	slocker.release();
 
 
