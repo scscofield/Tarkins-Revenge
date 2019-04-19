@@ -141,6 +141,7 @@ function badEasterBunnyTerrorScreenPlay:notifyBunnyDead(pBunny, pKiller)
 
 	--If the event days are over, don't respawn any more bunnies
 	if (getFormattedTime():find("Thu Apr 18") == nil) and
+	   (getFormattedTime():find("Fri Apr 19") == nil) and
            (getFormattedTime():find("Sat Apr 20") == nil) and
 	   (getFormattedTime():find("Sun Apr 21") == nil) and
 	   (getFormattedTime():find("Mon Apr 22") == nil) then 
