@@ -249,3 +249,7 @@ includeFile("tarkin_custom/corellia/minion_of_lord_nyax_poi.lua")
 includeFile("tarkin_custom/corellia/servant_of_lord_nyax_poi.lua")
 includeFile("tarkin_custom/corellia/visionary_of_lord_nyax_poi.lua")
 includeFile("tarkin_custom/corellia/zealot_of_lord_nyax_poi.lua")
+
+--Event Mobiles
+includeFile("tarkin_custom/event/easterbunny.lua")
+includeFile("tarkin_custom/event/badeasterbunny.lua")
