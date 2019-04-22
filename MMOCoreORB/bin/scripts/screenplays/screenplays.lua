@@ -713,4 +713,4 @@ includeFile("military/rebel/dantooine_abandoned_rebel_base.lua")
 includeFile("caves/yavin4_temple_exar_kun.lua")
 
 --Tarkin Custom Event
-includeFile("events/tarkin_custom/bad_easter_bunny_terror.lua")
+--includeFile("events/tarkin_custom/bad_easter_bunny_terror.lua")
