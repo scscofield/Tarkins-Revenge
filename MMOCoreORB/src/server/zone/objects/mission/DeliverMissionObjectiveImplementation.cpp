@@ -16,6 +16,7 @@
 #include "server/zone/managers/planet/PlanetManager.h"
 #include "server/zone/objects/mission/MissionObject.h"
 #include "server/zone/objects/creature/ai/AiAgent.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void DeliverMissionObjectiveImplementation::activate() {
 	if (activated) {
@@ -217,6 +218,8 @@ void DeliverMissionObjectiveImplementation::updateMissionStatus(CreatureObject* 
 
 		item->destroyObjectFromWorld(true);
 		item->destroyObjectFromDatabase(true);
+		
+		//StatisticsManager::instance()->lumberjack(player, nullptr, mission->getRewardCredits(), MissionTypes::DELIVER);
 
 		complete();
 

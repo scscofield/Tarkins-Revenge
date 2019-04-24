@@ -22,6 +22,7 @@
 #include "server/zone/objects/mission/bountyhunter/BountyHunterDroid.h"
 #include "server/zone/objects/mission/bountyhunter/events/BountyHunterTargetTask.h"
 #include "server/zone/managers/visibility/VisibilityManager.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void BountyMissionObjectiveImplementation::setNpcTemplateToSpawn(SharedObjectTemplate* sp) {
 	npcTemplateToSpawn = sp;
@@ -523,6 +524,9 @@ void BountyMissionObjectiveImplementation::handleNpcTargetKilled(Observable* obs
 	GroupObject* group = owner->getGroup();
 
 	if (lootOwnerID == owner->getObjectID() || (group != NULL && lootOwnerID == group->getObjectID())) {
+		ManagedReference<MissionObject* > mission = this->mission.get();
+		//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::BOUNTY);
+		
 		//Target killed by player, complete mission.
 		complete();
 	} else {
@@ -686,26 +690,27 @@ void BountyMissionObjectiveImplementation::handlePlayerKilled(ManagedObject* arg
 						break;
 						}
 					}
-	if (trophy != NULL) {
-		Locker locker(trophy);
+					
+					if (trophy != NULL) {
+						Locker locker(trophy);
 
-		// Rename the broken lightsaber after the defeated Jedi, and give it to the victorious bounty hunter
-		if (inventory->transferObject(trophy, -1, true)) {
+						// Rename the broken lightsaber after the defeated Jedi, and give it to the victorious bounty hunter
+						if (inventory->transferObject(trophy, -1, true)) {
 
-			if (victimLastName != "")		
-				trophyBuffer << victimName << " " << victimLastName << "'s Lightsaber";
-			else
-				trophyBuffer << victimName << "'s Lightsaber";
+							if (victimLastName != "")		
+								trophyBuffer << victimName << " " << victimLastName << "'s Lightsaber";
+							else
+								trophyBuffer << victimName << "'s Lightsaber";
 
-			trophy->setCustomObjectName(trophyBuffer.toString(), false);
+							trophy->setCustomObjectName(trophyBuffer.toString(), false);
 
-			trophy->sendTo(owner, trophy);
-		} else {
-			trophy->destroyObjectFromDatabase(trophy);
-			abort();
-			return;
-		}
-	}
+							trophy->sendTo(owner, trophy);
+						} else {
+							trophy->destroyObjectFromDatabase(trophy);
+							abort();
+							return;
+						}
+					}
 
 					bBroadcast << "\\#ff2a00" << bhName << ", a bounty hunter, has collected the bounty on " << victimName << ", a Jedi.";
 					owner->getZoneServer()->getChatManager()->broadcastGalaxy(NULL, bBroadcast.toString());
@@ -713,6 +718,8 @@ void BountyMissionObjectiveImplementation::handlePlayerKilled(ManagedObject* arg
 					message.setDI(xpLoss * -1);
 					message.setTO("exp_n", "jedi_general");
 					target->sendSystemMessage(message);
+					
+					StatisticsManager::instance()->lumberjack(owner, target, mission->getRewardCredits(), MissionTypes::BOUNTY);
 				}
 			}
 

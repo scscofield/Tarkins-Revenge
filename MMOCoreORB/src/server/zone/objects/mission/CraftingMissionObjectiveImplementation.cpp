@@ -8,6 +8,7 @@
 #include "server/zone/objects/mission/CraftingMissionObjective.h"
 #include "server/zone/managers/crafting/schematicmap/SchematicMap.h"
 #include "server/zone/objects/mission/MissionObject.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void CraftingMissionObjectiveImplementation::updateMissionStatus(CreatureObject* player) {
 	ManagedReference<MissionObject* > mission = this->mission.get();
@@ -68,6 +69,8 @@ void CraftingMissionObjectiveImplementation::updateMissionStatus(CreatureObject*
 				//Delete the item.
 				item->destroyObjectFromWorld(true);
 				item->destroyObjectFromDatabase(true);
+				
+				//StatisticsManager::instance()->lumberjack(player, nullptr, mission->getRewardCredits(), MissionTypes::CRAFTING);
 
 				complete();
 
