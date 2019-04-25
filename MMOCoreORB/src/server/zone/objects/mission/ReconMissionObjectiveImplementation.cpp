@@ -14,6 +14,7 @@
 #include "server/zone/managers/planet/PlanetManager.h"
 #include "terrain/manager/TerrainManager.h"
 #include "server/zone/objects/mission/MissionObject.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void ReconMissionObjectiveImplementation::activate() {
 	MissionObjectiveImplementation::activate();
@@ -91,6 +92,10 @@ void ReconMissionObjectiveImplementation::complete() {
 		area->destroyObjectFromDatabase(true);
 	}, "DestroyReconMissionAreaLambda2");
 
+	ManagedReference<MissionObject* > mission = this->mission.get();
+	ManagedReference<CreatureObject*> owner = getPlayerOwner();
+	//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::RECON);
+	
 	MissionObjectiveImplementation::complete();
 }
 

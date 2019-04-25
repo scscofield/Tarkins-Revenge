@@ -21,6 +21,7 @@
 #include "server/zone/packets/DeltaMessage.h"
 #include "server/zone/packets/mission/MissionObjectMessage3.h"
 #include "server/zone/packets/mission/MissionObjectDeltaMessage3.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void HuntingMissionObjectiveImplementation::activate() {
 	MissionObjectiveImplementation::activate();
@@ -110,6 +111,9 @@ int HuntingMissionObjectiveImplementation::notifyObserverEvent(MissionObserver* 
 			targetsKilled--;
 
 			if (targetsKilled <= 0) {
+				ManagedReference<CreatureObject*> owner = getPlayerOwner();
+				//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::HUNTING);
+				
 				complete();
 				return 1;
 			}

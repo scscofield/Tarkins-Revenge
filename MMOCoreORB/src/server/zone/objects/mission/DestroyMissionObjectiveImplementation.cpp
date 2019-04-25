@@ -20,6 +20,7 @@
 #include "templates/mobile/LairTemplate.h"
 #include "server/zone/managers/creature/CreatureTemplateManager.h"
 #include "server/zone/managers/mission/DestroyMissionLairObserver.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void DestroyMissionObjectiveImplementation::setLairTemplateToSpawn(const String& sp) {
 	lairTemplate = sp;
@@ -280,6 +281,9 @@ void DestroyMissionObjectiveImplementation::abort() {
 }
 
 void DestroyMissionObjectiveImplementation::complete() {
+	ManagedReference<MissionObject* > mission = this->mission.get();
+	ManagedReference<CreatureObject*> owner = getPlayerOwner();
+	//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::DESTROY);
 
 	MissionObjectiveImplementation::complete();
 }
