@@ -1,5 +1,5 @@
-talus_mutated_kahmurra_lair_neutral_medium = Lair:new {
-	mobiles = {{"mutated_kahmurra",1},{"rabid_mutant_kahmurra",1}},
+talus_docile_kahmurra_lair_neutral_medium = Lair:new {
+	mobiles = {{"docile_kahmurra",1}},
 	spawnLimit = 15,
 	buildingsVeryEasy = {"object/tangible/lair/base/poi_all_lair_warren_large_fog_red.iff"},
 	buildingsEasy = {"object/tangible/lair/base/poi_all_lair_warren_large_fog_red.iff"},
@@ -8,4 +8,4 @@ talus_mutated_kahmurra_lair_neutral_medium = Lair:new {
 	buildingsVeryHard = {"object/tangible/lair/base/poi_all_lair_warren_large_fog_red.iff"},
 }
 
-addLairTemplate("talus_mutated_kahmurra_lair_neutral_medium", talus_mutated_kahmurra_lair_neutral_medium)
+addLairTemplate("talus_docile_kahmurra_lair_neutral_medium", talus_docile_kahmurra_lair_neutral_medium)

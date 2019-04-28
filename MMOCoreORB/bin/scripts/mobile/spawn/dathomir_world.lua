@@ -964,6 +964,33 @@ dathomir_world = {
 			weighting = 15,
 			size = 25
 		},
+		{
+			lairTemplateName = "dathomir_bolma_pack_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 18,
+			maxDifficulty = 22,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "dathomir_cavern_spider_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 27,
+			maxDifficulty = 33,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "dathomir_domesticated_brackaset_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 19,
+			maxDifficulty = 27,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
 	}
 }
 
