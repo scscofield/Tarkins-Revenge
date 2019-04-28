@@ -94,7 +94,7 @@ void ReconMissionObjectiveImplementation::complete() {
 
 	ManagedReference<MissionObject* > mission = this->mission.get();
 	ManagedReference<CreatureObject*> owner = getPlayerOwner();
-	//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::RECON);
+	StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::RECON);
 	
 	MissionObjectiveImplementation::complete();
 }

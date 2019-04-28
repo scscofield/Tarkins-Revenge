@@ -112,7 +112,7 @@ int HuntingMissionObjectiveImplementation::notifyObserverEvent(MissionObserver* 
 
 			if (targetsKilled <= 0) {
 				ManagedReference<CreatureObject*> owner = getPlayerOwner();
-				//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::HUNTING);
+				StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::HUNTING);
 				
 				complete();
 				return 1;

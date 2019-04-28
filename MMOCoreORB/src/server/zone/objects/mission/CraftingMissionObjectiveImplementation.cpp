@@ -70,7 +70,7 @@ void CraftingMissionObjectiveImplementation::updateMissionStatus(CreatureObject*
 				item->destroyObjectFromWorld(true);
 				item->destroyObjectFromDatabase(true);
 				
-				//StatisticsManager::instance()->lumberjack(player, nullptr, mission->getRewardCredits(), MissionTypes::CRAFTING);
+				StatisticsManager::instance()->lumberjack(player, nullptr, mission->getRewardCredits(), MissionTypes::CRAFTING);
 
 				complete();
 

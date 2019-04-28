@@ -525,7 +525,7 @@ void BountyMissionObjectiveImplementation::handleNpcTargetKilled(Observable* obs
 
 	if (lootOwnerID == owner->getObjectID() || (group != NULL && lootOwnerID == group->getObjectID())) {
 		ManagedReference<MissionObject* > mission = this->mission.get();
-		//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::BOUNTY);
+		StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::BOUNTY);
 		
 		//Target killed by player, complete mission.
 		complete();

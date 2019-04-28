@@ -471,55 +471,55 @@ public:
 		switch (missionType) {
 			case MissionTypes::BOUNTY:
 				fileName = "log/lumberjack/mission_bounty.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::CRAFTING:
 				fileName = "log/lumberjack/mission_crafting.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::DANCER:
 				fileName = "log/lumberjack/mission_dancer.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::DELIVER:
 				fileName = "log/lumberjack/mission_deliver.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::DESTROY:
 				fileName = "log/lumberjack/mission_destroy.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::HUNTING:
 				fileName = "log/lumberjack/mission_hunting.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::MUSICIAN:
 				fileName = "log/lumberjack/mission_musician.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::RECON:
 				fileName = "log/lumberjack/mission_recon.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;
 			case MissionTypes::SURVEY:
 				fileName = "log/lumberjack/mission_survey.log";
-				if (value < 0)
+				if (value < 50000)
 					ignore = true;
 					
 				break;

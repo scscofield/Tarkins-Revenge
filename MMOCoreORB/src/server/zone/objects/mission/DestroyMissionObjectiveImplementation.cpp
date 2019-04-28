@@ -283,7 +283,7 @@ void DestroyMissionObjectiveImplementation::abort() {
 void DestroyMissionObjectiveImplementation::complete() {
 	ManagedReference<MissionObject* > mission = this->mission.get();
 	ManagedReference<CreatureObject*> owner = getPlayerOwner();
-	//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::DESTROY);
+	StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), MissionTypes::DESTROY);
 
 	MissionObjectiveImplementation::complete();
 }

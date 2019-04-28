@@ -71,7 +71,7 @@ int SurveyMissionObjectiveImplementation::notifyObserverEvent(MissionObserver* o
 			startPosition.setY(mission->getStartPositionY());
 			float distance = startPosition.distanceTo(player->getWorldPosition());
 			if (distance > 1024.0f) {
-				//StatisticsManager::instance()->lumberjack(player, nullptr, mission->getRewardCredits(), MissionTypes::SURVEY);
+				StatisticsManager::instance()->lumberjack(player, nullptr, mission->getRewardCredits(), MissionTypes::SURVEY);
 				
 				complete();
 

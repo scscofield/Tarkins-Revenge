@@ -115,7 +115,7 @@ void EntertainerMissionObjectiveImplementation::complete() {
 	
 	ManagedReference<MissionObject* > mission = this->mission.get();
 	ManagedReference<CreatureObject*> owner = getPlayerOwner();
-	//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), mission->getTypeCRC());
+	StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), mission->getTypeCRC());
 
 	MissionObjectiveImplementation::complete();
 }
