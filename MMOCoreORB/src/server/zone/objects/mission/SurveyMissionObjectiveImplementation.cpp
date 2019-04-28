@@ -11,6 +11,7 @@
 #include "templates/params/ObserverEventType.h"
 #include "server/zone/objects/creature/CreatureObject.h"
 #include "server/zone/objects/resource/ResourceSpawn.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void SurveyMissionObjectiveImplementation::activate() {
 	MissionObjectiveImplementation::activate();
@@ -70,6 +71,8 @@ int SurveyMissionObjectiveImplementation::notifyObserverEvent(MissionObserver* o
 			startPosition.setY(mission->getStartPositionY());
 			float distance = startPosition.distanceTo(player->getWorldPosition());
 			if (distance > 1024.0f) {
+				//StatisticsManager::instance()->lumberjack(player, nullptr, mission->getRewardCredits(), MissionTypes::SURVEY);
+				
 				complete();
 
 				return 1;

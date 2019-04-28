@@ -1630,6 +1630,69 @@ endor_world = {
 			weighting = 15,
 			size = 25
 		},
+		{
+			lairTemplateName = "endor_bolle_bol_bark_biter_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 27,
+			maxDifficulty = 31,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "endor_bordok_herd_master_lair_neutral_large",
+			spawnLimit = -1,
+			minDifficulty = 40,
+			maxDifficulty = 44,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "endor_diseased_blurrg_lair_netural_medium",
+			spawnLimit = -1,
+			minDifficulty = 34,
+			maxDifficulty = 38,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "endor_domesticated_blurrg_lair_netural_medium",
+			spawnLimit = -1,
+			minDifficulty = 18,
+			maxDifficulty = 22,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "endor_domesticated_merek_lair_netural_medium",
+			spawnLimit = -1,
+			minDifficulty = 47,
+			maxDifficulty = 51,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "endor_domesticated_bordok_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 29,
+			maxDifficulty = 33,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "endor_gurreck_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 44,
+			maxDifficulty = 50,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
 	}
 }
 

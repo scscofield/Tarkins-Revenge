@@ -15,6 +15,7 @@
 #include "server/zone/objects/mission/MissionObject.h"
 #include "server/zone/objects/mission/MissionObserver.h"
 #include "server/zone/objects/creature/CreatureObject.h"
+#include "server/zone/managers/statistics/StatisticsManager.h"
 
 void EntertainerMissionObjectiveImplementation::activate() {
 	Locker _lock(_this.getReferenceUnsafeStaticCast());
@@ -111,6 +112,10 @@ void EntertainerMissionObjectiveImplementation::clearLocationActiveAreaAndObserv
 
 void EntertainerMissionObjectiveImplementation::complete() {
 	clearLocationActiveAreaAndObservers();
+	
+	ManagedReference<MissionObject* > mission = this->mission.get();
+	ManagedReference<CreatureObject*> owner = getPlayerOwner();
+	//StatisticsManager::instance()->lumberjack(owner, nullptr, mission->getRewardCredits(), mission->getTypeCRC());
 
 	MissionObjectiveImplementation::complete();
 }

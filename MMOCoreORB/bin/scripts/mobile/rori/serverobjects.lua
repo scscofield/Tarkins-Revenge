@@ -145,3 +145,5 @@ includeFile("rori/wood_mite_royal_guard.lua")
 includeFile("rori/wormed_vrobal.lua")
 includeFile("rori/young_borgle_gruntling.lua")
 includeFile("rori/young_borgle.lua")
+
+includeFile("rori/domesticated_ikopi.lua")

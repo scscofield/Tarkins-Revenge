@@ -1369,6 +1369,78 @@ corellia_world = {
 			weighting = 15,
 			size = 40
 		},
+		{
+			lairTemplateName = "corellia_domestic_bageraset_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 6,
+			maxDifficulty = 10,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "corellia_domestic_humbaba_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 5,
+			maxDifficulty = 9,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "corellia_domestic_krahbu_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 5,
+			maxDifficulty = 9,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "corellia_elder_gronda_lair_neutral_large_boss_01",
+			spawnLimit = -1,
+			minDifficulty = 33,
+			maxDifficulty = 35,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "corellia_giant_dalyrake_lair_neutral_large",
+			spawnLimit = -1,
+			minDifficulty = 16,
+			maxDifficulty = 20,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "corellia_rogue_bageraset_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 11,
+			maxDifficulty = 15,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "corellia_varactyl_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 27,
+			maxDifficulty = 31,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "corellia_varactyl_preystalker_neutral_large_boss_01",
+			spawnLimit = -1,
+			minDifficulty = 31,
+			maxDifficulty = 35,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
 	}
 }
 

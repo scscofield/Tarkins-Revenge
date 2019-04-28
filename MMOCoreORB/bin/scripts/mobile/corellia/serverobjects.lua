@@ -211,4 +211,8 @@ includeFile("corellia/wrix.lua")
 includeFile("corellia/zealot_of_lord_nyax.lua")
 includeFile("corellia/zo_ssa.lua")
 
-
+includeFile("corellia/varactyl.lua")
+includeFile("corellia/varactyl_preystalker.lua")
+includeFile("corellia/varactyl_gutripper.lua")
+includeFile("corellia/varactyl_deathspine.lua")
+includeFile("corellia/varactyl_scarred.lua")

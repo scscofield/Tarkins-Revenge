@@ -16,6 +16,20 @@ This is a tool that logs player transaction data for review by administrators.
 - **LumberjackTXT:** 0 Disables logging to text files.
 - **LumberjackSQL:** 0 Disables logging to an exteral database.
 
+## Mission Log Settings
+Lumberjack is able to log mission activity to separate files per mission type. This is accomplished by setting your desired minimum credit payout values in src/server/zone/managers/statistics/StatisticsManager.h starting at line 473(ish) and uncommenting the lumberjack function calls in the following files so that Lumberjack will be run:  
+
+src/server/zone/objects/mission/BountyMissionObjectiveImplementation.cpp  
+src/server/zone/objects/mission/CraftingMissionObjectiveImplementation.cpp  
+src/server/zone/objects/mission/DeliverMissionObjectiveImplementation.cpp  
+src/server/zone/objects/mission/DestroyMissionObjectiveImplementation.cpp  
+src/server/zone/objects/mission/EntertainerMissionObjectiveImplementation.cpp  
+src/server/zone/objects/mission/HuntingMissionObjectiveImplementation.cpp  
+src/server/zone/objects/mission/ReconMissionObjectiveImplementation.cpp  
+src/server/zone/objects/mission/SurveyMissionObjectiveImplementation.cpp  
+
+Any mission below the minumum value will not be logged. Remember to rebuild the software after changing any of these values or uncommenting/commenting any of the mission types (it will be a quick build).
+
 ## Text Log Usage
 The following files are generated in bin/log/lumberjack/  
 
@@ -24,8 +38,9 @@ tips.log
 bazaarsales.log  
 vendorsales.log  
 tradecredits.log  
-deletedcharacters.log
-rareloot.log**  
+deletedcharacters.log  
+rareloot.log  
+mission_[type].log**  
 
 You will find examples of each in this wiki directory. All files share the same pattern of data output, but some files have more or less data than others.  
 
