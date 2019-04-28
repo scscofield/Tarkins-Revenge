@@ -69,6 +69,12 @@ yavin4_destroy_missions = {
 			size = 25,
 		},
 		{
+			lairTemplateName = "yavin4_domesticated_tybis_lair_neutral_medium",
+			minDifficulty = 20,
+			maxDifficulty = 24,
+			size = 25,
+		},
+		{
 			lairTemplateName = "yavin4_mawgax_male_neutral_medium_boss_01",
 			minDifficulty = 22,
 			maxDifficulty = 26,

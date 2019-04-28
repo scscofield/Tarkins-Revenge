@@ -4445,3 +4445,9 @@ object_mobile_skeleton_shared_tulrus = SharedCreatureObjectTemplate:new {
 }
 
 ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_tulrus, "object/mobile/skeleton/shared_tulrus.iff")
+
+object_mobile_skeleton_shared_varactyl = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/skeleton/shared_varactyl.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_varactyl, "object/mobile/skeleton/shared_varactyl.iff")
