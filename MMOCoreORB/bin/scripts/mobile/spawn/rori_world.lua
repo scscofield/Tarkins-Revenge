@@ -1189,6 +1189,78 @@ rori_world = {
 			weighting = 15,
 			size = 25
 		},
+		{
+			lairTemplateName = "rori_pygmy_torton_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 19,
+			maxDifficulty = 23,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "rori_kai_tok_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 11,
+			maxDifficulty = 15,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "rori_juvenile_pygmy_torton_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 12,
+			maxDifficulty = 16,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "rori_mutant_bark_mite_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 22,
+			maxDifficulty = 26,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "rori_pudgy_nudfah_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 7,
+			maxDifficulty = 11,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "rori_pugoriss_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 12,
+			maxDifficulty = 16,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "rori_vir_vur_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 10,
+			maxDifficulty = 14,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "rori_domesticated_ikopi_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 5,
+			maxDifficulty = 9,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
 	}
 }
 

@@ -201,3 +201,6 @@ includeFile("intangible/pet/womp_rat_hue.lua")
 includeFile("intangible/pet/woolamander_hue.lua")
 includeFile("intangible/pet/worrt_hue.lua")
 includeFile("intangible/pet/zucca_boar_hue.lua")
+
+includeFile("intangible/pet/varactyl.lua")
+includeFile("intangible/pet/gualaar_pcd.lua")

@@ -52,4 +52,6 @@ mountSpeedData = {
 	{"appearance/dewback_hue.sat", 17, 1.286, 180, 600},
 	{"appearance/falumpaset_hue.sat", 17, 1.133, 300, 780},
 	{"appearance/kaadu_hue.sat", 17, 1.544, 120, 600},
+	{"appearance/varactyl.sat", 17, 1.544, 120, 600},
+	{"appearance/gualar.sat", 17, 1.133, 300, 780},
 }

@@ -811,6 +811,33 @@ yavin4_world = {
 			weighting = 15,
 			size = 25
 		},
+		{
+			lairTemplateName = "yavin4_domesticated_tybis_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 20,
+			maxDifficulty = 24,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "yavin4_enraged_tybis_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 23,
+			maxDifficulty = 27,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
+		{
+			lairTemplateName = "yavin4_woolamander_lair_neutral_medium",
+			spawnLimit = -1,
+			minDifficulty = 23,
+			maxDifficulty = 27,
+			numberToSpawn = 0,
+			weighting = 15,
+			size = 25
+		},
 	}
 }
 
