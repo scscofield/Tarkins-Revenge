@@ -49,6 +49,7 @@ includeFile("mobile/tatooine_npc/serverobjects.lua")
 includeFile("mobile/vehicle/serverobjects.lua")
 includeFile("mobile/vendor/serverobjects.lua")
 includeFile("mobile/som/serverobjects.lua")
+includeFile("mobile/beast_master/serverobjects.lua")
 
 -- Server Objects
 includeFile("mobile/21b_surgical_droid_crafted.lua")
@@ -2671,3 +2672,5 @@ includeFile("mobile/walluga.lua")
 includeFile("mobile/gualaar.lua")
 includeFile("mobile/gualaar_hue.lua")
 includeFile("mobile/spiderclan_queen_mother.lua")
+includeFile("mobile/kkorrwrot.lua")
+includeFile("mobile/minstyngar.lua")
