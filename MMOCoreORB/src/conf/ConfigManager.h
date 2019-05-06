@@ -63,7 +63,6 @@ namespace conf {
 		int zoneProcessingThreads;
 		int zoneAllowedConnections;
 		int zoneGalaxyID;
-		int zoneOnlineCharactersPerAccount;
 		int zonePort;
 
 		int statusAllowedConnections;
@@ -92,7 +91,15 @@ namespace conf {
 		int tosVersion;
 
 		int restPort = 0;
-		
+
+		String inactiveAccountTitle;
+		String inactiveAccountText;
+
+		bool characterBuilderEnabled = true;
+
+		int playerLogLevel = 4;
+		int maxLogLines = 1000000;
+
 		int lumberjackTips = 0;
 		int lumberjackBazaar = 0;
 		int lumberjackVendor = 0;
@@ -155,6 +162,10 @@ namespace conf {
 
 		inline bool getPvpMode() const {
 			return pvpMode;
+		}
+
+		inline void setPvpMode(bool val) {
+			pvpMode = val;
 		}
 
 		inline const String& getORBNamingDirectoryAddress() const {
@@ -313,10 +324,6 @@ namespace conf {
 			return zoneGalaxyID;
 		}
 
-		inline int getZoneOnlineCharactersPerAccount() const {
-			return zoneOnlineCharactersPerAccount;
-		}
-
 		inline int getZoneServerPort() const {
 			return zonePort;
 		}
@@ -380,7 +387,26 @@ namespace conf {
 		inline int getRESTPort() const {
 			return restPort;
 		}
-		
+
+		inline const String& getInactiveAccountTitle() const {
+			return inactiveAccountTitle;
+		}
+
+		inline const String& getInactiveAccountText() const {
+			return inactiveAccountText;
+		}
+
+		inline bool getCharacterBuilderEnabled() const {
+			return characterBuilderEnabled;
+		}
+
+		inline int getPlayerLogLevel() const {
+			return playerLogLevel;
+		}
+
+		inline int getMaxLogLines() const {
+			return maxLogLines;
+
 		inline int getLumberjackTips() const {
 			return lumberjackTips;
 		}
@@ -423,6 +449,3 @@ namespace conf {
 using namespace conf;
 
 #endif // #ifndef CONFIGMANAGER_H_
-
-
-
