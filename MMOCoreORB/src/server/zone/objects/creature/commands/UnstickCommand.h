@@ -21,7 +21,7 @@ public:
 		if (!checkInvalidLocomotions(creature))
 			return INVALIDLOCOMOTION;
 
-if (creature->isInCombat())
+		if (creature->isInCombat())
 			return INVALIDSTATE;
 		CreatureObject* player = cast<CreatureObject*>(creature);
 		Zone* zone = player->getZone();
@@ -54,6 +54,15 @@ if (creature->isInCombat())
  		player->setPosture(CreaturePosture::UPRIGHT);
 		player->addCooldown("used_unstick", 60000);
 		player->sendSystemMessage("You have been teleported to a safe spot. Wait 15 seconds for recalibration.");
+
+		if (creature != nullptr)
+			creature->error("used /unstick " + arguments.toString());
+
+		/*
+string/en/cmd_err.stf	7	unstick_in_progress	Unstick in progress
+string/en/cmd_err.stf	8	unstick_request_complete	Unstick complete
+string/en/cmd_err.stf	9	unstick_request_cancelled	Unstick request was cancelled
+		 */
 
 		return SUCCESS;
 	}

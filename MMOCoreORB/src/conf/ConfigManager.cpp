@@ -54,7 +54,6 @@ ConfigManager::ConfigManager() {
 	zoneProcessingThreads = 10;
 	zoneAllowedConnections = 300;
 	zoneGalaxyID = 2;
-	zoneOnlineCharactersPerAccount = 1;
 	zonePort = 0;
 
 	statusAllowedConnections = 100;
@@ -78,6 +77,8 @@ ConfigManager::ConfigManager() {
 	luaLogJSON = false;
 
 	restPort = 0;
+
+	characterBuilderEnabled = true;
 }
 
 bool ConfigManager::loadConfigData() {
@@ -133,7 +134,6 @@ bool ConfigManager::loadConfigData() {
 	zoneProcessingThreads = getGlobalInt("ZoneProcessingThreads");
 	zoneAllowedConnections = getGlobalInt("ZoneAllowedConnections");
 	zoneGalaxyID = getGlobalInt("ZoneGalaxyID");
-	zoneOnlineCharactersPerAccount = getGlobalInt("ZoneOnlineCharactersPerAccount");
 	zonePort = getGlobalInt("ZoneServerPort");
 
 	statusAllowedConnections = getGlobalInt("StatusAllowedConnections");
@@ -169,7 +169,15 @@ bool ConfigManager::loadConfigData() {
 	tosVersion = getGlobalInt("TermsOfServiceVersion");
 
 	restPort = getGlobalInt("RESTServerPort");
-	
+
+	inactiveAccountTitle = getGlobalString("InactiveAccountTitle");
+	inactiveAccountText = getGlobalString("InactiveAccountText");
+
+	characterBuilderEnabled = getGlobalBoolean("CharacterBuilderEnabled");
+
+	playerLogLevel = getGlobalInt("PlayerLogLevel");
+	maxLogLines = getGlobalInt("MaxLogLines");
+
 	lumberjackTips = getGlobalInt("LumberjackTips");
 	lumberjackBazaar = getGlobalInt("LumberjackBazaar");
 	lumberjackVendor = getGlobalInt("LumberjackVendor");
