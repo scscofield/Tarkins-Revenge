@@ -406,6 +406,7 @@ namespace conf {
 
 		inline int getMaxLogLines() const {
 			return maxLogLines;
+		}
 
 		inline int getLumberjackTips() const {
 			return lumberjackTips;

@@ -1935,7 +1935,7 @@ void SceneObjectImplementation::rotateXaxis(int degrees) {
  void SceneObjectImplementation::rotateYaxis(int degrees) {
 	Vector3 unity(0, 0, 1);
 	direction.rotate(unity, degrees);
-
+}
 int SceneObjectImplementation::writeRecursiveJSON(JSONSerializationType& j) {
 	int count = 0;
 
@@ -2030,5 +2030,4 @@ String SceneObjectImplementation::exportJSON(const String& exportNote) {
 	jsonFile.close();
 
 	return fileName;
->>>>>>> 13eb13d2403f3470b8684f47256ee87074eb0be3
 }

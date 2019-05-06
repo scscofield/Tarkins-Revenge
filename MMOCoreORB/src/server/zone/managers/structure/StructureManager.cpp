@@ -952,7 +952,6 @@ void StructureManager::reportStructureStatus(CreatureObject* creature,
 		//Number of Items in Building: 10/500
 		status->addMenuItem(
 				"@player_structure:items_in_building_prompt "
-<<<<<<< HEAD
 					+ String::valueOf(building->getCurrentNumberOfPlayerItems()) + "/" + String::valueOf(building->getMaximumNumberOfPlayerItems()));  //Number of Items in Building:
 #if ENABLE_STRUCTURE_JSON_EXPORT
 		if (creature->hasSkill("admin_base")) {
