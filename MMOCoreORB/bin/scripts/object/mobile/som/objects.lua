@@ -25,3 +25,24 @@ object_mobile_som_shared_lava_flea = SharedCreatureObjectTemplate:new {
 }
 
 ObjectTemplates:addClientTemplate(object_mobile_som_shared_lava_flea, "object/mobile/som/shared_lava_flea.iff")
+
+object_mobile_som_shared_blistmok = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/som/shared_blistmok.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_som_shared_blistmok, "object/mobile/som/shared_blistmok.iff")
+
+object_mobile_som_shared_tanray = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/som/shared_tanray.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_som_shared_tanray, "object/mobile/som/shared_tanray.iff")
+
+object_mobile_som_shared_jundak = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/som/shared_jundak.iff"
+
+}
+
+ObjectTemplates:addClientTemplate(object_mobile_som_shared_jundak, "object/mobile/som/shared_jundak.iff")

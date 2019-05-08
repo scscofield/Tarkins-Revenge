@@ -251,6 +251,10 @@ class CreatureObject extends TangibleObject {
 	 */
 	public native void initializeTransientMembers();
 
+	public native void info(final string msg, boolean force = false);
+	public native void debug(final string msg);
+	public native void error(final string msg);
+
 	@preLocked
 	public abstract void setCountdownTimer(unsigned int newCount, boolean notifyClient = true) {
 		super.setCountdownTimer(newCount, notifyClient);
@@ -1219,8 +1223,14 @@ class CreatureObject extends TangibleObject {
 	@dirty
 	public native string getFirstName();
 
+	public native string setFirstName(final string newFirstName);
+
 	@dirty
 	public native string getLastName();
+
+	public native string setLastName(final string newLastName, boolean skipVerify);
+
+	public native string setLastName(final string newLastName);
 
 	@dirty
 	public boolean isOnline() {

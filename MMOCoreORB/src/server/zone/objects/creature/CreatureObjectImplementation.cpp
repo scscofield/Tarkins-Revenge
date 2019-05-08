@@ -260,6 +260,36 @@ void CreatureObjectImplementation::finalize() {
 
 }
 
+void CreatureObjectImplementation::info(const String& msg, bool force) {
+	if (isPlayerCreature()) {
+		getZoneServer()->getPlayerManager()->writePlayerLog(asCreatureObject(), msg, Logger::LogLevel::INFO);
+		return;
+	}
+
+	Logger::info(msg, force);
+	return;
+}
+
+void CreatureObjectImplementation::debug(const String& msg) {
+	if (isPlayerCreature()) {
+		getZoneServer()->getPlayerManager()->writePlayerLog(asCreatureObject(), msg, Logger::LogLevel::DEBUG);
+		return;
+	}
+
+	Logger::debug(msg);
+	return;
+}
+
+void CreatureObjectImplementation::error(const String& msg) {
+	if (isPlayerCreature()) {
+		getZoneServer()->getPlayerManager()->writePlayerLog(asCreatureObject(), msg, Logger::LogLevel::ERROR);
+		return;
+	}
+
+	Logger::error(msg);
+	return;
+}
+
 void CreatureObjectImplementation::sendToOwner(bool doClose) {
 	auto owner = this->owner.get();
 
@@ -2411,7 +2441,7 @@ void CreatureObjectImplementation::setIntimidatedState(int durationSeconds) {
 		Locker blocker(multBuff);
 
 		multBuff->setSkillModifier("private_damage_divisor", 2);
-	
+
 		addBuff(multBuff);
 	}
 }
@@ -2593,11 +2623,18 @@ void CreatureObjectImplementation::notifyPostureChange(int newPosture) {
 
 void CreatureObjectImplementation::updateGroupMFDPositions() {
 	Reference<CreatureObject*> creo = _this.getReferenceUnsafeStaticCast();
+	auto group = this->group;
 
 	if (group != nullptr) {
 		GroupList* list = group->getGroupList();
 		if (list != nullptr) {
-			ClientMfdStatusUpdateMessage* msg = new ClientMfdStatusUpdateMessage(creo);
+			auto zone = getZone();
+
+			if (zone == nullptr) {
+				return;
+			}
+
+			ClientMfdStatusUpdateMessage* msg = new ClientMfdStatusUpdateMessage(creo, zone->getZoneName());
 
 #ifdef LOCKFREE_BCLIENT_BUFFERS
 			Reference<BasePacket*> pack = msg;
@@ -2605,7 +2642,7 @@ void CreatureObjectImplementation::updateGroupMFDPositions() {
 
 			for (int i = 0; i < list->size(); i++) {
 
-				Reference<CreatureObject*> member = list->get(i).get();
+				Reference<CreatureObject*> member = list->getSafe(i).get();
 
 				if (member == nullptr || creo == member || !member->isPlayerCreature())
 					continue;
@@ -2641,13 +2678,13 @@ void CreatureObjectImplementation::notifySelfPositionUpdate() {
 
 			if (terrainManager != nullptr) {
 				float waterHeight;
-				
+
 				CreatureObject* creature = asCreatureObject();
-				
+
 				if (parent == nullptr && terrainManager->getWaterHeight(getPositionX(), getPositionY(), waterHeight)) {
 					if ((getPositionZ() + getSwimHeight() - waterHeight < 0.2)) {
 						Reference<CreatureObject*> strongRef = asCreatureObject();
-						
+
 						Core::getTaskManager()->executeTask([strongRef] () {
 							Locker locker(strongRef);
 
@@ -2862,6 +2899,13 @@ String CreatureObjectImplementation::getFirstName() {
 	}
 }
 
+String CreatureObjectImplementation::setFirstName(const String& newFirstName) {
+	if (!isPlayerCreature())
+		return "Can only set FirstName on players.";
+
+	return getZoneServer()->getPlayerManager()->setFirstName(asCreatureObject(), newFirstName);
+}
+
 String CreatureObjectImplementation::getLastName() {
 	UnicodeString lastName;
 
@@ -2875,6 +2919,17 @@ String CreatureObjectImplementation::getLastName() {
 		tokenizer.getUnicodeToken(lastName);
 
 	return lastName.toString();
+}
+
+String CreatureObjectImplementation::setLastName(const String& newLastName, bool skipVerify) {
+	if (!isPlayerCreature())
+		return "Can only set LastName on players.";
+
+	return getZoneServer()->getPlayerManager()->setLastName(asCreatureObject(), newLastName, skipVerify);
+}
+
+String CreatureObjectImplementation::setLastName(const String& newLastName) {
+	return setLastName(newLastName, false);
 }
 
 void CreatureObjectImplementation::sendExecuteConsoleCommand(

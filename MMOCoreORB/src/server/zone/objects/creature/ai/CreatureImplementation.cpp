@@ -391,7 +391,7 @@ bool CreatureImplementation::canCollectDna(CreatureObject* player) {
 	if (_this.getReferenceUnsafeStaticCast()->isNonPlayerCreatureObject()) {
 		return false;
 	}
-	if(!player->isInRange(_this.getReferenceUnsafeStaticCast(), 16.0f) || player->isInCombat() || player->isDead() || player->isIncapacitated() ){
+	if(!player->isInRange(_this.getReferenceUnsafeStaticCast(), 25.0f) || player->isInCombat() || player->isDead() || player->isIncapacitated() ){
 		return false;
 	}
 
@@ -486,4 +486,25 @@ bool CreatureImplementation::isMount() {
 		return true;
 
 	return false;
+}
+
+void CreatureImplementation::sendMessage(BasePacket* msg) {
+	if (!isMount()) {
+#ifdef LOCKFREE_BCLIENT_BUFFERS
+		if (!msg->getReferenceCount())
+#endif
+		delete msg;
+		return;
+	}
+
+	ManagedReference<CreatureObject* > linkedCreature = this->linkedCreature.get();
+
+	if (linkedCreature != NULL && linkedCreature->getParent().get() == _this.getReferenceUnsafeStaticCast())
+		linkedCreature->sendMessage(msg);
+	else {
+#ifdef LOCKFREE_BCLIENT_BUFFERS
+		if (!msg->getReferenceCount())
+#endif
+		delete msg;
+	}
 }

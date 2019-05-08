@@ -27,9 +27,6 @@ require("sui.custom.SuiProcessorPuzzle")
 require("sui.custom.SuiRadiationSensor")
 require("sui.custom.SuiReceiverPuzzle")
 
--- Custom content
-includeFile("../custom_scripts/screenplays/screenplays.lua")
-
 includeFile("helperfuncs.lua")
 includeFile("playerTriggers.lua")
 
@@ -669,6 +666,9 @@ includeFile("record_keepers/record_keepers.lua")
 --Tests
 includeFile("tests/tests.lua")
 
+-- Server Event Automation
+includeFile("events/ServerEventAutomation.lua")
+
 --Tarkin Custom
 includeFile("tools/crafting_training_handler.lua")
 includeFile("tools/TarkinBuffTerminal.lua")
@@ -713,4 +713,9 @@ includeFile("military/rebel/dantooine_abandoned_rebel_base.lua")
 includeFile("caves/yavin4_temple_exar_kun.lua")
 
 --Tarkin Custom Event
+includeFile("events/tarkin_custom/tarkin_world_boss.lua")
+includeFile("events/tarkin_custom/spawn_points_table.lua")
 --includeFile("events/tarkin_custom/bad_easter_bunny_terror.lua")
+
+-- Custom content - Loads last to allow for overrides
+includeFile("../custom_scripts/screenplays/screenplays.lua")
