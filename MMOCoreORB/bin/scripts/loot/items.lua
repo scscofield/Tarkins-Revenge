@@ -402,6 +402,7 @@ includeFile("items/junk/slave_collar.lua")
 includeFile("items/junk/used_ticket.lua")
 includeFile("items/junk/wiring.lua")
 includeFile("items/junk/worklight.lua")
+includeFile("items/junk/inkpen_engraved.lua")
 
 --loot_kit sub-folder
 includeFile("items/loot_kit/blue_rug_adhesive.lua")
