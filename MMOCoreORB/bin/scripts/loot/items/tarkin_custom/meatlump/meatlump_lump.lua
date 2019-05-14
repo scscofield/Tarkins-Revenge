@@ -9,7 +9,10 @@ meatlump_lump = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("meatlump_lump", meatlump_lump)

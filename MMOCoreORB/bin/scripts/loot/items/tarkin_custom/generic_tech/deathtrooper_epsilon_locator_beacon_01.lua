@@ -9,7 +9,10 @@ deathtrooper_epsilon_locator_beacon_01 = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("deathtrooper_epsilon_locator_beacon_01", deathtrooper_epsilon_locator_beacon_01)

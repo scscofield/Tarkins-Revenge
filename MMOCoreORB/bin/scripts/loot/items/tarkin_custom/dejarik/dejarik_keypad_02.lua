@@ -9,7 +9,10 @@ dejarik_keypad_02 = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 35,
+	junkMaxValue = 35
 }
 
 addLootItemTemplate("dejarik_keypad_02", dejarik_keypad_02)

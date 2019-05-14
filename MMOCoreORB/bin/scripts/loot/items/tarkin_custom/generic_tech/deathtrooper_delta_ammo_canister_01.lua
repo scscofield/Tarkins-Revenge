@@ -9,7 +9,10 @@ deathtrooper_delta_ammo_canister_01 = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("deathtrooper_delta_ammo_canister_01", deathtrooper_delta_ammo_canister_01)

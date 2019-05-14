@@ -569,6 +569,10 @@ void TangibleObjectImplementation::fillAttributeList(AttributeListMessage* alm, 
 	Reference<PlayerObject*> ghost = object->getPlayerObject();
 	if (ghost != nullptr && ghost->isStaff() && getLuaStringData("lj") != "")
 		alm->insertAttribute( "manf_attribs", getLuaStringData("lj"));
+		
+	if (ghost != nullptr && ghost->getFactionStanding("jawa") >= 4000)
+		alm->insertAttribute("junk_value", getJunkValue());
+		
 }
 
 void TangibleObjectImplementation::setCustomizationVariable(byte type, int16 value, bool notifyClient) {

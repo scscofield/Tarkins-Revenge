@@ -9,7 +9,10 @@ datapad_05 = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("datapad_05", datapad_05)

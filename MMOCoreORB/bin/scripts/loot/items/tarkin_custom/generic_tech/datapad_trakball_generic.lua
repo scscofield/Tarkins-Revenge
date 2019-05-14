@@ -9,7 +9,10 @@ datapad_trakball_generic = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("datapad_trakball_generic", datapad_trakball_generic)

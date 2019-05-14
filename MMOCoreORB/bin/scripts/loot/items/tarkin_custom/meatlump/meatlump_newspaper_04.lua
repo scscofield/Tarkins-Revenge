@@ -9,7 +9,10 @@ meatlump_newspaper_04 = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("meatlump_newspaper_04", meatlump_newspaper_04)

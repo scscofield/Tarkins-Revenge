@@ -9,7 +9,10 @@ dejarik_kintan = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 35,
+	junkMaxValue = 35
 }
 
 addLootItemTemplate("dejarik_kintan", dejarik_kintan)

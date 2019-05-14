@@ -9,7 +9,10 @@ magseal_detector_generic = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("magseal_detector_generic", magseal_detector_generic)

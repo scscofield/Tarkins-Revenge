@@ -9,7 +9,10 @@ heroic_echo_at_at_junk_04 = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("heroic_echo_at_at_junk_04", heroic_echo_at_at_junk_04)

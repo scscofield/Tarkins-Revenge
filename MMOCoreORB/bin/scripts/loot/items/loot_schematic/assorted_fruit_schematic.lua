@@ -6,6 +6,9 @@ assorted_fruit_schematic = {
 	craftingValues = {
 	},
 	customizationStringNames = {},
-	customizationValues = {}
+	customizationValues = {},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
  addLootItemTemplate("assorted_fruit_schematic", assorted_fruit_schematic)
