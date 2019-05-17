@@ -706,4 +706,12 @@ function TarkinTatooineMosEnthaScreenPlay:spawnMobiles()
 	spawnMobile(self.planet, "worrt",300,1113.08,18.0283,3257.68,318.548,0)
 	spawnMobile(self.planet, "worrt",300,1191.12,7.30368,2862.36,37.9791,0)
 	spawnMobile(self.planet, "worrt",300,1179.97,6.94709,2862.22,304.96,0)
+	
+	-- Junk Dealers
+	spawnMobile(self.planet, "junk_dealer", 0, 1204.5, 7, 2924.91, 34, 0)
+	pNpc = spawnMobile(self.planet, "junk_dealer", 0, 1209.48, 7, 2923.9, 331, 0)
+	if pNpc ~= nil then
+		AiAgent(pNpc):setConvoTemplate("junkDealerFineryConvoTemplate")
+	end
+
 end

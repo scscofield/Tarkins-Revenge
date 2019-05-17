@@ -9,7 +9,10 @@ datapad_flashy_generic = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("datapad_flashy_generic", datapad_flashy_generic)

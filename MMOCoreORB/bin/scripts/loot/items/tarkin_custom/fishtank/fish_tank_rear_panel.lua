@@ -9,7 +9,10 @@ fish_tank_rear_panel = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("fish_tank_rear_panel", fish_tank_rear_panel)

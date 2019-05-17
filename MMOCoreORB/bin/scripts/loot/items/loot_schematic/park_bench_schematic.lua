@@ -6,6 +6,9 @@ park_bench_schematic = {
 	craftingValues = {
 	},
 	customizationStringNames = {},
-	customizationValues = {}
+	customizationValues = {},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
  addLootItemTemplate("park_bench_schematic", park_bench_schematic)

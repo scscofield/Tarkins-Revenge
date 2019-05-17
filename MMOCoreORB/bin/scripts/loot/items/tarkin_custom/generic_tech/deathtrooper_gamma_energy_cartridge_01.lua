@@ -9,7 +9,10 @@ deathtrooper_gamma_energy_cartridge_01 = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("deathtrooper_gamma_energy_cartridge_01", deathtrooper_gamma_energy_cartridge_01)

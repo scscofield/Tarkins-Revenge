@@ -9,7 +9,10 @@ clipon_id_badge_generic = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("clipon_id_badge_generic", clipon_id_badge_generic)

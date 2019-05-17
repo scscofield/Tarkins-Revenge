@@ -9,7 +9,10 @@ disguise_makeup_kit_generic = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("disguise_makeup_kit_generic", disguise_makeup_kit_generic)

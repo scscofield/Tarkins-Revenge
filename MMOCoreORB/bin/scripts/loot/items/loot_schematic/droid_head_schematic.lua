@@ -6,6 +6,9 @@ droid_head_schematic = {
 	craftingValues = {
 	},
 	customizationStringNames = {},
-	customizationValues = {}
+	customizationValues = {},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
  addLootItemTemplate("droid_head_schematic", droid_head_schematic)

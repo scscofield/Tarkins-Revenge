@@ -9,7 +9,10 @@ treasure_chest_reward = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("treasure_chest_reward", treasure_chest_reward)

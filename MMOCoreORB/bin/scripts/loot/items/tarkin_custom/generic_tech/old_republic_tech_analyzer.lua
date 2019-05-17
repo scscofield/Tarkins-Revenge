@@ -9,7 +9,10 @@ old_republic_tech_analyzer = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("old_republic_tech_analyzer", old_republic_tech_analyzer)

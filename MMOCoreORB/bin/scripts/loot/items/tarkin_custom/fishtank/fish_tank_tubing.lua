@@ -9,7 +9,10 @@ fish_tank_tubing = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("fish_tank_tubing", fish_tank_tubing)

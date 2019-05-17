@@ -9,7 +9,10 @@ dejarik_houjix = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 35,
+	junkMaxValue = 35
 }
 
 addLootItemTemplate("dejarik_houjix", dejarik_houjix)

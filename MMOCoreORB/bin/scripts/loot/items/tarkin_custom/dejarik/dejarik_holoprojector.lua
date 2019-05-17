@@ -9,7 +9,10 @@ dejarik_holoprojector = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 35,
+	junkMaxValue = 35
 }
 
 addLootItemTemplate("dejarik_holoprojector", dejarik_holoprojector)

@@ -9,7 +9,10 @@ meatlump_scrapbook_reward = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("meatlump_scrapbook_reward", meatlump_scrapbook_reward)
