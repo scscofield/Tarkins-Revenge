@@ -4464,14 +4464,14 @@ object_mobile_skeleton_shared_tanray = SharedCreatureObjectTemplate:new {
 
 ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_tanray, "object/mobile/skeleton/shared_tanray.iff")
 
-object_mobile_skeleton_shared_nexu = SharedCreatureObjectTemplate:new {
-	clientTemplateFileName = "object/mobile/skeleton/shared_nexu.iff"
+object_mobile_skeleton_shared_killer_worm = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/skeleton/shared_killer_worm.iff"
 }
 
-ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_nexu, "object/mobile/skeleton/shared_nexu.iff")
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_killer_worm, "object/mobile/skeleton/shared_killer_worm.iff")
 
-object_mobile_skeleton_shared_reek = SharedCreatureObjectTemplate:new {
-	clientTemplateFileName = "object/mobile/skeleton/shared_reek.iff"
+object_mobile_skeleton_shared_hawk_bat = SharedCreatureObjectTemplate:new {
+	clientTemplateFileName = "object/mobile/skeleton/shared_hawk_bat.iff"
 }
 
-ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_reek, "object/mobile/skeleton/shared_reek.iff")
+ObjectTemplates:addClientTemplate(object_mobile_skeleton_shared_hawk_bat, "object/mobile/skeleton/shared_hawk_bat.iff")
