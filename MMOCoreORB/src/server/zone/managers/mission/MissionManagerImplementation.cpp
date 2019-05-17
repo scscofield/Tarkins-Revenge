@@ -855,24 +855,13 @@ void MissionManagerImplementation::randomizeGenericDestroyMission(CreatureObject
 	else
 		messageDifficulty = "_hard";
 
-	String groupSuffix;
-
 	if (lairTemplateObject->getMobType() == LairTemplate::NPC){
 		missionType = "_npc";
-		groupSuffix = " camp.";
 	} else {
 		missionType = "_creature";
-		groupSuffix = " lair.";
-	}
-		
-	VectorMap<String, int>* mobiles = lairTemplateObject->getMobiles();
-	String mobileName = "mysterious";
-	
-	if (mobiles->size() > 0) {
-		mobileName = mobiles->elementAt(0).getKey();
 	}
 
-	mission->setMissionTitle("Destroy", " the " + mobileName.replaceAll("_", " ") + groupSuffix + " [CL" + String::valueOf(diffDisplay) + "]");
+	mission->setMissionTitle("lair_n", lairTemplateObject->getName());
 	mission->setMissionDescription("mission/mission_destroy_neutral" +  messageDifficulty + missionType, "m" + String::valueOf(randTexts) + "d");
 
 	switch (faction) {
