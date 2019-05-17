@@ -2563,5 +2563,9 @@ schematics = {
 	{path="object/draft_schematic/clothing/clothing_backpack_s09.iff"},
 
 	--Chiss Poacher Backpack
-	{path="object/draft_schematic/clothing/ep3_chiss_poacher_backpack.iff"}
+	{path="object/draft_schematic/clothing/ep3_chiss_poacher_backpack.iff"},
+
+	-- Bio-Engineer Tarkin New
+	{path="object/draft_schematic/bio_engineer/utilities/dna_extractor.iff"}
+
 };
