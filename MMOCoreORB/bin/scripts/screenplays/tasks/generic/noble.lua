@@ -159,7 +159,7 @@ generic_noble_missions =
 			secondarySpawns = {},
 			itemSpawns =
 			{
-				{ itemTemplate = "object/tangible/loot/misc/briefcase_s01.iff", itemName = "A Locked Briefcase" }
+				{ itemTemplate = "object/tangible/tarkin_custom/decorative/unlocked_briefcase.iff", itemName = "Unlocked Briefcase" }
 			},
 			rewards =
 			{
