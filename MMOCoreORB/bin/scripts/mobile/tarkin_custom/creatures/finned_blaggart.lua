@@ -25,6 +25,7 @@ finned_blaggart = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/finned_blaggart.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_finned_blaggart.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

@@ -25,6 +25,7 @@ bolotaur = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/bolotaur.iff"},
+	controlDeviceTemplate = "object/intangible/pet/bolotaur.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

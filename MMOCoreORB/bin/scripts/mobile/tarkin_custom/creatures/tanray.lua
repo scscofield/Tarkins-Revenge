@@ -25,6 +25,7 @@ tanray = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/som/tanray.iff"},
+	controlDeviceTemplate = "object/intangible/pet/tanray.iff",
 	scale = 0.3,
 	lootGroups = {},
 	weapons = {},

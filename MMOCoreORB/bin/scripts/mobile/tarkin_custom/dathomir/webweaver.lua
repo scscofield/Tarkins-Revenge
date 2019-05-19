@@ -26,6 +26,7 @@ webweaver = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/webweaver.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_webweaver.iff",
 
 	lootGroups = {
 		{

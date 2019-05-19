@@ -25,6 +25,7 @@ kittle = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/kittle_hue.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_kittle.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

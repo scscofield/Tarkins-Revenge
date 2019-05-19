@@ -25,6 +25,7 @@ hawk_bat = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/beast_master/bm_hawk_bat.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_hawk_bat.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

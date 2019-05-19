@@ -25,6 +25,7 @@ mooc = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/beast_master/bm_mooc.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mooc.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

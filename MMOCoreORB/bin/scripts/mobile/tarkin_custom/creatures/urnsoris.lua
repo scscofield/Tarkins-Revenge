@@ -25,6 +25,7 @@ urnsoris = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_urnsoris.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_urnsoris.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

@@ -25,6 +25,7 @@ mutated_jax = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_jax.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_jax.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

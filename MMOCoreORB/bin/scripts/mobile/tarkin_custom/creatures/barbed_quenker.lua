@@ -25,6 +25,7 @@ barbed_quenker = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/beast_master/bm_barbed_quenker.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_barbed_quenker.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

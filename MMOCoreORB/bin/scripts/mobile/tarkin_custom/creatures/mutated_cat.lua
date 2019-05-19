@@ -25,6 +25,7 @@ mutated_cat = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_cat.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_cat.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

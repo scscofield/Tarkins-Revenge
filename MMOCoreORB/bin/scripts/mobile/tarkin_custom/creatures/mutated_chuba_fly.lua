@@ -25,6 +25,7 @@ mutated_chuba_fly = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_chuba_fly.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_chuba_fly.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

@@ -25,6 +25,7 @@ razor_angler = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_razor_angler.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_razor_angler.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

@@ -25,6 +25,7 @@ armored_tauntaun = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/tcg_armored_tauntaun.iff"},
+	controlDeviceTemplate = "object/intangible/pet/armored_tauntaun.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

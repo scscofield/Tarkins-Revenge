@@ -25,6 +25,7 @@ uller = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/uller.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_uller.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

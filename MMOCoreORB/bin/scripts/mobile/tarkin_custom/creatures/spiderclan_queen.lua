@@ -25,6 +25,7 @@ spiderclan_queen = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/spiderclan_queen.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_spiderclan_queen.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

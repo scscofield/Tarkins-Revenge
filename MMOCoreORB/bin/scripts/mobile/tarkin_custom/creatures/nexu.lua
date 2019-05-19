@@ -25,6 +25,7 @@ nexu = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/beast_master/bm_nexu.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_nexu.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

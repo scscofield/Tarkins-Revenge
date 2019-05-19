@@ -25,6 +25,7 @@ forage_worm = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/beast_master/bm_forage_worm.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_forage_worm.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

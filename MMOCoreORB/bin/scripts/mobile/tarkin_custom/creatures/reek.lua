@@ -25,6 +25,7 @@ reek = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/beast_master/bm_reek.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_reek.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

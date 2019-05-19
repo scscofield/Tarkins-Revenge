@@ -25,6 +25,7 @@ armored_dewback = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/dewback_armored.iff"},
+	controlDeviceTemplate = "object/intangible/pet/armored_dewback.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

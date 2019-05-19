@@ -25,6 +25,7 @@ uwari_beetle = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/uwari_beetle_aggro.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_uwari_beetle.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

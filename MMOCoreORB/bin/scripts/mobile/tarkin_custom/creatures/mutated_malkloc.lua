@@ -25,6 +25,7 @@ mutated_malkloc = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_malkloc.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_malkloc.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

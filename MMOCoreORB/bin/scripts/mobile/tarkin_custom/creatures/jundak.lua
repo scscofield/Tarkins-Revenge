@@ -25,6 +25,7 @@ jundak = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/som/jundak.iff"},
+	controlDeviceTemplate = "object/intangible/pet/jundak.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

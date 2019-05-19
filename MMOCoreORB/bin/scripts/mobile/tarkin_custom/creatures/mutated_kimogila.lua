@@ -25,6 +25,7 @@ mutated_kimogila = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_kimogila.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_kimogila.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

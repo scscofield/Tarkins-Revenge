@@ -26,6 +26,7 @@ tulrus = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/som/tulrus.iff"},
+	controlDeviceTemplate = "object/intangible/pet/tulrus.iff",
 
 	lootGroups = {
 		{

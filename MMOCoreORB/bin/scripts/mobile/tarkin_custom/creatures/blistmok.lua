@@ -25,6 +25,7 @@ blistmok = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/som/blistmok.iff"},
+	controlDeviceTemplate = "object/intangible/pet/blistmok.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

@@ -25,6 +25,7 @@ minstyngar = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/minstyngar.iff"},
+	controlDeviceTemplate = "object/intangible/pet/minstyngar.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

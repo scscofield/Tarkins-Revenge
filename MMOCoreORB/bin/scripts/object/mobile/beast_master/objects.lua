@@ -74,11 +74,6 @@ object_mobile_beast_master_shared_bm_hawk_bat = SharedCreatureObjectTemplate:new
 }
 ObjectTemplates:addClientTemplate(object_mobile_beast_master_shared_bm_hawk_bat, "object/mobile/beast_master/shared_bm_hawk_bat.iff")	
 
-object_mobile_beast_master_shared_bm_monkey_lizard = SharedCreatureObjectTemplate:new {
-	clientTemplateFileName = "object/mobile/beast_master/shared_bm_monkey_lizard.iff"
-}
-ObjectTemplates:addClientTemplate(object_mobile_beast_master_shared_bm_monkey_lizard, "object/mobile/beast_master/shared_bm_monkey_lizard.iff")	
-
 object_mobile_beast_master_shared_bm_mutated_narglatch = SharedCreatureObjectTemplate:new {
 	clientTemplateFileName = "object/mobile/beast_master/shared_bm_mutated_narglatch.iff"
 }

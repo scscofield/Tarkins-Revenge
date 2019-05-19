@@ -25,6 +25,7 @@ kashyyyk_bantha = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/kashyyyk_bantha.iff"},
+	controlDeviceTemplate = "object/intangible/pet/kashyyyk_bantha.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

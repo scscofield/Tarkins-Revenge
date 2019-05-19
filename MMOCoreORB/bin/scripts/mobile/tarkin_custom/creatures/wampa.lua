@@ -1,5 +1,5 @@
 wampa = Creature:new {
-	objectName = "@mob/creature_names:wampa",
+	objectName = "@mob/creature_names:storyteller_wampa",
 	socialGroup = "wampa",
 	faction = "",
 	level = 4,
@@ -25,6 +25,7 @@ wampa = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/wampa.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_wampa.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

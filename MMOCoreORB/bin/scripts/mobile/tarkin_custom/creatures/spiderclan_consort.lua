@@ -25,6 +25,7 @@ spiderclan_consort = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_spiderclan_consort.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_spiderclan_consort.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

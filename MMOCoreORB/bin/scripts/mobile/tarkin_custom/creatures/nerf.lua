@@ -25,6 +25,7 @@ nerf = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/nerf_hue.iff"},
+	controlDeviceTemplate = "object/intangible/pet/nerf_hue.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

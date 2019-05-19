@@ -25,6 +25,7 @@ armored_bantha = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/bantha_saddle_armored.iff"},
+	controlDeviceTemplate = "object/intangible/pet/bantha_armored.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

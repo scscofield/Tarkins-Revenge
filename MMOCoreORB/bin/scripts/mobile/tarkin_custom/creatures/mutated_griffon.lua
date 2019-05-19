@@ -25,6 +25,7 @@ mutated_griffon = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_griffon.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_griffon.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

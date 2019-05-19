@@ -25,6 +25,7 @@ mutated_slice_hound = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_slice_hound.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_slice_hound.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

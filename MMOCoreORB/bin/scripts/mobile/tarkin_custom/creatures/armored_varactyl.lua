@@ -25,6 +25,7 @@ armored_varactyl = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/tcg_armored_varactyl.iff"},
+	controlDeviceTemplate = "object/intangible/pet/armored_varactyl.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

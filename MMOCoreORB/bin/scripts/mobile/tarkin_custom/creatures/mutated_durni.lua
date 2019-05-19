@@ -25,6 +25,7 @@ mutated_durni = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_durni.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_durni.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

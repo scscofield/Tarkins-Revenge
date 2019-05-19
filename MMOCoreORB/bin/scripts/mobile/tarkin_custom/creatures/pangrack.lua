@@ -25,6 +25,7 @@ pangrack = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = CARNIVORE,
 	templates = {"object/mobile/beast_master/bm_pangrack.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_pangrack.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

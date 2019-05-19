@@ -25,6 +25,7 @@ mutated_quenker = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/beast_master/bm_mutated_quenker.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_mutated_quenker.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

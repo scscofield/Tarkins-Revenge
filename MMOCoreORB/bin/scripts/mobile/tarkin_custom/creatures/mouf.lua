@@ -25,6 +25,7 @@ mouf = Creature:new {
 	optionsBitmask = AIENABLED,
 	diet = HERBIVORE,
 	templates = {"object/mobile/mouf.iff"},
+	controlDeviceTemplate = "object/intangible/pet/mouf.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",

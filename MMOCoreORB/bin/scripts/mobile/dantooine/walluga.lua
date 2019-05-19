@@ -26,6 +26,7 @@ walluga = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/walluga.iff"},
+	controlDeviceTemplate = "object/intangible/beast/bm_walluga.iff",
 	lootGroups = {},
 	weapons = {},
 	conversationTemplate = "",
