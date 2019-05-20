@@ -428,19 +428,12 @@ public:
 		int defenseLevel = hitLevel;
 		int regenerationLevel =  (DnaManager::instance()->levelForScore(DnaManager::REG_LEVEL, avgHam / 10) + 1)* 2;
 		int armorLevel = DnaManager::instance()->levelForScore(DnaManager::ARM_LEVEL, (pet->getArmor() * 500) + (( pet->getEffectiveArmor()) * 10.0)  );
-
-		StringBuffer armorLevelBuffer;
-		armorLevelBuffer << "pet get armor x 500: " << (pet->getArmor() * 500) << " get effective armor: " << pet->getEffectiveArmor();
-		Logger::console.error(armorLevelBuffer);		
 		int armorBase = DnaManager::instance()->valueForLevel(DnaManager::ARM_LEVEL, armorLevel);
 		int baseLevel = (((statLevel) + (damageLevel) + (regenerationLevel) + (hitLevel)) / 19.0) + 0.5;
 		int armorLevel2 = calculateArmorValue(pet, armorLevel, baseLevel, armorBase) * 2;
 		if (defenseLevel < baseLevel)
 			defenseLevel = baseLevel;
 		int level = round((((float)(statLevel + damageLevel + hitLevel + defenseLevel + armorLevel + regenerationLevel ))/22.0) + 0.5);
-		StringBuffer infoMsg;
-		infoMsg << "statLevel: " << statLevel << " damageLevel: " << damageLevel << " hitLevel: " << hitLevel << " defenseLevel: " << defenseLevel << " armorLevel: " << armorLevel << " regenerationLevel: " << regenerationLevel;
-		Logger::console.error(infoMsg);
 		return level;
 	}
 
