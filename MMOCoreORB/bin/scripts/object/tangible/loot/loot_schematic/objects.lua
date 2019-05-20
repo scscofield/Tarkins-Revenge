@@ -7845,3 +7845,594 @@ object_tangible_loot_loot_schematic_shared_ep3_chiss_poacher_backpack_schematic 
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_ep3_chiss_poacher_backpack_schematic, "object/tangible/loot/loot_schematic/shared_ep3_chiss_poacher_backpack_schematic.iff")
+
+--Bio-Engineered Pet Deeds
+object_tangible_loot_loot_schematic_shared_be_baz_nitch_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_baz_nitch_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_baz_nitch_schematic, "object/tangible/loot/loot_schematic/shared_be_baz_nitch_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_borgle_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_borgle_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_borgle_schematic, "object/tangible/loot/loot_schematic/shared_be_borgle_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_chuba_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_chuba_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_chuba_schematic, "object/tangible/loot/loot_schematic/shared_be_chuba_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_corellian_butterfly_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_corellian_butterfly_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_corellian_butterfly_schematic, "object/tangible/loot/loot_schematic/shared_be_corellian_butterfly_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_female_narglatch_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_female_narglatch_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_female_narglatch_schematic, "object/tangible/loot/loot_schematic/shared_be_female_narglatch_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_flewt_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_flewt_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_flewt_schematic, "object/tangible/loot/loot_schematic/shared_be_flewt_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_flit_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_flit_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_flit_schematic, "object/tangible/loot/loot_schematic/shared_be_flit_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_fynock_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_fynock_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_fynock_schematic, "object/tangible/loot/loot_schematic/shared_be_fynock_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_gackle_bat_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_gackle_bat_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_gackle_bat_schematic, "object/tangible/loot/loot_schematic/shared_be_gackle_bat_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_gualaar_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_gualaar_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_gualaar_schematic, "object/tangible/loot/loot_schematic/shared_be_gualaar_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_gubbur_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_gubbur_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_gubbur_schematic, "object/tangible/loot/loot_schematic/shared_be_gubbur_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_gulginaw_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_gulginaw_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_gulginaw_schematic, "object/tangible/loot/loot_schematic/shared_be_gulginaw_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_gurk_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_gurk_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_gurk_schematic, "object/tangible/loot/loot_schematic/shared_be_gurk_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_hanadak_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_hanadak_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_hanadak_schematic, "object/tangible/loot/loot_schematic/shared_be_hanadak_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_horned_krevol_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_horned_krevol_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_horned_krevol_schematic, "object/tangible/loot/loot_schematic/shared_be_horned_krevol_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_horned_rasp_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_horned_rasp_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_horned_rasp_schematic, "object/tangible/loot/loot_schematic/shared_be_horned_rasp_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_kai_tok_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_kai_tok_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_kai_tok_schematic, "object/tangible/loot/loot_schematic/shared_be_kai_tok_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_lantern_bird_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_lantern_bird_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_lantern_bird_schematic, "object/tangible/loot/loot_schematic/shared_be_lantern_bird_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mamien_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mamien_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mamien_schematic, "object/tangible/loot/loot_schematic/shared_be_mamien_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mynock_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mynock_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mynock_schematic, "object/tangible/loot/loot_schematic/shared_be_mynock_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_nuna_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_nuna_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_nuna_schematic, "object/tangible/loot/loot_schematic/shared_be_nuna_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_peko_peko_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_peko_peko_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_peko_peko_schematic, "object/tangible/loot/loot_schematic/shared_be_peko_peko_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_perlek_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_perlek_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_perlek_schematic, "object/tangible/loot/loot_schematic/shared_be_perlek_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_pharple_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_pharple_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_pharple_schematic, "object/tangible/loot/loot_schematic/shared_be_pharple_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_plumed_rasp_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_plumed_rasp_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_plumed_rasp_schematic, "object/tangible/loot/loot_schematic/shared_be_plumed_rasp_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_purbole_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_purbole_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_purbole_schematic, "object/tangible/loot/loot_schematic/shared_be_purbole_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_quenker_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_quenker_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_quenker_schematic, "object/tangible/loot/loot_schematic/shared_be_quenker_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_reptilian_flier_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_reptilian_flier_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_reptilian_flier_schematic, "object/tangible/loot/loot_schematic/shared_be_reptilian_flier_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_salt_mynock_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_salt_mynock_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_salt_mynock_schematic, "object/tangible/loot/loot_schematic/shared_be_salt_mynock_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_shaupaut_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_shaupaut_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_shaupaut_schematic, "object/tangible/loot/loot_schematic/shared_be_shaupaut_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_skreeg_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_skreeg_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_skreeg_schematic, "object/tangible/loot/loot_schematic/shared_be_skreeg_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_spined_snake_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_spined_snake_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_spined_snake_schematic, "object/tangible/loot/loot_schematic/shared_be_spined_snake_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_squill_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_squill_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_squill_schematic, "object/tangible/loot/loot_schematic/shared_be_squill_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_varactyl_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_varactyl_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_varactyl_schematic, "object/tangible/loot/loot_schematic/shared_be_varactyl_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_voritor_lizard_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_voritor_lizard_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_voritor_lizard_schematic, "object/tangible/loot/loot_schematic/shared_be_voritor_lizard_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_vynock_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_vynock_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_vynock_schematic, "object/tangible/loot/loot_schematic/shared_be_vynock_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_womp_rat_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_womp_rat_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_womp_rat_schematic, "object/tangible/loot/loot_schematic/shared_be_womp_rat_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_worrt_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_worrt_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_worrt_schematic, "object/tangible/loot/loot_schematic/shared_be_worrt_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_bane_back_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_bane_back_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_bane_back_schematic, "object/tangible/loot/loot_schematic/shared_be_bane_back_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_barbed_quenker_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_barbed_quenker_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_barbed_quenker_schematic, "object/tangible/loot/loot_schematic/shared_be_barbed_quenker_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_blistmok_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_blistmok_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_blistmok_schematic, "object/tangible/loot/loot_schematic/shared_be_blistmok_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_bolotaur_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_bolotaur_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_bolotaur_schematic, "object/tangible/loot/loot_schematic/shared_be_bolotaur_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_crystal_snake_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_crystal_snake_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_crystal_snake_schematic, "object/tangible/loot/loot_schematic/shared_be_crystal_snake_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_fanned_rawl_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_fanned_rawl_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_fanned_rawl_schematic, "object/tangible/loot/loot_schematic/shared_be_fanned_rawl_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_finned_blaggart_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_finned_blaggart_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_finned_blaggart_schematic, "object/tangible/loot/loot_schematic/shared_be_finned_blaggart_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_forage_worm_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_forage_worm_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_forage_worm_schematic, "object/tangible/loot/loot_schematic/shared_be_forage_worm_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_hawk_bat_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_hawk_bat_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_hawk_bat_schematic, "object/tangible/loot/loot_schematic/shared_be_hawk_bat_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_jundak_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_jundak_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_jundak_schematic, "object/tangible/loot/loot_schematic/shared_be_jundak_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_kashyyyk_bantha_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_kashyyyk_bantha_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_kashyyyk_bantha_schematic, "object/tangible/loot/loot_schematic/shared_be_kashyyyk_bantha_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_kittle_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_kittle_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_kittle_schematic, "object/tangible/loot/loot_schematic/shared_be_kittle_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_kubaza_beetle_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_kubaza_beetle_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_kubaza_beetle_schematic, "object/tangible/loot/loot_schematic/shared_be_kubaza_beetle_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_lava_flea_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_lava_flea_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_lava_flea_schematic, "object/tangible/loot/loot_schematic/shared_be_lava_flea_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_minstyngar_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_minstyngar_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_minstyngar_schematic, "object/tangible/loot/loot_schematic/shared_be_minstyngar_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_monkey_lizard_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_monkey_lizard_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_monkey_lizard_schematic, "object/tangible/loot/loot_schematic/shared_be_monkey_lizard_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mooc_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mooc_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mooc_schematic, "object/tangible/loot/loot_schematic/shared_be_mooc_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mouf_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mouf_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mouf_schematic, "object/tangible/loot/loot_schematic/shared_be_mouf_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_narglatch_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_narglatch_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_narglatch_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_narglatch_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_acklay_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_acklay_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_acklay_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_acklay_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_boar_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_boar_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_boar_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_boar_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_bol_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_bol_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_bol_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_bol_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_bolle_bol_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_bolle_bol_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_bolle_bol_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_bolle_bol_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_borgax_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_borgax_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_borgax_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_borgax_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_cat_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_cat_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_cat_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_cat_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_chuba_fly_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_chuba_fly_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_chuba_fly_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_chuba_fly_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_cu_pa_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_cu_pa_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_cu_pa_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_cu_pa_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_dewback_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_dewback_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_dewback_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_dewback_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_durni_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_durni_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_durni_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_durni_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_griffon_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_griffon_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_griffon_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_griffon_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_hermit_spider_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_hermit_spider_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_hermit_spider_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_hermit_spider_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_jax_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_jax_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_jax_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_jax_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_kimogila_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_kimogila_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_kimogila_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_kimogila_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_malkloc_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_malkloc_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_malkloc_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_malkloc_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_quenker_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_quenker_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_quenker_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_quenker_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_rancor_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_rancor_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_rancor_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_rancor_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_reek_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_reek_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_reek_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_reek_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_slice_hound_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_slice_hound_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_slice_hound_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_slice_hound_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_thune_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_thune_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_thune_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_thune_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_varasquactyl_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_varasquactyl_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_varasquactyl_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_varasquactyl_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mutated_vesp_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mutated_vesp_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mutated_vesp_schematic, "object/tangible/loot/loot_schematic/shared_be_mutated_vesp_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_nerf_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_nerf_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_nerf_schematic, "object/tangible/loot/loot_schematic/shared_be_nerf_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_nexu_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_nexu_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_nexu_schematic, "object/tangible/loot/loot_schematic/shared_be_nexu_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_pangrack_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_pangrack_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_pangrack_schematic, "object/tangible/loot/loot_schematic/shared_be_pangrack_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_reek_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_reek_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_reek_schematic, "object/tangible/loot/loot_schematic/shared_be_reek_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_spiderclan_consort_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_spiderclan_consort_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_spiderclan_consort_schematic, "object/tangible/loot/loot_schematic/shared_be_spiderclan_consort_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_spiderclan_queen_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_spiderclan_queen_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_spiderclan_queen_schematic, "object/tangible/loot/loot_schematic/shared_be_spiderclan_queen_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_tanray_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_tanray_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_tanray_schematic, "object/tangible/loot/loot_schematic/shared_be_tanray_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_tulrus_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_tulrus_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_tulrus_schematic, "object/tangible/loot/loot_schematic/shared_be_tulrus_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_uller_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_uller_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_uller_schematic, "object/tangible/loot/loot_schematic/shared_be_uller_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_urnsoris_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_urnsoris_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_urnsoris_schematic, "object/tangible/loot/loot_schematic/shared_be_urnsoris_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_uwari_beetle_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_uwari_beetle_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_uwari_beetle_schematic, "object/tangible/loot/loot_schematic/shared_be_uwari_beetle_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_walluga_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_walluga_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_walluga_schematic, "object/tangible/loot/loot_schematic/shared_be_walluga_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_wampa_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_wampa_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_wampa_schematic, "object/tangible/loot/loot_schematic/shared_be_wampa_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_webweaver_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_webweaver_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_webweaver_schematic, "object/tangible/loot/loot_schematic/shared_be_webweaver_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_xandank_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_xandank_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_xandank_schematic, "object/tangible/loot/loot_schematic/shared_be_xandank_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_armored_bantha_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_armored_bantha_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_armored_bantha_schematic, "object/tangible/loot/loot_schematic/shared_be_armored_bantha_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_armored_dewback_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_armored_dewback_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_armored_dewback_schematic, "object/tangible/loot/loot_schematic/shared_be_armored_dewback_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_armored_tauntaun_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_armored_tauntaun_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_armored_tauntaun_schematic, "object/tangible/loot/loot_schematic/shared_be_armored_tauntaun_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_armored_varactyl_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_armored_varactyl_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_armored_varactyl_schematic, "object/tangible/loot/loot_schematic/shared_be_armored_varactyl_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_whisper_bird_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_whisper_bird_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_whisper_bird_schematic, "object/tangible/loot/loot_schematic/shared_be_whisper_bird_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_bark_mite_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_bark_mite_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_bark_mite_schematic, "object/tangible/loot/loot_schematic/shared_be_bark_mite_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_blackwing_rancor_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_blackwing_rancor_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_blackwing_rancor_schematic, "object/tangible/loot/loot_schematic/shared_be_blackwing_rancor_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_capper_spineflap_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_capper_spineflap_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_capper_spineflap_schematic, "object/tangible/loot/loot_schematic/shared_be_capper_spineflap_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_razor_angler_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_razor_angler_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_razor_angler_schematic, "object/tangible/loot/loot_schematic/shared_be_razor_angler_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_remmer_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_remmer_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_remmer_schematic, "object/tangible/loot/loot_schematic/shared_be_remmer_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_spined_puc_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_spined_puc_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_spined_puc_schematic, "object/tangible/loot/loot_schematic/shared_be_spined_puc_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_stintaril_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_stintaril_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_stintaril_schematic, "object/tangible/loot/loot_schematic/shared_be_stintaril_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_tanc_mite_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_tanc_mite_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_tanc_mite_schematic, "object/tangible/loot/loot_schematic/shared_be_tanc_mite_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_dwarf_nuna_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_dwarf_nuna_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_dwarf_nuna_schematic, "object/tangible/loot/loot_schematic/shared_be_dwarf_nuna_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_gaping_spider_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_gaping_spider_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_gaping_spider_schematic, "object/tangible/loot/loot_schematic/shared_be_gaping_spider_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_mantigrue_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_mantigrue_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_mantigrue_schematic, "object/tangible/loot/loot_schematic/shared_be_mantigrue_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_katarn_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_katarn_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_katarn_schematic, "object/tangible/loot/loot_schematic/shared_be_katarn_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_kkorrwrot_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_kkorrwrot_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_kkorrwrot_schematic, "object/tangible/loot/loot_schematic/shared_be_kkorrwrot_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_flite_rasp_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_flite_rasp_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_flite_rasp_schematic, "object/tangible/loot/loot_schematic/shared_be_flite_rasp_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_crowned_rasp_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_crowned_rasp_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_crowned_rasp_schematic, "object/tangible/loot/loot_schematic/shared_be_crowned_rasp_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_painted_spat_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_painted_spat_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_painted_spat_schematic, "object/tangible/loot/loot_schematic/shared_be_painted_spat_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_murra_blanca_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_murra_blanca_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_murra_blanca_schematic, "object/tangible/loot/loot_schematic/shared_be_murra_blanca_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_spiketail_blurrg_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_spiketail_blurrg_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_spiketail_blurrg_schematic, "object/tangible/loot/loot_schematic/shared_be_spiketail_blurrg_schematic.iff")
+
+object_tangible_loot_loot_schematic_shared_be_scorpion_kliknik_schematic = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/loot_schematic/shared_be_scorpion_kliknik_schematic.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_loot_loot_schematic_shared_be_scorpion_kliknik_schematic, "object/tangible/loot/loot_schematic/shared_be_scorpion_kliknik_schematic.iff")

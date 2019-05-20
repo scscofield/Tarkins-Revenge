@@ -26,6 +26,7 @@ lava_flea = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/som/lava_flea.iff"},
+	controlDeviceTemplate = "object/intangible/pet/lava_flea.iff",
 
 	lootGroups = {
 		{
