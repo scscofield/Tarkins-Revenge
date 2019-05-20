@@ -53,6 +53,11 @@ public:
 		CreatureObject* creo = cast<CreatureObject*>( object.get());
 		Creature* cr = cast<Creature*>( creo);
 		Locker crosslocker(creo,creature);
+		
+		if (cr->getLevel() > 75){
+			player->sendSystemMessage("@bio_engineer:harvest_dna_invalid_target"); // You cannot sample DNA from that target.
+			return GENERALERROR;
+		}
 
 		if (!CollisionManager::checkLineOfSight(creature, creo)) {
 			player->sendSystemMessage("@container_error_message:container18"); // You can't see that object. You may have to move closer to it.
