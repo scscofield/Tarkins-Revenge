@@ -1393,6 +1393,7 @@ includeFile("items/tarkin_custom/paintings/decorative_galactic_hunters_poster.lu
 includeFile("items/tarkin_custom/paintings/decorative_theater_poster.lua")
 includeFile("items/tarkin_custom/paintings/combine_object_hk_droids_poster.lua")
 includeFile("items/tarkin_custom/paintings/painting_spined_rancor.lua")
+includeFile("items/tarkin_custom/paintings/painting_winged_quenker.lua")
 includeFile("items/tarkin_custom/paintings/painting_travel_ad_ord_mantell.lua")
 includeFile("items/tarkin_custom/paintings/combine_object_gunship_blueprint.lua")
 includeFile("items/tarkin_custom/paintings/painting_lando_poster.lua")
