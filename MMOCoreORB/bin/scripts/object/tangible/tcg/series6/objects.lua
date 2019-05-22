@@ -65,3 +65,8 @@ object_tangible_tcg_series6_shared_decorative_house_lamp = SharedTangibleObjectT
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_decorative_house_lamp, "object/tangible/tcg/series6/shared_decorative_house_lamp.iff")
 
+--Winged Quenker Painting 
+object_tangible_tcg_series6_shared_painting_winged_quenker = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_painting_winged_quenker.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_painting_winged_quenker, "object/tangible/tcg/series6/shared_painting_winged_quenker.iff")

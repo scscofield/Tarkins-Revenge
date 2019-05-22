@@ -2686,6 +2686,9 @@ schematics = {
 	{path="object/draft_schematic/bio_engineer/creature/creature_painted_spat.iff"},
 	{path="object/draft_schematic/bio_engineer/creature/creature_murra_blanca.iff"},
 	{path="object/draft_schematic/bio_engineer/creature/creature_spiketail_blurrg.iff"},
-	{path="object/draft_schematic/bio_engineer/creature/creature_scorpion_kliknik.iff"}
+	{path="object/draft_schematic/bio_engineer/creature/creature_scorpion_kliknik.iff"},
+
+	--Medical Bag
+	{path="object/draft_schematic/chemistry/tarkin_custom/medicine_bag.iff"}
 
 };
