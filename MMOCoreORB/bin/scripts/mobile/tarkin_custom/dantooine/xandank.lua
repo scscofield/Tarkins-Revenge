@@ -26,6 +26,7 @@ xandank = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/som/xandank.iff"},
+	controlDeviceTemplate = "object/intangible/pet/xandank.iff",
 
 	lootGroups = {
 		{

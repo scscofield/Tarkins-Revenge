@@ -9,7 +9,10 @@ dejarik_table_base = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 35,
+	junkMaxValue = 35
 }
 
 addLootItemTemplate("dejarik_table_base", dejarik_table_base)

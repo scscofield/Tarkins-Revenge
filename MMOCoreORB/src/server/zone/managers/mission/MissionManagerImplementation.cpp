@@ -760,17 +760,17 @@ void MissionManagerImplementation::randomizeGenericDestroyMission(CreatureObject
 	PlayerObject* targetGhost = player->getPlayerObject();
 
 	String level = targetGhost->getScreenPlayData("mission_level_choice", "levelChoice");
-
   	int levelChoice = Integer::valueOf(level);
-
-	if (levelChoice > 0) 
+  	
+	if (levelChoice > 0)
 		diffDisplay += levelChoice;
-	
 	else if (player->isGrouped())
 		diffDisplay += player->getGroup()->getGroupLevel();
-	
-	else 
+	else
 		diffDisplay += playerLevel;
+	
+	String dir = targetGhost->getScreenPlayData("mission_direction_choice", "directionChoice");
+  	float dirChoice = Float::valueOf(dir);
 
 	String building = lairTemplateObject->getMissionBuilding(difficulty);
 
@@ -795,8 +795,25 @@ void MissionManagerImplementation::randomizeGenericDestroyMission(CreatureObject
 	int maximumNumberOfTries = 20;
 	while (!foundPosition && maximumNumberOfTries-- > 0) {
 		foundPosition = true;
+		
+		float direction = (float)System::random(360);
+		
+		// Player direction choice -/+ 8 degrees deviation from center
+		if (dirChoice > 0){
+			int dev = System::random(8);
+			int isMinus = System::random(100);
+			
+			if (isMinus > 49)
+				dev *= -1;
+			
+			direction = dirChoice + dev;
+			
+			// Fix degree values greater than 360
+			if (direction > 360)
+				direction -= 360;
+		}
 
-		startPos = player->getWorldCoordinate(System::random(1000) + 1000, (float)System::random(360), false);
+		startPos = player->getWorldCoordinate(System::random(1000) + 1000, direction, false);
 
 		if (zone->isWithinBoundaries(startPos)) {
 			float height = zone->getHeight(startPos.getX(), startPos.getY());
@@ -855,24 +872,13 @@ void MissionManagerImplementation::randomizeGenericDestroyMission(CreatureObject
 	else
 		messageDifficulty = "_hard";
 
-	String groupSuffix;
-
 	if (lairTemplateObject->getMobType() == LairTemplate::NPC){
 		missionType = "_npc";
-		groupSuffix = " camp.";
 	} else {
 		missionType = "_creature";
-		groupSuffix = " lair.";
-	}
-		
-	VectorMap<String, int>* mobiles = lairTemplateObject->getMobiles();
-	String mobileName = "mysterious";
-	
-	if (mobiles->size() > 0) {
-		mobileName = mobiles->elementAt(0).getKey();
 	}
 
-	mission->setMissionTitle("Destroy", " the " + mobileName.replaceAll("_", " ") + groupSuffix + " [CL" + String::valueOf(diffDisplay) + "]");
+	mission->setMissionTitle("lair_n", lairTemplateObject->getName());
 	mission->setMissionDescription("mission/mission_destroy_neutral" +  messageDifficulty + missionType, "m" + String::valueOf(randTexts) + "d");
 
 	switch (faction) {

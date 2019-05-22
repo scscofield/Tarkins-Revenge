@@ -6,6 +6,9 @@ diagnostic_screen_schematic = {
 	craftingValues = {
 	},
 	customizationStringNames = {},
-	customizationValues = {}
+	customizationValues = {},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
  addLootItemTemplate("diagnostic_screen_schematic", diagnostic_screen_schematic)

@@ -26,6 +26,7 @@ kubaza_beetle = Creature:new {
 	diet = CARNIVORE,
 
 	templates = {"object/mobile/som/kubaza_beetle.iff"},
+	controlDeviceTemplate = "object/intangible/pet/kubaza_beetle.iff",
 
 	lootGroups = {
 		{

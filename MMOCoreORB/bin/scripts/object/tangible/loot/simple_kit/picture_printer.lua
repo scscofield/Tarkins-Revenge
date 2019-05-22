@@ -92,6 +92,7 @@ object_tangible_loot_simple_kit_picture_printer = object_tangible_loot_simple_ki
 		"object/tangible/tcg/series5/title_grant.iff",
 		"object/tangible/tcg/series6/painting_nightsister.iff",
 		"object/tangible/tcg/series6/painting_travel_ad_coruscant.iff",
+		"object/tangible/tcg/series6/painting_winged_quenker.iff",
 		"object/tangible/tcg/series7/painting_commando.iff",
 		"object/tangible/tcg/series8/decorative_shield_generator_blueprint.iff",
 		"object/tangible/tcg/series8/painting_tcg8_vintage.iff",

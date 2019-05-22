@@ -6,6 +6,9 @@ hanging_planter_schematic = {
 	craftingValues = {
 	},
 	customizationStringNames = {},
-	customizationValues = {}
+	customizationValues = {},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
  addLootItemTemplate("hanging_planter_schematic", hanging_planter_schematic)

@@ -9,7 +9,10 @@ nym_themepark_surveillance_device = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("nym_themepark_surveillance_device", nym_themepark_surveillance_device)

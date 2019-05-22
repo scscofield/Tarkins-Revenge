@@ -9,7 +9,10 @@ eow_defective_holoshroud = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("eow_defective_holoshroud", eow_defective_holoshroud)

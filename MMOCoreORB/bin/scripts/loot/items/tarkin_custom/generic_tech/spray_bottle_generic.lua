@@ -9,7 +9,10 @@ spray_bottle_generic = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("spray_bottle_generic", spray_bottle_generic)

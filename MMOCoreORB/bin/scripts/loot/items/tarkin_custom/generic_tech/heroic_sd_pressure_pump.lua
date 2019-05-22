@@ -9,7 +9,10 @@ heroic_sd_pressure_pump = {
 	customizationValues = {},
 	skillMods = {
 
-	}
+	},
+	junkDealerTypeNeeded = JUNKGENERIC,
+	junkMinValue = 20,
+	junkMaxValue = 40
 }
 
 addLootItemTemplate("heroic_sd_pressure_pump", heroic_sd_pressure_pump)

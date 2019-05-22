@@ -14,8 +14,15 @@
 #include "server/zone/ZoneServer.h"
 #include "server/zone/managers/player/PlayerManager.h"
 #include "server/zone/objects/creature/events/InjuryTreatmentTask.h"
+#include "server/zone/packets/object/Buffs.h"
 #include "server/zone/objects/creature/buffs/DelayedBuff.h"
 #include "QueueCommand.h"
+
+// Hondo For countdown on crafting tool
+#include "server/zone/managers/crafting/CraftingManager.h"
+#include "server/zone/objects/tangible/tool/CraftingTool.h"
+#include "server/zone/objects/player/sessions/crafting/events/CreateObjectTask.h"
+#include "server/zone/objects/player/sessions/crafting/events/UpdateToolCountdownTask.h"
 
 class CurePackCommand : public QueueCommand {
 protected:
@@ -54,6 +61,25 @@ public:
 		if (inventory != NULL) {
 			for (int i = 0; i < inventory->getContainerObjectsSize(); ++i) {
 				SceneObject* object = inventory->getContainerObject(i);
+				
+				// LoH Find first usable Cure Pack in Medical Bag
+				if (object->isContainerObject() && object->getObjectName()->getFullPath().contains("medbag")) {
+					
+					for (int j = 0; j < object->getContainerObjectsSize(); j++) {
+						SceneObject* bagItem = object->getContainerObject(j);
+						
+						if (bagItem->isPharmaceuticalObject()){
+							PharmaceuticalObject* rightItem = cast<PharmaceuticalObject*>(bagItem);
+
+							if (rightItem->isCurePack()){
+								CurePack* cpk = cast<CurePack*>(rightItem);
+								
+								if (cpk->getMedicineUseRequired() <= medicineUse && cpk->getState() == state)
+									return cpk;
+							}
+						}
+					}
+				}
 
 				if (!object->isPharmaceuticalObject())
 					continue;
@@ -115,6 +141,74 @@ public:
 				creatureTarget->sendSystemMessage(msgTarget.toString());
 		}
 	}
+	
+	void displayCoolDown(CreatureObject* creature, int timer, String targetItem) const {
+		SceneObject* inventory = creature->getSlottedObject("inventory");
+
+		if (inventory == nullptr)
+			return;
+			
+		ManagedReference<SceneObject*> obj = nullptr;
+		bool toolFound = false;
+		
+		// Find a food/chem crafting tool
+		for (int i = 0; i < inventory->getContainerObjectsSize(); ++i) {
+			obj = inventory->getContainerObject(i);
+			
+			// Check if it's in the medical bag
+			if (obj->isContainerObject() && obj->getObjectName()->getFullPath().contains("medbag")) {
+				for (int j = 0; j < obj->getContainerObjectsSize(); j++) {
+					SceneObject* bagItem = obj->getContainerObject(j);
+					
+					if (bagItem != nullptr && bagItem->getObjectName()->getFullPath().contains(targetItem)) {
+						obj = bagItem;
+						toolFound = true;
+						break;
+					}
+				}	
+			}
+			
+			if (obj != nullptr && obj->getObjectName()->getFullPath().contains(targetItem)) {
+				toolFound = true;
+				break;
+			}
+		}
+		
+		if (!toolFound)
+			return;
+
+		ManagedReference<ZoneServer*> server = creature->getZoneServer();
+
+		if (server == nullptr)
+			return; 
+			
+		ManagedReference<CraftingTool*> craftingTool = obj.castTo<CraftingTool*>();	
+			
+		Locker locker(craftingTool);
+		craftingTool->setBusy();
+
+		int timer2 = 1;
+
+		Reference<UpdateToolCountdownTask*> updateToolCountdownTask = nullptr;
+		Reference<CreateObjectTask*> createObjectTask = new CreateObjectTask(creature, craftingTool, true); // practice
+
+		while (timer > 0) {
+			updateToolCountdownTask = new UpdateToolCountdownTask(creature, craftingTool, timer);
+			updateToolCountdownTask->schedule(timer2);
+			timer -= 1;
+			timer2 += 1000;
+		}
+
+		if (timer < 0) {
+			timer2 += (timer * 1000);
+			timer = 0;
+		}
+
+		updateToolCountdownTask = new UpdateToolCountdownTask(creature, craftingTool, timer);
+		updateToolCountdownTask->schedule(timer2);
+		createObjectTask->schedule(timer2);
+
+	}
 
 	void deactivateConditionTreatment(CreatureObject* creature) const {
 		float modSkill = (float)creature->getSkillMod("healing_injury_speed");
@@ -136,6 +230,13 @@ public:
 		StringIdChatParameter message("healing_response", "healing_response_58"); //You are now ready to heal more damage.
 		Reference<InjuryTreatmentTask*> task = new InjuryTreatmentTask(creature, message, "conditionTreatment");
 		creature->addPendingTask("conditionTreatment", task, delay * 1000);
+		
+		// LoH Show cooldown icon (tooltip timer is accurate, but there is ~5s delay before the icon disappears after the timer runs out)
+		AddBuffMessage* abm = new AddBuffMessage(creature, BuffCRC::TEST_FIRST, delay);
+		creature->sendMessage(abm);
+		
+		// LoH Start countdown timer on first food/chem crafting tool in inventory or med bag (this displays accurately when on the toolbar)
+		displayCoolDown(creature, delay, "food_tool");
 	}
 
 	void awardXp(CreatureObject* creature, const String& type, int power) const {
@@ -399,6 +500,18 @@ public:
 
 			if (inventory != NULL) {
 				curePack = inventory->getContainerObject(objectId).castTo<CurePack*>();
+			}
+			
+			// Check if it's in the medical bag
+			if (curePack == NULL) {
+				SceneObject* usedItem = creature->getZoneServer()->getObject(objectId);
+				
+				if (usedItem != nullptr){
+					ManagedReference<SceneObject*> myParent = usedItem->getParent().get();
+
+					if (myParent != nullptr && myParent->getObjectName()->getFullPath().contains("medbag") && usedItem->isPharmaceuticalObject())
+						curePack = cast<CurePack*>(usedItem);
+				}
 			}
 		}
 
