@@ -993,6 +993,35 @@ void CraftingSessionImplementation::experiment(int rowsAttempted, const String& 
 	if (crafterGhost != nullptr && crafterGhost->getDebug()) {
 		crafter->sendSystemMessage(craftingValues->toString());
 	}
+
+	// Legend of Hondo - Have an epiphany, earn a temp schematic!
+	String schematicPath = craftingManager.get()->epiphany(crafter, manufactureSchematic);
+
+	if (schematicPath == "")
+		return;
+
+
+	// Grant the loot schematic
+	ManagedReference<SceneObject*> inventory = crafter->getSlottedObject("inventory");
+	
+	if (inventory == NULL) {
+		return;
+	}
+
+	ManagedReference<TangibleObject *> rewardSchematic = (crafter->getZoneServer()->createObject(schematicPath.hashCode())).castTo<TangibleObject*>();
+
+	if (rewardSchematic != NULL) {
+		Locker locker(rewardSchematic);
+		if (inventory->transferObject(rewardSchematic, -1, true)) {
+				rewardSchematic->sendTo(crafter, rewardSchematic);
+		} else {
+			rewardSchematic->destroyObjectFromDatabase(rewardSchematic);
+			abort();
+			return;
+		}
+	}
+	
+	crafter->sendSystemMessage("You've had an epiphany! A new rare schematic has been added to your inventory.");
 }
 
 void CraftingSessionImplementation::customization(const String& name, byte templateChoice, int schematicCount, const String& customizationString) {
