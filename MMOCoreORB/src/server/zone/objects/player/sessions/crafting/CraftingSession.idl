@@ -16,6 +16,7 @@ import server.zone.managers.crafting.CraftingManager;
 include templates.customization.CustomizationVariable;
 
 class CraftingSession extends Facade {
+
 	@weakReference
 	protected transient CreatureObject crafter;
 	
@@ -53,7 +54,7 @@ class CraftingSession extends Facade {
 	
 	@dereferenced
 	protected transient VectorMap<string, Reference<CustomizationVariable> > variables;
-	
+
 	public CraftingSession(CreatureObject creature) {
 		Logger.setLoggingName("CraftingSession");
 		Logger.setLogging(true);

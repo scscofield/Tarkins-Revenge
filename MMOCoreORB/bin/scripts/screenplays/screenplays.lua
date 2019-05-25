@@ -680,6 +680,7 @@ includeFile("tools/mission_level_choice.lua")
 includeFile("caves/lok_kimogila_cave.lua")
 includeFile("tools/tarkin_housing_system.lua")
 includeFile("tools/mission_direction_choice.lua")
+includeFile("tools/epiphany_schematic_table.lua")
 
 --Tarkin Custom City
 includeFile("cities/tarkin_custom/tarkin_tatooine_mos_entha.lua")
