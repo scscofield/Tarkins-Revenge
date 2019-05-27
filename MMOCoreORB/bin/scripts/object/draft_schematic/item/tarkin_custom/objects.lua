@@ -1,0 +1,29 @@
+object_draft_schematic_item_tarkin_custom_shared_item_incubator_station = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_item_incubator_station.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_item_incubator_station, "object/draft_schematic/item/tarkin_custom/shared_item_incubator_station.iff")
+
+object_draft_schematic_item_tarkin_custom_shared_enzyme_extractor = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_enzyme_extractor.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_enzyme_extractor, "object/draft_schematic/item/tarkin_custom/shared_enzyme_extractor.iff")
+
+object_draft_schematic_item_tarkin_custom_shared_centrifuge_unit = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_centrifuge_unit.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_centrifuge_unit, "object/draft_schematic/item/tarkin_custom/shared_centrifuge_unit.iff")
+
+object_draft_schematic_item_tarkin_custom_shared_centrifuge_use_tray = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_centrifuge_use_tray.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_centrifuge_use_tray, "object/draft_schematic/item/tarkin_custom/shared_centrifuge_use_tray.iff")
+
+object_draft_schematic_item_tarkin_custom_shared_combiner_unit = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_combiner_unit.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_combiner_unit, "object/draft_schematic/item/tarkin_custom/shared_combiner_unit.iff")
