@@ -1,4 +1,5 @@
 object_tangible_component_genetic_engineering_centrifuge_use_tray = object_tangible_component_genetic_engineering_shared_centrifuge_use_tray:new {
+	objectMenuComponent = "CentrifugeTrayMenuComponent",
 	numberExperimentalProperties = {1, 1, 1},
 	experimentalProperties = {"XX", "XX", "XX"},
 	experimentalWeights = {1, 1, 1},

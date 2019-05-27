@@ -31,9 +31,15 @@ void CraftingStationImplementation::fillObjectMenuResponse(ObjectMenuResponse* m
 
 	if(building != NULL && !isASubChildOf(player)) {
 		if(building->isOnAdminList(player) && getSlottedObject("ingredient_hopper") != NULL) {
-			menuResponse->addRadialMenuItem(68, 3, "@ui_radial:craft_hopper_input"); //Open
+		menuResponse->addRadialMenuItem(68, 3, "@ui_radial:craft_hopper_input"); //Open
 		}
 	}*/
+
+	if (getStationType() == CraftingTool::FOOD) {
+		if (getObjectName()->getFullPath().contains("incubator_station") && player->hasSkill("outdoors_bio_engineer_novice")) {
+			menuResponse->addRadialMenuItem(75, 3, "Incubate Pet Deed");
+		}
+	}
 }
 
 int CraftingStationImplementation::handleObjectMenuSelect(CreatureObject* player, byte selectedID) {
@@ -47,6 +53,9 @@ int CraftingStationImplementation::handleObjectMenuSelect(CreatureObject* player
 				sendInputHopper(player);
 		}
 	}*/
+	if (selectedID == 75) {  
+		incubatePetDeed(player);
+	}
 
 	return TangibleObjectImplementation::handleObjectMenuSelect(player, selectedID);
 }
@@ -123,4 +132,8 @@ void CraftingStationImplementation::updateCraftingValues(CraftingValues* values,
 	}*/
 
 	//craftingValues->toString();
+}
+
+void CraftingStationImplementation::incubatePetDeed(CreatureObject* player) {
+	//Populate with incubation function
 }

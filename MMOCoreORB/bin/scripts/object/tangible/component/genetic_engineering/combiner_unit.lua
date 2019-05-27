@@ -1,5 +1,5 @@
 object_tangible_component_genetic_engineering_combiner_unit = object_tangible_component_genetic_engineering_shared_combiner_unit:new {
-
+	objectMenuComponent = "CombinerUnitMenuComponent",
 	numberExperimentalProperties = {1, 1, 1},
 	experimentalProperties = {"XX", "XX", "XX"},
 	experimentalWeights = {1, 1, 1},

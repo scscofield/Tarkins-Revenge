@@ -1,5 +1,5 @@
 object_tangible_component_genetic_engineering_centrifuge_unit = object_tangible_component_genetic_engineering_shared_centrifuge_unit:new {
-
+	objectMenuComponent = "CentrifugeUnitMenuComponent",
 	numberExperimentalProperties = {1, 1, 1},
 	experimentalProperties = {"XX", "XX", "XX"},
 	experimentalWeights = {1, 1, 1},
