@@ -153,6 +153,7 @@
 #include "server/zone/objects/tangible/components/impTravelTerminalMenuComponent.h"
 #include "server/zone/objects/tangible/components/rebTravelTerminalMenuComponent.h"
 #include "server/zone/objects/tangible/components/DnaExtractorMenuComponent.h"
+#include "server/zone/objects/tangible/components/EnzymeExtractorMenuComponent.h"
 
 ComponentManager::ComponentManager() {
 	components.put("ContainerComponent", new ContainerComponent());
@@ -352,4 +353,7 @@ ComponentManager::ComponentManager() {
 
 	// Legend of Hondo
 	components.put("DnaExtractorMenuComponent", new DnaExtractorMenuComponent());
+
+	// Tarkin's Revenge
+	components.put("EnzymeExtractorMenuComponent", new EnzymeExtractorMenuComponent());
 }

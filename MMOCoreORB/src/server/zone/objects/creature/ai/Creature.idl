@@ -25,6 +25,8 @@ class Creature extends AiAgent {
 
 	private short dnaSampleCount;
 
+	private short enzymeState;
+
 	protected boolean baby;
 
 	public Creature() {
@@ -54,6 +56,11 @@ class Creature extends AiAgent {
 	@read
 	public short getDnaSampleCount(){
 		return dnaSampleCount;
+	}
+
+	@read
+	public short getEnzymeState(){
+		return enzymeState;
 	}
 
 	@preLocked
@@ -120,6 +127,9 @@ class Creature extends AiAgent {
 
 	@preLocked
 	public native void setDnaState(short dnaState);
+
+	@preLocked
+	public native void setEnzymeState(short enzymeState);
 
 	@preLocked
 	public native void notifyDespawn(Zone zone);

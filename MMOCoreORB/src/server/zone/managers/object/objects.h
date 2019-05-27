@@ -131,4 +131,7 @@
 #include "server/zone/objects/area/SpawnArea.h"
 #include "server/zone/objects/tangible/misc/ContractCrate.h"
 
+//Tarkin Custom
+#include "server/zone/objects/tangible/component/genetic/EnzymeComponent.h"
+
 #endif /* OBJECTS_H_ */
