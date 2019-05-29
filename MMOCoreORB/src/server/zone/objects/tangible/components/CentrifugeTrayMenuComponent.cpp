@@ -43,7 +43,7 @@ int CentrifugeTrayMenuComponent::handleObjectMenuSelect(SceneObject* sceneObject
 		}	
 
 		if (!sceneObject->isASubChildOf(player)) {
-			player->sendSystemMessage("Enzyme Refining Tray must be in your inventory to use.");
+			player->sendSystemMessage("Enzyme refining tray must be in your inventory to use.");
 			return 0;
 		}	
 
@@ -61,8 +61,8 @@ int CentrifugeTrayMenuComponent::handleObjectMenuSelect(SceneObject* sceneObject
 		}
 
 		int containerSize = sceneObject->getContainerObjectsSize();
-		if (containerSize > 5){  // Refining tray should only hold five item
-			player->sendSystemMessage("Error: Too many items in centrifuge.");
+		if (containerSize > 5){  // Refining tray should only hold five items
+			player->sendSystemMessage("Error: Too many items in refining tray.");
 			return 0;
 		}
 
@@ -89,7 +89,7 @@ int CentrifugeTrayMenuComponent::handleObjectMenuSelect(SceneObject* sceneObject
 			} else if (enzymeElement->getServerObjectCRC() == 0x339E30C) { // object/tangible/loot/beast/enzyme_3_element_5.iff
 				enzymeComponentE = enzymeElement;
 			}
-				enzymeElements++;
+			enzymeElements++;
 		}
 
 		if (enzymeElements > 5) {
