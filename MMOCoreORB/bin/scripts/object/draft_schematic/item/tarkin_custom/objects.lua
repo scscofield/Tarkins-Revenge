@@ -27,3 +27,9 @@ object_draft_schematic_item_tarkin_custom_shared_combiner_unit = SharedDraftSche
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_combiner_unit, "object/draft_schematic/item/tarkin_custom/shared_combiner_unit.iff")
+
+object_draft_schematic_item_tarkin_custom_shared_creature_egg = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_creature_egg.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_creature_egg, "object/draft_schematic/item/tarkin_custom/shared_creature_egg.iff")

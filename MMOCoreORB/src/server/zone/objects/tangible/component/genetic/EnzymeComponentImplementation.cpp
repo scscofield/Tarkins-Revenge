@@ -25,20 +25,23 @@ void EnzymeComponentImplementation::updateCraftingValues(CraftingValues* values,
 
 
 	if (colorMax != 31) {
-		int finalColor = Math::min(color, 10);
+		int finalColor = Math::min(color, 9);
 		setColor(finalColor);
 		updateEnzyme(finalColor);
 		if(typeMax == 2) {
 			setType(2);
-			setBaseline(baseline);
+			int finalBaseline = Math::min(baseline, 27); 
+			setBaseline(finalBaseline);
 		}
 		if(typeMax == 4) {
 			setType(4);
 		}		
 	} else {
 		setColor(31);
-		setPurity(purity);
-		setMutagen(mutagen);
+		int finalPurity = Math::min(purity, 20); 
+		int finalMutagen = Math::min(mutagen, 20); 
+		setPurity(finalPurity);
+		setMutagen(finalMutagen);
 		updateEnzyme(31);
 	}
 

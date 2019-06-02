@@ -43,6 +43,21 @@ class EnzymeComponent extends Component {
 		return type;
 	}
 
+	@read
+	public int getPurity() {
+		return purity;
+	}
+
+	@read
+	public int getMutagen() {
+		return mutagen;
+	}
+
+	@read
+	public int getBaseline() {
+		return baseline;
+	}
+
 	public void setColor(int value) {
 		color = value;
 	}

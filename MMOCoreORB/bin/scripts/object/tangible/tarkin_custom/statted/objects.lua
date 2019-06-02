@@ -43,3 +43,9 @@ object_tangible_tarkin_custom_statted_shared_phrik_shard = SharedTangibleObjectT
 	clientTemplateFileName = "object/tangible/tarkin_custom/statted/shared_phrik_shard.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_statted_shared_phrik_shard, "object/tangible/tarkin_custom/statted/shared_phrik_shard.iff")
+
+--Enzyme Processing Canister
+object_tangible_tarkin_custom_statted_shared_creature_egg = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/statted/shared_creature_egg.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_statted_shared_creature_egg, "object/tangible/tarkin_custom/statted/shared_creature_egg.iff")

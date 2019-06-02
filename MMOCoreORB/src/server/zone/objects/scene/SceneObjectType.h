@@ -246,6 +246,7 @@ public:
 	const static int COMMUNITYCRAFTINGCOMPONENT = 0x4000D;
 	const static int DNACOMPONENT = 0x4000E;
 	const static int ENZYMECOMPONENT = 0x4000F;
+	const static int INCUBATIONCOMPONENT = 0x400010;
 
 	const static int WEAPONPOWERUP = 0x80000;
 	const static int MELEEWEAPONPOWERUP = 0x80001;

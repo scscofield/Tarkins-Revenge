@@ -2696,6 +2696,6 @@ schematics = {
 	{path="object/draft_schematic/item/tarkin_custom/enzyme_extractor.iff"},
 	{path="object/draft_schematic/item/tarkin_custom/centrifuge_unit.iff"},
 	{path="object/draft_schematic/item/tarkin_custom/centrifuge_use_tray.iff"},
-	{path="object/draft_schematic/item/tarkin_custom/combiner_unit.iff"}
-
+	{path="object/draft_schematic/item/tarkin_custom/combiner_unit.iff"},
+	{path="object/draft_schematic/item/tarkin_custom/creature_egg.iff"}
 };

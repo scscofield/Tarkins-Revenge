@@ -771,6 +771,7 @@ void TemplateManager::registerGlobals() {
 
 	luaTemplatesInstance->setGlobalInt("GENETIC_LAB", DraftSchematicObjectTemplate::GENETIC_LAB);
 	luaTemplatesInstance->setGlobalInt("RESOURCE_LAB", DraftSchematicObjectTemplate::RESOURCE_LAB);
+	luaTemplatesInstance->setGlobalInt("INCUBATION_LAB", DraftSchematicObjectTemplate::INCUBATION_LAB);
 
 	luaTemplatesInstance->setGlobalInt("STATIC", EventPerkDeedTemplate::STATIC);
 	luaTemplatesInstance->setGlobalInt("THEATER", EventPerkDeedTemplate::THEATER);
