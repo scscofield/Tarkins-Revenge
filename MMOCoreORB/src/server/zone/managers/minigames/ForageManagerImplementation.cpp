@@ -349,7 +349,7 @@ bool ForageManagerImplementation::forageGiveItems(CreatureObject* player, int fo
 			lootGroup = "creature_eggs";
 			player->sendSystemMessage("You have found a strange, large egg inside the lair.");
 		}
-		else if (dice > 43 ) { // Eggs
+		else if (dice > 43) { // Eggs
 			resName = "meat_egg";
 			if(forageGiveResource(player, forageX, forageY, planet, resName)) {
 				player->sendSystemMessage("@lair_n:found_eggs");
