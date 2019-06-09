@@ -2689,6 +2689,13 @@ schematics = {
 	{path="object/draft_schematic/bio_engineer/creature/creature_scorpion_kliknik.iff"},
 
 	--Medical Bag
-	{path="object/draft_schematic/chemistry/tarkin_custom/medicine_bag.iff"}
+	{path="object/draft_schematic/chemistry/tarkin_custom/medicine_bag.iff"},
 
+	--Incubation
+	{path="object/draft_schematic/item/tarkin_custom/item_incubator_station.iff"},
+	{path="object/draft_schematic/item/tarkin_custom/enzyme_extractor.iff"},
+	{path="object/draft_schematic/item/tarkin_custom/centrifuge_unit.iff"},
+	{path="object/draft_schematic/item/tarkin_custom/centrifuge_use_tray.iff"},
+	{path="object/draft_schematic/item/tarkin_custom/combiner_unit.iff"},
+	{path="object/draft_schematic/item/tarkin_custom/creature_egg.iff"}
 };

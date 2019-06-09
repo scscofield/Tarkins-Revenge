@@ -19,6 +19,7 @@
 void CreatureImplementation::initializeTransientMembers() {
 	milkState = CreatureManager::NOTMILKED;
 	dnaState = CreatureManager::HASDNA;
+
 	dnaSampleCount = 0;
 	AiAgentImplementation::initializeTransientMembers();
 }
@@ -230,11 +231,15 @@ void CreatureImplementation::setMilkState(short milk) {
 void CreatureImplementation::setDnaState(short dna){
 	dnaState = dna;
 }
+void CreatureImplementation::setEnzymeState(short enzyme){
+	enzymeState = enzyme;
+}
 void CreatureImplementation::notifyDespawn(Zone* zone) {
 	alreadyHarvested.removeAll();
 	dnaState = CreatureManager::HASDNA;
 	dnaSampleCount = 0;
 	milkState = CreatureManager::NOTMILKED;
+	enzymeState = CreatureManager::HASENZYME;
 	baby = false;
 	AiAgentImplementation::notifyDespawn(zone);
 }

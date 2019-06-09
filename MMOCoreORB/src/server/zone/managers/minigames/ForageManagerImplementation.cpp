@@ -343,8 +343,13 @@ bool ForageManagerImplementation::forageGiveItems(CreatureObject* player, int fo
 
 		if (dice >= 0 && dice < 40) { // Live Creatures
 			lootGroup = "forage_live_creatures";
+			player->sendSystemMessage("@lair_n:found_bugs");
 		}
-		else if (dice > 39 && dice) { // Eggs
+		else if (dice >= 40 && dice < 44) { // Creature Egg
+			lootGroup = "creature_eggs";
+			player->sendSystemMessage("You have found a strange, large egg inside the lair.");
+		}
+		else if (dice > 43) { // Eggs
 			resName = "meat_egg";
 			if(forageGiveResource(player, forageX, forageY, planet, resName)) {
 				player->sendSystemMessage("@lair_n:found_eggs");
@@ -360,7 +365,6 @@ bool ForageManagerImplementation::forageGiveItems(CreatureObject* player, int fo
 			return false;
 		}
 
-		player->sendSystemMessage("@lair_n:found_bugs");
 		return true;
 	}
 

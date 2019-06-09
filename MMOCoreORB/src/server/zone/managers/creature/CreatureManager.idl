@@ -37,6 +37,8 @@ class CreatureManager extends ZoneManager {
 	public static final short HASDNA = 0x00;
 	public static final short DNASAMPLED = 0x01;
 	public static final short DNADEATH = 0x03;
+	public static final short HASENZYME = 0x04;
+	public static final short ENZYMESAMPLED = 0x05;
 
 	public CreatureManager(Zone planet) {
 		super("CreatureManager " + planet.getZoneName());

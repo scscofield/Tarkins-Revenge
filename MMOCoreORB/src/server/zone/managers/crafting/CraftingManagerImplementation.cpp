@@ -7,6 +7,7 @@
 #include "server/zone/managers/crafting/labratories/ResourceLabratory.h"
 #include "server/zone/managers/crafting/labratories/GeneticLabratory.h"
 #include "server/zone/managers/crafting/labratories/DroidLabratory.h"
+#include "server/zone/managers/crafting/labratories/IncubationLabratory.h"
 
 void CraftingManagerImplementation::initialize() {
 	schematicMap = SchematicMap::instance();
@@ -178,6 +179,9 @@ void CraftingManagerImplementation::configureLabratories() {
 	droidLab->initialize(zoneServer.get());
 	labs.put(static_cast<int>(DraftSchematicObjectTemplate::DROID_LAB), droidLab); //DROID_LAB
 
+	IncubationLabratory* incLab = new IncubationLabratory();
+	incLab->initialize(zoneServer.get());
+	labs.put(static_cast<int>(DraftSchematicObjectTemplate::INCUBATION_LAB), incLab); //INCUBATION_LAB
 }
 void CraftingManagerImplementation::setInitialCraftingValues(TangibleObject* prototype, ManufactureSchematic* manufactureSchematic, int assemblySuccess) {
 	if(manufactureSchematic == NULL || manufactureSchematic->getDraftSchematic() == NULL)
