@@ -71,3 +71,40 @@ object_tangible_tcg_series5_shared_furniture_tie_fighter_chair = SharedTangibleO
 	clientTemplateFileName = "object/tangible/tcg/series5/shared_furniture_tie_fighter_chair.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_furniture_tie_fighter_chair, "object/tangible/tcg/series5/shared_furniture_tie_fighter_chair.iff")
+
+--AT-AT Statuette
+object_tangible_tcg_series5_shared_combine_object_atat_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_combine_object_atat_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_combine_object_atat_statuette, "object/tangible/tcg/series5/shared_combine_object_atat_statuette.iff")
+
+--Vader Statuette
+object_tangible_tcg_series5_shared_combine_object_vader_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_combine_object_vader_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_combine_object_vader_statuette, "object/tangible/tcg/series5/shared_combine_object_vader_statuette.iff")
+
+--Deathstar Hologram
+object_tangible_tcg_series5_shared_decorative_deathstar_hologram = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_decorative_deathstar_hologram.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_decorative_deathstar_hologram, "object/tangible/tcg/series5/shared_decorative_deathstar_hologram.iff")
+
+--Mustafar Diorama
+object_tangible_tcg_series5_shared_decorative_mustafar_diorama = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_decorative_mustafar_diorama.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_decorative_mustafar_diorama, "object/tangible/tcg/series5/shared_decorative_mustafar_diorama.iff")
+
+--Luke Skywalker Statuette
+object_tangible_tcg_series5_shared_decorative_skywalker_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_decorative_skywalker_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_decorative_skywalker_statuette, "object/tangible/tcg/series5/shared_decorative_skywalker_statuette.iff")
+
+--Trench Run Diorama
+object_tangible_tcg_series5_shared_decorative_trench_run_diorama = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series5/shared_decorative_trench_run_diorama.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series5_shared_decorative_trench_run_diorama, "object/tangible/tcg/series5/shared_decorative_trench_run_diorama.iff")
+

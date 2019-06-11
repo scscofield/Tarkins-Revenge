@@ -12,4 +12,5 @@ includeFile("tangible/tcg/series7/decal_imperial_graffiti_03.lua")
 includeFile("tangible/tcg/series7/decal_rebel_graffiti_01.lua")
 includeFile("tangible/tcg/series7/decal_rebel_graffiti_02.lua")
 includeFile("tangible/tcg/series7/decal_rebel_graffiti_03.lua")
-
+includeFile("tangible/tcg/series7/diorama_firgrin_dan.lua")
+includeFile("tangible/tcg/series7/diorama_max_rebo.lua")

@@ -7164,3 +7164,38 @@ object_tangible_furniture_all_shared_outbreak_science_desk = SharedTangibleObjec
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_outbreak_science_desk, "object/tangible/furniture/all/outbreak_science_desk.iff")
+
+--Escape Pod Statuette
+object_tangible_furniture_all_shared_frn_all_escape_pod_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_escape_pod_statuette.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_escape_pod_statuette, "object/tangible/furniture/all/frn_all_escape_pod_statuette.iff")
+
+--Naboo City Hall Statuette
+object_tangible_furniture_all_shared_frn_all_statuette_cityhall_naboo = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_statuette_cityhall_naboo.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_statuette_cityhall_naboo, "object/tangible/furniture/all/frn_all_statuette_cityhall_naboo.iff")
+
+--Jabba's Palace Statuette
+object_tangible_furniture_all_shared_frn_all_statuette_jabba_palace = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_statuette_jabba_palace.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_statuette_jabba_palace, "object/tangible/furniture/all/frn_all_statuette_jabba_palace.iff")
+
+--Kashyyyk Tree City Statuette
+object_tangible_furniture_all_shared_frn_all_statuette_kash_treecity = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_statuette_kash_treecity.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_statuette_kash_treecity, "object/tangible/furniture/all/frn_all_statuette_kash_treecity.iff")
+
+--Naboo Small House Statuette
+object_tangible_furniture_all_shared_frn_all_statuette_small_naboo_house = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/all/frn_all_statuette_small_naboo_house.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_all_shared_frn_all_statuette_small_naboo_house, "object/tangible/furniture/all/frn_all_statuette_small_naboo_house.iff")

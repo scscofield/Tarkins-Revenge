@@ -117,3 +117,39 @@ object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_walluga = Sh
 	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_walluga.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_ep3_kash_reward_trophy_walluga, "object/tangible/furniture/ep3_rewards/shared_ep3_kash_reward_trophy_walluga.iff")
+
+--Jellyfish Holo
+object_tangible_furniture_ep3_rewards_shared_avatar_hologram_squid = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_avatar_hologram_squid.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_avatar_hologram_squid, "object/tangible/furniture/ep3_rewards/shared_avatar_hologram_squid.iff")
+
+--Rebel Insignia Holo
+object_tangible_furniture_ep3_rewards_shared_hologram_insignia_rebel_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_hologram_insignia_rebel_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_hologram_insignia_rebel_01, "object/tangible/furniture/ep3_rewards/shared_hologram_insignia_rebel_01.iff")
+
+--Imperial Insignia Holo
+object_tangible_furniture_ep3_rewards_shared_hologram_insignia_imperial_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_hologram_insignia_imperial_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_hologram_insignia_imperial_01, "object/tangible/furniture/ep3_rewards/shared_hologram_insignia_imperial_01.iff")
+
+--Star Destroyer Holo
+object_tangible_furniture_ep3_rewards_shared_hologram_stardestroyer_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_hologram_stardestroyer_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_hologram_stardestroyer_01, "object/tangible/furniture/ep3_rewards/shared_hologram_stardestroyer_01.iff")
+
+--Tie Fighter Holo
+object_tangible_furniture_ep3_rewards_shared_hologram_tiefighter_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_hologram_tiefighter_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_hologram_tiefighter_01, "object/tangible/furniture/ep3_rewards/shared_hologram_tiefighter_01.iff")
+
+--YT1300 Holo
+object_tangible_furniture_ep3_rewards_shared_hologram_yt1300_01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/ep3_rewards/shared_hologram_yt1300_01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_furniture_ep3_rewards_shared_hologram_yt1300_01, "object/tangible/furniture/ep3_rewards/shared_hologram_yt1300_01.iff")

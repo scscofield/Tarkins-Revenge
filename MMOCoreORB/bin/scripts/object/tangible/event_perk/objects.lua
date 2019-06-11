@@ -1757,3 +1757,15 @@ object_tangible_event_perk_shared_halloween_song_book = SharedTangibleObjectTemp
 	clientTemplateFileName = "object/tangible/event_perk/shared_halloween_song_book.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_halloween_song_book, "object/tangible/event_perk/shared_halloween_song_book.iff")
+
+--Hologram Disk 1
+object_tangible_event_perk_shared_frn_hologram_data_disk_s01 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_frn_hologram_data_disk_s01.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_frn_hologram_data_disk_s01, "object/tangible/event_perk/shared_frn_hologram_data_disk_s01.iff")
+
+--Hologram Disk 2
+object_tangible_event_perk_shared_frn_hologram_data_disk_s02 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/event_perk/shared_frn_hologram_data_disk_s02.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_event_perk_shared_frn_hologram_data_disk_s02, "object/tangible/event_perk/shared_frn_hologram_data_disk_s02.iff")

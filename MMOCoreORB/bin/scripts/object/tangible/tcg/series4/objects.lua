@@ -56,3 +56,39 @@ object_tangible_tcg_series4_shared_decorative_medical_table_01 = SharedTangibleO
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_medical_table_01, "object/tangible/tcg/series4/shared_decorative_medical_table_01.iff")
 
+--Falleens Fist
+object_tangible_tcg_series4_shared_consumable_falleens_fist = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_consumable_falleens_fist.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_consumable_falleens_fist, "object/tangible/tcg/series4/shared_consumable_falleens_fist.iff")
+
+--T16 Toy
+object_tangible_tcg_series4_shared_consumable_t16_toy = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_consumable_t16_toy.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_consumable_t16_toy, "object/tangible/tcg/series4/shared_consumable_t16_toy.iff")
+
+--Chewbacca Statuette
+object_tangible_tcg_series4_shared_decorative_chewbacca_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_chewbacca_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_chewbacca_statuette, "object/tangible/tcg/series4/shared_decorative_chewbacca_statuette.iff")
+
+--Han Solo Statuette
+object_tangible_tcg_series4_shared_decorative_han_solo_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_han_solo_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_han_solo_statuette, "object/tangible/tcg/series4/shared_decorative_han_solo_statuette.iff")
+
+--Leia/R2 Diorama
+object_tangible_tcg_series4_shared_decorative_leia_r2_diorama = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_leia_r2_diorama.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_leia_r2_diorama, "object/tangible/tcg/series4/shared_decorative_leia_r2_diorama.iff")
+
+--Tauntaun Ride
+object_tangible_tcg_series4_shared_decorative_tauntaun_ride = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_decorative_tauntaun_ride.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_tauntaun_ride, "object/tangible/tcg/series4/shared_decorative_tauntaun_ride.iff")
+

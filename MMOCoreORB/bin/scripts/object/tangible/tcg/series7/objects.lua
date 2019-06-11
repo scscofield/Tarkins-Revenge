@@ -72,3 +72,15 @@ object_tangible_tcg_series7_shared_decorative_atst_chair = SharedTangibleObjectT
 	clientTemplateFileName = "object/tangible/tcg/series7/shared_decorative_atst_chair.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_decorative_atst_chair, "object/tangible/tcg/series7/shared_decorative_atst_chair.iff")
+
+--Firgrin Dan Diorama
+object_tangible_tcg_series7_shared_diorama_firgrin_dan = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series7/shared_diorama_firgrin_dan.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_diorama_firgrin_dan, "object/tangible/tcg/series7/shared_diorama_firgrin_dan.iff")
+
+--Max Rebo Diorama
+object_tangible_tcg_series7_shared_diorama_max_rebo = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series7/shared_diorama_max_rebo.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series7_shared_diorama_max_rebo, "object/tangible/tcg/series7/shared_diorama_max_rebo.iff")
