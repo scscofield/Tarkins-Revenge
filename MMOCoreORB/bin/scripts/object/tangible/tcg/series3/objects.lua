@@ -47,3 +47,28 @@ object_tangible_tcg_series3_shared_decorative_empal_surecon_center_medical_table
 	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_empal_surecon_center_medical_table.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_empal_surecon_center_medical_table, "object/tangible/tcg/series3/shared_decorative_empal_surecon_center_medical_table.iff")
+
+--Boba Fett Statue
+object_tangible_tcg_series3_shared_decorative_boba_fett_statue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_boba_fett_statue.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_boba_fett_statue, "object/tangible/tcg/series3/shared_decorative_boba_fett_statue.iff")
+
+
+--Vader/Obi Wan Diorama
+object_tangible_tcg_series3_shared_decorative_darth_vader_obi_wan_diorama = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_darth_vader_obi_wan_diorama.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_darth_vader_obi_wan_diorama, "object/tangible/tcg/series3/shared_decorative_darth_vader_obi_wan_diorama.iff")
+
+--Emperor Statuette
+object_tangible_tcg_series3_shared_decorative_emperor_palpatine_statuette = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_emperor_palpatine_statuette.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_emperor_palpatine_statuette, "object/tangible/tcg/series3/shared_decorative_emperor_palpatine_statuette.iff")
+
+--Jango Fett Statue
+object_tangible_tcg_series3_shared_decorative_jango_fett_memorial_statue = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series3/shared_decorative_jango_fett_memorial_statue.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series3_shared_decorative_jango_fett_memorial_statue, "object/tangible/tcg/series3/shared_decorative_jango_fett_memorial_statue.iff")

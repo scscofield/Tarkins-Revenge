@@ -129,3 +129,15 @@ object_tangible_tcg_series1_shared_decorative_indoor_garden_02 = SharedTangibleO
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_indoor_garden_02, "object/tangible/tcg/series1/shared_decorative_indoor_garden_02.iff")
 
+--Vader Statuette
+object_tangible_tcg_series1_shared_decorative_statuette_darth_vader = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_statuette_darth_vader.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_statuette_darth_vader, "object/tangible/tcg/series1/shared_decorative_statuette_darth_vader.iff")
+
+--Leia Statuette
+object_tangible_tcg_series1_shared_decorative_statuette_princess_leia = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series1/shared_decorative_statuette_princess_leia.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series1_shared_decorative_statuette_princess_leia, "object/tangible/tcg/series1/shared_decorative_statuette_princess_leia.iff")
+

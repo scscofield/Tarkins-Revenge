@@ -2041,3 +2041,25 @@ object_tangible_furniture_decorative_shared_wod_floating_stones = SharedTangible
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_wod_floating_stones, "object/tangible/furniture/decorative/shared_wod_floating_stones.iff")
+
+--Chewbacca Toy
+object_tangible_furniture_decorative_shared_event_chewbacca_toy = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_event_chewbacca_toy.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_event_chewbacca_toy, "object/tangible/furniture/decorative/shared_event_chewbacca_toy.iff")
+
+--Frigate Holo
+object_tangible_furniture_decorative_shared_hologram_nebulon_frigate = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_hologram_nebulon_frigate.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_hologram_nebulon_frigate, "object/tangible/furniture/decorative/shared_hologram_nebulon_frigate.iff")
+
+--Xwing Holo
+object_tangible_furniture_decorative_shared_hologram_xwing = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/furniture/decorative/shared_hologram_xwing.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_furniture_decorative_shared_hologram_xwing, "object/tangible/furniture/decorative/shared_hologram_xwing.iff")
+
