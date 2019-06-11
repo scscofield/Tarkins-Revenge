@@ -172,6 +172,8 @@ public:
 	const static int RANGEDWEAPONCOMPONENT = 0x4000B;
 	const static int STRUVTURECOMPONENT = 0x4000C;
 	const static int TISSUECOMPONENT = 0x4000D;
+	const static int ENZYMECOMPONENT = 0x4000E;
+	const static int INCUBATIONCOMPONENT = 0x400010;
 
 	const static int WEAPONPOWERUP = 0x80000;
 	const static int MELEEWEAPONPOWERUP = 0x80001;

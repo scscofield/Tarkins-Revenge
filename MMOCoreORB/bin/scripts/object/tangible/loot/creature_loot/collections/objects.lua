@@ -806,3 +806,27 @@ object_tangible_loot_creature_loot_collections_shared_eow_defective_holoshroud =
 }
 
 ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_eow_defective_holoshroud, "object/tangible/loot/creature_loot/collections/shared_eow_defective_holoshroud.iff")
+
+object_tangible_loot_creature_loot_collections_shared_opt_in_mail_04 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_04.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_opt_in_mail_04, "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_04.iff")
+
+object_tangible_loot_creature_loot_collections_shared_opt_in_mail_05 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_05.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_opt_in_mail_05, "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_05.iff")
+
+object_tangible_loot_creature_loot_collections_shared_opt_in_mail_06 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_06.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_opt_in_mail_06, "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_06.iff")
+
+object_tangible_loot_creature_loot_collections_shared_opt_in_mail_08 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_08.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_tangible_loot_creature_loot_collections_shared_opt_in_mail_08, "object/tangible/loot/creature_loot/collections/shared_opt_in_mail_08.iff")

@@ -70,3 +70,34 @@ object_tangible_tcg_series6_shared_painting_winged_quenker = SharedTangibleObjec
 	clientTemplateFileName = "object/tangible/tcg/series6/shared_painting_winged_quenker.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_painting_winged_quenker, "object/tangible/tcg/series6/shared_painting_winged_quenker.iff")
+
+--HK47 Mustafar Diorama
+object_tangible_tcg_series6_shared_combine_object_hk47_mustafar_diorama = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_combine_object_hk47_mustafar_diorama.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_combine_object_hk47_mustafar_diorama, "object/tangible/tcg/series6/shared_combine_object_hk47_mustafar_diorama.iff")
+
+--Han & Greedo Diorama
+object_tangible_tcg_series6_shared_diorama_han_greedo = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_diorama_han_greedo.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_diorama_han_greedo, "object/tangible/tcg/series6/shared_diorama_han_greedo.iff")
+
+--Jedi Council Diorama
+object_tangible_tcg_series6_shared_diorama_jedi_council = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_diorama_jedi_council.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_diorama_jedi_council, "object/tangible/tcg/series6/shared_diorama_jedi_council.iff")
+
+--Cloud City Hologram
+object_tangible_tcg_series6_shared_hologram_cloud_city = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_hologram_cloud_city.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_hologram_cloud_city, "object/tangible/tcg/series6/shared_hologram_cloud_city.iff")
+
+--Lando Statuette
+object_tangible_tcg_series6_shared_statuette_lando = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series6/shared_statuette_lando.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series6_shared_statuette_lando, "object/tangible/tcg/series6/shared_statuette_lando.iff")
+
