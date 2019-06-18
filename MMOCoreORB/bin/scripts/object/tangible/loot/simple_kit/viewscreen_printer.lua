@@ -117,7 +117,9 @@ object_tangible_loot_simple_kit_viewscreen_printer = object_tangible_loot_simple
 		"object/tangible/loot/undead/decal_imperial_graffiti_02.iff",
 		"object/tangible/loot/undead/decal_rebel_graffiti_01.iff",
 		"object/tangible/loot/undead/decal_rebel_graffiti_03.iff",
-		"object/tangible/loot/undead/decal_pgc_s04.iff"
+		"object/tangible/loot/undead/decal_pgc_s04.iff",
+		"object/tangible/loot/creature_loot/collections/opt_in_mail_06.iff",
+
 	},
 	
 	deleteComponents = 0,
