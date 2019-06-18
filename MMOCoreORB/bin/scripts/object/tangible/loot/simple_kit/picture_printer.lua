@@ -118,7 +118,8 @@ object_tangible_loot_simple_kit_picture_printer = object_tangible_loot_simple_ki
 		"object/tangible/loot/undead/decal_imperial_graffiti_01.iff",
 		"object/tangible/loot/undead/decal_imperial_graffiti_03.iff",
 		"object/tangible/loot/undead/decal_rebel_graffiti_02.iff",
-		"object/tangible/loot/undead/decal_pgc_s02.iff"
+		"object/tangible/loot/undead/decal_pgc_s02.iff",
+		"object/tangible/tcg/series4/consumable_falleens_fist.iff",
 	},
 	
 	deleteComponents = 0,
