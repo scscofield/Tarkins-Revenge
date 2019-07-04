@@ -172,7 +172,7 @@ void CraftingStationImplementation::incubatePetDeed(CreatureObject* player) {
 		if(contentItem->getServerObjectCRC() == 0x49F18C79) { // object/tangible/tarkin_custom/statted/creature_egg.iff
 			egg = contentItem;
 			eggs++;
-		} else if (contentItem->getObjectTemplate()->getFullTemplateString().contains("pet_deed")) { 
+		} else if (contentItem->getGameObjectType() == SceneObjectType::PETDEED) {
 			deed = contentItem;
 			petdeed = deed.castTo<PetDeed*>();
 			deeds++;

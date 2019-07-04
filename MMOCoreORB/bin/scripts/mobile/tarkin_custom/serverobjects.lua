@@ -251,8 +251,9 @@ includeFile("tarkin_custom/corellia/visionary_of_lord_nyax_poi.lua")
 includeFile("tarkin_custom/corellia/zealot_of_lord_nyax_poi.lua")
 
 --Event Mobiles
-includeFile("tarkin_custom/event/easterbunny.lua")
-includeFile("tarkin_custom/event/badeasterbunny.lua")
+--includeFile("tarkin_custom/event/easterbunny.lua")
+--includeFile("tarkin_custom/event/badeasterbunny.lua")
+includeFile("tarkin_custom/event/wedding_coordinator.lua")
 includeFile("tarkin_custom/event/world_boss/boss_baneblight.lua")
 includeFile("tarkin_custom/event/world_boss/boss_barbfiend.lua")
 includeFile("tarkin_custom/event/world_boss/boss_blazehound.lua")

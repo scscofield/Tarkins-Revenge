@@ -17,6 +17,7 @@
 #include "server/zone/Zone.h"
 #include "server/zone/objects/area/events/CampAbandonTask.h"
 #include "server/zone/objects/area/events/CampDespawnTask.h"
+#include "server/zone/objects/scene/SceneObject.h"
 
 void CampSiteActiveAreaImplementation::initializeTransientMembers() {
 	ActiveAreaImplementation::initializeTransientMembers();
@@ -176,6 +177,16 @@ void CampSiteActiveAreaImplementation::setAbandoned(bool isAbandoned) {
 
 	if (isAbandoned)
 		fireTemplate = "object/static/structure/general/campfire_smoldering.iff";
+
+
+
+	if(camp->getServerObjectCRC() == STRING_HASHCODE("object/building/poi/tarkin_custom/wed_scav_reward_camp.iff")) {
+		fireTemplate = "object/tangible/theme_park/invisible_object.iff";
+
+		if (isAbandoned)
+			fireTemplate = "object/tangible/theme_park/invisible_object.iff";
+	}
+
 
 	ManagedReference<StaticObject*> fire = (zServ->createObject(fireTemplate.hashCode(), 0)).castTo< StaticObject*>();
 
