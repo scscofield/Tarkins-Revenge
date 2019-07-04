@@ -2697,5 +2697,11 @@ schematics = {
 	{path="object/draft_schematic/item/tarkin_custom/centrifuge_unit.iff"},
 	{path="object/draft_schematic/item/tarkin_custom/centrifuge_use_tray.iff"},
 	{path="object/draft_schematic/item/tarkin_custom/combiner_unit.iff"},
-	{path="object/draft_schematic/item/tarkin_custom/creature_egg.iff"}
+	{path="object/draft_schematic/item/tarkin_custom/creature_egg.iff"},
+
+	--Wedding Reward Schematics
+	{path="object/draft_schematic/item/tarkin_custom/drink_wed_scav_reward_scotch.iff"},
+	{path="object/draft_schematic/item/tarkin_custom/wed_scav_camp.iff"},
+	{path="object/draft_schematic/bio_engineer/creature/creature_tcg_peko_peko_mount.iff"}
+
 };

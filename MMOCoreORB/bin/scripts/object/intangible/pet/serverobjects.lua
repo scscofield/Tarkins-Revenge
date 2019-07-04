@@ -233,4 +233,4 @@ includeFile("intangible/pet/murra_blanca.lua")
 includeFile("intangible/pet/painted_spat.lua")
 includeFile("intangible/pet/spiketail_blurrg.lua")
 includeFile("intangible/pet/scorpion_kliknik.lua")
-
+includeFile("intangible/pet/tcg_peko_peko_mount.lua")

@@ -42,7 +42,7 @@ public:
 				SceneObject* contentItem = hopper->getContainerObject(i);
 				if(contentItem->getServerObjectCRC() == 0x49F18C79) {
 					egg = contentItem;
-				} else if (contentItem->getObjectTemplate()->getFullTemplateString().contains("pet_deed")) { 
+				} else if (contentItem->getGameObjectType() == SceneObjectType::PETDEED) {
 					deed = contentItem;
 					petdeed = deed.castTo<PetDeed*>();
 				}

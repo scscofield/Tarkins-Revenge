@@ -7834,3 +7834,8 @@ object_intangible_pet_shared_scorpion_kliknik = SharedIntangibleObjectTemplate:n
 	clientTemplateFileName = "object/intangible/pet/shared_scorpion_kliknik.iff"
 }
 ObjectTemplates:addClientTemplate(object_intangible_pet_shared_scorpion_kliknik, "object/intangible/pet/shared_scorpion_kliknik.iff")
+
+object_intangible_pet_shared_tcg_peko_peko_mount = SharedIntangibleObjectTemplate:new {
+	clientTemplateFileName = "object/intangible/pet/shared_tcg_peko_peko_mount.iff"
+}
+ObjectTemplates:addClientTemplate(object_intangible_pet_shared_tcg_peko_peko_mount, "object/intangible/pet/shared_tcg_peko_peko_mount.iff")
