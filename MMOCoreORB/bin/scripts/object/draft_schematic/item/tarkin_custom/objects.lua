@@ -33,3 +33,15 @@ object_draft_schematic_item_tarkin_custom_shared_creature_egg = SharedDraftSchem
 }
 
 ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_creature_egg, "object/draft_schematic/item/tarkin_custom/shared_creature_egg.iff")
+
+object_draft_schematic_item_tarkin_custom_shared_drink_wed_scav_reward_scotch = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_drink_wed_scav_reward_scotch.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_drink_wed_scav_reward_scotch, "object/draft_schematic/item/tarkin_custom/shared_drink_wed_scav_reward_scotch.iff")
+
+object_draft_schematic_item_tarkin_custom_shared_wed_scav_camp = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/item/tarkin_custom/shared_wed_scav_camp.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_item_tarkin_custom_shared_wed_scav_camp, "object/draft_schematic/item/tarkin_custom/shared_wed_scav_camp.iff")

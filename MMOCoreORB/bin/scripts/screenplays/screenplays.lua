@@ -718,5 +718,8 @@ includeFile("events/tarkin_custom/tarkin_world_boss.lua")
 includeFile("events/tarkin_custom/spawn_points_table.lua")
 --includeFile("events/tarkin_custom/bad_easter_bunny_terror.lua")
 
+--Tarkin Custom Event Conversation Handlers
+includeFile("events/tarkin_custom/conversations/weddingScavHuntConvoHandler.lua")
+
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/screenplays/screenplays.lua")

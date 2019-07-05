@@ -590,8 +590,14 @@ int CreatureManagerImplementation::notifyDestruction(TangibleObject* destructor,
 		if (creatureInventory != NULL && player != NULL && player->isPlayerCreature()) {
 			LootManager* lootManager = zoneServer->getLootManager();
 
-			if (destructedObject->isNonPlayerCreatureObject() && !destructedObject->isEventMob())
-				destructedObject->setCashCredits(lootManager->calculateLootCredits(destructedObject->getLevel()));
+			if (destructedObject->isNonPlayerCreatureObject() && !destructedObject->isEventMob()) {
+			int creditModifier = 0; // Adding framework to allow for larger credit drops on special mobiles
+
+				if(destructedObject->getCreatureTemplate()->getTemplateName().contains("wed_scav_husk"))
+					creditModifier = 3000;
+	
+				destructedObject->setCashCredits((lootManager->calculateLootCredits(destructedObject->getLevel()))+creditModifier);
+			}
 
 			Locker locker(creatureInventory);
 
