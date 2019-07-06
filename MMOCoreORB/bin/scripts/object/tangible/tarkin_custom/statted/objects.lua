@@ -49,3 +49,9 @@ object_tangible_tarkin_custom_statted_shared_creature_egg = SharedTangibleObject
 	clientTemplateFileName = "object/tangible/tarkin_custom/statted/shared_creature_egg.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_statted_shared_creature_egg, "object/tangible/tarkin_custom/statted/shared_creature_egg.iff")
+
+--Doaba Guerfel 17-Year Scotch
+object_tangible_tarkin_custom_statted_shared_drink_wed_scav_reward_scotch = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/statted/shared_drink_wed_scav_reward_scotch.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_statted_shared_drink_wed_scav_reward_scotch, "object/tangible/tarkin_custom/statted/shared_drink_wed_scav_reward_scotch.iff")

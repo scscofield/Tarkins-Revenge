@@ -54,4 +54,5 @@ mountSpeedData = {
 	{"appearance/kaadu_hue.sat", 17, 1.544, 120, 600},
 	{"appearance/varactyl.sat", 17, 1.544, 120, 600},
 	{"appearance/gualar.sat", 17, 1.133, 300, 780},
+	{"appearance/peko_peko_saddle_tcg.sat", 17, 1.544, 120, 600},
 }

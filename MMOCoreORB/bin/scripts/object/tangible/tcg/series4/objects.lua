@@ -92,3 +92,9 @@ object_tangible_tcg_series4_shared_decorative_tauntaun_ride = SharedTangibleObje
 }
 ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_decorative_tauntaun_ride, "object/tangible/tcg/series4/shared_decorative_tauntaun_ride.iff")
 
+--Peko Peko Mount Deed
+object_tangible_tcg_series4_shared_mount_deed_peko_peko = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tcg/series4/shared_mount_deed_peko_peko.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tcg_series4_shared_mount_deed_peko_peko, "object/tangible/tcg/series4/shared_mount_deed_peko_peko.iff")
+

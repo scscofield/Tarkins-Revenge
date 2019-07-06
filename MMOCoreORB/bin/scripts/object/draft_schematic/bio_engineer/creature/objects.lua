@@ -4011,3 +4011,8 @@ object_draft_schematic_bio_engineer_creature_shared_creature_scorpion_kliknik = 
 	clientTemplateFileName = "object/draft_schematic/bio_engineer/creature/shared_creature_scorpion_kliknik.iff"
 	}
 ObjectTemplates:addClientTemplate(object_draft_schematic_bio_engineer_creature_shared_creature_scorpion_kliknik, "object/draft_schematic/bio_engineer/creature/shared_creature_scorpion_kliknik.iff")
+
+object_draft_schematic_bio_engineer_creature_shared_creature_tcg_peko_peko_mount = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/bio_engineer/creature/shared_creature_tcg_peko_peko_mount.iff"
+	}
+ObjectTemplates:addClientTemplate(object_draft_schematic_bio_engineer_creature_shared_creature_tcg_peko_peko_mount, "object/draft_schematic/bio_engineer/creature/shared_creature_tcg_peko_peko_mount.iff")

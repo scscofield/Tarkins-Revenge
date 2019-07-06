@@ -1467,3 +1467,79 @@ object_tangible_tarkin_custom_decorative_shared_tatwi_marble = SharedTangibleObj
 	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_tatwi_marble.iff"
 }
 ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_tatwi_marble, "object/tangible/tarkin_custom/decorative/shared_tatwi_marble.iff")
+
+--Wedding Scavenger Hunt Items
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_1 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_1.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_1, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_1.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_2 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_2.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_2, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_2.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_3 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_3.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_3, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_3.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_4 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_4.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_4, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_4.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_5 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_5.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_5, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_5.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_6 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_6.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_6, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_6.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_7 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_7.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_7, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_7.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_8 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_8.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_8, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_8.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_9 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_9.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_9, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_9.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_item_10 = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_10.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_item_10, "object/tangible/tarkin_custom/decorative/shared_wed_scav_item_10.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_reward_painting = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_reward_painting.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_reward_painting, "object/tangible/tarkin_custom/decorative/shared_wed_scav_reward_painting.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_reward_rug = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_reward_rug.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_reward_rug, "object/tangible/tarkin_custom/decorative/shared_wed_scav_reward_rug.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_reward_camp = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_reward_camp.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_reward_camp, "object/tangible/tarkin_custom/decorative/shared_wed_scav_reward_camp.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_flag = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_flag.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_flag, "object/tangible/tarkin_custom/decorative/shared_wed_scav_flag.iff")
+
+object_tangible_tarkin_custom_decorative_shared_wed_scav_sign = SharedTangibleObjectTemplate:new {
+	clientTemplateFileName = "object/tangible/tarkin_custom/decorative/shared_wed_scav_sign.iff"
+}
+ObjectTemplates:addClientTemplate(object_tangible_tarkin_custom_decorative_shared_wed_scav_sign, "object/tangible/tarkin_custom/decorative/shared_wed_scav_sign.iff")
