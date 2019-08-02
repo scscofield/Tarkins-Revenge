@@ -721,5 +721,9 @@ includeFile("events/tarkin_custom/spawn_points_table.lua")
 --Tarkin Custom Event Conversation Handlers
 includeFile("events/tarkin_custom/conversations/weddingScavHuntConvoHandler.lua")
 
+--Tarkin Custom Misc
+includeFile("misc/junk_shop.lua")
+includeFile("misc/junk_shop_data.lua")
+
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/screenplays/screenplays.lua")

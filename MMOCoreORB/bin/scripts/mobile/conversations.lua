@@ -298,3 +298,4 @@ includeFile("conversations/junk_dealer/junk_dealer_sneg_conv.lua")
 --Tarkin Custom
 includeFile("conversations/misc/tarkin_crafting_trainer_conv.lua")
 includeFile("conversations/misc/weddingScavHuntConvoTemplate.lua")
+includeFile("conversations/misc/junkShopOwnerConvoTemplate.lua")
